@@ -1,0 +1,25 @@
+Source: kdebase
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
+ libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1),
+ kdepimlibs4-dev (>=4:3.90.1), 
+ libxtst-dev, libsmbclient-dev, libbluetooth2-dev,
+ libgif-dev
+Standards-Version: 3.7.2
+
+Package: kdebase
+Section: kde
+Architecture: all
+Depends: ${shlibs:Depends}, kdepimlibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version}), kdepimlibs-bin (>= ${Source-Version})
+Description: core libraries from the official KDE PIM 4 alpha release
+ KDE (the K Desktop Environment) is a powerful Open Source graphical
+ desktop environment for Unix workstations. It combines ease of use,
+ contemporary functionality, and outstanding graphical design with the
+ technological superiority of the Unix operating system.
+ .
+ This metapackage includes the core KDE PIM libraries, binaries, and data,
+ needed by virtually all KDE applications. It does not include
+ development files.
+
