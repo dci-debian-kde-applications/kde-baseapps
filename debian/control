@@ -12,14 +12,15 @@ Standards-Version: 3.7.2
 Package: kdebase
 Section: kde
 Architecture: all
-Depends: ${shlibs:Depends}, kdepimlibs5 (>= ${Source-Version}), kdepimlibs-data (>= ${Source-Version}), kdepimlibs-bin (>= ${Source-Version})
-Description: core libraries from the official KDE PIM 4 alpha release
+Depends: ${shlibs:Depends}, 
+Description: base components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
  contemporary functionality, and outstanding graphical design with the
  technological superiority of the Unix operating system.
  .
- This metapackage includes the core KDE PIM libraries, binaries, and data,
- needed by virtually all KDE applications. It does not include
- development files.
+ This metapackage includes the nucleus of KDE, namely the minimal package
+ set necessary to run KDE as a desktop environment. This includes the
+ window manager, taskbar, control center, a text editor, file manager,
+ web browser, X terminal emulator, and many other programs and components.
 
