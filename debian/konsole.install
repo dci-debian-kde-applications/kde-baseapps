@@ -1,10 +1,14 @@
 usr/bin/konsole
 usr/lib/kde4/kcm_konsole.so
+usr/lib/kde4/kded_kwrited.so
 usr/lib/kde4/libkonsolepart.so
 usr/lib/libkdeinit_konsole.so
 usr/share/applications/kde4/konsole.desktop
 usr/share/applications/kde4/konsolesu.desktop
+usr/share/apps/kconf_update/konsole.upd
+usr/share/apps/kconf_update/schemaStrip.pl
 usr/share/apps/kicker/menuext/konsolemenu.desktop
+usr/share/apps/konqueror/servicemenus/konsolehere.desktop
 usr/share/apps/konsole/BlackOnLightColor.schema
 usr/share/apps/konsole/BlackOnLightYellow.schema
 usr/share/apps/konsole/BlackOnWhite.schema
@@ -58,6 +62,10 @@ usr/share/apps/konsole/vt420pc.keytab
 usr/share/apps/konsole/WhiteOnBlack.schema
 usr/share/apps/konsole/x11r5.keytab
 usr/share/apps/konsole/XTerm.schema
+usr/share/dbus-1/interfaces/org.kde.konsole.KonsoleScripting.xml
+usr/share/dbus-1/interfaces/org.kde.konsole.Konsole.xml
+usr/share/dbus-1/interfaces/org.kde.konsole.SessionScripting.xml
+usr/share/dbus-1/interfaces/org.kde.konsole.Session.xml
 usr/share/doc/HTML/en/kcontrol/kcmkonsole/index.cache.bz2
 usr/share/doc/HTML/en/kcontrol/kcmkonsole/index.docbook
 usr/share/doc/HTML/en/konsole/index.cache.bz2
@@ -71,6 +79,8 @@ usr/share/icons/hicolor/32x32/apps/konsole.png
 usr/share/icons/hicolor/48x48/apps/konsole.png
 usr/share/icons/hicolor/64x64/apps/konsole.png
 usr/share/icons/hicolor/scalable/apps/konsole.svgz
+usr/share/kde4/services/kded/kwrited.desktop
 usr/share/kde4/services/konsole.desktop
 usr/share/kde4/services/konsolepart.desktop
 usr/share/kde4/services/konsole-script.desktop
+usr/share/kde4/servicetypes/terminalemulator.desktop

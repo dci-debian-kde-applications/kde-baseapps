@@ -1,0 +1,6 @@
+usr/bin/ksmserver
+usr/bin/startkde
+usr/lib/libkdeinit_ksmserver.so
+usr/share/apps/kconf_update/ksmserver.upd
+usr/share/apps/kconf_update/move_session_config.sh
+usr/share/apps/ksmserver/pics/shutdownkonq.png
