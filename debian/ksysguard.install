@@ -1,6 +1,7 @@
 usr/bin/ksysguard
 usr/lib/kde4/sysguard_panelapplet.so
 usr/lib/libkdeinit_ksysguard.so
+usr/lib/libksgrd.so.4
 usr/lib/libksgrd.so.4.0.0
 usr/share/applications/kde4/ksysguard.desktop
 usr/share/apps/kicker/applets/ksysguardapplet.desktop

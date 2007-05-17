@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
  libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
- kdepimlibs4-dev (>=4:3.90.1), 
+ kdepimlibs4-dev (>=4:3.90.1), libsoprano-dev,
  libxtst-dev, libsmbclient-dev, libbluetooth2-dev, network-manager-dev,
  libgif-dev
 Standards-Version: 3.7.2
@@ -38,6 +38,33 @@ Depends: ${shlibs:Depends}
 Description: non-KDE application finder for KDE
  kappfinder searches your workstation for many common applications and
  creates menu entries for them.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
+
+Package: kate
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: advanced text editor for KDE
+ Kate is a multi document editor, based on a rewritten version of the kwrite
+ editing widget of KDE.
+ .
+ It is a multi-view editor that lets you view several instances of the same
+ document with all instances being synced, or view more files at the same
+ time for easy reference or simultaneous editing. The terminal emulation
+ and sidebar are docked windows that can be plugged out of the main window,
+ or replaced therein according to your preference.
+ .
+ Some random features:
+ .
+  * Editing of big files
+  * Extensible syntax highlighting
+  * Folding
+  * Dynamic word wrap
+  * Selectable encoding
+  * Filter command
+  * Global grep dialog
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.

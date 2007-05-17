@@ -1,4 +1,3 @@
-
 usr/bin/appletproxy
 usr/bin/kicker
 usr/lib/kconf_update_bin/kicker-3.4-reverseLayout
@@ -23,8 +22,13 @@ usr/lib/kde4/taskbar_panelapplet.so
 usr/lib/kde4/trash_panelapplet.so
 usr/lib/libkdeinit_appletproxy.so
 usr/lib/libkdeinit_kicker.so
+usr/lib/libkickermain.so.2
 usr/lib/libkickermain.so.2.0.0
+usr/lib/libtaskbar.so
+usr/lib/libtaskbar.so.5
 usr/lib/libtaskbar.so.5.0.0
+usr/lib/libtaskmanager.so
+usr/lib/libtaskmanager.so.5
 usr/lib/libtaskmanager.so.5.0.0
 usr/share/apps/kconf_update/kicker-3.1-properSizeSetting.pl
 usr/share/apps/kconf_update/kicker-3.5-kconfigXTize.pl
@@ -116,4 +120,3 @@ usr/share/icons/crystalsvg/48x48/apps/window_list.png
 usr/share/icons/crystalsvg/64x64/apps/systemtray.png
 usr/share/icons/crystalsvg/scalable/apps/systemtray.svgz
 usr/share/kde4/services/kcmkicker.desktop
-usr/lib/libkickermain.so.2

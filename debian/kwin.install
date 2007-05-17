@@ -24,11 +24,11 @@ usr/lib/kde4/kwin_keramik_config.so
 usr/lib/kde4/kwin_modernsys_config.so
 usr/lib/kde4/kwin_plastik_config.so
 usr/lib/kde4/kwin_quartz_config.so
+usr/lib/libkdecorations.so.5
 usr/lib/libkdecorations.so.5.0.0
 usr/lib/libkdeinit_kwin_rules_dialog.so
 usr/lib/libkdeinit_kwin.so
 usr/lib/libkwineffects.so.1.0.0
-usr/lib/libkdecorations.so.5
 usr/share/apps/kconf_update/kwin3_plugin.pl
 usr/share/apps/kconf_update/kwin3_plugin.upd
 usr/share/apps/kconf_update/kwin_focus1.sh

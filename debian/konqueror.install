@@ -19,9 +19,11 @@ usr/lib/kde4/konq_sidebartree_history.so
 usr/lib/kde4/konqsidebar_tree.so
 usr/lib/kde4/konqsidebar_web.so
 usr/lib/kde4/konq_sound.so
+usr/lib/kde4/libkhtmlkttsdplugin.so
 usr/lib/libkdeinit_keditbookmarks.so
 usr/lib/libkdeinit_kfmclient.so
 usr/lib/libkdeinit_konqueror.so
+usr/lib/libkonqsidebarplugin.so.5
 usr/lib/libkonqsidebarplugin.so.5.0.0
 usr/share/applications/kde4/Home.desktop
 usr/share/applications/kde4/kfmclient.desktop
@@ -33,11 +35,14 @@ usr/share/applications/kde4/konquerorsu.desktop
 usr/share/apps/kconf_update/kfmclient_3_2.upd
 usr/share/apps/kconf_update/kfmclient_3_2_update.sh
 usr/share/apps/kconf_update/konqsidebartng.upd
+usr/share/apps/kconf_update/konqueror_gestures_kde321_update.upd
 usr/share/apps/kconf_update/move_konqsidebartng_entries.sh
 usr/share/apps/kcontrol/pics/onlyone.png
 usr/share/apps/kcontrol/pics/overlapping.png
 usr/share/apps/keditbookmarks/keditbookmarks-genui.rc
 usr/share/apps/keditbookmarks/keditbookmarksui.rc
+usr/share/apps/khtml/kpartplugins/khtmlkttsd.desktop
+usr/share/apps/khtml/kpartplugins/khtmlkttsd.rc
 usr/share/apps/kicker/menuext/konquerormenu.desktop
 usr/share/apps/konqiconview/kpartplugins/kremoteencodingplugin.desktop
 usr/share/apps/konqiconview/kpartplugins/kremoteencodingplugin.rc
@@ -217,5 +222,3 @@ usr/share/kde4/services/konq_listview.desktop
 usr/share/kde4/services/konq_sidebartng.desktop
 usr/share/kde4/services/konqueror.desktop
 usr/share/kde4/servicetypes/konqaboutpage.desktop
-usr/lib/kde4/libkhtmlkttsdplugin.so
-usr/lib/libkonqsidebarplugin.so.5
