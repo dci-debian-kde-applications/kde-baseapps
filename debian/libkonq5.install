@@ -10,7 +10,6 @@ usr/share/apps/konqueror/pics/arrow_bottomleft.png
 usr/share/apps/konqueror/pics/arrow_bottomright.png
 usr/share/apps/konqueror/pics/arrow_topleft.png
 usr/share/apps/konqueror/pics/arrow_topright.png
-usr/share/apps/konqueror/pics/thumbnailfont_7x4.png
 usr/share/dbus-1/interfaces/org.kde.FavIcon.xml
 usr/share/dbus-1/interfaces/org.kde.libkonq.KonqHistoryManager.xml
 usr/share/dbus-1/interfaces/org.kde.libkonq.UndoManager.xml
