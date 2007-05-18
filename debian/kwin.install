@@ -1,4 +1,3 @@
-
 usr/bin/kwin
 usr/bin/kwin_killer_helper
 usr/bin/kwin_rules_dialog
@@ -112,4 +111,3 @@ usr/share/kde4/services/kwinmoving.desktop
 usr/share/kde4/services/kwinoptions.desktop
 usr/share/kde4/services/kwinrules.desktop
 usr/share/kde4/services/kwintranslucency.desktop
-usr/share/sounds/pop.wav

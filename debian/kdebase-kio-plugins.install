@@ -1,6 +1,4 @@
-
 usr/bin/kio_media_mounthelper
-usr/bin/kio_system_documenthelper
 usr/bin/ktrash
 usr/lib/kde4/cursorthumbnail.so
 usr/lib/kde4/djvuthumbnail.so

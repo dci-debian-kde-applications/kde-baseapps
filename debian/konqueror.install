@@ -2,7 +2,6 @@ usr/bin/kbookmarkmerger
 usr/bin/keditbookmarks
 usr/bin/kfmclient
 usr/bin/konqueror
-usr/include/konqsidebarplugin.h
 usr/lib/kde4/kcm_history.so
 usr/lib/kde4/kcm_konqhtml.so
 usr/lib/kde4/kcm_konq.so

@@ -1,4 +1,3 @@
-
 etc/xdg/menus/kde-information.menu
 etc/xdg/menus/kde-kcontrol.menu
 etc/xdg/menus/kde-settings.menu
@@ -1007,7 +1006,6 @@ usr/share/kde4/servicetypes/solidbluetoothmanager.desktop
 usr/share/kde4/servicetypes/solidnetworkmanager.desktop
 usr/share/kde4/servicetypes/solidpowermanager.desktop
 usr/share/kde4/servicetypes/uasprovider.desktop
-usr/share/locale/en_US/entry.desktop
 usr/share/locale/l10n/ad/entry.desktop
 usr/share/locale/l10n/ad/flag.png
 usr/share/locale/l10n/ae/entry.desktop
