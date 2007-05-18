@@ -7,7 +7,6 @@ usr/share/applications/kde4/konsole.desktop
 usr/share/applications/kde4/konsolesu.desktop
 usr/share/apps/kconf_update/konsole.upd
 usr/share/apps/kconf_update/schemaStrip.pl
-usr/share/apps/kicker/menuext/konsolemenu.desktop
 usr/share/apps/konqueror/servicemenus/konsolehere.desktop
 usr/share/apps/konsole/BlackOnLightColor.schema
 usr/share/apps/konsole/BlackOnLightYellow.schema

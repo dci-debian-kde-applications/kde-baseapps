@@ -17,7 +17,6 @@ usr/lib/kde4/konq_sidebartree_dirtree.so
 usr/lib/kde4/konq_sidebartree_history.so
 usr/lib/kde4/konqsidebar_tree.so
 usr/lib/kde4/konqsidebar_web.so
-usr/lib/kde4/konq_sound.so
 usr/lib/kde4/libkhtmlkttsdplugin.so
 usr/lib/libkdeinit_keditbookmarks.so
 usr/lib/libkdeinit_kfmclient.so
@@ -34,7 +33,6 @@ usr/share/applications/kde4/konquerorsu.desktop
 usr/share/apps/kconf_update/kfmclient_3_2.upd
 usr/share/apps/kconf_update/kfmclient_3_2_update.sh
 usr/share/apps/kconf_update/konqsidebartng.upd
-usr/share/apps/kconf_update/konqueror_gestures_kde321_update.upd
 usr/share/apps/kconf_update/move_konqsidebartng_entries.sh
 usr/share/apps/kcontrol/pics/onlyone.png
 usr/share/apps/kcontrol/pics/overlapping.png
@@ -42,7 +40,6 @@ usr/share/apps/keditbookmarks/keditbookmarks-genui.rc
 usr/share/apps/keditbookmarks/keditbookmarksui.rc
 usr/share/apps/khtml/kpartplugins/khtmlkttsd.desktop
 usr/share/apps/khtml/kpartplugins/khtmlkttsd.rc
-usr/share/apps/kicker/menuext/konquerormenu.desktop
 usr/share/apps/konqiconview/kpartplugins/kremoteencodingplugin.desktop
 usr/share/apps/konqiconview/kpartplugins/kremoteencodingplugin.rc
 usr/share/apps/konqiconview/kpartplugins/kshellcmdplugin.desktop
@@ -105,10 +102,6 @@ usr/share/apps/konqueror/icons/crystalsvg/16x16/actions/kde5.png
 usr/share/apps/konqueror/icons/crystalsvg/16x16/actions/kde6.png
 usr/share/apps/konqueror/konq-simplebrowser.rc
 usr/share/apps/konqueror/konqueror.rc
-usr/share/apps/konqueror/pics/arrow_bottomleft.png
-usr/share/apps/konqueror/pics/arrow_bottomright.png
-usr/share/apps/konqueror/pics/arrow_topleft.png
-usr/share/apps/konqueror/pics/arrow_topright.png
 usr/share/apps/konqueror/pics/indicator_connect.png
 usr/share/apps/konqueror/pics/indicator_empty.png
 usr/share/apps/konqueror/pics/indicator_noconnect.png
@@ -121,8 +114,6 @@ usr/share/apps/konqueror/profiles/simplebrowser
 usr/share/apps/konqueror/profiles/tabbedbrowsing
 usr/share/apps/konqueror/profiles/webbrowsing
 usr/share/apps/konqueror/servicemenus/installfont.desktop
-usr/share/apps/konqueror/servicemenus/kdesktopSetAsBackground.desktop
-usr/share/apps/konqueror/servicemenus/konsolehere.desktop
 usr/share/apps/konqueror/servicemenus/media_eject.desktop
 usr/share/apps/konqueror/servicemenus/media_mount.desktop
 usr/share/apps/konqueror/servicemenus/media_safelyremove.desktop
@@ -182,10 +173,6 @@ usr/share/doc/HTML/en/konqueror/save-settings.docbook
 usr/share/doc/HTML/en/konqueror/shortcut1.png
 usr/share/doc/HTML/en/konqueror/shortcut2.png
 usr/share/doc/HTML/en/konqueror/sidebar.docbook
-usr/share/icons/crystalsvg/16x16/apps/keditbookmarks.png
-usr/share/icons/crystalsvg/32x32/apps/keditbookmarks.png
-usr/share/icons/crystalsvg/48x48/apps/keditbookmarks.png
-usr/share/icons/crystalsvg/64x64/apps/keditbookmarks.png
 usr/share/icons/hicolor/128x128/apps/konqueror.png
 usr/share/icons/hicolor/16x16/apps/kfm.png
 usr/share/icons/hicolor/16x16/apps/konqueror.png

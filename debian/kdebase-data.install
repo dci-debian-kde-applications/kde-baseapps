@@ -784,7 +784,6 @@ usr/share/icons/crystalsvg/scalable/apps/samba.svgz
 usr/share/icons/crystalsvg/scalable/apps/shell.svgz
 usr/share/icons/crystalsvg/scalable/apps/staroffice.svgz
 usr/share/icons/crystalsvg/scalable/apps/stylesheet.svgz
-usr/share/icons/crystalsvg/scalable/apps/systemtray.svgz
 usr/share/icons/crystalsvg/scalable/apps/terminal.svgz
 usr/share/icons/crystalsvg/scalable/apps/tux.svgz
 usr/share/icons/crystalsvg/scalable/apps/wine.svgz
@@ -846,7 +845,6 @@ usr/share/kde4/services/kded/khotkeys.desktop
 usr/share/kde4/services/kded/ktimezoned.desktop
 usr/share/kde4/services/kdm.desktop
 usr/share/kde4/services/keys.desktop
-usr/share/kde4/services/kfontviewpart.desktop
 usr/share/kde4/services/khotkeys.desktop
 usr/share/kde4/services/knotify.desktop
 usr/share/kde4/services/krunner_calculatorrunner.desktop
