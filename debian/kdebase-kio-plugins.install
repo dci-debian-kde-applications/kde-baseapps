@@ -98,6 +98,8 @@ usr/share/kde4/services/about.protocol
 usr/share/kde4/services/applications.protocol
 usr/share/kde4/services/ar.protocol
 usr/share/kde4/services/ar.protocol 
+usr/share/kde4/services/bzip.protocol
+usr/share/kde4/services/bzip2.protocol
 usr/share/kde4/services/cgi.protocol
 usr/share/kde4/services/cursorthumbnail.desktop
 usr/share/kde4/services/djvuthumbnail.desktop
