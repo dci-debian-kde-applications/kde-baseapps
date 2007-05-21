@@ -15,7 +15,19 @@ Standards-Version: 3.7.2
 Package: kdebase
 Section: kde
 Architecture: all
-Depends: ${shlibs:Depends}, 
+Depends: kappfinder (>= ${Source-Version}), kate (>= ${Source-Version}),
+ kcontrol (>= ${Source-Version}), kdebase-bin (>= ${Source-Version}),
+ kdebase-data (>= ${Source-Version}), kdebase-kio-plugins (>= ${Source-Version}), 
+ kdepasswd (>= ${Source-Version}), kdeprint (>= ${Source-Version}), 
+ kdesktop (>= ${Source-Version}), kfind (>= ${Source-Version}), 
+ khelpcenter (>= ${Source-Version}), kicker (>= ${Source-Version}), 
+ klipper (>= ${Source-Version}), kmenuedit (>= ${Source-Version}), 
+ konqueror-nsplugins (>= ${Source-Version}), konqueror (>= ${Source-Version}), 
+ konsole (>= ${Source-Version}), kpager (>= ${Source-Version}), 
+ ksmserver (>= ${Source-Version}), ksplash (>= ${Source-Version}), 
+ ksysguard (>= ${Source-Version}), ktip (>= ${Source-Version}), 
+ kwin (>= ${Source-Version}), libkonq4 (>= ${Source-Version}),
+Recommends: kdm (>= ${Source-Version})
 Description: base components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -49,6 +61,7 @@ Package: kate
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
+Suggests: aspell | ispell | hspell, kate-plugins, khelpcenter, konsole
 Description: advanced text editor for KDE
  Kate is a multi document editor, based on a rewritten version of the kwrite
  editing widget of KDE.
@@ -187,7 +200,8 @@ Description: miscellaneous binaries and files for the KDE desktop
 Package: kdm
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, xbase-clients
+Provides: x-display-manager
 Description: X display manager for KDE
  kdm manages a collection of X servers, which may be on the local host or
  remote machines. It provides services similar to those provided by init,
@@ -271,6 +285,7 @@ Description: menu editor for KDE
 Package: konqueror
 Section: kde
 Architecture: any
+Provides: info-browser, man-browser, www-browser
 Depends: ${shlibs:Depends}
 Description: KDE's advanced file manager, web browser and document viewer
  Konqueror is the file manager for the K Desktop Environment.
@@ -345,7 +360,8 @@ Description: desktop pager for KDE
 Package: ksmserver
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Provides: x-session-manager
+Depends: ${shlibs:Depends}, kwin (= ${Source-Version}) | x-window-manager
 Description: session manager for KDE
  This package contains the KDE session manager. It is responsible for
  restoring your KDE session on login. It is also needed to properly
@@ -408,6 +424,7 @@ Package: kwin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
+Provides: x-window-manager
 Description: the KDE window manager
  This package contains the default X window manager for KDE.
  .
