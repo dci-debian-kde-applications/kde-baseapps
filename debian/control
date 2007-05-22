@@ -26,7 +26,7 @@ Depends: kappfinder (>= ${Source-Version}), kate (>= ${Source-Version}),
  konsole (>= ${Source-Version}), kpager (>= ${Source-Version}), 
  ksmserver (>= ${Source-Version}), ksplash (>= ${Source-Version}), 
  ksysguard (>= ${Source-Version}), ktip (>= ${Source-Version}), 
- kwin (>= ${Source-Version}), libkonq4 (>= ${Source-Version}),
+ kwin (>= ${Source-Version}), libkonq5 (>= ${Source-Version}),
 Recommends: kdm (>= ${Source-Version})
 Description: base components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
