@@ -6,10 +6,7 @@ Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
  libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
  kdepimlibs4-dev (>=4:3.90.1), libsoprano-dev,
  libxtst-dev, libsmbclient-dev, libbluetooth2-dev, network-manager-dev,
- libungif4-dev | libgif-dev,
- libfam-dev,
- libbz2-dev,
- libpcre++-dev
+ libungif4-dev | libgif-dev, libfam-dev, libbz2-dev, libpcre++-dev 
 Standards-Version: 3.7.2
 
 Package: kdebase
@@ -43,8 +40,23 @@ Package: dolphin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: short description
- Long description
+Description: file manager for KDE focusing on usability
+ Dolphin is not intended to be a competitor to Konqueror, the default KDE
+ file manager: Konqueror acts as universal viewer being able to show HTML
+ pages, text documents, directories and a lot more, whereas Dolphin focuses
+ on being only a file manager. This approach allows to optimize the user
+ interface for the task of file management.
+ .
+ Features include:
+  Sidebar
+  Navigation bar (breadcrumbs)
+  View properties remembered for each folder
+  Split views
+  Network transparency
+  Undo/redo functionality
+  Renaming of a variable number of selected items in one step.
+ .
+  Homepage: http://enzosworld.gmxhome.de/
 
 Package: kappfinder
 Section: kde
@@ -129,7 +141,7 @@ Description: shared data files for the KDE base module
 Package: kdebase-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, kdebase (>= ${Source-Version})
 Description: development files for the KDE base module
  This package contains headers and other development files needed to
  compile software based on the KDE base module.
@@ -442,3 +454,13 @@ Description: core libraries for Konqueror
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
+Package: libkonq5-dev
+Section: libdevel
+Architecture: any
+Depends: libkonq5 (= ${Source-Version}), kdelibs5-dev (= ${Source-Version})
+Description: development files for Konqueror's core libraries
+ This package contains headers and other development files for the core
+ Konqueror libraries.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
