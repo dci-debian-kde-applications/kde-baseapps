@@ -2,11 +2,9 @@ Source: kdebase
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs4-dev (>=4:3.90.1),
- libstreams-dev (>=0.5.1), libstreamanalyzer-dev (>=0.5.1), libxml2-utils,
- kdepimlibs4-dev (>=4:3.90.1), libsoprano-dev,
- libxtst-dev, libsmbclient-dev, libbluetooth2-dev, network-manager-dev,
- libungif4-dev | libgif-dev, libfam-dev, libbz2-dev, libpcre++-dev 
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
+ kdepimlibs4-dev (>=4:3.90.1),
+ libxtst-dev, libsmbclient-dev, libbluetooth2-dev, network-manager-dev
 Standards-Version: 3.7.2
 
 Package: kdebase
@@ -141,7 +139,9 @@ Description: shared data files for the KDE base module
 Package: kdebase-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase (>= ${Source-Version})
+Depends: ${shlibs:Depends}, kdebase (>= ${Source-Version}),
+ kdepimlibs4-dev (>=4:3.90.1),
+ libxtst-dev, libsmbclient-dev, libbluetooth2-dev, network-manager-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to
  compile software based on the KDE base module.
