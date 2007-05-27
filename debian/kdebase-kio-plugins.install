@@ -2,6 +2,7 @@ usr/bin/kio_media_mounthelper
 usr/bin/ktrash
 usr/lib/kde4/cursorthumbnail.so
 usr/lib/kde4/djvuthumbnail.so
+usr/lib/kde4/exrthumbnail.so
 usr/lib/kde4/htmlthumbnail.so
 usr/lib/kde4/imagethumbnail.so
 usr/lib/kde4/kcm_cgi.so
@@ -103,6 +104,7 @@ usr/share/kde4/services/bzip2.protocol
 usr/share/kde4/services/cgi.protocol
 usr/share/kde4/services/cursorthumbnail.desktop
 usr/share/kde4/services/djvuthumbnail.desktop
+usr/share/kde4/services/exrthumbnail.desktop
 usr/share/kde4/services/finger.protocol
 usr/share/kde4/services/fish.protocol
 usr/share/kde4/services/floppy.protocol
@@ -143,3 +145,4 @@ usr/share/kde4/services/thumbnail.protocol
 usr/share/kde4/services/trash.protocol
 usr/share/kde4/services/zip.protocol
 usr/share/kde4/servicetypes/thumbcreator.desktop
+

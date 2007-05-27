@@ -1642,3 +1642,6 @@ usr/share/wallpapers/triplegears.jpg
 usr/share/wallpapers/triplegears.jpg.desktop
 usr/share/wallpapers/Won-Ton-Soup-3.jpg
 usr/share/wallpapers/Won-Ton-Soup-3.jpg.desktop
+
+usr/share/dbus-1/services/org.semanticdesktop.nepomuk.ServiceRegistry.service
+usr/share/kde4/services/knepomuk/knepomuk-coreservices.desktop

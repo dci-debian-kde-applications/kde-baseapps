@@ -19,6 +19,8 @@ usr/bin/kioclient
 usr/bin/kioexec
 usr/bin/kio_system_documenthelper
 usr/bin/kmimetypefinder
+usr/bin/knepcoreservices
+usr/bin/knepdaemon
 usr/bin/knetattach
 usr/bin/knotify
 usr/bin/kquitapp
