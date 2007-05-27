@@ -141,7 +141,7 @@ Package: kdebase-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase (>= ${Source-Version}),
- kdepimlibs4-dev (>=4:3.90.1),
+ kdepimlibs5-dev (>=4:3.90.1),
  libxtst-dev, libsmbclient-dev, libbluetooth2-dev, network-manager-dev,
  libpam0g-dev, libusb-dev
 Description: development files for the KDE base module
