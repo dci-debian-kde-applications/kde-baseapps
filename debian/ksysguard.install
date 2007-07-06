@@ -1,6 +1,5 @@
 usr/bin/ksysguard
-usr/lib/kde4/sysguard_panelapplet.so
-usr/lib/libkdeinit_ksysguard.so
+usr/lib/libkdeinit4_ksysguard.so
 usr/lib/libksgrd.so.4
 usr/lib/libksgrd.so.4.0.0
 usr/share/applications/kde4/ksysguard.desktop
@@ -11,5 +10,5 @@ usr/share/apps/ksysguard/ksysguard.notifyrc
 usr/share/apps/ksysguard/ksysguardui.rc
 usr/share/apps/ksysguard/ProcessTable.sgrd
 usr/share/apps/ksysguard/SystemLoad.sgrd
-usr/share/doc/HTML/en/ksysguard/index.cache.bz2
-usr/share/doc/HTML/en/ksysguard/index.docbook
+usr/share/doc/kde/HTML/en/ksysguard/index.cache.bz2
+usr/share/doc/kde/HTML/en/ksysguard/index.docbook

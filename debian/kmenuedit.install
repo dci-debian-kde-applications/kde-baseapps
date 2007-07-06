@@ -1,8 +1,8 @@
 
 usr/bin/kcontroledit
 usr/bin/kmenuedit
-usr/lib/libkdeinit_kcontroledit.so
-usr/lib/libkdeinit_kmenuedit.so
+usr/lib/libkdeinit4_kcontroledit.so
+usr/lib/libkdeinit4_kmenuedit.so
 usr/share/applications/kde4/kmenuedit.desktop
 usr/share/apps/kcontroledit/icons/crystalsvg/22x22/actions/menu_new.png
 usr/share/apps/kcontroledit/icons/crystalsvg/22x22/actions/menu_new_sep.png
@@ -16,14 +16,14 @@ usr/share/apps/kmenuedit/icons/crystalsvg/32x32/actions/menu_new.png
 usr/share/apps/kmenuedit/icons/crystalsvg/32x32/actions/menu_new_sep.png
 usr/share/apps/kmenuedit/icons/locolor/16x16/actions/menu_new.png
 usr/share/apps/kmenuedit/kmenueditui.rc
-usr/share/doc/HTML/en/kmenuedit/done.png
-usr/share/doc/HTML/en/kmenuedit/index.cache.bz2
-usr/share/doc/HTML/en/kmenuedit/index.docbook
-usr/share/doc/HTML/en/kmenuedit/itemname.png
-usr/share/doc/HTML/en/kmenuedit/kmenueditmain.png
-usr/share/doc/HTML/en/kmenuedit/new.png
-usr/share/doc/HTML/en/kmenuedit/selecticon.png
-usr/share/doc/HTML/en/kmenuedit/selectinternet.png
+usr/share/doc/kde/HTML/en/kmenuedit/done.png
+usr/share/doc/kde/HTML/en/kmenuedit/index.cache.bz2
+usr/share/doc/kde/HTML/en/kmenuedit/index.docbook
+usr/share/doc/kde/HTML/en/kmenuedit/itemname.png
+usr/share/doc/kde/HTML/en/kmenuedit/kmenueditmain.png
+usr/share/doc/kde/HTML/en/kmenuedit/new.png
+usr/share/doc/kde/HTML/en/kmenuedit/selecticon.png
+usr/share/doc/kde/HTML/en/kmenuedit/selectinternet.png
 usr/share/icons/hicolor/16x16/apps/kmenuedit.png
 usr/share/icons/hicolor/22x22/apps/kmenuedit.png
 usr/share/icons/hicolor/32x32/apps/kmenuedit.png

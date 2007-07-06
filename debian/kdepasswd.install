@@ -30,5 +30,4 @@ usr/share/apps/kdm/pics/users/Star.png
 usr/share/apps/kdm/pics/users/Teddybear.png
 usr/share/apps/kdm/pics/users/Turtle.png
 usr/share/config.kcfg/kcm_useraccount.kcfg
-usr/share/config.kcfg/kcm_useraccount_pass.kcfg
 usr/share/kde4/services/kcm_useraccount.desktop

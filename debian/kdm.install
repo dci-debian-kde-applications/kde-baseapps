@@ -66,8 +66,6 @@ usr/share/apps/kdm/themes/circles/help.png
 usr/share/apps/kdm/themes/circles/KdmGreeterTheme.desktop
 usr/share/apps/kdm/themes/circles/options.png
 usr/share/apps/kdm/themes/circles/screenshot.png
-usr/share/doc/HTML/en/kcontrol/kdm/index.cache.bz2
-usr/share/doc/HTML/en/kcontrol/kdm/index.docbook
-usr/share/doc/HTML/en/kdm/index.cache.bz2
-usr/share/doc/HTML/en/kdm/index.docbook
-usr/share/doc/HTML/en/kdm/kdmrc-ref.docbook
+usr/share/doc/kde/HTML/en/kdm/index.cache.bz2
+usr/share/doc/kde/HTML/en/kdm/index.docbook
+usr/share/doc/kde/HTML/en/kdm/kdmrc-ref.docbook

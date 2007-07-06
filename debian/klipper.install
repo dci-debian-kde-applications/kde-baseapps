@@ -1,6 +1,5 @@
 usr/bin/klipper
-usr/lib/kde4/klipper_panelapplet.so
-usr/lib/libkdeinit_klipper.so
+usr/lib/libkdeinit4_klipper.so
 usr/share/applications/kde4/klipper.desktop
 usr/share/apps/kconf_update/klipper-1-2.pl
 usr/share/apps/kconf_update/klipper-kde31.sh
@@ -8,9 +7,9 @@ usr/share/apps/kconf_update/klipperrc.upd
 usr/share/apps/kconf_update/klippershortcuts.upd
 usr/share/apps/kicker/applets/klipper.desktop
 usr/share/autostart/klipper.desktop
-usr/share/doc/HTML/en/klipper/index.cache.bz2
-usr/share/doc/HTML/en/klipper/index.docbook
-usr/share/doc/HTML/en/klipper/screenshot.png
+usr/share/doc/kde/HTML/en/klipper/index.cache.bz2
+usr/share/doc/kde/HTML/en/klipper/index.docbook
+usr/share/doc/kde/HTML/en/klipper/screenshot.png
 usr/share/icons/hicolor/128x128/apps/klipper.png
 usr/share/icons/hicolor/16x16/apps/klipper.png
 usr/share/icons/hicolor/22x22/apps/klipper.png
