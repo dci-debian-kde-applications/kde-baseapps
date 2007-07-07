@@ -1,6 +1,3 @@
--it does not find the b-d on NetworkManager: NetworkManager is a daemon for 
-user controlled networking <http://www.gnome.org/projects/NetworkManager>
-
 -menu files
 
 -deps between apps
@@ -8,3 +5,80 @@ user controlled networking <http://www.gnome.org/projects/NetworkManager>
 -man pages ;-)
 
 -copyright file
+
+- fix these issues. i wonder if it is a cmake bug. It seems related to cmake exec_program call (exec_program supports only CMAKE_* variable ?):
+exec_program(${CMAKE_SOURCE_DIR}/workspace/mkpamserv ARGS ${${cvar}} RETURN_VALUE ret)
+exec_program(${CMAKE_SOURCE_DIR}/workspace/mkpamserv ARGS -P ${${cvar}}-np)
+exec_program(${CMAKE_CURRENT_BINARY_DIR}/genkdmconf ARGS --in ${CONFIG_INSTALL_DIR}/kdm --face-src ${CMAKE_CURRENT_SOURCE_DIR}/pics \$GENKDMCONF_FLAGS)
+
+running /tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv kde  2>&1
+Copying PAM service definition file "login" to "kde".
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 35: /etc/pam.d/kde: Permission denied
+running /tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv -P kde-np  2>&1
+Copying PAM service definition file "login" to "kde-np".
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 31: /etc/pam.d/kde-np: Permission denied
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 33: /etc/pam.d/kde-np: Permission denied
+
+running /tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv kde  2>&1
+Copying PAM service definition file "login" to "kde".
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 35: /etc/pam.d/kde: Permission denied
+running /tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv -P kde-np  2>&1
+Copying PAM service definition file "login" to "kde-np".
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 31: /etc/pam.d/kde-np: Permission denied
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 33: /etc/pam.d/kde-np: Permission denied
+
+running /tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv kde  2>&1
+Copying PAM service definition file "login" to "kde".
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 35: /etc/pam.d/kde: Permission denied
+running /tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv -P kde-np  2>&1
+Copying PAM service definition file "login" to "kde-np".
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 31: /etc/pam.d/kde-np: Permission denied
+/tmp/buildd/kdebase-3.91.0/./workspace/mkpamserv: line 33: /etc/pam.d/kde-np: Permission denied
+
+running /tmp/buildd/kdebase-3.91.0/./obj-x86_64-linux-gnu/workspace/kdm/kfrontend/genkdmconf --in /usr/share/config/kdm --face-src /tmp/buildd/kdebase-3.91.0/./workspace/kdm/kfrontend/pics $GENKDMCONF_FLAGS  2>&1
+Cannot create target directory /usr/share/config/kdm: Permission denied
+
+- from ana TODO:
+usr/lib/kde4/kcm_kwin4_effect_builtins.so
+usr/lib/kde4/kcm_kwineffects.so
+usr/lib/kde4/kded_networkstatus.so
+usr/lib/kde4/kwin3_oxy.so
+usr/lib/libkdeinit4_appletproxy.so
+usr/lib/libkdeinit4_kaccess.so
+usr/lib/libkdeinit4_kcminit.so
+usr/lib/libkdeinit4_kcminit_startup.so
+usr/lib/libkdeinit4_kcmshell.so
+usr/lib/libkdeinit4_kcontrol.so
+usr/lib/libkdeinit4_kdesktop.so
+usr/lib/libkdeinit4_khelpcenter.so
+usr/lib/libkdeinit4_khotkeys.so
+usr/lib/libkdeinit4_kicker.so
+usr/lib/libkdeinit4_kinfocenter.so
+usr/lib/libkdeinit4_kjobviewer.so
+usr/lib/libkdeinit4_kprinter.so
+usr/lib/libkdeinit4_ksmserver.so
+usr/lib/libkdeinit4_kuiserver.so
+usr/lib/libkdeinit4_kwrite.so
+usr/share/apps/desktoptheme/default/dialogs/background.svg
+usr/share/apps/desktoptheme/default/dialogs/shutdowndlg.svg
+usr/share/apps/desktoptheme/default/dialogs/shutdowndlgbuttonglow.svg
+usr/share/apps/desktoptheme/default/widgets/background.svg
+usr/share/apps/desktoptheme/default/widgets/clock.svg
+usr/share/apps/desktoptheme/default/widgets/iconbutton.svg
+usr/share/apps/desktoptheme/default/widgets/plot-background.svg
+usr/share/apps/desktoptheme/default/widgets/toolbox-button.svg
+usr/share/apps/desktoptheme/default/widgets/wallpaper.svg
+usr/share/apps/desktoptheme/desktoptheme-default.desktop
+usr/share/apps/systemsettings/systemsettingsui.rc
+usr/share/autostart/plasma.desktop
+usr/share/config.kcfg/kwin.kcfg
+usr/share/config/kdm.knsrc
+usr/share/dbus-1/interfaces/org.kde.KWin.xml
+usr/share/dbus-1/services/org.kde.knotify.service
+usr/share/icons/hicolor/128x128/apps/systemsettings.png
+usr/share/icons/hicolor/16x16/apps/systemsettings.png
+usr/share/icons/hicolor/22x22/apps/systemsettings.png
+usr/share/icons/hicolor/32x32/apps/systemsettings.png
+usr/share/icons/hicolor/48x48/apps/systemsettings.png
+usr/share/icons/hicolor/64x64/apps/systemsettings.png
+usr/share/icons/hicolor/scalable/apps/konsole.svgz
