@@ -39,11 +39,8 @@ running /tmp/buildd/kdebase-3.91.0/./obj-x86_64-linux-gnu/workspace/kdm/kfronten
 Cannot create target directory /usr/share/config/kdm: Permission denied
 
 * missing files:
-usr/lib/kde4/kcm_kwin4_effect_builtins.so
-usr/lib/kde4/kcm_kwineffects.so
 usr/lib/kde4/kcm_view1394.so
 usr/lib/kde4/kded_networkstatus.so
-usr/lib/kde4/kwin3_oxy.so
 usr/lib/kde4/solid_networkmanager.so
 usr/lib/libkdeinit4_appletproxy.so
 usr/lib/libkdeinit4_kaccess.so
@@ -74,9 +71,6 @@ usr/share/apps/desktoptheme/desktoptheme-default.desktop
 usr/share/apps/kcmview1394/oui.db
 usr/share/apps/systemsettings/systemsettingsui.rc
 usr/share/autostart/plasma.desktop
-usr/share/config.kcfg/kwin.kcfg
-usr/share/config/kdm.knsrc
-usr/share/dbus-1/interfaces/org.kde.KWin.xml
 usr/share/dbus-1/services/org.kde.knotify.service
 usr/share/icons/crystalsvg/22x22/apps/networkmanager.png
 usr/share/icons/crystalsvg/32x32/apps/networkmanager.png

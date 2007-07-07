@@ -3,7 +3,9 @@ usr/bin/kwin_killer_helper
 usr/bin/kwin_rules_dialog
 usr/lib/kconf_update_bin/kwin_update_default_rules
 usr/lib/kconf_update_bin/kwin_update_window_settings
+usr/lib/kde4/kcm_kwin4_effect_builtins.so
 usr/lib/kde4/kcm_kwindecoration.so
+usr/lib/kde4/kcm_kwineffects.so
 usr/lib/kde4/kcm_kwinoptions.so
 usr/lib/kde4/kcm_kwinrules.so
 usr/lib/kde4/kwin3_b2.so
@@ -11,6 +13,7 @@ usr/lib/kde4/kwin3_default.so
 usr/lib/kde4/kwin3_keramik.so
 usr/lib/kde4/kwin3_laptop.so
 usr/lib/kde4/kwin3_modernsys.so
+usr/lib/kde4/kwin3_oxy.so
 usr/lib/kde4/kwin3_plastik.so
 usr/lib/kde4/kwin3_quartz.so
 usr/lib/kde4/kwin3_redmond.so
@@ -28,6 +31,7 @@ usr/lib/libkdecorations.so.5.0.0
 usr/lib/libkdeinit4_kwin_rules_dialog.so
 usr/lib/libkdeinit4_kwin.so
 usr/lib/libkwineffects.so.1.0.0
+usr/share/config.kcfg/kwin.kcfg
 usr/share/apps/kconf_update/kwin3_plugin.pl
 usr/share/apps/kconf_update/kwin3_plugin.upd
 usr/share/apps/kconf_update/kwin_focus1.sh
@@ -62,6 +66,7 @@ usr/share/apps/kwin/quartz.desktop
 usr/share/apps/kwin/redmond.desktop
 usr/share/apps/kwin/trackmouse.png
 usr/share/apps/kwin/web.desktop
+usr/share/dbus-1/interfaces/org.kde.KWin.xml
 usr/share/kde4/services/kwin/blur.desktop
 usr/share/kde4/services/kwin/boxswitch.desktop
 usr/share/kde4/services/kwin/demo_liquid.desktop
