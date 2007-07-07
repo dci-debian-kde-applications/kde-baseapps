@@ -3,9 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>=4:3.90.1),
- kdepimlibs5-dev (>=4:3.90.1), libbluetooth-dev, libpam0g-dev, libraw1394-dev,
- libsensors-dev, libsmbclient-dev, libusb-dev, libxcomposite-dev,
- libxdamage-dev, libxklavier11-dev, network-manager-dev
+ kdepimlibs5-dev (>=4:3.90.1), libbluetooth-dev, libnm-util-dev, libpam0g-dev,
+ libraw1394-dev, libsensors-dev, libsmbclient-dev, libusb-dev,
+ libxcomposite-dev, libxdamage-dev, libxklavier11-dev, network-manager-dev
 Standards-Version: 3.7.2
 
 Package: kdebase
