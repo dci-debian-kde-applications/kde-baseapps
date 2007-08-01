@@ -1,4 +1,18 @@
-kdebase (4:3.90.1-1) alioth; urgency=low
+kde4base (4:3.92.0-1) experimental; urgency=low
+
+  * KDE 4, beta 1.
+  * Update *.install files.
+  * Added patch 01_kdehome_kde4.diff to set kdehome directory to .kde4.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 30 Jul 2007 03:36:02 +0200
+
+kde4base (4:3.91.0-1) alioth; urgency=low
+
+  * New alpha release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 05 Jul 2007 19:11:19 +0200
+
+kde4base (4:3.90.1-1) alioth; urgency=low
 
   * Initial release of KDE4.
 

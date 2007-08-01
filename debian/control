@@ -1,9 +1,10 @@
-Source: kdebase
+Source: kde4base
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>=4:3.90.1),
- kdepimlibs5-dev (>=4:3.90.1), libbluetooth-dev, libnm-util-dev, libpam0g-dev,
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 3.92.0),
+ kdepimlibs5-dev (>= 3.92.0), libbluetooth-dev, libnm-util-dev, libpam0g-dev,
  libraw1394-dev, libsensors-dev, libsmbclient-dev, libusb-dev,
  libxcomposite-dev, libxdamage-dev, libxklavier11-dev, network-manager-dev
 Standards-Version: 3.7.2
@@ -11,19 +12,19 @@ Standards-Version: 3.7.2
 Package: kdebase
 Section: kde
 Architecture: all
-Depends: kappfinder (>= ${Source-Version}), kate (>= ${Source-Version}),
- kcontrol (>= ${Source-Version}), kdebase-bin (>= ${Source-Version}),
- kdebase-data (>= ${Source-Version}), kdebase-kio-plugins (>= ${Source-Version}),
- kdepasswd (>= ${Source-Version}), kdeprint (>= ${Source-Version}),
- kdesktop (>= ${Source-Version}), kfind (>= ${Source-Version}),
- khelpcenter (>= ${Source-Version}), kicker (>= ${Source-Version}),
- klipper (>= ${Source-Version}), kmenuedit (>= ${Source-Version}),
- konqueror-nsplugins (>= ${Source-Version}), konqueror (>= ${Source-Version}),
- konsole (>= ${Source-Version}), kpager (>= ${Source-Version}),
- ksmserver (>= ${Source-Version}), ksplash (>= ${Source-Version}),
- ksysguard (>= ${Source-Version}), ktip (>= ${Source-Version}),
- kwin (>= ${Source-Version}), libkonq5 (>= ${Source-Version}),
-Recommends: kdm (>= ${Source-Version})
+Depends: kappfinder (>= ${binary:Version}), kate (>= ${binary:Version}),
+ kcontrol (>= ${binary:Version}), kdebase-bin (>= ${binary:Version}),
+ kdebase-data (>= ${binary:Version}), kdebase-kio-plugins (>= ${binary:Version}),
+ kdepasswd (>= ${binary:Version}), kdeprint (>= ${binary:Version}),
+ kdesktop (>= ${binary:Version}), kfind (>= ${binary:Version}),
+ khelpcenter (>= ${binary:Version}), kicker (>= ${binary:Version}),
+ klipper (>= ${binary:Version}), kmenuedit (>= ${binary:Version}),
+ konqueror-nsplugins (>= ${binary:Version}), konqueror (>= ${binary:Version}),
+ konsole (>= ${binary:Version}), kpager (>= ${binary:Version}),
+ ksmserver (>= ${binary:Version}), ksplash (>= ${binary:Version}),
+ ksysguard (>= ${binary:Version}), ktip (>= ${binary:Version}),
+ kwin (>= ${binary:Version}), libkonq5 (>= ${binary:Version}),
+Recommends: kdm (>= ${binary:Version})
 Description: base components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
  environment for Unix workstations. It combines ease of use, contemporary
@@ -133,8 +134,8 @@ Description: shared data files for the KDE base module
 Package: kdebase-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase (>= ${Source-Version}),
- kdepimlibs5-dev (>=4:3.90.1), libbluetooth-dev, libnm-util-dev, libpam0g-dev,
+Depends: ${shlibs:Depends}, kdebase (>= ${binary:Version}),
+ kdepimlibs5-dev (>= 3.92.0), libbluetooth-dev, libnm-util-dev, libpam0g-dev,
  libraw1394-dev, libsensors-dev, libsmbclient-dev, libusb-dev,
  libxcomposite-dev, libxdamage-dev, libxklavier11-dev, network-manager-dev
 Description: development files for the KDE base module
@@ -435,7 +436,7 @@ Description: core libraries for Konqueror
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5 (= ${Source-Version}), kdelibs5-dev (= ${Source-Version})
+Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (= ${binary:Version})
 Description: development files for Konqueror's core libraries
  This package contains headers and other development files for the core
  Konqueror libraries.
