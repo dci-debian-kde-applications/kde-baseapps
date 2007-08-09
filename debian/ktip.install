@@ -1,7 +1,7 @@
 usr/bin/ktip
 usr/share/applications/kde4/ktip.desktop
-usr/share/apps/kdewizard/pics/wizard_small.png
-usr/share/apps/kdewizard/tips
+usr/share/kde4/apps/kdewizard/pics/wizard_small.png
+usr/share/kde4/apps/kdewizard/tips
 usr/share/autostart/ktip.desktop
 usr/share/icons/hicolor/128x128/apps/ktip.png
 usr/share/icons/hicolor/16x16/apps/ktip.png

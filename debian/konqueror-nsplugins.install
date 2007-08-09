@@ -3,7 +3,7 @@ usr/bin/nspluginscan
 usr/bin/nspluginviewer
 usr/lib/kde4/kcm_nsplugins.so
 usr/lib/kde4/libkcminit_nsplugin.so
-usr/share/apps/plugin/nspluginpart.rc
+usr/share/kde4/apps/plugin/nspluginpart.rc
 usr/share/dbus-1/interfaces/org.kde.nsplugins.CallBack.xml
 usr/share/dbus-1/interfaces/org.kde.nsplugins.class.xml
 usr/share/dbus-1/interfaces/org.kde.nsplugins.instance.xml

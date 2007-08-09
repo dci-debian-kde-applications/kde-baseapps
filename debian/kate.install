@@ -1,2 +1,3 @@
 usr/bin/kwrite
+usr/lib/libkdeinit4_kwrite.so
 usr/share/applications/kde4/kwrite.desktop
