@@ -143,7 +143,3 @@ usr/share/icons/hicolor/64x64/apps/printmgr.png
 usr/share/icons/hicolor/scalable/apps/kdeprintfax.svgz
 usr/share/icons/hicolor/scalable/apps/kjobviewer.svgz
 usr/share/icons/hicolor/scalable/apps/printmgr.svgz
-usr/share/kde4/services/kdeprint_part.desktop
-usr/share/kde4/services/printdb.protocol
-usr/share/kde4/services/printers.desktop
-usr/share/kde4/services/print.protocol

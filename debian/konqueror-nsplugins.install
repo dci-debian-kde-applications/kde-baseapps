@@ -8,4 +8,3 @@ usr/share/dbus-1/interfaces/org.kde.nsplugins.CallBack.xml
 usr/share/dbus-1/interfaces/org.kde.nsplugins.class.xml
 usr/share/dbus-1/interfaces/org.kde.nsplugins.instance.xml
 usr/share/dbus-1/interfaces/org.kde.nsplugins.viewer.xml
-usr/share/kde4/services/khtml_plugins.desktop

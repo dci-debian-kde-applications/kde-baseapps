@@ -12,5 +12,3 @@ usr/share/kde4/apps/konqueror/pics/arrow_topright.png
 usr/share/dbus-1/interfaces/org.kde.FavIcon.xml
 usr/share/dbus-1/interfaces/org.kde.libkonq.KonqHistoryManager.xml
 usr/share/dbus-1/interfaces/org.kde.libkonq.UndoManager.xml
-usr/share/kde4/services/kded/favicons.desktop
-usr/share/kde4/servicetypes/konqpopupmenuplugin.desktop

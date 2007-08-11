@@ -1,4 +1,24 @@
-usr/include/
+usr/include/solid/
+usr/include/plasma/
+usr/include/KDE/
+usr/include/libworkspace/
+usr/include/kcommondecoration.h
+usr/include/kdecoration.h
+usr/include/kdecoration_p.h
+usr/include/kdecoration_plugins_p.h
+usr/include/kdecorationfactory.h
+usr/include/kscreensaver.h
+usr/include/kscreensaver_vroot.h
+usr/include/ksgrd/SensorAgent.h
+usr/include/ksgrd/SensorClient.h
+usr/include/ksgrd/SensorManager.h
+usr/include/ksgrd/SensorShellAgent.h
+usr/include/ksgrd/SensorSocketAgent.h
+usr/include/ksysguard/process.h
+usr/include/ksysguard/processes.h
+usr/include/kwineffects.h
+usr/include/kwinglobals.h
+
 
 usr/lib/libdolphinprivate.so
 usr/lib/libkdecorations.so

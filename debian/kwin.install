@@ -115,3 +115,10 @@ usr/share/kde4/services/kwinfocus.desktop
 usr/share/kde4/services/kwinmoving.desktop
 usr/share/kde4/services/kwinoptions.desktop
 usr/share/kde4/services/kwinrules.desktop
+usr/share/kde4/services/kwin/demo_shakymove.desktop
+usr/share/kde4/services/kwin/demo_wavywindows.desktop
+usr/share/kde4/services/kwin/invert.desktop
+usr/share/kde4/services/kwin/lookingglass.desktop
+usr/share/kde4/services/kwin/sharpen.desktop
+usr/share/kde4/services/kwincompositing.desktop
+
