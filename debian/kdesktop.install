@@ -1,9 +1,0 @@
-usr/bin/kdeeject
-usr/bin/ksmserver
-usr/bin/startkde
-
-
-usr/lib/libkdeinit4_ksmserver.so
-usr/share/kde4/apps/ksmserver/pics/shutdownkonq.png
-usr/share/kde4/apps/kconf_update/move_session_config.sh
-usr/share/kde4/apps/kconf_update/ksmserver.upd

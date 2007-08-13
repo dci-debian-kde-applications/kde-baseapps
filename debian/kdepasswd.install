@@ -1,6 +1,14 @@
 usr/bin/kdepasswd
-usr/lib/kde4/kcm_useraccount.so
 usr/share/applications/kde4/kdepasswd.desktop
+usr/lib/kde4/kcm_useraccount.so
+usr/share/kde4/services/kcm_useraccount.desktop
+usr/share/kde4/config.kcfg/kcm_useraccount.kcfg
+usr/share/icons/crystalsvg/48x48/apps/personal.png
+usr/share/icons/crystalsvg/128x128/apps/personal.png
+usr/share/icons/crystalsvg/22x22/apps/personal.png
+usr/share/icons/crystalsvg/32x32/apps/personal.png
+usr/share/icons/crystalsvg/64x64/apps/personal.png
+usr/share/icons/crystalsvg/16x16/apps/personal.png
 usr/share/kde4/apps/kdm/pics/users/Apple.png
 usr/share/kde4/apps/kdm/pics/users/BeachBall.png
 usr/share/kde4/apps/kdm/pics/users/Blowfish.png
@@ -29,5 +37,3 @@ usr/share/kde4/apps/kdm/pics/users/Splash.png
 usr/share/kde4/apps/kdm/pics/users/Star.png
 usr/share/kde4/apps/kdm/pics/users/Teddybear.png
 usr/share/kde4/apps/kdm/pics/users/Turtle.png
-usr/share/kde4/config.kcfg/kcm_useraccount.kcfg
-usr/share/kde4/services/kcm_useraccount.desktop

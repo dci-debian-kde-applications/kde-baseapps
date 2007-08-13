@@ -52,6 +52,13 @@ Description: file manager for KDE focusing on usability
   Undo/redo functionality
   Renaming of a variable number of selected items in one step.
 
+Package: drkonqi
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: KDE crash handler  
+ KDE crash handler 
+
 Package: kappfinder
 Section: kde
 Architecture: any
@@ -63,33 +70,6 @@ Description: non-KDE application finder for KDE
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
-Package: kate
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Suggests: aspell | ispell | hspell, kate-plugins, khelpcenter, konsole
-Description: advanced text editor for KDE
- Kate is a multi document editor, based on a rewritten version of the kwrite
- editing widget of KDE.
- .
- It is a multi-view editor that lets you view several instances of the same
- document with all instances being synced, or view more files at the same time
- for easy reference or simultaneous editing. The terminal emulation and sidebar
- are docked windows that can be plugged out of the main window, or replaced
- therein according to your preference.
- .
- Some random features:
- .
-  * Editing of big files
-  * Extensible syntax highlighting
-  * Folding
-  * Dynamic word wrap
-  * Selectable encoding
-  * Filter command
-  * Global grep dialog
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase' packages for more information.
 
 Package: kcontrol
 Section: kde
@@ -145,12 +125,6 @@ Description: development files for the KDE base module
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
-Package: kdebase-doc
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: short description
- Long description
 
 Package: kdebase-kio-plugins
 Section: kde
@@ -192,23 +166,6 @@ Description: print system for KDE
  .
   Homepage: http://printing.kde.org
 
-Package: kdesktop
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: miscellaneous binaries and files for the KDE desktop
- This package contains miscellaneous binaries and files integral to the KDE
- desktop, including KDE session manager. It is responsible for restoring your
- KDE session on login. It is also needed to properly start a KDE session. It
- registers KDE with X display managers, and provides the 'startkde' command,
- for starting an X session with KDE from the console.
- .
- If you are running KDE for the first time for a certain user, kpersonalizer is
- used to help with setup. If it is not present, KDE will start, but many good
- defaults will not be set.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase' packages for more information.
 
 Package: kdm
 Section: kde
@@ -291,6 +248,13 @@ Description: menu editor for KDE
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
+
+Package: knetattach
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: KDE network wizard
+ KDE network wizard
 
 Package: konqueror
 Section: kde
@@ -422,6 +386,15 @@ Description: the KDE window manager
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
+
+Package: kwrite
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: lightweight text editor for KDE
+ lightweight text editor for KDE
+
+
 Package: libkonq5
 Section: kde
 Architecture: any
@@ -443,3 +416,10 @@ Description: development files for Konqueror's core libraries
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
+
+Package: systemsettings
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: i am not sure
+ i am not sure
