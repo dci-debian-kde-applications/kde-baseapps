@@ -54,6 +54,164 @@ As well, all the Manpages.dox included are under this license, unless specified
 otherwise below.
 
 
+Files under apps/dolphin:
+
+
+Files under apps/kappfinder:
+
+apps/kappfinder/apps/* ~ unspec ~ unspec
+apps/kappfinder/CMakeLists.txt ~ unspec ~ unspec
+apps/kappfinder/common.cpp ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
+apps/kappfinder/common.h ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
+apps/kappfinder/hi128-app-kappfinder.png ~ unspec ~ unspec
+apps/kappfinder/hi16-app-kappfinder.png ~ unspec ~ unspec
+apps/kappfinder/hi22-app-kappfinder.png ~ unspec ~ unspec
+apps/kappfinder/hi32-app-kappfinder.png ~ unspec ~ unspec
+apps/kappfinder/hi48-app-kappfinder.png ~ unspec ~ unspec
+apps/kappfinder/hi64-app-kappfinder.png ~ unspec ~ unspec
+apps/kappfinder/kappfinder.desktop ~ unspec ~ unspec
+apps/kappfinder/main.cpp ~ LGPLv2 ~     Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+apps/kappfinder/main_install.cpp ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
+apps/kappfinder/Messages.sh ~ unspec ~ unspec
+apps/kappfinder/pics/CMakeLists.txt ~ unspec ~ unspec
+apps/kappfinder/pics/* ~ unspec ~ unspec
+apps/kappfinder/README.apps ~ unspec ~ unspec
+apps/kappfinder/toplevel.cpp ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
+apps/kappfinder/toplevel.h ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
+
+
+Files under apps/kdepasswd:
+
+apps/kdepasswd/CMakeLists.txt ~ unspec ~ unspec
+apps/kdepasswd/kcm/chfacedlg.cpp ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>                   
+                                            Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>       
+apps/kdepasswd/kcm/chfacedlg.h ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>
+                                           Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>
+apps/kdepasswd/kcm/chfnprocess.cpp ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>                   
+                                               Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>       
+apps/kdepasswd/kcm/chfnprocess.h ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>                   
+                                             Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>       
+apps/kdepasswd/kcm/CMakeLists.txt ~ unspec ~ unspec
+apps/kdepasswd/kcm/cr128-app-personal.png ~ unspec ~ unspec
+apps/kdepasswd/kcm/cr16-app-personal.png ~ unspec ~ unspec
+apps/kdepasswd/kcm/cr22-app-personal.png ~ unspec ~ unspec
+apps/kdepasswd/kcm/cr32-app-personal.png ~ unspec ~ unspec
+apps/kdepasswd/kcm/cr48-app-personal.png ~ unspec ~ unspec
+apps/kdepasswd/kcm/cr64-app-personal.png ~ unspec ~ unspec
+apps/kdepasswd/kcm/kcm_useraccount.desktop ~ unspec ~ unspec
+apps/kdepasswd/kcm/kcm_useraccount.kcfg ~ unspec ~ unspec
+apps/kdepasswd/kcm/main.cpp ~ LGPLv2h ~ Copyright (C) 2004 Frans Englich <frans.englich@telia.com>
+apps/kdepasswd/kcm/main.h ~ LGPLv2h ~ Copyright (C) 2004 Frans Englich <frans.englich@telia.com>
+apps/kdepasswd/kcm/main_widget.ui ~ unspec ~ unspec
+apps/kdepasswd/kcm/Messages.sh ~ unspec ~ unspec
+apps/kdepasswd/kcm/pass.kcfgc ~ unspec ~ unspec
+apps/kdepasswd/kcm/pics/* ~ unspec ~ unspec
+apps/kdepasswd/kcm/README ~ unspec ~ unspec
+apps/kdepasswd/kcm/settings.kcfgc ~ unspec ~ unspec
+apps/kdepasswd/kdepasswd.cpp ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+apps/kdepasswd/kdepasswd.desktop ~ unspec ~ unspec
+apps/kdepasswd/Messages.sh ~ unspec ~ unspec
+apps/kdepasswd/passwd.cpp ~ Artistic ~ Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+apps/kdepasswd/passwddlg.cpp ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+apps/kdepasswd/passwddlg.h ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+apps/kdepasswd/passwd.h ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+apps/kdepasswd/README ~ unspec ~ unspec
+
+Files under apps/kdialog:
+
+apps/kdialog/CMakeLists.txt ~ unspec ~ unspec
+apps/kdialog/dialog-compat.txt ~ unspec ~ unspec
+apps/kdialog/kdialog.cpp ~ LGPLv2h ~ Copyright (C) 1998 Matthias Hoelzer <hoelzer@kde.org>
+                                     Copyright (C) 2002 David Faure <faure@kde.org>
+                                     Copyright (C) 2005 Brad Hards <bradh@frogmouth.net>
+apps/kdialog/klistboxdialog.cpp ~ LGPLv2h ~ Copyright (C) 1998-2005 Matthias Hoelzer
+apps/kdialog/klistboxdialog.h ~ LGPLv2h ~ Copyright (C) 1998-2005 Matthias Hoelzer
+apps/kdialog/Messages.sh ~ unspec ~ unspec
+apps/kdialog/org.kde.kdialog.ProgressDialog.xml ~ unspec ~ unspec
+apps/kdialog/progresscanceldemo ~ unspec ~ unspec
+apps/kdialog/progressdemo ~ unspec ~ unspec
+apps/kdialog/progressdialog.cpp ~ LGPLv2h ~ Copyright (C) 2004-2005 Stephan Binner <binner@kde.org>
+apps/kdialog/progressdialog.h ~ LGPLv2h ~ Copyright (C) 2004-2005 Stephan Binner <binner@kde.org>
+apps/kdialog/README ~ unspec ~ unspec
+apps/kdialog/test ~ unspec ~ unspec
+apps/kdialog/widgets.cpp ~ LGPLv2h ~ Copyright (C) 1998 Matthias Hoelzer <hoelzer@kde.org>
+                                     Copyright (C) 2002-2005 David Faure <faure@kde.org>
+apps/kdialog/widgets.h ~ LGPLv2h ~ Copyright (C) 1998 Matthias Hoelzer <hoelzer@kde.org>
+                                   Copyright (C) 2002-2005 David Faure <faure@kde.org>
+
+
+Files under apps/keditbookmarks:
+
+apps/keditbookmarks/actionsimpl.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                               Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/actionsimpl.h ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/bookmarkinfo.cpp ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/bookmarkinfo.h ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                              Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/bookmarkiterator.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                                    Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/bookmarkiterator.h ~ LGPLv2 ~ Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/bookmarklistview.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                                    Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+                                                    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/bookmarklistview.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/bookmarkmodel.cpp ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/bookmarkmodel.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/CMakeLists.txt ~ unspec ~ unspec
+apps/keditbookmarks/commands.cpp ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
+                                             Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/commands.h ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
+                                           Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/cr16-app-keditbookmarks.png ~ unspec ~ unspec
+apps/keditbookmarks/cr32-app-keditbookmarks.png ~ unspec ~ unspec
+apps/keditbookmarks/cr48-app-keditbookmarks.png ~ unspec ~ unspec
+apps/keditbookmarks/cr64-app-keditbookmarks.png ~ unspec ~ unspec
+apps/keditbookmarks/dcop.cpp ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
+                                         Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/dcop.h ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/DESIGN ~ unspec ~ unspec
+apps/keditbookmarks/exporters.cpp ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/exporters.h ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/favicons.cpp ~ LGPLv2 ~ Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/favicons.h ~ LGPLv2 ~ Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/importers.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                             Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/importers.h ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
+                                            Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+
+apps/keditbookmarks/kbookmarkmerger.cpp ~ BSD ~ Copyright (C) 2005 Frerich Raabe <raabe@kde.org>
+apps/keditbookmarks/kebsearchline.cpp ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/kebsearchline.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/keditbookmarks-genui.rc ~ unspec ~ unspec
+apps/keditbookmarks/keditbookmarks.kcfg ~ unspec ~ unspec
+apps/keditbookmarks/keditbookmarksui.rc ~ unspec ~ unspec
+apps/keditbookmarks/kinsertionsort.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
+apps/keditbookmarks/main.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                       Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/Messages.sh ~ unspec ~ unspec
+apps/keditbookmarks/settings.kcfgc ~ unspec ~ unspec
+apps/keditbookmarks/testlink.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                            Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/testlink.h ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                          Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/TODO ~ unspec ~ unspec
+apps/keditbookmarks/toplevel.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                             Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/toplevel.h ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
+                                           Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/treeitem.cpp ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/treeitem_p.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
+apps/keditbookmarks/updater.cpp ~ LGPLv2 ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+apps/keditbookmarks/updater.h ~ LGPLv2 ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+
+
+
+Files under apps/kfind:
+Files under apps/konqueror:
+Files under apps/konsole:
+Files under apps/kwrite:
+Files under apps/lib:
+Files under apps/nsplugins:
 
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
