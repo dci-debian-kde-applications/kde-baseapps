@@ -12,18 +12,19 @@ Standards-Version: 3.7.2
 Package: kdebase
 Section: kde
 Architecture: all
-Depends: kappfinder (>= ${binary:Version}), kate (>= ${binary:Version}),
- kcontrol (>= ${binary:Version}), kdebase-bin (>= ${binary:Version}),
- kdebase-data (>= ${binary:Version}), kdebase-kio-plugins (>= ${binary:Version}),
- kdepasswd (>= ${binary:Version}), kdeprint (>= ${binary:Version}),
- kdesktop (>= ${binary:Version}), kfind (>= ${binary:Version}),
+Depends: dolphin (>= ${binary:Version}), drkonqi (>= ${binary:Version}),
+ kappfinder (>= ${binary:Version}), kcontrol (>= ${binary:Version}), 
+ kdebase-bin (>= ${binary:Version}), kdebase-data (>= ${binary:Version}), 
+ kdebase-kio-plugins (>= ${binary:Version}), kdepasswd (>= ${binary:Version}), 
+ kdeprint (>= ${binary:Version}), kfind (>= ${binary:Version}),
  khelpcenter (>= ${binary:Version}), kicker (>= ${binary:Version}),
- klipper (>= ${binary:Version}), kmenuedit (>= ${binary:Version}),
- konqueror-nsplugins (>= ${binary:Version}), konqueror (>= ${binary:Version}),
- konsole (>= ${binary:Version}), kpager (>= ${binary:Version}),
- ksmserver (>= ${binary:Version}), ksplash (>= ${binary:Version}),
+ klipper (>= ${binary:Version}), kmenuedit (>= ${binary:Version}), 
+ knetattach (>= ${binary:Version}), konqueror-nsplugins (>= ${binary:Version}), 
+ konqueror (>= ${binary:Version}), konsole (>= ${binary:Version}), 
+ kpager (>= ${binary:Version}), ksplash (>= ${binary:Version}),
  ksysguard (>= ${binary:Version}), ktip (>= ${binary:Version}),
- kwin (>= ${binary:Version}), libkonq5 (>= ${binary:Version}),
+ kwin (>= ${binary:Version}), kwrite (>= ${binary:Version}), 
+ libkonq5 (>= ${binary:Version}), systemsettings (>= ${binary:Version}),
 Recommends: kdm (>= ${binary:Version})
 Description: base components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
@@ -74,7 +75,7 @@ Description: non-KDE application finder for KDE
 Package: kcontrol
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-data
+Depends: ${shlibs:Depends}, kdebase-data (>= ${binary:Version})
 Description: control center for KDE
  The KDE Control Center provides you with a centralized and convenient way to
  configure all of your KDE settings.
@@ -260,7 +261,7 @@ Package: konqueror
 Section: kde
 Architecture: any
 Provides: info-browser, man-browser, www-browser
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends},  kdebase-data (>= ${binary:Version})
 Description: KDE's advanced file manager, web browser and document viewer
  Konqueror is a file manager and a web browser for the K Desktop Environment.
  .
