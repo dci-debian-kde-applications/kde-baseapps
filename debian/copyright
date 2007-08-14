@@ -55,7 +55,10 @@ otherwise below.
 
 
 Files under apps/dolphin:
-
+ According to COPYING and COPYING-DOCS under apps/dolphin, dolphin is licensed
+ under the GPL v2 (as above) and all the documentation files included are under 
+ the GFDL-1.2 (as above).
+ later.
 
 Files under apps/kappfinder:
 
@@ -205,8 +208,24 @@ apps/keditbookmarks/updater.cpp ~ LGPLv2 ~    Copyright (C) 2003 Alexander Kelle
 apps/keditbookmarks/updater.h ~ LGPLv2 ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
 
 
-
 Files under apps/kfind:
+ According to the header of apps/kfind/kfind.cpp the application is GPLv2 or
+ later.
+ Copyright: (c) 1998-2003 The KDE Developers
+  Martin Hartig
+  Stephan Kulow <coolo@kde.org>
+  Mario Weilguni <mweilguni@sime.com>
+  Alex Zepeda <zipzippy@sonic.net>
+  Miroslav Flídr <flidr@kky.zcu.cz>
+  Harri Porten <porten@kde.org>
+  Dima Rogozin <dima@mercury.co.il>
+  Carsten Pfeiffer <pfeiffer@kde.org>
+  Hans Petter Bieker <bieker@kde.org>
+  Waldo Bastian <bastian@kde.org>
+  Beppe Grimaldi <grimalkin@ciaoweb.it>
+  Eric Coquelle <coquelle@caramail.com>
+
+
 Files under apps/konqueror:
 Files under apps/konsole:
 Files under apps/kwrite:
@@ -219,4 +238,4 @@ The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
 see `/usr/share/common-licenses/GPL'.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-TODO: apps, doc, runtime, workspace
+TODO: runtime, workspace
