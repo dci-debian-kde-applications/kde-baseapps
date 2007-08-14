@@ -228,9 +228,98 @@ Files under apps/kfind:
 
 Files under apps/konqueror:
 Files under apps/konsole:
+
+
 Files under apps/kwrite:
+
+apps/kwrite/CMakeLists.txt ~ unspec ~ unspec
+apps/kwrite/kwrite.desktop ~ unspec ~ unspec
+apps/kwrite/kwritemain.cpp ~ LGPLv2 ~ Copyright (C) 2001 Christoph Cullmann <cullmann@kde.org>
+                                      Copyright (C) 2001 Joseph Wenninger <jowenn@kde.org>
+                                      Copyright (C) 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
+apps/kwrite/kwritemain.h ~ LGPLv2 ~ Copyright (C) 2001 Christoph Cullmann <cullmann@kde.org>
+                                    Copyright (C) 2001 Joseph Wenninger <jowenn@kde.org>
+                                    Copyright (C) 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
+apps/kwrite/kwriteui.rc ~ unspec ~ unspec
+apps/kwrite/pics/* ~ unspec ~ unspec
+
+
 Files under apps/lib:
+
+
 Files under apps/nsplugins:
+
+apps/nsplugins/CMakeLists.txt ~ unspec ~ unspec
+apps/nsplugins/HOWTO.DEBUG ~ unspec ~ unspec
+apps/nsplugins/kcm_nsplugins.cpp ~ GPLv2h ~   Copyright (c) 2003 Dirk Mueller <mueller@kde.org>
+apps/nsplugins/khtml_plugins.desktop ~ unspec ~ unspec
+apps/nsplugins/Messages.sh ~ unspec ~ unspec
+apps/nsplugins/nspluginloader.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
+                                              Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
+apps/nsplugins/nspluginloader.h ~ GPLv2h ~  Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
+                                             Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
+apps/nsplugins/nspluginpart.rc ~ unspec ~ unspec
+apps/nsplugins/org.kde.nsplugins.CallBack.xml ~ unspec ~ unspec
+apps/nsplugins/plugin_part.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
+                                           Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
+apps/nsplugins/plugin_part.h ~ GPLv2h ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
+                                         Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
+apps/nsplugins/pluginscan.cpp ~ GPLv2 ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
+apps/nsplugins/README ~ unspec ~ unspec
+apps/nsplugins/sdk/jni.h ~ MPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
+                                                       * Netscape Communications Corporation and Sun Microsystems, Inc.
+                                                       * Portions created by the Initial Developer are Copyright (C) 1993-1996
+                                                       * the Initial Developer. All Rights Reserved.
+apps/nsplugins/sdk/jni_md.h ~ MPL1.1 ~ Copyright (C) 1998 Netscape Communications Corporation. All Rights Reserved.
+                                       Copyright (c) International Business Machines
+apps/nsplugins/sdk/jri.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
+                                                       * Netscape Communications Corporation.
+                                                       * Portions created by the Initial Developer are Copyright (C) 1998
+                                                       * the Initial Developer. All Rights Reserved.
+apps/nsplugins/sdk/jri_md.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
+                                                       * Netscape Communications Corporation.
+                                                       * Portions created by the Initial Developer are Copyright (C) 1998
+                                                       * the Initial Developer. All Rights Reserved.
+apps/nsplugins/sdk/jritypes.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
+                                                       * Netscape Communications Corporation.
+                                                       * Portions created by the Initial Developer are Copyright (C) 1998
+                                                       * the Initial Developer. All Rights Reserved.
+apps/nsplugins/sdk/npapi.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
+                                                       * Netscape Communications Corporation.
+                                                       * Portions created by the Initial Developer are Copyright (C) 1998
+                                                       * the Initial Developer. All Rights Reserved.
+apps/nsplugins/sdk/npupp.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
+                                                       * Netscape Communications Corporation.
+                                                       * Portions created by the Initial Developer are Copyright (C) 1998
+                                                       * the Initial Developer. All Rights Reserved.
+apps/nsplugins/sdk/obsolete/protypes.h ~ MPL1.1 ~  * Copyright (C) 1998-2000 Netscape Communications Corporation.
+apps/nsplugins/sdk/prcpucfg.h ~ MPL 1.1/GPL 2.0/LGPL 2.1 ~    * The Initial Developer of the Original Code is
+                                                       * Netscape Communications Corporation.
+                                                       * Portions created by the Initial Developer are Copyright (C) 1998
+                                                       * the Initial Developer. All Rights Reserved.
+apps/nsplugins/sdk/prtypes.h ~ MPL1.1 ~  * The Initial Developer of the Original Code is Netscape
+                                         * Communications Corporation.  Portions created by Netscape are
+                                         * Copyright (C) 1998-2000 Netscape Communications Corporation.  All
+                                         * Rights Reserved.
+apps/nsplugins/TESTCASES ~ unspec ~ unspec
+apps/nsplugins/test/CMakeLists.txt ~ unspec ~ unspec
+apps/nsplugins/test/testnsplugin.cpp ~ GPLv2h ~   Copyright (c) 2000 Stefan Schimanski <1Stein@gmx.de>
+apps/nsplugins/test/testnsplugin.h ~ GPLv2h ~   Copyright (c) 2000 Stefan Schimanski <1Stein@gmx.de>
+apps/nsplugins/test/testnsplugin.rc ~ unspec ~ unspec
+apps/nsplugins/TODO ~ unspec ~ unspec
+apps/nsplugins/viewer/CMakeLists.txt ~ unspec ~ unspec
+apps/nsplugins/viewer/nsplugin.cpp ~ GPLv2 ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+apps/nsplugins/viewer/nsplugin.h ~ GPLv2 ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+  Copyright (c) 2003-2005 George Staikos <staikos@kde.org>
+apps/nsplugins/viewer/org.kde.nsplugins.class.xml ~ unspec ~ unspec
+apps/nsplugins/viewer/org.kde.nsplugins.instance.xml ~ unspec ~ unspec
+apps/nsplugins/viewer/org.kde.nsplugins.viewer.xml ~ unspec ~ unspec
+apps/nsplugins/viewer/qxteventloop.cpp ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+apps/nsplugins/viewer/qxteventloop.h ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+apps/nsplugins/viewer/resolve.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+apps/nsplugins/viewer/viewer.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <mhk@caldera.de>
+apps/nsplugins/wrapper/CMakeLists.txt ~ unspec ~ unspec
+apps/nsplugins/wrapper/wrapper.c ~ unspec ~ unspec
 
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
