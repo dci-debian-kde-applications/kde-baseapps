@@ -52,13 +52,20 @@ Description: file manager for KDE focusing on usability
   Network transparency
   Undo/redo functionality
   Renaming of a variable number of selected items in one step.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
 
 Package: drkonqi
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: KDE crash handler  
- KDE crash handler 
+ drkonqi is the KDE crash handler, it gives information to the user when a
+ KDE application crashes.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
 
 Package: kappfinder
 Section: kde
@@ -70,7 +77,6 @@ Description: non-KDE application finder for KDE
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
-
 
 Package: kcontrol
 Section: kde
@@ -125,7 +131,6 @@ Description: development files for the KDE base module
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
-
 
 Package: kdebase-kio-plugins
 Section: kde
@@ -255,7 +260,11 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: KDE network wizard
- KDE network wizard
+ KNetAttach is an application which makes it easier to integrate your network
+ resources with your KDE Desktop.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
 
 Package: konqueror
 Section: kde
@@ -392,8 +401,16 @@ Package: kwrite
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: lightweight text editor for KDE
- lightweight text editor for KDE
+Description: text editor for KDE
+ KWrite is more than a text editor for the KDE Desktop. It is meant to be a
+ programmer's editor, and could be considered as at least a partial alternative
+ to more powerful editors. It may be best used in conjunction with Konqueror
+ for source file browsing for different languages. KWrite also works very well
+ as a simple text editor. One of KWrite's main features is the colorized
+ syntax, customized for many different programming languages.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
 
 
 Package: libkonq5
@@ -422,5 +439,11 @@ Package: systemsettings
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: i am not sure
- i am not sure
+Description: KDE System Settings Center
+ KDE System Settings Center is the replacement for kcontrol. It is an improved
+ user interface hosting various modules for configuring the desktop and other
+ aspects of the system.
+  .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
+
