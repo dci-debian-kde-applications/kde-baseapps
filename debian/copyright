@@ -657,16 +657,202 @@ Files under runtime/kde-menu:
 
 
 Files under runtime/kdeprint:
-Files under runtime/kdesu
-Files under runtime/kfile
-Files under runtime/khelpcenter
-Files under runtime/kinstalltheme
-Files under runtime/kioclient
-Files under runtime/kioexec
-Files under runtime/kioslave
-Files under runtime/kmimetypefinder
-Files under runtime/knetattach
-Files under runtime/knewstuff
+
+ runtime/kdeprint/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeprint/descriptions/* ~ unspec ~ unspec
+ runtime/kdeprint/filters/* ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/anytops ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/conffax.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/conffax.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/conffilters.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/conffilters.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/confgeneral.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/confgeneral.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/configdlg.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/configdlg.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/confsystem.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/confsystem.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/defcmds.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kdeprintfax/defcmds.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/faxab.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/faxab.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/faxctrl.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/faxctrl.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/faxfilters ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/filterdlg.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/filterdlg.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/hi128-app-kdeprintfax.png ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/hi16-app-kdeprintfax.png ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/hi22-app-kdeprintfax.png ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/hi32-app-kdeprintfax.png ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/hi48-app-kdeprintfax.png ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/hi64-app-kdeprintfax.png ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/hisc-app-kdeprintfax.svgz ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/kdeprintfax.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/kdeprintfax.desktop ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/kdeprintfax.h ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/kdeprintfaxui.rc ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/main.cpp ~ GPLv2h ~  *   Copyright (C) 2001  Michael Goffioul
+ runtime/kdeprint/kdeprintfax/Messages.sh ~ unspec ~ unspec
+ runtime/kdeprint/kdeprintfax/ox16-action-abentry.png ~ unspec ~ unspec
+ runtime/kdeprint/kdeprint_part/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeprint/kdeprint_part/kdeprint_part.desktop ~ unspec ~ unspec
+ runtime/kdeprint/kdeprint_part/kdeprint_part.rc ~ unspec ~ unspec
+ runtime/kdeprint/kdeprint_part/Messages.sh ~ unspec ~ unspec
+ runtime/kdeprint/kdeprint_part/printpart.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kdeprint_part/printpart.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kjobviewer/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/hi128-app-kjobviewer.png ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/hi16-app-kjobviewer.png ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/hi22-app-kjobviewer.png ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/hi32-app-kjobviewer.png ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/hi48-app-kjobviewer.png ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/hi64-app-kjobviewer.png ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/hisc-app-kjobviewer.svgz ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/kjobviewer.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kjobviewer/kjobviewer.desktop ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/kjobviewer.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kjobviewer/kjobviewerui.rc ~ unspec ~ unspec
+ runtime/kdeprint/kjobviewer/main.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kjobviewer/Messages.sh ~ unspec ~ unspec
+ runtime/kdeprint/kprinter/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeprint/kprinter/kprinter.desktop ~ unspec ~ unspec
+ runtime/kdeprint/kprinter/main.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kprinter/Messages.sh ~ unspec ~ unspec
+ runtime/kdeprint/kprinter/printwrapper.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/kprinter/printwrapper.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/printmgr/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/hi128-app-printmgr.png ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/hi16-app-printmgr.png ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/hi22-app-printmgr.png ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/hi32-app-printmgr.png ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/hi48-app-printmgr.png ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/hi64-app-printmgr.png ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/hisc-app-printmgr.svgz ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/kcmprintmgr.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/printmgr/kcmprintmgr.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/printmgr/Messages.sh ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/printers.desktop ~ unspec ~ unspec
+ runtime/kdeprint/printmgr/printmgr.desktop ~ unspec ~ unspec
+ runtime/kdeprint/slave/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeprint/slave/kio_print.cpp ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/slave/kio_print.h ~ LGPLv2 ~  *  Copyright (c) 2001 Michael Goffioul <kdeprint@swing.be>
+ runtime/kdeprint/slave/Messages.sh ~ unspec ~ unspec
+ runtime/kdeprint/slave/printdb.protocol ~ unspec ~ unspec
+ runtime/kdeprint/slave/print.protocol ~ unspec ~ unspec
+ runtime/kdeprint/slave/templates/* ~ unspec ~ unspec
+
+
+Files under runtime/kdesu:
+
+ runtime/kdesu/AUTHORS ~ unspec ~ unspec
+ runtime/kdesu/ChangeLog ~ unspec ~ unspec
+ runtime/kdesu/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdesu/configure.in.in ~ unspec ~ unspec
+ runtime/kdesu/FAQ ~ unspec ~ unspec
+ runtime/kdesu/kdesu/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdesu/kdesud/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdesu/kdesud/handler.cpp ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/kdesud/handler.h ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/kdesud/kdesud.cpp ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+            ki18n("Copyright (c) 1999,2000 Geert Jansen"));
+ runtime/kdesu/kdesud/lexer.cpp ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/kdesud/lexer.h ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/kdesud/Messages.sh ~ unspec ~ unspec
+ runtime/kdesu/kdesud/repo.cpp ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <g.t.jansen@stud.tue.nl>
+ runtime/kdesu/kdesud/repo.h ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/kdesud/secure.cpp ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <g.t.jansen@stud.tue.nl>
+ runtime/kdesu/kdesud/secure.h ~ unspec  ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/kdesu/kdesu.cpp ~ unspec ~  * Copyright (C) 1998 Pietro Iglio <iglio@fub.it>
+ runtime/kdesu/kdesu/Messages.sh ~ unspec ~ unspec
+ runtime/kdesu/kdesu/sudlg.cpp ~ unspec ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/kdesu/sudlg.h ~ unspec ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ runtime/kdesu/LICENSE.readme ~ unspec ~ unspec
+ runtime/kdesu/README ~ unspec ~ unspec
+ runtime/kdesu/TODO ~ unspec ~ unspec
+
+
+Files under runtime/kfile:
+
+ runtime/kfile/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kfile/fileprops.cpp ~ LGPLv2 ~    Copyright (C) 2002,2003 Carsten Pfeiffer <pfeiffer@kde.org>
+ runtime/kfile/fileprops.h ~ LGPLv2 ~     Copyright (C) 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+ runtime/kfile/Messages.sh ~ unspec ~ unspec
+ runtime/kfile/README ~ unspec ~ unspec
+
+
+Files under runtime/khelpcenter:
+TODO
+
+Files under runtime/kinstalltheme:
+
+ runtime/kinstalltheme/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kinstalltheme/main.cpp ~ MIT ~   Copyright (c) 2002 Maksim Orlovich <mo002j@mail.rochester.edu>
+
+Files under runtime/kioclient:
+
+ runtime/kioclient/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kioclient/kioclient.cpp ~ LGPLv2 ~    Copyright (C) 1999-2006 David Faure <faure@kde.org>
+ runtime/kioclient/kioclient.h ~ LGPLv2 ~    Copyright (C) 1999-2006 David Faure <faure@kde.org>
+ runtime/kioclient/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/kioexec:
+
+ runtime/kioexec/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kioexec/main.cpp ~ GPLv2h ~ Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
+                                     Copyright (C)  2000-2005 David Faure <faure@kde.org>
+                                     Copyright (C)       2001 Waldo Bastian <bastian@kde.org>
+ runtime/kioexec/main.h ~ GPLv2h ~   Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
+                                     Copyright (C)  2000-2005 David Faure <faure@kde.org>
+                                     Copyright (C)       2001 Waldo Bastian <bastian@kde.org>
+ runtime/kioexec/Messages.sh ~ unspec ~ unspec
+ runtime/kioexec/README ~ unspec ~ unspec
+
+
+
+Files under runtime/kioslave:
+TODO
+
+
+Files under runtime/kmimetypefinder:
+
+ runtime/kmimetypefinder/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kmimetypefinder/kmimetypefinder.cpp ~ LGPLv2 ~  *  Copyright (C) 2002 David Faure   <faure@kde.org>
+ runtime/kmimetypefinder/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/knetattach:
+
+ runtime/knetattach/CMakeLists.txt ~ unspec ~ unspec
+ runtime/knetattach/hi128-app-knetattach.png ~ unspec ~ unspec
+ runtime/knetattach/hi16-app-knetattach.png ~ unspec ~ unspec
+ runtime/knetattach/hi22-app-knetattach.png ~ unspec ~ unspec
+ runtime/knetattach/hi32-app-knetattach.png ~ unspec ~ unspec
+ runtime/knetattach/hi48-app-knetattach.png ~ unspec ~ unspec
+ runtime/knetattach/hi64-app-knetattach.png ~ unspec ~ unspec
+ runtime/knetattach/hisc-app-knetattach.svgz ~ unspec ~ unspec
+ runtime/knetattach/knetattach.cpp ~ GPLv2h ~    Copyright (C) 2004 George Staikos <staikos@kde.org>
+ runtime/knetattach/knetattach.desktop ~ unspec ~ unspec
+ runtime/knetattach/knetattach.h ~ GPLv2h ~    Copyright (C) 2004 George Staikos <staikos@kde.org>
+ runtime/knetattach/knetattach.ui ~ unspec ~ unspec
+ runtime/knetattach/main.cpp ~ GPLv2h ~    Copyright (C) 2004 George Staikos <staikos@kde.org>
+ runtime/knetattach/Messages.sh ~ unspec ~ unspec
+ runtime/knetattach/TODO ~ unspec ~ unspec
+
+
+Files under runtime/knewstuff:
+
+ runtime/knewstuff/CMakeLists.txt ~ unspec ~ unspec
+ runtime/knewstuff/khotnewstuff.cpp ~ LGPLv2h ~     Copyright (c) 2002 Cornelius Schumacher <schumacher@kde.org>
+ runtime/knewstuff/khotnewstuffrc ~ unspec ~ unspec
+ runtime/knewstuff/Messages.sh ~ unspec ~ unspec
+ runtime/knewstuff/ox16-action-knewstuff.png ~ unspec ~ unspec
+ runtime/knewstuff/ox32-action-knewstuff.png ~ unspec ~ unspec
+ runtime/knewstuff/ox64-action-knewstuff.png ~ unspec ~ unspec
+
+
 Files under runtime/knotify
 Files under runtime/kpasswdserver
 Files under runtime/kquitapp
