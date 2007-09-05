@@ -375,9 +375,45 @@ Files under apps/nsplugins:
  apps/nsplugins/wrapper/wrapper.c ~ unspec ~ unspec
 
 
+Files under doc:
+
+Files under runtime:
+
+Files under runtime/cmake
+Files under runtime/drkonqi
+Files under runtime/kcmshell
+Files under runtime/kcontrol
+Files under runtime/kdebugdialog
+Files under runtime/kdeeject
+Files under runtime/kde-menu
+Files under runtime/kdeprint
+Files under runtime/kdesu
+Files under runtime/kfile
+Files under runtime/khelpcenter
+Files under runtime/kinstalltheme
+Files under runtime/kioclient
+Files under runtime/kioexec
+Files under runtime/kioslave
+Files under runtime/kmimetypefinder
+Files under runtime/knetattach
+Files under runtime/knewstuff
+Files under runtime/knotify
+Files under runtime/kpasswdserver
+Files under runtime/kquitapp
+Files under runtime/kreadconfig
+Files under runtime/kstart
+Files under runtime/kstyles
+Files under runtime/ktimezoned
+Files under runtime/ktraderclient
+Files under runtime/kuiserver
+Files under runtime/kurifilter-plugins
+Files under runtime/l10n
+Files under runtime/nepomuk
+Files under runtime/phonon
+Files under runtime/pics
+Files under runtime/soliduiserver
+
+
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
 see `/usr/share/common-licenses/GPL'.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-TODO: runtime, workspace

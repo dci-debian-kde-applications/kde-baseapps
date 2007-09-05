@@ -1,5 +1,6 @@
-usr/lib/libkdeinit4_kwrite.so
+
 usr/bin/kwrite
+usr/lib/libkdeinit4_kwrite.so
 usr/share/applications/kde4/kwrite.desktop
 usr/share/kde4/apps/kwrite/kwriteui.rc
 

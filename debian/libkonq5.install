@@ -1,10 +1,10 @@
-usr/lib/libkonq.so.5.0.0
-usr/lib/libkonq.so.5
 usr/lib/kde4/konq_sound.so
+usr/lib/libkonq.so.5
+usr/lib/libkonq.so.5.0.0
 usr/share/dbus-1/interfaces/org.kde.libkonq.KonqHistoryManager.xml
 usr/share/dbus-1/interfaces/org.kde.libkonq.UndoManager.xml
-usr/share/kde4/apps/konqueror/pics/thumbnailfont_7x4.png
-usr/share/kde4/apps/konqueror/pics/arrow_topleft.png
-usr/share/kde4/apps/konqueror/pics/arrow_topright.png
 usr/share/kde4/apps/konqueror/pics/arrow_bottomleft.png
 usr/share/kde4/apps/konqueror/pics/arrow_bottomright.png
+usr/share/kde4/apps/konqueror/pics/arrow_topleft.png
+usr/share/kde4/apps/konqueror/pics/arrow_topright.png
+usr/share/kde4/apps/konqueror/pics/thumbnailfont_7x4.png

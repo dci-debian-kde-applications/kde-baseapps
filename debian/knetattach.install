@@ -1,11 +1,12 @@
+
 usr/bin/knetattach
 usr/share/applications/kde4/knetattach.desktop
 usr/share/icons/hicolor/128x128/apps/knetattach.png
-usr/share/icons/hicolor/48x48/apps/knetattach.png
-usr/share/icons/hicolor/32x32/apps/knetattach.png
 usr/share/icons/hicolor/16x16/apps/knetattach.png
-usr/share/icons/hicolor/64x64/apps/knetattach.png
 usr/share/icons/hicolor/22x22/apps/knetattach.png
+usr/share/icons/hicolor/32x32/apps/knetattach.png
+usr/share/icons/hicolor/48x48/apps/knetattach.png
+usr/share/icons/hicolor/64x64/apps/knetattach.png
 usr/share/icons/hicolor/scalable/apps/knetattach.svgz
 
 usr/share/doc/kde4/HTML/en/knetattach/index.cache.bz2
@@ -13,5 +14,6 @@ usr/share/doc/kde4/HTML/en/knetattach/index.docbook
 usr/share/doc/kde4/HTML/en/knetattach/screenshot.png
 usr/share/doc/kde4/HTML/en/knetattach/screenshot1.png
 usr/share/doc/kde4/HTML/en/knetattach/screenshot2.png
-usr/share/doc/kde4/HTML/en/knetattach/screenshot4.png
 usr/share/doc/kde4/HTML/en/knetattach/screenshot3.png
+usr/share/doc/kde4/HTML/en/knetattach/screenshot4.png
+
