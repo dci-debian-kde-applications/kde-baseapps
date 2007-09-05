@@ -1,4 +1,4 @@
-This package was debianized by the Debian Qt/KDE Maintainers on
+eThis package was debianized by the Debian Qt/KDE Maintainers on
 Fri, 11 May 2007 17:23:33 +0200.
 
 It was downloaded from ftp://ftp.kde.org
@@ -374,15 +374,69 @@ Files under apps/nsplugins:
  apps/nsplugins/wrapper/CMakeLists.txt ~ unspec ~ unspec
  apps/nsplugins/wrapper/wrapper.c ~ unspec ~ unspec
 
-
-Files under doc:
-
 Files under runtime:
 
-Files under runtime/cmake
-Files under runtime/drkonqi
-Files under runtime/kcmshell
-Files under runtime/kcontrol
+ CMakeLists.txt ~ unspec ~ unspec
+ config-runtime.h.cmake ~ unspec ~ unspec
+ Mainpage.dox ~ unspec ~ unspec
+
+
+Files under runtime/cmake:
+
+ runtime/cmake/CMakeLists.txt ~ unspec ~ unspec
+ runtime/cmake/modules/CMakeLists.txt ~ unspec ~ unspec
+ runtime/cmake/modules/FindXCB.cmake ~ BSD ~ Copyright (c) 2007, Matthias Kretz, <kretz@kde.org>
+ runtime/cmake/modules/FindXine.cmake ~ BSD ~ Copyright (c) 2006,2007 Laurent Montel, <montel@kde.org>
+                                              Copyright (c) 2006, Matthias Kretz, <kretz@kde.org>
+
+
+Files under runtime/drkonqi:
+
+ runtime/drkonqi/AUTHORS ~ unspec ~ unspec
+ runtime/drkonqi/backtrace.cpp ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/backtrace.h ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/CMakeLists.txt ~ unspec ~ unspec
+ runtime/drkonqi/debugger.cpp ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/debugger.h ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/debuggers/CMakeLists.txt ~ unspec ~ unspec
+ runtime/drkonqi/debuggers/gdbrc ~ unspec ~ unspec
+ runtime/drkonqi/drbugreport.cpp ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org> 
+ runtime/drkonqi/drbugreport.h ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/krashadaptor.cpp ~ unspec ~  * dbusidl2cpp is Copyright (C) 2006 Trolltech AS. All rights reserved.
+ runtime/drkonqi/krashadaptor.h ~ MIT~  * Copyright (C) 2003 Hamish Rodda <rodda@kde.org>
+ runtime/drkonqi/krashconf.cpp ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/krashconf.h ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/LICENSE ~ unspec ~ unspec
+ runtime/drkonqi/main.cpp ~ LGPLv2 ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/Messages.sh ~ unspec ~ unspec
+ runtime/drkonqi/pics/CMakeLists.txt ~ unspec ~ unspec
+ runtime/drkonqi/pics/konqi.png ~ unspec ~ unspec
+ runtime/drkonqi/presets/CMakeLists.txt ~ unspec ~ unspec
+ runtime/drkonqi/presets/developerrc ~ unspec ~ unspec
+ runtime/drkonqi/presets/enduserrc ~ unspec ~ unspec
+ runtime/drkonqi/README ~ unspec ~ unspec
+ runtime/drkonqi/tests/CMakeLists.txt ~ unspec ~ unspec
+ runtime/drkonqi/tests/crashtest.cpp ~ unspec ~ unspec
+ runtime/drkonqi/toplevel.cpp ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/drkonqi/toplevel.h ~ MIT ~  * Copyright (C) 2000-2003 Hans Petter Bieker <bieker@kde.org>
+ 
+
+Files under runtime/kcmshell:
+
+ runtime/kcmshell/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcmshell/main.cpp ~ LGPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                       Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                       Copyright (c) 2004 Frans Englich <frans.englich@telia.com>
+ runtime/kcmshell/main.h ~ LGPLv2 h~  Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+                                      Copyright (c) 2004 Frans Englich <frans.englich@telia.com>
+ runtime/kcmshell/Mainpage.dox ~ unspec ~ unspec
+ runtime/kcmshell/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/kcontrol:
+
+
+
 Files under runtime/kdebugdialog
 Files under runtime/kdeeject
 Files under runtime/kde-menu
