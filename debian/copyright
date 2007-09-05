@@ -435,12 +435,228 @@ Files under runtime/kcmshell:
 
 Files under runtime/kcontrol:
 
+ runtime/kcontrol/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/browserconfig_ui.ui ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/componentchooser.cpp ~ GPLv2 ~     copyright        : (C) 2002 by Joseph Wenninger
+ runtime/kcontrol/componentchooser/componentchooser.desktop ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/componentchooser.h ~ GPLv2 ~     copyright      : (C) 2002 by Joseph Wenninger
+ runtime/kcontrol/componentchooser/componentchooserterminal.cpp ~ GPLv2 ~  copyright        : (C) 2002 by Joseph Wenninger
+ runtime/kcontrol/componentchooser/componentchooserterminal.h ~ GPLv2 ~     copyright       : (C) 2002 by Joseph Wenninger
+ runtime/kcontrol/componentchooser/componentchooser_ui.ui ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/componentconfig_ui.ui ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/componentservices/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/componentservices/kcm_browser.desktop ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/componentservices/kcm_kemail.desktop ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/componentservices/kcm_terminal.desktop ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/emailclientconfig_ui.ui ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/EXAMPLE.desktop ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/kcm_componentchooser.cpp ~ GPLv2 ~     copyright            : (C) 2002 by Joseph Wenninger
+ runtime/kcontrol/componentchooser/kcm_componentchooser.h ~ GPLv2 ~     copyright            : (C) 2002 by Joseph Wenninger
+ runtime/kcontrol/componentchooser/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/componentchooser/terminalemulatorconfig_ui.ui ~ unspec ~ unspec
+ runtime/kcontrol/dnssd/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/dnssd/configdialog.ui ~ unspec ~ unspec
+ runtime/kcontrol/dnssd/kcmdnssd.cpp ~ GPLv2h ~  *   Copyright (C) 2004,2005 by Jakub Stachowski                           *
+ runtime/kcontrol/dnssd/kcmdnssd.h ~ GPLv2h ~  *   Copyright (C) 2004,2005 by Jakub Stachowski                           *
+ runtime/kcontrol/dnssd/kcm_kdnssd.desktop ~ unspec ~ unspec
+ runtime/kcontrol/dnssd/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/icons/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/icons/cr16-app-icons.png ~ unspec ~ unspec
+ runtime/kcontrol/icons/cr22-app-icons.png ~ unspec ~ unspec
+ runtime/kcontrol/icons/cr32-app-icons.png ~ unspec ~ unspec
+ runtime/kcontrol/icons/cr48-app-icons.png ~ unspec ~ unspec
+ runtime/kcontrol/icons/cr64-app-icons.png ~ unspec ~ unspec
+ runtime/kcontrol/icons/icons.cpp ~ GPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ runtime/kcontrol/icons/icons.desktop ~ unspec ~ unspec
+ runtime/kcontrol/icons/icons.h ~ GPLv2 ~  * Copyright (C) 2000 Geert Jansen <jansen@kde.org>
+ runtime/kcontrol/icons/iconthemes.cpp ~ GPLv2h ~  *  Copyright (c) 2000 Antonio Larrosa <larrosa@kde.org>
+ runtime/kcontrol/icons/iconthemes.h ~ GPLv2h ~  * Copyright (c) 2000 Antonio Larrosa <larrosa@kde.org>
+ runtime/kcontrol/icons/main.cpp ~ GPLv2h ~  * Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/icons/main.h ~ GPLv2h ~  * Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/icons/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/icons/tests/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/icons/tests/testicons.cpp ~ unspec ~ unspec
+ runtime/kcontrol/infocenter/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/infocenter/ioslaveinfo/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/infocenter/ioslaveinfo/ioslaveinfo.desktop ~ unspec ~ unspec
+ runtime/kcontrol/infocenter/ioslaveinfo/kcmioslaveinfo.cpp ~ GPLv2h ~ Copyright 2001 Alexander Neundorf <neundorf@kde.org>
+                                                                      Copyright 2001 George Staikos  <staikos@kde.org>
+ runtime/kcontrol/infocenter/ioslaveinfo/kcmioslaveinfo.h ~ GPLv2h ~  Copyright 2001 Alexander Neundorf  <alexander.neundorf@rz.tu-ilmenau.de>, Copyright 2001 George Staikos  <staikos@kde.org>
+ runtime/kcontrol/infocenter/ioslaveinfo/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/about/* ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/aboutwidget.cpp ~ GPLv2h ~   Copyright (c) 2000,2001 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/aboutwidget.h ~ GPLv2h ~   Copyright (c) 2000,2001 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/cr128-app-hwinfo.png ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/cr16-app-hwinfo.png ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/cr22-app-hwinfo.png ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/cr32-app-hwinfo.png ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/cr48-app-hwinfo.png ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/cr64-app-hwinfo.png ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/crsc-app-hwinfo.svgz ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/dockcontainer.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/dockcontainer.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/global.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/global.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/helpwidget.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/helpwidget.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/indexwidget.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                      Copyright (c) 2003 Frauke Oster <frauke.oster@t-online.de>
+ runtime/kcontrol/kcontrol/indexwidget.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/KControl_NoDisplay.desktop ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/kcrootonly.cpp ~ GPLv2h ~   Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ runtime/kcontrol/kcontrol/kcrootonly.h ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/kinfocenter.desktop ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/kinfocenterui.rc ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/main.cpp ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                                Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/main.h ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                              Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/kcontrol/moduleiconview.cpp ~ GPLv2h ~  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                         Copyright (c) 2003 Daniel Molkentin <molkentin@kde.org>
+ runtime/kcontrol/kcontrol/moduleiconview.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/moduleIface.cpp ~ GPLv2h ~   Copyright (c) 2001 Daniel Molkentin <molkentin@kde.org>
+ runtime/kcontrol/kcontrol/moduleIface.h ~ GPLv2h ~   Copyright (c) 2001 Daniel Molkentin <molkentin@kde.org>
+ runtime/kcontrol/kcontrol/modulemenu.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/kcontrol/modulemenu.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/kcontrol/modules.cpp ~ GPLv2h ~   Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/kcontrol/modules.h ~ GPLv2h ~   Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/kcontrol/moduletreeview.cpp ~ GPLv2h ~  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                          Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/kcontrol/moduletreeview.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/proxywidget.cpp ~ GPLv2h ~   Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/kcontrol/proxywidget.h ~ GPLv2h ~   Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ runtime/kcontrol/kcontrol/quickhelp.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/quickhelp.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/searchwidget.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                         Copyright (c) 2004 Daniel Molkentin <molkentin@kde.org>
+ runtime/kcontrol/kcontrol/searchwidget.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                       Copyright (c) 2004 Daniel Molkentin <molkentin@kde.org>
+ runtime/kcontrol/kcontrol/toplevel.cpp ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                                   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/toplevel.h ~ GPLv2h ~   Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                                   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ runtime/kcontrol/kcontrol/version.h ~ unspec ~ unspec
 
 
-Files under runtime/kdebugdialog
-Files under runtime/kdeeject
-Files under runtime/kde-menu
-Files under runtime/kdeprint
+ runtime/kcontrol/kded/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/kded/kcmkded.cpp ~ LGPLv2 ~    Copyright (C) 2002 Daniel Molkentin <molkentin@kde.org>
+ runtime/kcontrol/kded/kcmkded.desktop ~ unspec ~ unspec
+ runtime/kcontrol/kded/kcmkded.h ~ LGPLv2 ~    Copyright (C) 2002 Daniel Molkentin <molkentin@kde.org>
+ runtime/kcontrol/kded/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/knotify/CHANGES ~ unspec ~ unspec
+ runtime/kcontrol/knotify/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/knotify/cr16-app-knotify.png ~ unspec ~ unspec
+ runtime/kcontrol/knotify/cr32-app-knotify.png ~ unspec ~ unspec
+ runtime/kcontrol/knotify/cr48-app-knotify.png ~ unspec ~ unspec
+ runtime/kcontrol/knotify/cr64-app-knotify.png ~ unspec ~ unspec
+ runtime/kcontrol/knotify/kcmnotify.desktop ~ unspec ~ unspec
+ runtime/kcontrol/knotify/knotify.cpp ~ GPLv2h ~ Copyright (C) 2000,2002 Carsten Pfeiffer <pfeiffer@kde.org>
+                                                 Copyright (C) 2005,2006 Olivier Goffart <ogoffart at kde.org>
+ runtime/kcontrol/knotify/knotify.h ~ GPLv2h ~ Copyright (C) 2000,2002 Carsten Pfeiffer <pfeiffer@kde.org>
+                                               Copyright (C) 2005,2006 Olivier Goffart <ogoffart at kde.org>
+ runtime/kcontrol/knotify/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/knotify/playersettings.ui ~ unspec ~ unspec
+ runtime/kcontrol/knotify/play.png ~ unspec ~ unspec
+ runtime/kcontrol/knotify/README ~ unspec ~ unspec
+ runtime/kcontrol/knotify/sounds/* ~ unspec ~ unspec
+ runtime/kcontrol/locale/AUTHORS ~ unspec ~ unspec
+ runtime/kcontrol/locale/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/locale/cr128-app-locale.png ~ unspec ~ unspec
+ runtime/kcontrol/locale/cr16-app-locale.png ~ unspec ~ unspec
+ runtime/kcontrol/locale/cr22-app-locale.png ~ unspec ~ unspec
+ runtime/kcontrol/locale/cr32-app-locale.png ~ unspec ~ unspec
+ runtime/kcontrol/locale/cr48-app-locale.png ~ unspec ~ unspec
+ runtime/kcontrol/locale/cr64-app-locale.png ~ unspec ~ unspec
+ runtime/kcontrol/locale/crsc-app-locale.svgz ~ unspec ~ unspec
+ runtime/kcontrol/locale/default/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/locale/default/entry.desktop ~ unspec ~ unspec
+ runtime/kcontrol/locale/kcmlocale.cpp ~ GPLv2h ~ Copyright (c) 1998 Matthias Hoelzer (hoelzer@physik.uni-wuerzburg.de)
+                                                  Copyright (c) 1999 Preston Brown <pbrown@kde.org>
+                                                  Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/kcmlocale.h ~ GPLv2h ~ Copyright (c) 1998 Matthias Hoelzer <hoelzer@physik.uni-wuerzburg.de>
+                                                Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/klocalesample.cpp ~ GPLv2h ~  Copyright (c) 1998 Matthias Hoelzer (hoelzer@physik.uni-wuerzburg.de)
+                                                      Copyright (c) 1999 Preston Brown <pbrown@kde.org>
+                                                      Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/klocalesample.h ~ GPLv2h ~ Copyright (c) 1998 Matthias Hoelzer (hoelzer@physik.uni-wuerzburg.de)
+                                                     Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/language.desktop ~ unspec ~ unspec
+ runtime/kcontrol/locale/language.ui ~ unspec ~ unspec
+ runtime/kcontrol/locale/localemon.cpp ~ GPLv2h ~  Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/localemon.h ~ GPLv2h ~ Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/localenum.cpp ~ GPLv2h ~  Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/localenum.h ~ GPLv2h ~ Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/localeother.cpp ~ GPLv2h ~ Copyright (c) 2001-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/localeother.h ~ GPLv2h ~ Copyright (c) 2001-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/localetime.cpp ~ GPLv2h ~ Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/localetime.h ~ GPLv2h ~  Copyright (c) 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/main.cpp ~ GPLv2h ~   Copyright 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/locale/pics/background.png ~ unspec ~ unspec
+ runtime/kcontrol/locale/pics/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/locale/TIMEZONES ~ unspec ~ unspec
+ runtime/kcontrol/locale/toplevelbase.ui ~ unspec ~ unspec
+ runtime/kcontrol/locale/toplevel.cpp ~ GPLv2h ~  Copyright 1998 Matthias Hoelzer
+                                                  Copyright 1999-2003 Hans Petter Bieker <bieker@kde.org>
+ runtime/kcontrol/locale/toplevel.h ~ GPLv2h ~  Copyright 1998 Matthias Hoelzer.
+                                                Copyright 1999-2003 Hans Petter Bieker <bieker@kde.org>.
+ runtime/kcontrol/menus/C* ~ unspec ~ unspec
+ runtime/kcontrol/pics/* ~ unspec ~ unspec
+ runtime/kcontrol/samba/AUTHORS ~ unspec ~ unspec
+ runtime/kcontrol/samba/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kcontrol/samba/cr128-app-samba.png ~ unspec ~ unspec
+ runtime/kcontrol/samba/cr16-app-samba.png ~ unspec ~ unspec
+ runtime/kcontrol/samba/cr22-app-samba.png ~ unspec ~ unspec
+ runtime/kcontrol/samba/cr32-app-samba.png ~ unspec ~ unspec
+ runtime/kcontrol/samba/cr48-app-samba.png ~ unspec ~ unspec
+ runtime/kcontrol/samba/cr64-app-samba.png ~ unspec ~ unspec
+ runtime/kcontrol/samba/crsc-app-samba.svgz ~ unspec ~ unspec
+ runtime/kcontrol/samba/kcmsambaimports.cpp ~ GPLv2h ~ Copyright (c) 2000 Alexander Neundorf <alexander.neundorf@rz.tu-ilmenau.de>
+ runtime/kcontrol/samba/kcmsambaimports.h ~ GPLv2h ~ Copyright (c) 2000 Alexander Neundorf <alexander.neundorf@rz.tu-ilmenau.de>
+ runtime/kcontrol/samba/kcmsambalog.cpp ~ GPLv2h ~ Copyright (c) 2000 Alexander Neundorf <neundorf@kde.org>
+ runtime/kcontrol/samba/kcmsambalog.h ~ GPLv2h ~  Copyright (c) 2000 Alexander Neundorf <neundorf@kde.org>
+ runtime/kcontrol/samba/kcmsambastatistics.cpp ~ GPLv2h ~  * Copyright (c) 2000 Alexander Neundorf <alexander.neundorf@rz.tu-ilmenau.de>
+ runtime/kcontrol/samba/kcmsambastatistics.h ~ GPLv2h ~ Copyright (c) 2000 Alexander Neundorf <alexander.neundorf@rz.tu-ilmenau.de>
+ runtime/kcontrol/samba/ksmbstatus.cpp ~ unspec ~ unspec
+ runtime/kcontrol/samba/ksmbstatus.h ~ unspec ~ unspec
+ runtime/kcontrol/samba/main.cpp ~ unspec ~ unspec
+ runtime/kcontrol/samba/Messages.sh ~ unspec ~ unspec
+ runtime/kcontrol/samba/smbstatus.desktop ~ unspec ~ unspec
+
+
+Files under runtime/kdebugdialog:
+
+ runtime/kdebugdialog/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdebugdialog/kabstractdebugdialog.cpp ~ LGPLv2h ~     Copyright (C) 2000 David Faure <faure@kde.org>
+ runtime/kdebugdialog/kabstractdebugdialog.h ~ LGPLv2h ~     Copyright (C) 2000 David Faure <faure@kde.org>
+ runtime/kdebugdialog/kdebugdialog.cpp ~ LGPLv2h ~  Copyright (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org)
+                                                    Copyright (C) 1999 David Faure (faure@kde.org)
+ runtime/kdebugdialog/kdebugdialog.h ~ LGPLv2 ~  Copyright (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ runtime/kdebugdialog/klistdebugdialog.cpp ~ LGPLv2h ~ Copyright (C) 2000 David Faure <faure@kde.org>
+                                                       Copyright (C) 2005 Hamish Rodda <rodda@kde.org>
+ runtime/kdebugdialog/klistdebugdialog.h ~ LGPLv2h ~  Copyright (C) 2000 David Faure <faure@kde.org>
+ runtime/kdebugdialog/main.cpp ~ LGPLv2h ~    Copyright (C) 2000 David Faure <faure@kde.org>
+ runtime/kdebugdialog/Messages.sh ~ unspec ~ unspec
+ runtime/kdebugdialog/README ~ unspec ~ unspec
+
+
+Files under runtime/kdeeject:
+
+ runtime/kdeeject/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kdeeject/kdeeject ~ GPLv2 ~ Copyright GPL v2 by David Faure <david@mandrakesoft.com>
+
+
+Files under runtime/kde-menu:
+
+ runtime/kde-menu/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kde-menu/kde-menu.cpp ~ LGPLv2 ~  *  Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ runtime/kde-menu/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/kdeprint:
 Files under runtime/kdesu
 Files under runtime/kfile
 Files under runtime/khelpcenter
