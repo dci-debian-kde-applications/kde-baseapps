@@ -853,21 +853,260 @@ Files under runtime/knewstuff:
  runtime/knewstuff/ox64-action-knewstuff.png ~ unspec ~ unspec
 
 
-Files under runtime/knotify
-Files under runtime/kpasswdserver
-Files under runtime/kquitapp
-Files under runtime/kreadconfig
-Files under runtime/kstart
-Files under runtime/kstyles
-Files under runtime/ktimezoned
-Files under runtime/ktraderclient
-Files under runtime/kuiserver
-Files under runtime/kurifilter-plugins
-Files under runtime/l10n
-Files under runtime/nepomuk
-Files under runtime/phonon
-Files under runtime/pics
-Files under runtime/soliduiserver
+Files under runtime/knotify:
+
+ runtime/knotify/CMakeLists.txt ~ unspec ~ unspec
+ runtime/knotify/kde.notifyrc ~ unspec ~ unspec
+ runtime/knotify/knotify4.desktop ~ unspec ~ unspec
+ runtime/knotify/knotifyconfig.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/knotifyconfig.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/knotify.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/knotify.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/knotifyplugin.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/knotifyplugin.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/main.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/Mainpage.dox ~ unspec ~ unspec
+ runtime/knotify/Messages.sh ~ unspec ~ unspec
+ runtime/knotify/notifybyexecute.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybyexecute.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybylogfile.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybylogfile.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybypopup.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybypopup.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybysound.cpp ~ GPLv2h ~ Copyright (c) 1997 Christian Esken (esken@kde.org)
+                                                            2000 Charles Samuels (charles@kde.org)
+                                                            2000 Stefan Schimanski (1Stein@gmx.de)
+                                                            2000 Matthias Ettrich (ettrich@kde.org)
+                                                            2000 Waldo Bastian <bastian@kde.org>
+                                                            2000-2003 Carsten Pfeiffer <pfeiffer@kde.org>
+                                                            2005 Allan Sandfeld Jensen <kde@carewolf.com>
+                                                            2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybysound.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybytaskbar.cpp ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/notifybytaskbar.h ~ GPLv2h ~    Copyright (C) 2005-2006 by Olivier Goffart <ogoffart at kde.org>
+ runtime/knotify/org.kde.knotify.service.cmake ~ unspec ~ unspec
+
+
+Files under runtime/kpasswdserver:
+
+ runtime/kpasswdserver/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kpasswdserver/DESIGN ~ unspec ~ unspec
+ runtime/kpasswdserver/kpasswdserver.cpp ~ GPLv2 ~ Copyright (C) 2002 Waldo Bastian (bastian@kde.org)
+                                                   Copyright (C) 2005 David Faure (faure@kde.org)
+ runtime/kpasswdserver/kpasswdserver.h ~ GPLv2 ~     Copyright (C) 2002 Waldo Bastian (bastian@kde.org)
+ runtime/kpasswdserver/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/kquitapp:
+
+ runtime/kquitapp/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kquitapp/kquitapp.cpp ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ runtime/kquitapp/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/kreadconfig:
+
+ runtime/kreadconfig/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kreadconfig/kreadconfig.cpp ~ unspec ~ (c) 2001 Red Hat, Inc.
+ runtime/kreadconfig/kwriteconfig.cpp ~ unspec ~ (c) 2001 Red Hat, Inc. & Luís Pedro Coelho
+ runtime/kreadconfig/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/kstart:
+
+ runtime/kstart/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kstart/kstart.cpp ~ Artistic ~  * Copyright (C) 1997-2000 Matthias Ettrich <ettrich@kde.org>
+ runtime/kstart/kstart.h ~ Artistic ~  * Copyright (C) 1997-2000 Matthias Ettrich <ettrich@kde.org>
+ runtime/kstart/LICENSE.readme ~ unspec ~ unspec
+ runtime/kstart/Messages.sh ~ unspec ~ unspec
+ runtime/kstart/version.h ~ unspec ~ unspec
+
+
+Files under runtime/kstyles:
+TODO
+
+
+Files under runtime/ktimezoned:
+
+ runtime/ktimezoned/CMakeLists.txt ~ unspec ~ unspec
+ runtime/ktimezoned/ktimezoned.cpp ~ LGPLv2 ~    Copyright (c) 2005-2007 David Jarvie <software@astrojar.org.uk>
+                                               Copyright (c) 2005 S.R.Haque <srhaque@iee.org>.
+ runtime/ktimezoned/ktimezoned.desktop ~ unspec ~ unspec
+ runtime/ktimezoned/ktimezoned.h ~ LGPLv2h ~    Copyright (c) 2007 David Jarvie <software@astrojar.org.uk>
+ runtime/ktimezoned/org.kde.KTimeZoned.xml ~ unspec ~ unspec
+
+
+Files under runtime/ktraderclient:
+
+ runtime/ktraderclient/CMakeLists.txt ~ unspec ~ unspec
+ runtime/ktraderclient/ktraderclient.cpp ~ LGPLv2 ~  *  Copyright (C) 2002, 2003 David Faure   <faure@kde.org>
+ runtime/ktraderclient/Messages.sh ~ unspec ~ unspec
+
+
+Files under runtime/kuiserver:
+ runtime/kuiserver/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kuiserver/kuiserver.desktop ~ unspec ~ unspec
+ runtime/kuiserver/kuiserversettings.kcfg ~ unspec ~ unspec
+ runtime/kuiserver/kuiserversettings.kcfgc ~ unspec ~ unspec
+ runtime/kuiserver/Messages.sh ~ unspec ~ unspec
+ runtime/kuiserver/pics/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kuiserver/pics/cr16-app-kio_uiserver.png ~ unspec ~ unspec
+ runtime/kuiserver/progresslistdelegate.cpp ~ LGPLv2 ~  Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ runtime/kuiserver/progresslistdelegate.h ~ LGPLv2 ~  Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ runtime/kuiserver/progresslistdelegate_p.h ~ LGPLv2 ~  Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ runtime/kuiserver/progresslistmodel.cpp ~ LGPLv2 ~  Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ runtime/kuiserver/progresslistmodel.h ~ LGPLv2 ~  Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ runtime/kuiserver/tests/CMakeLists.txt ~ unspec ~ unspec
+ runtime/kuiserver/tests/kuiservertest.cpp ~ LGPLv2 ~   * Copyright (C) 2007 Rafael Fernández López <ereslibre@gmail.com>
+ runtime/kuiserver/tests/kuiservertest.h ~ LGPLv2 ~   * Copyright (C) 2007 Rafael Fernández López <ereslibre@gmail.com>
+ runtime/kuiserver/uiserverConfigDialog.ui ~ unspec ~ unspec
+ runtime/kuiserver/uiserver.cpp ~ LGPLv2 ~  Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+                                            Copyright (C) 2001 George Staikos <staikos@kde.org>
+                                            Copyright (C) 2000 Matej Koss <koss@miesto.sk>
+ runtime/kuiserver/uiserver.h ~ LGPLv2 ~ Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+                                         Copyright (C) 2000 Matej Koss <koss@miesto.sk>
+ runtime/kuiserver/uiserver_p.h ~ LGPLv2 ~ Copyright (C) 2007 Rafael Fernández López <ereslibre@gmail.com>
+
+
+Files under runtime/kurifilter-plugins:
+
+
+Files under runtime/l10n:
+
+ runtime/l10n/* ~ unspec ~ unspec
+
+
+Files under runtime/nepomuk:
+
+
+
+Files under runtime/phonon:
+
+ runtime/phonon/CMakeLists.txt ~ unspec ~ unspec
+ runtime/phonon/org.kde.Phonon.ServiceRegistry.xml ~ unspec ~ unspec
+ runtime/phonon/serviceregistry.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/abstractaudiooutput.cpp ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/abstractaudiooutput.h ~ LGPLv2 ~ Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                      Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/audiodataoutput.cpp ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+ runtime/phonon/xine/audiodataoutput.h ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+ runtime/phonon/xine/audiooutput.cpp ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                    Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/audiooutput.h ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                    Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/audioport.cpp ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/audioport.h ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/audioport_p.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/audiopostlist.cpp ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/audiopostlist.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/backend.cpp ~ LGPLv2 ~  Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                             Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/backend.h ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+ runtime/phonon/xine/brightnesscontrol.cpp ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/brightnesscontrol.h ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/BUGS ~ unspec ~ unspec
+ runtime/phonon/xine/bytestream.cpp ~ LGPLv2 ~ Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/bytestream.h ~ LGPLv2 ~   Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                               Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/bytestreamplugin.cpp ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/CMakeLists.txt ~ unspec ~ unspec
+ runtime/phonon/xine/deinterlacefilter.cpp ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/deinterlacefilter.h ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/effect.cpp ~ LGPLv2 ~ Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                            Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/effect.h ~ LGPLv2 ~ Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                         Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/events.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/kcm/CMakeLists.txt ~ unspec ~ unspec
+ runtime/phonon/xine/kcm/kcm_phononxine.desktop ~ unspec ~ unspec
+ runtime/phonon/xine/kcm/Messages.sh ~ unspec ~ unspec
+ runtime/phonon/xine/kcm/xineoptions.cpp ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/kcm/xineoptions.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/kcm/xineoptions.ui ~ unspec ~ unspec
+ runtime/phonon/xine/mediaobject.cpp ~ LGPLv2 ~ Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/mediaobject.h ~ LGPLv2 ~  Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                              Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/mediaproducer.cpp ~ unspec ~ unspec
+ runtime/phonon/xine/Messages.sh ~ unspec ~ unspec
+ runtime/phonon/xine/mixer_plugin.cpp ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/net_buf_ctrl.c ~ LGPLv2 ~ Copyright (C) 2000-2003 the xine project
+                                                Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/net_buf_ctrl.h ~ LGPLv2 ~ Copyright (C) 2000-2003 the xine project
+                                               Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/nullsink.cpp ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/nullsink.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/ox128-app-phonon-xine.png ~ unspec ~ unspec
+ runtime/phonon/xine/ox16-app-phonon-xine.png ~ unspec ~ unspec
+ runtime/phonon/xine/ox22-app-phonon-xine.png ~ unspec ~ unspec
+ runtime/phonon/xine/ox32-app-phonon-xine.png ~ unspec ~ unspec
+ runtime/phonon/xine/ox48-app-phonon-xine.png ~ unspec ~ unspec
+ runtime/phonon/xine/ox64-app-phonon-xine.png ~ unspec ~ unspec
+ runtime/phonon/xine/oxsc-app-phonon-xine.svgz ~ unspec ~ unspec
+ runtime/phonon/xine/plugins.c ~ unspec ~ unspec
+ runtime/phonon/xine/sinknode.cpp ~ LGPLv2 ~ Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/sinknode.h ~ LGPLv2 ~  Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/sourcenode.cpp ~ LGPLv2 ~ Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/sourcenode.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/videodataoutput.cpp ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/videodataoutput.h ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/videoeffect.cpp ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                    Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/videoeffect.h ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                    Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/videowidget.cpp ~ GPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/videowidget.h ~ LGPLv2 ~     Copyright (C) 2005-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/visualization.cpp ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/visualization.h ~ LGPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/volumefadereffect.cpp ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                    Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/volumefadereffect.h ~ LGPLv2 ~     Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                                    Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/volumefader_plugin.cpp ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/wirecall.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/xine.desktop ~ unspec ~ unspec
+ runtime/phonon/xine/xineengine.cpp ~ LGPLv2 ~ Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                               Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/xineengine.h ~ LGPLv2 ~ Copyright (C) 2006 Tim Beaulen <tbscope@gmail.com>
+                                               Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/xineengine_p.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/xinestream.cpp ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/xinestream.h ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/xinethread.cpp ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+ runtime/phonon/xine/xinethread.h ~ LGPLv2 ~     Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
+
+
+Files under runtime/pics:
+
+Files under runtime/soliduiserver:
+
+ runtime/soliduiserver/CMakeLists.txt ~ unspec ~ unspec
+ runtime/soliduiserver/deviceaction.cpp ~ LGPLv2 ~  Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                    Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/deviceaction.h ~ LGPLv2 ~    Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                      Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/deviceactionsdialog.cpp ~ LGPLv2 ~    Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                              Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/deviceactionsdialog.h ~ LGPLv2 ~ Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                       Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/deviceactionsdialogview.ui ~ unspec ~ unspec
+ runtime/soliduiserver/devicenothingaction.cpp ~ LGPLv2 ~ Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                          Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/devicenothingaction.h ~ LGPLv2 ~ Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                        Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/deviceserviceaction.cpp ~ LGPLv2 ~ Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                          Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/deviceserviceaction.h ~ LGPLv2 ~ Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                        Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+ runtime/soliduiserver/Messages.sh ~ unspec ~ unspec
+ runtime/soliduiserver/soliduiserver.cpp ~ LGPLv2 ~  Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                     Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+                                                     Copyright (c) 2007 Alexis Ménard <darktears31@gmail.com>
+ runtime/soliduiserver/soliduiserver.desktop ~ unspec ~ unspec
+ runtime/soliduiserver/soliduiserver.h ~ LGPLv2 ~    Copyright (c) 2005 Jean-Remy Falleri <jr.falleri@laposte.net>
+                                                     Copyright (c) 2005-2007 Kevin Ottens <ervin@kde.org>
+
 
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
