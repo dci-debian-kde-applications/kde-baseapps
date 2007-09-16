@@ -163,8 +163,6 @@ usr/share/icons/crystalsvg/scalable/apps/hwinfo.svgz
 usr/share/icons/crystalsvg/scalable/apps/samba.svgz
 usr/share/icons/crystalsvg/scalable/apps/stylesheet.svgz
 usr/share/icons/crystalsvg/scalable/devices/laptop.svgz
-usr/share/icons/oxygen/128x128
-usr/share/icons/oxygen/128x128/actions
 usr/share/icons/oxygen/128x128/actions/add-user.png
 usr/share/icons/oxygen/128x128/actions/alarmclock.png
 usr/share/icons/oxygen/128x128/actions/application-exit.png
@@ -242,8 +240,6 @@ usr/share/icons/oxygen/128x128/actions/view-process-own.png
 usr/share/icons/oxygen/128x128/actions/view-process-system.png
 usr/share/icons/oxygen/128x128/actions/view-process-users.png
 usr/share/icons/oxygen/128x128/actions/world.png
-usr/share/icons/oxygen/128x128/animations
-usr/share/icons/oxygen/128x128/apps
 usr/share/icons/oxygen/128x128/apps/accessories-character-map.png
 usr/share/icons/oxygen/128x128/apps/accessories-dictionary.png
 usr/share/icons/oxygen/128x128/apps/acroread.png
@@ -345,7 +341,6 @@ usr/share/icons/oxygen/128x128/apps/xclock.png
 usr/share/icons/oxygen/128x128/apps/xfmail.png
 usr/share/icons/oxygen/128x128/apps/xmag.png
 usr/share/icons/oxygen/128x128/apps/x.png
-usr/share/icons/oxygen/128x128/categories
 usr/share/icons/oxygen/128x128/categories/applications-accessories.png
 usr/share/icons/oxygen/128x128/categories/applications-education.png
 usr/share/icons/oxygen/128x128/categories/applications-engineering.png
@@ -360,7 +355,6 @@ usr/share/icons/oxygen/128x128/categories/preferences-desktop-personal.png
 usr/share/icons/oxygen/128x128/categories/preferences-system-network.png
 usr/share/icons/oxygen/128x128/categories/preferences-system.png
 usr/share/icons/oxygen/128x128/categories/system-help.png
-usr/share/icons/oxygen/128x128/devices
 usr/share/icons/oxygen/128x128/devices/audio-card.png
 usr/share/icons/oxygen/128x128/devices/audio-headset.png
 usr/share/icons/oxygen/128x128/devices/audio-input-line.png
@@ -402,13 +396,8 @@ usr/share/icons/oxygen/128x128/devices/scanner.png
 usr/share/icons/oxygen/128x128/devices/video-display.png
 usr/share/icons/oxygen/128x128/devices/video-projector.png
 usr/share/icons/oxygen/128x128/devices/video-television.png
-usr/share/icons/oxygen/128x128/emblems
 usr/share/icons/oxygen/128x128/emblems/emblem-link.png
 usr/share/icons/oxygen/128x128/emblems/emblem-mounted.png
-usr/share/icons/oxygen/128x128/emotes
-usr/share/icons/oxygen/128x128/filesystems
-usr/share/icons/oxygen/128x128/intl
-usr/share/icons/oxygen/128x128/mimetypes
 usr/share/icons/oxygen/128x128/mimetypes/application-illustrator.png
 usr/share/icons/oxygen/128x128/mimetypes/application-pdf.png
 usr/share/icons/oxygen/128x128/mimetypes/application-pgp-encrypted.png
@@ -666,7 +655,6 @@ usr/share/icons/oxygen/128x128/mimetypes/video-x-ogm+ogg.png
 usr/share/icons/oxygen/128x128/mimetypes/video-x-theora+ogg.png
 usr/share/icons/oxygen/128x128/mimetypes/xml.png
 usr/share/icons/oxygen/128x128/mimetypes/zip.png
-usr/share/icons/oxygen/128x128/places
 usr/share/icons/oxygen/128x128/places/file-broken.png
 usr/share/icons/oxygen/128x128/places/folder-blue.png
 usr/share/icons/oxygen/128x128/places/folder-bookmarks.png
@@ -696,9 +684,6 @@ usr/share/icons/oxygen/128x128/places/trashcan-empty-alt.png
 usr/share/icons/oxygen/128x128/places/user-home.png
 usr/share/icons/oxygen/128x128/places/user-trash-full.png
 usr/share/icons/oxygen/128x128/places/user-trash.png
-usr/share/icons/oxygen/128x128/status
-usr/share/icons/oxygen/16x16
-usr/share/icons/oxygen/16x16/actions
 usr/share/icons/oxygen/16x16/actions/1day.png
 usr/share/icons/oxygen/16x16/actions/5days.png
 usr/share/icons/oxygen/16x16/actions/7days.png
@@ -1041,8 +1026,6 @@ usr/share/icons/oxygen/16x16/actions/zoom-best-fit.png
 usr/share/icons/oxygen/16x16/actions/zoom-in.png
 usr/share/icons/oxygen/16x16/actions/zoom-original.png
 usr/share/icons/oxygen/16x16/actions/zoom-out.png
-usr/share/icons/oxygen/16x16/animations
-usr/share/icons/oxygen/16x16/apps
 usr/share/icons/oxygen/16x16/apps/abiword.png
 usr/share/icons/oxygen/16x16/apps/accessories-character-map.png
 usr/share/icons/oxygen/16x16/apps/accessories-dictionary.png
@@ -1181,7 +1164,6 @@ usr/share/icons/oxygen/16x16/apps/xosview.png
 usr/share/icons/oxygen/16x16/apps/xpaint.png
 usr/share/icons/oxygen/16x16/apps/x.png
 usr/share/icons/oxygen/16x16/apps/xv.png
-usr/share/icons/oxygen/16x16/categories
 usr/share/icons/oxygen/16x16/categories/applications-accessories.png
 usr/share/icons/oxygen/16x16/categories/applications-education.png
 usr/share/icons/oxygen/16x16/categories/applications-engineering.png
@@ -1196,7 +1178,6 @@ usr/share/icons/oxygen/16x16/categories/preferences-desktop-personal.png
 usr/share/icons/oxygen/16x16/categories/preferences-system-network.png
 usr/share/icons/oxygen/16x16/categories/preferences-system.png
 usr/share/icons/oxygen/16x16/categories/system-help.png
-usr/share/icons/oxygen/16x16/devices
 usr/share/icons/oxygen/16x16/devices/audio-card.png
 usr/share/icons/oxygen/16x16/devices/audio-headset.png
 usr/share/icons/oxygen/16x16/devices/audio-input-line.png
@@ -1238,10 +1219,8 @@ usr/share/icons/oxygen/16x16/devices/scanner.png
 usr/share/icons/oxygen/16x16/devices/video-display.png
 usr/share/icons/oxygen/16x16/devices/video-projector.png
 usr/share/icons/oxygen/16x16/devices/video-television.png
-usr/share/icons/oxygen/16x16/emblems
 usr/share/icons/oxygen/16x16/emblems/emblem-link.png
 usr/share/icons/oxygen/16x16/emblems/emblem-mounted.png
-usr/share/icons/oxygen/16x16/emotes
 usr/share/icons/oxygen/16x16/emotes/face-angel.png
 usr/share/icons/oxygen/16x16/emotes/face-asleep.png
 usr/share/icons/oxygen/16x16/emotes/face-confused.png
@@ -1262,9 +1241,6 @@ usr/share/icons/oxygen/16x16/emotes/face-surprise.png
 usr/share/icons/oxygen/16x16/emotes/face-tongue.png
 usr/share/icons/oxygen/16x16/emotes/face-wink-alt.png
 usr/share/icons/oxygen/16x16/emotes/face-wink.png
-usr/share/icons/oxygen/16x16/filesystems
-usr/share/icons/oxygen/16x16/intl
-usr/share/icons/oxygen/16x16/mimetypes
 usr/share/icons/oxygen/16x16/mimetypes/application-illustrator.png
 usr/share/icons/oxygen/16x16/mimetypes/application-pdf.png
 usr/share/icons/oxygen/16x16/mimetypes/application-pgp-encrypted.png
@@ -1521,7 +1497,6 @@ usr/share/icons/oxygen/16x16/mimetypes/video-x-ogm+ogg.png
 usr/share/icons/oxygen/16x16/mimetypes/video-x-theora+ogg.png
 usr/share/icons/oxygen/16x16/mimetypes/xml.png
 usr/share/icons/oxygen/16x16/mimetypes/zip.png
-usr/share/icons/oxygen/16x16/places
 usr/share/icons/oxygen/16x16/places/file-broken.png
 usr/share/icons/oxygen/16x16/places/folder-blue.png
 usr/share/icons/oxygen/16x16/places/folder-bookmarks.png
@@ -1551,9 +1526,6 @@ usr/share/icons/oxygen/16x16/places/trashcan-empty-alt.png
 usr/share/icons/oxygen/16x16/places/user-home.png
 usr/share/icons/oxygen/16x16/places/user-trash-full.png
 usr/share/icons/oxygen/16x16/places/user-trash.png
-usr/share/icons/oxygen/16x16/status
-usr/share/icons/oxygen/22x22
-usr/share/icons/oxygen/22x22/actions
 usr/share/icons/oxygen/22x22/actions/1day.png
 usr/share/icons/oxygen/22x22/actions/5days.png
 usr/share/icons/oxygen/22x22/actions/7days.png
@@ -1895,12 +1867,10 @@ usr/share/icons/oxygen/22x22/actions/zoom-best-fit.png
 usr/share/icons/oxygen/22x22/actions/zoom-in.png
 usr/share/icons/oxygen/22x22/actions/zoom-original.png
 usr/share/icons/oxygen/22x22/actions/zoom-out.png
-usr/share/icons/oxygen/22x22/animations
 usr/share/icons/oxygen/22x22/animations/process-idle-kde.png
 usr/share/icons/oxygen/22x22/animations/process-idle.png
 usr/share/icons/oxygen/22x22/animations/process-working-kde.png
 usr/share/icons/oxygen/22x22/animations/process-working.png
-usr/share/icons/oxygen/22x22/apps
 usr/share/icons/oxygen/22x22/apps/accessories-character-map.png
 usr/share/icons/oxygen/22x22/apps/accessories-dictionary.png
 usr/share/icons/oxygen/22x22/apps/acroread.png
@@ -1989,7 +1959,6 @@ usr/share/icons/oxygen/22x22/apps/system-software-update.png
 usr/share/icons/oxygen/22x22/apps/utilities-system-monitor.png
 usr/share/icons/oxygen/22x22/apps/wine.png
 usr/share/icons/oxygen/22x22/apps/x.png
-usr/share/icons/oxygen/22x22/categories
 usr/share/icons/oxygen/22x22/categories/applications-accessories.png
 usr/share/icons/oxygen/22x22/categories/applications-education.png
 usr/share/icons/oxygen/22x22/categories/applications-engineering.png
@@ -2004,7 +1973,6 @@ usr/share/icons/oxygen/22x22/categories/preferences-desktop-personal.png
 usr/share/icons/oxygen/22x22/categories/preferences-system-network.png
 usr/share/icons/oxygen/22x22/categories/preferences-system.png
 usr/share/icons/oxygen/22x22/categories/system-help.png
-usr/share/icons/oxygen/22x22/devices
 usr/share/icons/oxygen/22x22/devices/audio-card.png
 usr/share/icons/oxygen/22x22/devices/audio-headset.png
 usr/share/icons/oxygen/22x22/devices/audio-input-line.png
@@ -2046,10 +2014,8 @@ usr/share/icons/oxygen/22x22/devices/scanner.png
 usr/share/icons/oxygen/22x22/devices/video-display.png
 usr/share/icons/oxygen/22x22/devices/video-projector.png
 usr/share/icons/oxygen/22x22/devices/video-television.png
-usr/share/icons/oxygen/22x22/emblems
 usr/share/icons/oxygen/22x22/emblems/emblem-link.png
 usr/share/icons/oxygen/22x22/emblems/emblem-mounted.png
-usr/share/icons/oxygen/22x22/emotes
 usr/share/icons/oxygen/22x22/emotes/face-angel.png
 usr/share/icons/oxygen/22x22/emotes/face-asleep.png
 usr/share/icons/oxygen/22x22/emotes/face-confused.png
@@ -2070,9 +2036,6 @@ usr/share/icons/oxygen/22x22/emotes/face-surprise.png
 usr/share/icons/oxygen/22x22/emotes/face-tongue.png
 usr/share/icons/oxygen/22x22/emotes/face-wink-alt.png
 usr/share/icons/oxygen/22x22/emotes/face-wink.png
-usr/share/icons/oxygen/22x22/filesystems
-usr/share/icons/oxygen/22x22/intl
-usr/share/icons/oxygen/22x22/mimetypes
 usr/share/icons/oxygen/22x22/mimetypes/application-illustrator.png
 usr/share/icons/oxygen/22x22/mimetypes/application-pdf.png
 usr/share/icons/oxygen/22x22/mimetypes/application-pgp-encrypted.png
@@ -2330,7 +2293,6 @@ usr/share/icons/oxygen/22x22/mimetypes/video-x-ogm+ogg.png
 usr/share/icons/oxygen/22x22/mimetypes/video-x-theora+ogg.png
 usr/share/icons/oxygen/22x22/mimetypes/xml.png
 usr/share/icons/oxygen/22x22/mimetypes/zip.png
-usr/share/icons/oxygen/22x22/places
 usr/share/icons/oxygen/22x22/places/file-broken.png
 usr/share/icons/oxygen/22x22/places/folder-blue.png
 usr/share/icons/oxygen/22x22/places/folder-bookmarks.png
@@ -2360,13 +2322,10 @@ usr/share/icons/oxygen/22x22/places/trashcan-empty-alt.png
 usr/share/icons/oxygen/22x22/places/user-home.png
 usr/share/icons/oxygen/22x22/places/user-trash-full.png
 usr/share/icons/oxygen/22x22/places/user-trash.png
-usr/share/icons/oxygen/22x22/status
 usr/share/icons/oxygen/22x22/status/audio-volume-high.png
 usr/share/icons/oxygen/22x22/status/audio-volume-low.png
 usr/share/icons/oxygen/22x22/status/audio-volume-medium.png
 usr/share/icons/oxygen/22x22/status/audio-volume-muted.png
-usr/share/icons/oxygen/32x32
-usr/share/icons/oxygen/32x32/actions
 usr/share/icons/oxygen/32x32/actions/1day.png
 usr/share/icons/oxygen/32x32/actions/5days.png
 usr/share/icons/oxygen/32x32/actions/7days.png
@@ -2708,8 +2667,6 @@ usr/share/icons/oxygen/32x32/actions/zoom-best-fit.png
 usr/share/icons/oxygen/32x32/actions/zoom-in.png
 usr/share/icons/oxygen/32x32/actions/zoom-original.png
 usr/share/icons/oxygen/32x32/actions/zoom-out.png
-usr/share/icons/oxygen/32x32/animations
-usr/share/icons/oxygen/32x32/apps
 usr/share/icons/oxygen/32x32/apps/abiword.png
 usr/share/icons/oxygen/32x32/apps/accessories-character-map.png
 usr/share/icons/oxygen/32x32/apps/accessories-dictionary.png
@@ -2851,7 +2808,6 @@ usr/share/icons/oxygen/32x32/apps/xosview.png
 usr/share/icons/oxygen/32x32/apps/xpaint.png
 usr/share/icons/oxygen/32x32/apps/x.png
 usr/share/icons/oxygen/32x32/apps/xv.png
-usr/share/icons/oxygen/32x32/categories
 usr/share/icons/oxygen/32x32/categories/applications-accessories.png
 usr/share/icons/oxygen/32x32/categories/applications-education.png
 usr/share/icons/oxygen/32x32/categories/applications-engineering.png
@@ -2866,7 +2822,6 @@ usr/share/icons/oxygen/32x32/categories/preferences-desktop-personal.png
 usr/share/icons/oxygen/32x32/categories/preferences-system-network.png
 usr/share/icons/oxygen/32x32/categories/preferences-system.png
 usr/share/icons/oxygen/32x32/categories/system-help.png
-usr/share/icons/oxygen/32x32/devices
 usr/share/icons/oxygen/32x32/devices/audio-card.png
 usr/share/icons/oxygen/32x32/devices/audio-headset.png
 usr/share/icons/oxygen/32x32/devices/audio-input-line.png
@@ -2908,13 +2863,8 @@ usr/share/icons/oxygen/32x32/devices/scanner.png
 usr/share/icons/oxygen/32x32/devices/video-display.png
 usr/share/icons/oxygen/32x32/devices/video-projector.png
 usr/share/icons/oxygen/32x32/devices/video-television.png
-usr/share/icons/oxygen/32x32/emblems
 usr/share/icons/oxygen/32x32/emblems/emblem-link.png
 usr/share/icons/oxygen/32x32/emblems/emblem-mounted.png
-usr/share/icons/oxygen/32x32/emotes
-usr/share/icons/oxygen/32x32/filesystems
-usr/share/icons/oxygen/32x32/intl
-usr/share/icons/oxygen/32x32/mimetypes
 usr/share/icons/oxygen/32x32/mimetypes/application-illustrator.png
 usr/share/icons/oxygen/32x32/mimetypes/application-pdf.png
 usr/share/icons/oxygen/32x32/mimetypes/application-pgp-encrypted.png
@@ -3172,7 +3122,6 @@ usr/share/icons/oxygen/32x32/mimetypes/video-x-ogm+ogg.png
 usr/share/icons/oxygen/32x32/mimetypes/video-x-theora+ogg.png
 usr/share/icons/oxygen/32x32/mimetypes/xml.png
 usr/share/icons/oxygen/32x32/mimetypes/zip.png
-usr/share/icons/oxygen/32x32/places
 usr/share/icons/oxygen/32x32/places/file-broken.png
 usr/share/icons/oxygen/32x32/places/folder-blue.png
 usr/share/icons/oxygen/32x32/places/folder-bookmarks.png
@@ -3202,9 +3151,6 @@ usr/share/icons/oxygen/32x32/places/trashcan-empty-alt.png
 usr/share/icons/oxygen/32x32/places/user-home.png
 usr/share/icons/oxygen/32x32/places/user-trash-full.png
 usr/share/icons/oxygen/32x32/places/user-trash.png
-usr/share/icons/oxygen/32x32/status
-usr/share/icons/oxygen/48x48
-usr/share/icons/oxygen/48x48/actions
 usr/share/icons/oxygen/48x48/actions/1day.png
 usr/share/icons/oxygen/48x48/actions/5days.png
 usr/share/icons/oxygen/48x48/actions/7days.png
@@ -3541,8 +3487,6 @@ usr/share/icons/oxygen/48x48/actions/zoom-best-fit.png
 usr/share/icons/oxygen/48x48/actions/zoom-in.png
 usr/share/icons/oxygen/48x48/actions/zoom-original.png
 usr/share/icons/oxygen/48x48/actions/zoom-out.png
-usr/share/icons/oxygen/48x48/animations
-usr/share/icons/oxygen/48x48/apps
 usr/share/icons/oxygen/48x48/apps/abiword.png
 usr/share/icons/oxygen/48x48/apps/accessories-character-map.png
 usr/share/icons/oxygen/48x48/apps/accessories-dictionary.png
@@ -3667,7 +3611,6 @@ usr/share/icons/oxygen/48x48/apps/xfmail.png
 usr/share/icons/oxygen/48x48/apps/xmag.png
 usr/share/icons/oxygen/48x48/apps/x.png
 usr/share/icons/oxygen/48x48/apps/xv.png
-usr/share/icons/oxygen/48x48/categories
 usr/share/icons/oxygen/48x48/categories/applications-accessories.png
 usr/share/icons/oxygen/48x48/categories/applications-education.png
 usr/share/icons/oxygen/48x48/categories/applications-engineering.png
@@ -3682,7 +3625,6 @@ usr/share/icons/oxygen/48x48/categories/preferences-desktop-personal.png
 usr/share/icons/oxygen/48x48/categories/preferences-system-network.png
 usr/share/icons/oxygen/48x48/categories/preferences-system.png
 usr/share/icons/oxygen/48x48/categories/system-help.png
-usr/share/icons/oxygen/48x48/devices
 usr/share/icons/oxygen/48x48/devices/audio-card.png
 usr/share/icons/oxygen/48x48/devices/audio-headset.png
 usr/share/icons/oxygen/48x48/devices/audio-input-line.png
@@ -3724,13 +3666,8 @@ usr/share/icons/oxygen/48x48/devices/scanner.png
 usr/share/icons/oxygen/48x48/devices/video-display.png
 usr/share/icons/oxygen/48x48/devices/video-projector.png
 usr/share/icons/oxygen/48x48/devices/video-television.png
-usr/share/icons/oxygen/48x48/emblems
 usr/share/icons/oxygen/48x48/emblems/emblem-link.png
 usr/share/icons/oxygen/48x48/emblems/emblem-mounted.png
-usr/share/icons/oxygen/48x48/emotes
-usr/share/icons/oxygen/48x48/filesystems
-usr/share/icons/oxygen/48x48/intl
-usr/share/icons/oxygen/48x48/mimetypes
 usr/share/icons/oxygen/48x48/mimetypes/application-illustrator.png
 usr/share/icons/oxygen/48x48/mimetypes/application-pdf.png
 usr/share/icons/oxygen/48x48/mimetypes/application-pgp-encrypted.png
@@ -3988,7 +3925,6 @@ usr/share/icons/oxygen/48x48/mimetypes/video-x-ogm+ogg.png
 usr/share/icons/oxygen/48x48/mimetypes/video-x-theora+ogg.png
 usr/share/icons/oxygen/48x48/mimetypes/xml.png
 usr/share/icons/oxygen/48x48/mimetypes/zip.png
-usr/share/icons/oxygen/48x48/places
 usr/share/icons/oxygen/48x48/places/file-broken.png
 usr/share/icons/oxygen/48x48/places/folder-blue.png
 usr/share/icons/oxygen/48x48/places/folder-bookmarks.png
@@ -4018,9 +3954,6 @@ usr/share/icons/oxygen/48x48/places/trashcan-empty-alt.png
 usr/share/icons/oxygen/48x48/places/user-home.png
 usr/share/icons/oxygen/48x48/places/user-trash-full.png
 usr/share/icons/oxygen/48x48/places/user-trash.png
-usr/share/icons/oxygen/48x48/status
-usr/share/icons/oxygen/64x64
-usr/share/icons/oxygen/64x64/actions
 usr/share/icons/oxygen/64x64/actions/add-user.png
 usr/share/icons/oxygen/64x64/actions/alarmclock.png
 usr/share/icons/oxygen/64x64/actions/application-exit.png
@@ -4095,8 +4028,6 @@ usr/share/icons/oxygen/64x64/actions/view-process-own.png
 usr/share/icons/oxygen/64x64/actions/view-process-system.png
 usr/share/icons/oxygen/64x64/actions/view-process-users.png
 usr/share/icons/oxygen/64x64/actions/world.png
-usr/share/icons/oxygen/64x64/animations
-usr/share/icons/oxygen/64x64/apps
 usr/share/icons/oxygen/64x64/apps/accessories-character-map.png
 usr/share/icons/oxygen/64x64/apps/accessories-dictionary.png
 usr/share/icons/oxygen/64x64/apps/acroread.png
@@ -4199,7 +4130,6 @@ usr/share/icons/oxygen/64x64/apps/xclock.png
 usr/share/icons/oxygen/64x64/apps/xfmail.png
 usr/share/icons/oxygen/64x64/apps/xmag.png
 usr/share/icons/oxygen/64x64/apps/x.png
-usr/share/icons/oxygen/64x64/categories
 usr/share/icons/oxygen/64x64/categories/applications-accessories.png
 usr/share/icons/oxygen/64x64/categories/applications-education.png
 usr/share/icons/oxygen/64x64/categories/applications-engineering.png
@@ -4214,7 +4144,6 @@ usr/share/icons/oxygen/64x64/categories/preferences-desktop-personal.png
 usr/share/icons/oxygen/64x64/categories/preferences-system-network.png
 usr/share/icons/oxygen/64x64/categories/preferences-system.png
 usr/share/icons/oxygen/64x64/categories/system-help.png
-usr/share/icons/oxygen/64x64/devices
 usr/share/icons/oxygen/64x64/devices/audio-card.png
 usr/share/icons/oxygen/64x64/devices/audio-headset.png
 usr/share/icons/oxygen/64x64/devices/audio-input-line.png
@@ -4256,13 +4185,8 @@ usr/share/icons/oxygen/64x64/devices/scanner.png
 usr/share/icons/oxygen/64x64/devices/video-display.png
 usr/share/icons/oxygen/64x64/devices/video-projector.png
 usr/share/icons/oxygen/64x64/devices/video-television.png
-usr/share/icons/oxygen/64x64/emblems
 usr/share/icons/oxygen/64x64/emblems/emblem-link.png
 usr/share/icons/oxygen/64x64/emblems/emblem-mounted.png
-usr/share/icons/oxygen/64x64/emotes
-usr/share/icons/oxygen/64x64/filesystems
-usr/share/icons/oxygen/64x64/intl
-usr/share/icons/oxygen/64x64/mimetypes
 usr/share/icons/oxygen/64x64/mimetypes/application-illustrator.png
 usr/share/icons/oxygen/64x64/mimetypes/application-pdf.png
 usr/share/icons/oxygen/64x64/mimetypes/application-pgp-encrypted.png
@@ -4520,7 +4444,6 @@ usr/share/icons/oxygen/64x64/mimetypes/video-x-ogm+ogg.png
 usr/share/icons/oxygen/64x64/mimetypes/video-x-theora+ogg.png
 usr/share/icons/oxygen/64x64/mimetypes/xml.png
 usr/share/icons/oxygen/64x64/mimetypes/zip.png
-usr/share/icons/oxygen/64x64/places
 usr/share/icons/oxygen/64x64/places/file-broken.png
 usr/share/icons/oxygen/64x64/places/folder-blue.png
 usr/share/icons/oxygen/64x64/places/folder-bookmarks.png
@@ -4550,10 +4473,7 @@ usr/share/icons/oxygen/64x64/places/trashcan-empty-alt.png
 usr/share/icons/oxygen/64x64/places/user-home.png
 usr/share/icons/oxygen/64x64/places/user-trash-full.png
 usr/share/icons/oxygen/64x64/places/user-trash.png
-usr/share/icons/oxygen/64x64/status
 usr/share/icons/oxygen/index.theme
-usr/share/icons/oxygen/scalable
-usr/share/icons/oxygen/scalable/actions
 usr/share/icons/oxygen/scalable/actions/1day.svgz
 usr/share/icons/oxygen/scalable/actions/5days.svgz
 usr/share/icons/oxygen/scalable/actions/7days.svgz
@@ -4831,8 +4751,6 @@ usr/share/icons/oxygen/scalable/actions/search-user.svgz
 usr/share/icons/oxygen/scalable/actions/services.svgz
 usr/share/icons/oxygen/scalable/actions/show-offliners.svgz
 usr/share/icons/oxygen/scalable/actions/signature.svgz
-usr/share/icons/oxygen/scalable/actions/small
-usr/share/icons/oxygen/scalable/actions/small/16x16
 usr/share/icons/oxygen/scalable/actions/small/16x16/1day.svgz
 usr/share/icons/oxygen/scalable/actions/small/16x16/5days.svgz
 usr/share/icons/oxygen/scalable/actions/small/16x16/7days.svgz
@@ -5005,7 +4923,6 @@ usr/share/icons/oxygen/scalable/actions/small/16x16/zoom-best-fit.svgz
 usr/share/icons/oxygen/scalable/actions/small/16x16/zoom-in.svgz
 usr/share/icons/oxygen/scalable/actions/small/16x16/zoom-original.svgz
 usr/share/icons/oxygen/scalable/actions/small/16x16/zoom-out.svgz
-usr/share/icons/oxygen/scalable/actions/small/22x22
 usr/share/icons/oxygen/scalable/actions/small/22x22/1day.svgz
 usr/share/icons/oxygen/scalable/actions/small/22x22/5days.svgz
 usr/share/icons/oxygen/scalable/actions/small/22x22/7days.svgz
@@ -5221,13 +5138,10 @@ usr/share/icons/oxygen/scalable/actions/zoom-best-fit.svgz
 usr/share/icons/oxygen/scalable/actions/zoom-in.svgz
 usr/share/icons/oxygen/scalable/actions/zoom-original.svgz
 usr/share/icons/oxygen/scalable/actions/zoom-out.svgz
-usr/share/icons/oxygen/scalable/animations
-usr/share/icons/oxygen/scalable/apps
 usr/share/icons/oxygen/scalable/apps/accessories-character-map.svgz
 usr/share/icons/oxygen/scalable/apps/accessories-dictionary.svgz
 usr/share/icons/oxygen/scalable/apps/acroread.svgz
 usr/share/icons/oxygen/scalable/apps/aim.svgz
-usr/share/icons/oxygen/scalable/apps/alternativ
 usr/share/icons/oxygen/scalable/apps/alternativ/k3b2.svgz
 usr/share/icons/oxygen/scalable/apps/alternativ/k3b.svgz
 usr/share/icons/oxygen/scalable/apps/alternativ/kaffeine.svgz
@@ -5329,8 +5243,6 @@ usr/share/icons/oxygen/scalable/apps/preferences-system-windows.svgz
 usr/share/icons/oxygen/scalable/apps/realplayer.svgz
 usr/share/icons/oxygen/scalable/apps/scribus.svgz
 usr/share/icons/oxygen/scalable/apps/shell.svgz
-usr/share/icons/oxygen/scalable/apps/small
-usr/share/icons/oxygen/scalable/apps/small/16x16
 usr/share/icons/oxygen/scalable/apps/small/16x16/accessories-character-map.svgz
 usr/share/icons/oxygen/scalable/apps/small/16x16/accessories-dictionary.svgz
 usr/share/icons/oxygen/scalable/apps/small/16x16/basket.svgz
@@ -5359,7 +5271,6 @@ usr/share/icons/oxygen/scalable/apps/small/16x16/scribus.svgz
 usr/share/icons/oxygen/scalable/apps/small/16x16/system-file-manager.svgz
 usr/share/icons/oxygen/scalable/apps/small/16x16/todolist.svgz
 usr/share/icons/oxygen/scalable/apps/small/16x16/utilities-system-monitor.svgz
-usr/share/icons/oxygen/scalable/apps/small/22x22
 usr/share/icons/oxygen/scalable/apps/small/22x22/accessories-dictionary.svgz
 usr/share/icons/oxygen/scalable/apps/small/22x22/basket.svgz
 usr/share/icons/oxygen/scalable/apps/small/22x22/kaddressbook.svgz
@@ -5378,7 +5289,6 @@ usr/share/icons/oxygen/scalable/apps/small/22x22/scribus.svgz
 usr/share/icons/oxygen/scalable/apps/small/22x22/system-file-manager.svgz
 usr/share/icons/oxygen/scalable/apps/small/22x22/todolist.svgz
 usr/share/icons/oxygen/scalable/apps/small/22x22/utilities-system-monitor.svgz
-usr/share/icons/oxygen/scalable/apps/small/32x32
 usr/share/icons/oxygen/scalable/apps/small/32x32/system-file-manager.svgz
 usr/share/icons/oxygen/scalable/apps/staroffice.svgz
 usr/share/icons/oxygen/scalable/apps/system-file-manager.svgz
@@ -5393,7 +5303,6 @@ usr/share/icons/oxygen/scalable/apps/xclock.svgz
 usr/share/icons/oxygen/scalable/apps/xeyes.svgz
 usr/share/icons/oxygen/scalable/apps/xpaint.svgz
 usr/share/icons/oxygen/scalable/apps/x.svgz
-usr/share/icons/oxygen/scalable/categories
 usr/share/icons/oxygen/scalable/categories/applications-accessories.svgz
 usr/share/icons/oxygen/scalable/categories/applications-education.svgz
 usr/share/icons/oxygen/scalable/categories/applications-engineering.svgz
@@ -5407,11 +5316,7 @@ usr/share/icons/oxygen/scalable/categories/preferences-desktop-peripherals.svgz
 usr/share/icons/oxygen/scalable/categories/preferences-desktop-personal.svgz
 usr/share/icons/oxygen/scalable/categories/preferences-system-network.svgz
 usr/share/icons/oxygen/scalable/categories/preferences-system.svgz
-usr/share/icons/oxygen/scalable/categories/small
-usr/share/icons/oxygen/scalable/categories/small/16x16
-usr/share/icons/oxygen/scalable/categories/small/22x22
 usr/share/icons/oxygen/scalable/categories/system-help.svgz
-usr/share/icons/oxygen/scalable/devices
 usr/share/icons/oxygen/scalable/devices/audio-card.svgz
 usr/share/icons/oxygen/scalable/devices/audio-headset.svgz
 usr/share/icons/oxygen/scalable/devices/audio-input-line.svgz
@@ -5450,8 +5355,6 @@ usr/share/icons/oxygen/scalable/devices/pda.svgz
 usr/share/icons/oxygen/scalable/devices/phone.svgz
 usr/share/icons/oxygen/scalable/devices/printer.svgz
 usr/share/icons/oxygen/scalable/devices/scanner.svgz
-usr/share/icons/oxygen/scalable/devices/small
-usr/share/icons/oxygen/scalable/devices/small/16x16
 usr/share/icons/oxygen/scalable/devices/small/16x16/audio-headset.svgz
 usr/share/icons/oxygen/scalable/devices/small/16x16/audio-input-line.svgz
 usr/share/icons/oxygen/scalable/devices/small/16x16/audio-input-microphone.svgz
@@ -5474,7 +5377,6 @@ usr/share/icons/oxygen/scalable/devices/small/16x16/pda.svgz
 usr/share/icons/oxygen/scalable/devices/small/16x16/printer.svgz
 usr/share/icons/oxygen/scalable/devices/small/16x16/video-display.svgz
 usr/share/icons/oxygen/scalable/devices/small/16x16/video-television.svgz
-usr/share/icons/oxygen/scalable/devices/small/22x22
 usr/share/icons/oxygen/scalable/devices/small/22x22/audio-headset.svgz
 usr/share/icons/oxygen/scalable/devices/small/22x22/audio-input-line.svgz
 usr/share/icons/oxygen/scalable/devices/small/22x22/audio-input-microphone.svgz
@@ -5486,25 +5388,16 @@ usr/share/icons/oxygen/scalable/devices/small/22x22/video-display.svgz
 usr/share/icons/oxygen/scalable/devices/video-display.svgz
 usr/share/icons/oxygen/scalable/devices/video-projector.svgz
 usr/share/icons/oxygen/scalable/devices/video-television.svgz
-usr/share/icons/oxygen/scalable/emblems
 usr/share/icons/oxygen/scalable/emblems/emblem-link.svgz
 usr/share/icons/oxygen/scalable/emblems/emblem-mounted.svgz
-usr/share/icons/oxygen/scalable/emblems/small
-usr/share/icons/oxygen/scalable/emblems/small/11x11
 usr/share/icons/oxygen/scalable/emblems/small/11x11/emblem-link.svgz
 usr/share/icons/oxygen/scalable/emblems/small/11x11/emblem-mounted.svgz
-usr/share/icons/oxygen/scalable/emblems/small/16x16
 usr/share/icons/oxygen/scalable/emblems/small/16x16/emblem-link.svgz
 usr/share/icons/oxygen/scalable/emblems/small/16x16/emblem-mounted.svgz
-usr/share/icons/oxygen/scalable/emblems/small/22x22
 usr/share/icons/oxygen/scalable/emblems/small/22x22/emblem-link.svgz
 usr/share/icons/oxygen/scalable/emblems/small/22x22/emblem-mounted.svgz
-usr/share/icons/oxygen/scalable/emblems/small/8x8
 usr/share/icons/oxygen/scalable/emblems/small/8x8/emblem-link.svgz
 usr/share/icons/oxygen/scalable/emblems/small/8x8/emblem-mounted.svgz
-usr/share/icons/oxygen/scalable/emotes
-usr/share/icons/oxygen/scalable/emotes/small
-usr/share/icons/oxygen/scalable/emotes/small/16x16
 usr/share/icons/oxygen/scalable/emotes/small/16x16/face-angel.svgz
 usr/share/icons/oxygen/scalable/emotes/small/16x16/face-asleep.svgz
 usr/share/icons/oxygen/scalable/emotes/small/16x16/face-confused.svgz
@@ -5525,7 +5418,6 @@ usr/share/icons/oxygen/scalable/emotes/small/16x16/face-surprise.svgz
 usr/share/icons/oxygen/scalable/emotes/small/16x16/face-tongue.svgz
 usr/share/icons/oxygen/scalable/emotes/small/16x16/face-wink-alt.svgz
 usr/share/icons/oxygen/scalable/emotes/small/16x16/face-wink.svgz
-usr/share/icons/oxygen/scalable/emotes/small/22x22
 usr/share/icons/oxygen/scalable/emotes/small/22x22/face-angel.svgz
 usr/share/icons/oxygen/scalable/emotes/small/22x22/face-asleep.svgz
 usr/share/icons/oxygen/scalable/emotes/small/22x22/face-confused.svgz
@@ -5546,8 +5438,6 @@ usr/share/icons/oxygen/scalable/emotes/small/22x22/face-surprise.svgz
 usr/share/icons/oxygen/scalable/emotes/small/22x22/face-tongue.svgz
 usr/share/icons/oxygen/scalable/emotes/small/22x22/face-wink-alt.svgz
 usr/share/icons/oxygen/scalable/emotes/small/22x22/face-wink.svgz
-usr/share/icons/oxygen/scalable/intl
-usr/share/icons/oxygen/scalable/mimetypes
 usr/share/icons/oxygen/scalable/mimetypes/application-illustrator.svgz
 usr/share/icons/oxygen/scalable/mimetypes/application-pdf.svgz
 usr/share/icons/oxygen/scalable/mimetypes/application-pgp-encrypted.svgz
@@ -5738,8 +5628,6 @@ usr/share/icons/oxygen/scalable/mimetypes/odf.svgz
 usr/share/icons/oxygen/scalable/mimetypes/pdf.svgz
 usr/share/icons/oxygen/scalable/mimetypes/recycled.svgz
 usr/share/icons/oxygen/scalable/mimetypes/shellscript.svgz
-usr/share/icons/oxygen/scalable/mimetypes/small
-usr/share/icons/oxygen/scalable/mimetypes/small/16x16
 usr/share/icons/oxygen/scalable/mimetypes/small/16x16/application-pdf.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/16x16/application-pgp-encrypted.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/16x16/application-pgp-signature.svgz
@@ -5935,7 +5823,6 @@ usr/share/icons/oxygen/scalable/mimetypes/small/16x16/video-x-ms-wmv.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/16x16/video-x-ogm+ogg.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/16x16/video-x-theora+ogg.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/16x16/xml.svgz
-usr/share/icons/oxygen/scalable/mimetypes/small/22x22
 usr/share/icons/oxygen/scalable/mimetypes/small/22x22/application-pdf.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/22x22/application-pgp-encrypted.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/22x22/application-pgp-signature.svgz
@@ -6098,7 +5985,6 @@ usr/share/icons/oxygen/scalable/mimetypes/small/22x22/video-x-ms-wmv.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/22x22/video-x-ogm+ogg.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/22x22/video-x-theora+ogg.svgz
 usr/share/icons/oxygen/scalable/mimetypes/small/22x22/xml.svgz
-usr/share/icons/oxygen/scalable/mimetypes/small/32x32
 usr/share/icons/oxygen/scalable/mimetypes/small/32x32/inode-directory.svgz
 usr/share/icons/oxygen/scalable/mimetypes/sound.svgz
 usr/share/icons/oxygen/scalable/mimetypes/spreadsheet.svgz
@@ -6167,7 +6053,6 @@ usr/share/icons/oxygen/scalable/mimetypes/video-x-ogm+ogg.svgz
 usr/share/icons/oxygen/scalable/mimetypes/video-x-theora+ogg.svgz
 usr/share/icons/oxygen/scalable/mimetypes/xml.svgz
 usr/share/icons/oxygen/scalable/mimetypes/zip.svgz
-usr/share/icons/oxygen/scalable/places
 usr/share/icons/oxygen/scalable/places/file-broken.svgz
 usr/share/icons/oxygen/scalable/places/folder-blue.svgz
 usr/share/icons/oxygen/scalable/places/folder-bookmarks.svgz
@@ -6193,22 +6078,15 @@ usr/share/icons/oxygen/scalable/places/folder-yellow.svgz
 usr/share/icons/oxygen/scalable/places/link.svgz
 usr/share/icons/oxygen/scalable/places/network-local.svgz
 usr/share/icons/oxygen/scalable/places/network-wired.svgz
-usr/share/icons/oxygen/scalable/places/small
-usr/share/icons/oxygen/scalable/places/small/16x16
 usr/share/icons/oxygen/scalable/places/small/16x16/file-broken.svgz
 usr/share/icons/oxygen/scalable/places/small/16x16/folder-inbox.svgz
 usr/share/icons/oxygen/scalable/places/small/16x16/folder-outbox.svgz
 usr/share/icons/oxygen/scalable/places/small/16x16/link.svgz
-usr/share/icons/oxygen/scalable/places/small/22x22
-usr/share/icons/oxygen/scalable/places/small/32x32
 usr/share/icons/oxygen/scalable/places/small/32x32/link.svgz
 usr/share/icons/oxygen/scalable/places/trashcan-empty-alt.svgz
 usr/share/icons/oxygen/scalable/places/user-home.svgz
 usr/share/icons/oxygen/scalable/places/user-trash-full.svgz
 usr/share/icons/oxygen/scalable/places/user-trash.svgz
-usr/share/icons/oxygen/scalable/status
-usr/share/icons/oxygen/scalable/status/small
-usr/share/icons/oxygen/scalable/status/small/22x22
 usr/share/icons/oxygen/scalable/status/small/22x22/audio-volume-high.svgz
 usr/share/icons/oxygen/scalable/status/small/22x22/audio-volume-low.svgz
 usr/share/icons/oxygen/scalable/status/small/22x22/audio-volume-medium.svgz
