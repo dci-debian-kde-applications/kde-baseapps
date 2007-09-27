@@ -18,7 +18,6 @@ usr/share/kde4/apps/dolphin/servicemenus/ark_extract.desktop
 usr/share/kde4/apps/dolphin/servicemenus/dolphin_su.desktop
 usr/share/kde4/apps/dolphin/servicemenus/floppy_format.desktop
 usr/share/kde4/apps/dolphin/servicemenus/imageconverter.desktop
-usr/share/kde4/apps/dolphin/servicemenus/installfont.desktop
 usr/share/kde4/apps/dolphin/servicemenus/isoservice.desktop
 usr/share/kde4/apps/dolphin/servicemenus/jpegorient.desktop
 usr/share/kde4/apps/dolphin/servicemenus/k3b_create_audio_cd.desktop
