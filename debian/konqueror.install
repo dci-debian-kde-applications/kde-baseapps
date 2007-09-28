@@ -112,7 +112,6 @@ usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde3.png
 usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde4.png
 usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde5.png
 usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde6.png
-usr/share/kde4/apps/konqueror/konq-simplebrowser.rc
 usr/share/kde4/apps/konqueror/konqueror.rc
 usr/share/kde4/apps/konqueror/pics/indicator_connect.png
 usr/share/kde4/apps/konqueror/pics/indicator_empty.png
@@ -121,7 +120,6 @@ usr/share/kde4/apps/konqueror/pics/indicator_viewactive.png
 usr/share/kde4/apps/konqueror/profiles/filemanagement
 usr/share/kde4/apps/konqueror/profiles/kde_devel
 usr/share/kde4/apps/konqueror/profiles/midnightcommander
-usr/share/kde4/apps/konqueror/profiles/simplebrowser
 usr/share/kde4/apps/konqueror/profiles/tabbedbrowsing
 usr/share/kde4/apps/konqueror/profiles/webbrowsing
 usr/share/kde4/apps/konqueror/servicemenus/text-ada-print.desktop
