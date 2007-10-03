@@ -36,8 +36,6 @@ usr/bin/ksvgtopng
 usr/bin/ktraderclient
 usr/bin/kuiserver
 usr/bin/kwriteconfig
-usr/bin/nepomukcoreservices
-usr/bin/nepomukdaemon
 usr/lib/kde4/kcm_css.so
 usr/lib/kde4/kcm_filetypes.so
 usr/lib/kde4/kcm_icons.so

@@ -28,7 +28,6 @@ usr/share/kde4/apps/khelpcenter/plugins/info.desktop
 usr/share/kde4/apps/khelpcenter/plugins/kcontrolmodules.desktop
 usr/share/kde4/apps/khelpcenter/plugins/kicmodules.desktop
 usr/share/kde4/apps/khelpcenter/plugins/kioslaves.desktop
-usr/share/kde4/apps/khelpcenter/plugins/konqplugins.desktop
 usr/share/kde4/apps/khelpcenter/plugins/links.desktop
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/.directory
 usr/share/kde4/apps/khelpcenter/plugins/Manpages/man1.desktop
