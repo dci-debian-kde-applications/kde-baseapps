@@ -1,11 +1,15 @@
 kdebase (4:3.94.0-1) UNRELEASED; urgency=low
 
+  * KDE4 beta3.
+
   +++ Changes by Armin Berres:
 
   * Remove listed directories in kdebase-data.install to avoid accidentally
-    installed files - removes conflicting file between kdebase-data and kdeprint
+    installed files - removes conflicting file between kdebase-data and
+    kdeprint.
+  * Update *.install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Sep 2007 21:23:37 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Oct 2007 00:07:43 +0200
 
 kdebase (4:3.93.0-1) experimental; urgency=low
 

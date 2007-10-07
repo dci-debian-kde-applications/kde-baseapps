@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 3.93.0),
- kdepimlibs5-dev (>= 3.93.0), libqimageblitz-dev, libxine-dev, libusb-dev,
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 3.94.0),
+ kdepimlibs5-dev (>= 3.94.0), libqimageblitz-dev, libxine-dev, libusb-dev,
  libsmbclient-dev
 Standards-Version: 3.7.2
 
@@ -94,7 +94,7 @@ Package: kdebase-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase (>= ${binary:Version}),
- kdepimlibs5-dev (>= 3.93.0), libqimageblitz-dev, libxine-dev, libusb-dev,
+ kdepimlibs5-dev (>= 3.94.0), libqimageblitz-dev, libxine-dev, libusb-dev,
  libsmbclient-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile

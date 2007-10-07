@@ -49,7 +49,6 @@ usr/share/kde4/services/konsolepart.desktop
 usr/share/kde4/services/konsole-script.desktop
 usr/share/kde4/servicetypes/terminalemulator.desktop
 
-usr/share/doc/kde4/HTML/en/konsole/index.cache.bz2
 usr/share/doc/kde4/HTML/en/konsole/index.docbook
 usr/share/doc/kde4/HTML/en/konsole/konsole.png
 usr/share/doc/kde4/HTML/en/konsole/tabbar.png

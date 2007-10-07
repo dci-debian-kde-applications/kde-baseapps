@@ -1,4 +1,3 @@
-
 etc/kde4/konqsidebartng.rc
 usr/bin/kbookmarkmerger
 usr/bin/keditbookmarks
@@ -31,6 +30,14 @@ usr/share/autostart/konqy_preload.desktop
 usr/share/dbus-1/interfaces/org.kde.Konqueror.MainWindow.xml
 usr/share/dbus-1/interfaces/org.kde.Konqueror.Main.xml
 usr/share/dbus-1/interfaces/org.kde.konqueror.Preloader.xml
+usr/share/doc/kde4/HTML/en/konqueror/cmndline.png
+usr/share/doc/kde4/HTML/en/konqueror/dirtree.png
+usr/share/doc/kde4/HTML/en/konqueror/dragdrop.png
+usr/share/doc/kde4/HTML/en/konqueror/index.docbook
+usr/share/doc/kde4/HTML/en/konqueror/konqorg.png
+usr/share/doc/kde4/HTML/en/konqueror/parts.png
+usr/share/doc/kde4/HTML/en/konqueror/shortcut1.png
+usr/share/doc/kde4/HTML/en/konqueror/shortcut2.png
 usr/share/icons/crystalsvg/16x16/apps/keditbookmarks.png
 usr/share/icons/crystalsvg/32x32/apps/keditbookmarks.png
 usr/share/icons/crystalsvg/48x48/apps/keditbookmarks.png
@@ -112,7 +119,9 @@ usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde3.png
 usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde4.png
 usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde5.png
 usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde6.png
+usr/share/kde4/apps/konqueror/konq-filemanagement.rc
 usr/share/kde4/apps/konqueror/konqueror.rc
+usr/share/kde4/apps/konqueror/konq-webbrowsing.rc
 usr/share/kde4/apps/konqueror/pics/indicator_connect.png
 usr/share/kde4/apps/konqueror/pics/indicator_empty.png
 usr/share/kde4/apps/konqueror/pics/indicator_noconnect.png
@@ -155,14 +164,6 @@ usr/share/kde4/services/konq_aboutpage.desktop
 usr/share/kde4/services/konqfilemgr.desktop
 usr/share/kde4/services/konq_sidebartng.desktop
 usr/share/kde4/services/konqueror.desktop
+usr/share/kde4/services/renaudiodlg.desktop
+usr/share/kde4/services/renimagedlg.desktop
 usr/share/kde4/servicetypes/konqaboutpage.desktop
-
-usr/share/doc/kde4/HTML/en/konqueror/cmndline.png
-usr/share/doc/kde4/HTML/en/konqueror/dirtree.png
-usr/share/doc/kde4/HTML/en/konqueror/dragdrop.png
-usr/share/doc/kde4/HTML/en/konqueror/index.cache.bz2
-usr/share/doc/kde4/HTML/en/konqueror/index.docbook
-usr/share/doc/kde4/HTML/en/konqueror/konqorg.png
-usr/share/doc/kde4/HTML/en/konqueror/parts.png
-usr/share/doc/kde4/HTML/en/konqueror/shortcut1.png
-usr/share/doc/kde4/HTML/en/konqueror/shortcut2.png
