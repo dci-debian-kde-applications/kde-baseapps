@@ -279,4 +279,12 @@ Description: development files for Konqueror's core libraries
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
-
+Package: kdebase-dbg
+Section: libdevel
+Architecture: any
+Priority: extra
+Depends: kdebase (= ${binary:Version}), kdepimlibs-dbg
+Description: debugging symbols for kdebase
+ This package contains the debugging symbols associated with kdebase.
+ They will automatically be used by gdb for debugging kdebase-related
+ issues.
