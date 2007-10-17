@@ -119,6 +119,15 @@ Description: core I/O slaves for KDE
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
+Package: kde-icons-oxygen
+Section: kde
+Architecture: all
+Conflicts: kdebase-data (<= 4:3.94.0-1)
+Replaces: kdebase-data (<= 4:3.94.0-1)
+Suggests: kdebase (>= 4:3.94.0-2)
+Description: Oxygen icon theme for KDE
+ Oxygen is the standard icon theme for KDE4.
+
 Package: kdepasswd
 Section: kde
 Architecture: any
