@@ -1,12 +1,14 @@
 kdebase (4:3.94.0-2) experimental; urgency=low
 
+  * svn branch pull to r726783.
+
+  +++ Changes by Armin Berres:
+
   * Add debug package.
   * Split the Oxygen icons into a seperate package kde-icons-oxygen. This way
     KDE4 applications can be used when running KDE3.
-  * Cherry pick some patches from upstream which are needed for
-    co-installability of kde4base and kde3libs and a correct search path for
-    kdm. Namely r726655, r725907, r725662, r725652, r725648 and r725642.
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 18 Oct 2007 19:50:52 +0200
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 23:32:51 +0200
 
 kdebase (4:3.94.0-1) experimental; urgency=low
 
