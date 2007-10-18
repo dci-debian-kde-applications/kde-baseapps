@@ -1,0 +1,649 @@
+--- apps/nsplugins/khtml_plugins.desktop	(revision 725651)
++++ apps/nsplugins/khtml_plugins.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule,KCModuleInit
+ DocPath=kcontrol/khtml/index.html#kbrowse-plugins
+ Icon=konqueror
+-Exec=kcmshell khtml_plugins
++Exec=kcmshell4 khtml_plugins
+ 
+ X-KDE-Library=kcm_konqhtml
+ X-KDE-PluginKeyword=khtml_plugins
+--- apps/konqueror/settings/ebrowsing/ebrowsing.desktop	(revision 725651)
++++ apps/konqueror/settings/ebrowsing/ebrowsing.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/ebrowsing/index.html
+ Icon=enhanced_browsing
+-Exec=kcmshell ebrowsing
++Exec=kcmshell4 ebrowsing
+ 
+ X-KDE-Library=kcm_kurifilt
+ X-KDE-ParentApp=kcontrol
+--- apps/konqueror/settings/performance/kcmperformance.desktop	(revision 725651)
++++ apps/konqueror/settings/performance/kcmperformance.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Icon=launch
+ Type=Service
+ ServiceTypes=KCModule
+-Exec=kcmshell kcmperformance
++Exec=kcmshell4 kcmperformance
+ 
+ X-KDE-Library=kcm_performance
+ X-KDE-PluginKeyword=performance
+--- apps/konqueror/settings/performance/kcmkonqyperformance.desktop	(revision 725651)
++++ apps/konqueror/settings/performance/kcmkonqyperformance.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Icon=launch
+ Type=Service
+ ServiceTypes=KCModule
+-Exec=kcmshell kcmkonqyperformance
++Exec=kcmshell4 kcmkonqyperformance
+ 
+ X-KDE-Library=kcm_performance
+ X-KDE-PluginKeyword=konqueror
+--- apps/konqueror/settings/kio/lanbrowser.desktop	(revision 725651)
++++ apps/konqueror/settings/kio/lanbrowser.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Type=Service
+ ServiceTypes=KCModule
+ Icon=preferences-system-network-share
+-Exec=kcmshell lanbrowser
++Exec=kcmshell4 lanbrowser
+ 
+ X-KDE-Library=kcm_kio
+ X-KDE-PluginKeyword=lanbrowser
+--- apps/konqueror/settings/kio/proxy.desktop	(revision 725651)
++++ apps/konqueror/settings/kio/proxy.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/proxy/index.html
+ Icon=preferences-system-network-proxy
+-Exec=kcmshell proxy
++Exec=kcmshell4 proxy
+ 
+ X-KDE-Library=kcm_kio
+ X-KDE-PluginKeyword=proxy
+--- apps/konqueror/settings/kio/cookies.desktop	(revision 725651)
++++ apps/konqueror/settings/kio/cookies.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/cookies/index.html
+ Icon=cookie
+-Exec=kcmshell cookies
++Exec=kcmshell4 cookies
+ 
+ X-KDE-Library=kcm_kio
+ X-KDE-PluginKeyword=cookie
+--- apps/konqueror/settings/kio/useragent.desktop	(revision 725651)
++++ apps/konqueror/settings/kio/useragent.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Type=Service
+ ServiceTypes=KCModule
+ Icon=agent
+-Exec=kcmshell useragent
++Exec=kcmshell4 useragent
+ DocPath=kcontrol/useragent/index.html
+ 
+ X-KDE-Library=kcm_kio
+--- apps/konqueror/settings/kio/cache.desktop	(revision 725651)
++++ apps/konqueror/settings/kio/cache.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/cache/index.html
+ Icon=cache
+-Exec=kcmshell cache
++Exec=kcmshell4 cache
+ 
+ X-KDE-Library=kcm_kio
+ X-KDE-PluginKeyword=cache
+--- apps/konqueror/settings/kio/smb.desktop	(revision 725651)
++++ apps/konqueror/settings/kio/smb.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/smb/index.html
+ Icon=preferences-system-network-share-windows
+-Exec=kcmshell smb
++Exec=kcmshell4 smb
+ 
+ X-KDE-Library=kcm_kio
+ X-KDE-PluginKeyword=smb
+--- apps/konqueror/settings/kio/netpref.desktop	(revision 725651)
++++ apps/konqueror/settings/kio/netpref.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell netpref
++Exec=kcmshell4 netpref
+ Icon=preferences-system-network-connection
+ Type=Service
+ ServiceTypes=KCModule
+--- apps/konqueror/settings/filetypes/filetypes.desktop	(revision 725651)
++++ apps/konqueror/settings/filetypes/filetypes.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Icon=filetypes
+ Type=Service
+ ServiceTypes=KCModule
+-Exec=kcmshell filetypes
++Exec=kcmshell4 filetypes
+ DocPath=kcontrol/filetypes/index.html
+ 
+ X-KDE-Library=kcm_filetypes
+--- apps/konqueror/settings/css/kcmcss.desktop	(revision 725651)
++++ apps/konqueror/settings/css/kcmcss.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Icon=stylesheet
+ Type=Service
+ ServiceTypes=KCModule
+-Exec=kcmshell kcmcss
++Exec=kcmshell4 kcmcss
+ DocPath=kcontrol/kcmcss/index.html
+ 
+ 
+--- apps/konqueror/settings/konq/desktoppath.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/desktoppath.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/desktop/index.html#desktop-desktop-path
+ Icon=kfm
+-Exec=kcmshell desktoppath
++Exec=kcmshell4 desktoppath
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=dpath
+--- apps/konqueror/settings/konq/desktopbehavior.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/desktopbehavior.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceType=KCModule
+ DocPath=kcontrol/desktopbehavior/index.html
+ Icon=desktop
+-Exec=kcmshell desktopbehavior
++Exec=kcmshell4 desktopbehavior
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=dbehavior
+--- apps/konqueror/settings/konq/webbehavior.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/webbehavior.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/filemanager/index.html
+ Icon=kfm
+-Exec=kcmshell filebehavior
++Exec=kcmshell4 filebehavior
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=behavior
+--- apps/konqueror/settings/konq/filebehavior.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/filebehavior.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/filemanager/index.html
+ Icon=kfm
+-Exec=kcmshell filebehavior
++Exec=kcmshell4 filebehavior
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=behavior
+--- apps/konqueror/settings/konq/desktop.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/desktop.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/desktop/index.html#desktop-number
+ Icon=desktop
+-Exec=kcmshell desktop
++Exec=kcmshell4 desktop
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=ddesktop
+--- apps/konqueror/settings/konq/filebrowser.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/filebrowser.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/filemanager/index.html
+ Icon=kfm
+-Exec=kcmshell filebrowser
++Exec=kcmshell4 filebrowser
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=browser
+--- apps/konqueror/settings/konq/webappearance.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/webappearance.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/filemanager/index.html
+ Icon=kfm
+-Exec=kcmshell fileappearance
++Exec=kcmshell4 fileappearance
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=appearance
+--- apps/konqueror/settings/konq/fileappearance.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/fileappearance.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/filemanager/index.html
+ Icon=kfm
+-Exec=kcmshell fileappearance
++Exec=kcmshell4 fileappearance
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=appearance
+--- apps/konqueror/settings/konq/filepreviews.desktop	(revision 725651)
++++ apps/konqueror/settings/konq/filepreviews.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/filemanager/index.html
+ Icon=kfm
+-Exec=kcmshell filepreviews
++Exec=kcmshell4 filepreviews
+ 
+ X-KDE-Library=kcm_konq
+ X-KDE-PluginKeyword=previews
+--- apps/konqueror/settings/konqhtml/khtml_general.desktop	(revision 725651)
++++ apps/konqueror/settings/konqhtml/khtml_general.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/khtml/index.html#kbrowse-html
+ Icon=konqueror
+-Exec=kcmshell khtml_general
++Exec=kcmshell4 khtml_general
+ X-KDE-ParentApp=kcontrol
+ 
+ X-KDE-Library=kcm_konqhtml
+--- apps/konqueror/settings/konqhtml/khtml_filter.desktop	(revision 725651)
++++ apps/konqueror/settings/konqhtml/khtml_filter.desktop	(revision 725652)
+@@ -5,7 +5,7 @@
+ 
+ DocPath=kcontrol/khtml/index.html#khtml-adblock
+ Icon=filter
+-Exec=kcmshell khtml_filter
++Exec=kcmshell4 khtml_filter
+ 
+ X-KDE-Library=kcm_konqhtml
+ X-KDE-PluginKeyword=khtml_filter
+--- apps/konqueror/settings/konqhtml/khtml_fonts.desktop	(revision 725651)
++++ apps/konqueror/settings/konqhtml/khtml_fonts.desktop	(revision 725652)
+@@ -5,7 +5,7 @@
+ 
+ DocPath=kcontrol/khtml/index.html#kbrowse-appearance
+ Icon=preferences-desktop-font
+-Exec=kcmshell khtml_fonts
++Exec=kcmshell4 khtml_fonts
+ X-KDE-ParentApp=kcontrol
+ 
+ X-KDE-Library=kcm_konqhtml
+--- apps/konqueror/settings/konqhtml/khtml_behavior.desktop	(revision 725651)
++++ apps/konqueror/settings/konqhtml/khtml_behavior.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/khtml/index.html#kbrowse-html
+ Icon=konqueror
+-Exec=kcmshell khtml_behavior
++Exec=kcmshell4 khtml_behavior
+ X-KDE-ParentApp=kcontrol
+ 
+ X-KDE-Library=kcm_konqhtml
+--- apps/konqueror/settings/konqhtml/khtml_java_js.desktop	(revision 725651)
++++ apps/konqueror/settings/konqhtml/khtml_java_js.desktop	(revision 725652)
+@@ -4,7 +4,7 @@
+ ServiceTypes=KCModule
+ DocPath=kcontrol/khtml/index.html#kbrowse-java
+ Icon=konqueror
+-Exec=kcmshell khtml_java_js
++Exec=kcmshell4 khtml_java_js
+ X-KDE-ParentApp=kcontrol
+ 
+ X-KDE-Library=kcm_konqhtml
+--- apps/konqueror/sidebar/trees/history_module/kcmhistory.desktop	(revision 725651)
++++ apps/konqueror/sidebar/trees/history_module/kcmhistory.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Icon=history
+ Type=Service
+ ServiceTypes=KCModule
+-Exec=kcmshell kcmhistory
++Exec=kcmshell4 kcmhistory
+ 
+ X-KDE-Library=kcm_history
+ X-KDE-ParentApp=kcontrol
+--- apps/konqueror/sidebar/trees/history_module/history_module.cpp	(revision 725651)
++++ apps/konqueror/sidebar/trees/history_module/history_module.cpp	(revision 725652)
+@@ -299,7 +299,7 @@
+ void KonqSidebarHistoryModule::slotPreferences()
+ {
+     // Run the history sidebar settings.
+-    KRun::run( "kcmshell kcmhistory", KUrl::List(), tree());
++    KRun::run( "kcmshell4 kcmhistory", KUrl::List(), tree());
+ }
+ 
+ void KonqSidebarHistoryModule::slotSortByName()
+--- apps/konqueror/about/konq_aboutpage.cc	(revision 725651)
++++ apps/konqueror/about/konq_aboutpage.cc	(revision 725652)
+@@ -256,12 +256,12 @@
+           .arg( i18n("<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)", QString("http://www.w3.org/Style/CSS/")) )
+           .arg( i18n("built-in") )
+           .arg( i18n("<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)", QString("http://www.ecma.ch/ecma1/STAND/ECMA-262.HTM")) )
+-          .arg( i18n("JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>.", QString("exec:/kcmshell khtml_java_js")) )
+-          .arg( i18n("JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\\">here</A>.", QString("exec:/kcmshell khtml_java_js")) ) // leave the double backslashes here, they are necessary for javascript !
++          .arg( i18n("JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>.", QString("exec:/kcmshell4 khtml_java_js")) )
++          .arg( i18n("JavaScript enabled (globally). Configure JavaScript <A HREF=\\\"%1\\\">here</A>.", QString("exec:/kcmshell4 khtml_java_js")) ) // leave the double backslashes here, they are necessary for javascript !
+           .arg( i18n("Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support", QString("http://java.sun.com")) )
+           .arg( i18n("JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A HREF=\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)",
+                        QString("http://www.blackdown.org"), QString("http://www.ibm.com"), QString("http://java.sun.com")) )
+-          .arg( i18n("Enable Java (globally) <A HREF=\"%1\">here</A>.", QString("exec:/kcmshell khtml_java_js")) ) // TODO Maybe test if Java is enabled ?
++          .arg( i18n("Enable Java (globally) <A HREF=\"%1\">here</A>.", QString("exec:/kcmshell4 khtml_java_js")) ) // TODO Maybe test if Java is enabled ?
+           .arg( i18n("Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A HREF=\"%2\">Real<SUP>&reg;</SUP></A>Audio, <A HREF=\"%3\">Real<SUP>&reg;</SUP></A>Video, etc.)",
+                        QString("http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"),
+                        QString("http://www.real.com"), QString("http://www.real.com"),
+@@ -281,7 +281,7 @@
+           .arg( i18n("Transfer protocols") )
+           .arg( i18n("HTTP 1.1 (including gzip/bzip2 compression)") )
+           .arg( i18n("FTP") )
+-          .arg( i18n("and <A HREF=\"%1\">many more...</A>", QString("exec:/kcmshell ioslaveinfo")) )
++          .arg( i18n("and <A HREF=\"%1\">many more...</A>", QString("exec:/kcmshell4 ioslaveinfo")) )
+           .arg( i18n("URL-Completion") )
+           .arg( i18n("Manual"))
+ 	  .arg( i18n("Popup"))
+@@ -341,7 +341,7 @@
+ 		      "using Google, for the search phrase \"KDE\". There are a lot of "
+ 		      "Web-Shortcuts predefined to make searching for software or looking "
+ 		      "up certain words in an encyclopedia a breeze. You can even "
+-                      "<a href=\"%1\">create your own</a> Web-Shortcuts." , QString("exec:/kcmshell ebrowsing")) )
++                      "<a href=\"%1\">create your own</a> Web-Shortcuts." , QString("exec:/kcmshell4 ebrowsing")) )
+ 	  .arg( i18n( "Use the magnifier button <img width='16' height='16' src=\"%1\"></img> in the"
+ 		      " toolbar to increase the font size on your web page.", viewmag_icon_path) )
+ 	  .arg( i18n( "When you want to paste a new address into the Location toolbar you might want to "
+@@ -361,11 +361,11 @@
+ 		      ", or create your own ones." , view_left_right_icon_path))
+ 	  .arg( i18n( "Use the <a href=\"%1\">user-agent</a> feature if the website you are visiting "
+                       "asks you to use a different browser "
+-		      "(and do not forget to send a complaint to the webmaster!)" , QString("exec:/kcmshell useragent")) )
++		      "(and do not forget to send a complaint to the webmaster!)" , QString("exec:/kcmshell4 useragent")) )
+ 	  .arg( i18n( "The <img width='16' height='16' src=\"%1\"></img> History in your SideBar ensures "
+ 		      "that you can keep track of the pages you have visited recently.", history_icon_path) )
+ 	  .arg( i18n( "Use a caching <a href=\"%1\">proxy</a> to speed up your"
+-		      " Internet connection.", QString("exec:/kcmshell proxy")) )
++		      " Internet connection.", QString("exec:/kcmshell4 proxy")) )
+ 	  .arg( i18n( "Advanced users will appreciate the Konsole which you can embed into "
+ 		      "Konqueror (Window -> <img width='16' height='16' SRC=\"%1\"></img> Show "
+  		      "Terminal Emulator).", openterm_icon_path))
+--- apps/kdepasswd/kcm/kcm_useraccount.desktop	(revision 725651)
++++ apps/kdepasswd/kcm/kcm_useraccount.desktop	(revision 725652)
+@@ -9,7 +9,7 @@
+ Type=Service
+ ServiceTypes=KCModule
+ 
+-Exec=kcmshell kcm_useraccount
++Exec=kcmshell4 kcm_useraccount
+ Name=Password & User Account
+ Name[af]=Gebruiker rekening en Wagwoord
+ Name[ar]=كلمة السر و حساب المستخدم
+--- runtime/kcontrol/locale/language.desktop	(revision 725651)
++++ runtime/kcontrol/locale/language.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell language
++Exec=kcmshell4 language
+ Icon=preferences-desktop-locale
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kcontrol/knotify/kcmnotify.desktop	(revision 725651)
++++ runtime/kcontrol/knotify/kcmnotify.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell kcmnotify
++Exec=kcmshell4 kcmnotify
+ Icon=preferences-desktop-notification
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kcontrol/samba/smbstatus.desktop	(revision 725651)
++++ runtime/kcontrol/samba/smbstatus.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell smbstatus
++Exec=kcmshell4 smbstatus
+ Icon=preferences-system-network-share-windows-status
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kcontrol/componentchooser/componentchooser.desktop	(revision 725651)
++++ runtime/kcontrol/componentchooser/componentchooser.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell componentchooser
++Exec=kcmshell4 componentchooser
+ Icon=preferences-desktop-default-applications
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kcontrol/kded/kcmkded.desktop	(revision 725651)
++++ runtime/kcontrol/kded/kcmkded.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell kcmkded
++Exec=kcmshell4 kcmkded
+ Icon=preferences-system-session-services
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kcontrol/dnssd/kcm_kdnssd.desktop	(revision 725651)
++++ runtime/kcontrol/dnssd/kcm_kdnssd.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell kcm_kdnssd
++Exec=kcmshell4 kcm_kdnssd
+ GenericName=
+ Icon=preferences-system-network-discovery
+ MimeType=
+--- runtime/kcontrol/icons/icons.desktop	(revision 725651)
++++ runtime/kcontrol/icons/icons.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell icons
++Exec=kcmshell4 icons
+ Icon=preferences-desktop-icons
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kcontrol/kcontrol/modules.cpp	(revision 725651)
++++ runtime/kcontrol/kcontrol/modules.cpp	(revision 725652)
+@@ -144,7 +144,7 @@
+   delete _embedLayout;
+ 
+   // create an embed widget that will embed the
+-  // kcmshell running as root
++  // kcmshell4 running as root
+   _embedLayout = new QVBoxLayout(_module->parentWidget());
+   _embedFrame = new KVBox( _module->parentWidget() );
+ #ifdef __GNUC__
+@@ -171,7 +171,7 @@
+   _busy->setGeometry(0,0, _module->width(), _module->height());
+   _busy->show();
+ 
+-  // prepare the process to run the kcmshell
++  // prepare the process to run the kcmshell4
+   QString cmd = service()->exec().trimmed();
+   bool kdeshell = false;
+   if (cmd.left(5) == "kdesu")
+@@ -185,7 +185,7 @@
+         }
+     }
+ 
+-  if (cmd.left(8) == "kcmshell")
++  if (cmd.left(8) == "kcmshell4")
+     {
+       cmd = cmd.remove(0,8).trimmed();
+       kdeshell = true;
+@@ -207,7 +207,7 @@
+       // We also don't have a way to close the module in that case.
+       *_rootProcess << "--n"; // Don't keep password.
+       if (kdeshell) {
+-         *_rootProcess << QString("kcmshell %1 --embed %2 --lang %3").arg(cmd).arg(_embedWidget->winId()).arg(KGlobal::locale()->language());
++         *_rootProcess << QString("kcmshell4 %1 --embed %2 --lang %3").arg(cmd).arg(_embedWidget->winId()).arg(KGlobal::locale()->language());
+       }
+       else {
+          *_rootProcess << QString("%1 --embed %2 --lang %3").arg(cmd).arg(_embedWidget->winId()).arg( KGlobal::locale()->language() );
+--- runtime/kcontrol/infocenter/ioslaveinfo/ioslaveinfo.desktop	(revision 725651)
++++ runtime/kcontrol/infocenter/ioslaveinfo/ioslaveinfo.desktop	(revision 725652)
+@@ -65,7 +65,7 @@
+ Comment[zh_CN]=可用协议的信息
+ Comment[zh_TW]=可用協定的資訊
+ DocPath=kinfocenter/protocols/index.html
+-Exec=kcmshell ioslaveinfo
++Exec=kcmshell4 ioslaveinfo
+ Icon=history
+ Keywords=Protocol,IO slaves,Slaves,Network,Information,Timeout
+ Keywords[be]=Пратакол,Сетка,Звесткі,Тэрмін чакання,Protocol,IO slaves,Slaves,Network,Information,Timeout
+--- runtime/phonon/xine/kcm/kcm_phononxine.desktop	(revision 725651)
++++ runtime/phonon/xine/kcm/kcm_phononxine.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell kcm_phononxine
++Exec=kcmshell4 kcm_phononxine
+ Icon=phonon
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kcmshell/main.cpp	(revision 725651)
++++ runtime/kcmshell/main.cpp	(revision 725652)
+@@ -102,7 +102,7 @@
+     if( owner == QDBusConnection::sessionBus().baseService() )
+         return false; // We are the one and only.
+ 
+-    kDebug(780) << "kcmshell with modules '" <<
++    kDebug(780) << "kcmshell4 with modules '" <<
+         m_serviceName << "' is already running." << endl;
+ 
+     QDBusInterface iface(m_serviceName, "/KCModule/dialog", "org.kde.KCMShellMultiDialog");
+--- runtime/kcmshell/CMakeLists.txt	(revision 725651)
++++ runtime/kcmshell/CMakeLists.txt	(revision 725652)
+@@ -1,12 +1,11 @@
+ 
+ set(kcmshell_KDEINIT_SRCS main.cpp )
+ 
++kde4_add_kdeinit_executable( kcmshell4 ${kcmshell_KDEINIT_SRCS})
+ 
+-kde4_add_kdeinit_executable( kcmshell ${kcmshell_KDEINIT_SRCS})
++target_link_libraries(kdeinit_kcmshell4 ${KDE4_KUTILS_LIBS} )
+ 
+-target_link_libraries(kdeinit_kcmshell ${KDE4_KUTILS_LIBS} )
++install(TARGETS kdeinit_kcmshell4  DESTINATION ${LIB_INSTALL_DIR} )
+ 
+-install(TARGETS kdeinit_kcmshell  DESTINATION ${LIB_INSTALL_DIR} )
+-
+-target_link_libraries( kcmshell kdeinit_kcmshell )
+-install(TARGETS kcmshell DESTINATION ${BIN_INSTALL_DIR} )
++target_link_libraries( kcmshell4 kdeinit_kcmshell4 )
++install(TARGETS kcmshell4 DESTINATION ${BIN_INSTALL_DIR} )
+--- runtime/khelpcenter/kcmhelpcenter.desktop	(revision 725651)
++++ runtime/khelpcenter/kcmhelpcenter.desktop	(revision 725652)
+@@ -1,7 +1,7 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+ Type=Application
+-Exec=kcmshell kcmhelpcenter
++Exec=kcmshell4 kcmhelpcenter
+ Icon=help
+ 
+ X-KDE-SubstituteUID=true
+--- runtime/khelpcenter/htmlsearch/htmlsearch.desktop	(revision 725651)
++++ runtime/khelpcenter/htmlsearch/htmlsearch.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell htmlsearch
++Exec=kcmshell4 htmlsearch
+ Icon=help_index
+ Type=Service
+ ServiceTypes=KCModule
+--- runtime/kioslave/cgi/kcmcgi/kcmcgi.desktop	(revision 725651)
++++ runtime/kioslave/cgi/kcmcgi/kcmcgi.desktop	(revision 725652)
+@@ -3,7 +3,7 @@
+ Icon=run
+ Type=Service
+ SericeTypes=KCModule
+-Exec=kcmshell kcmcgi
++Exec=kcmshell4 kcmcgi
+ 
+ X-KDE-Library=kcm_cgi
+ 
+--- runtime/kdeprint/printmgr/printmgr.desktop	(revision 725651)
++++ runtime/kdeprint/printmgr/printmgr.desktop	(revision 725652)
+@@ -1,7 +1,7 @@
+ [Desktop Entry]
+ OnlyShowIn=KDE;
+ Encoding=UTF-8
+-Exec=kcmshell printmgr
++Exec=kcmshell4 printmgr
+ Icon=printmgr
+ Type=Application
+ DocPath=kdeprint/index.html
+--- runtime/kdeprint/printmgr/printers.desktop	(revision 725651)
++++ runtime/kdeprint/printmgr/printers.desktop	(revision 725652)
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+-Exec=kcmshell printmgr
++Exec=kcmshell4 printmgr
+ Icon=printmgr
+ 
+ ServiceTypes=KCModule
+--- runtime/knewstuff/CMakeLists.txt	(revision 725661)
++++ runtime/knewstuff/CMakeLists.txt	(revision 725662)
+@@ -1,21 +1,14 @@
+-
+-
+ include_directories( ${KDE4_KIO_INCLUDES} )
+ 
+-
+ set(khotnewstuff_SRCS khotnewstuff.cpp )
+ 
++kde4_add_executable(khotnewstuff4 ${khotnewstuff_SRCS})
+ 
+-kde4_add_executable(khotnewstuff ${khotnewstuff_SRCS})
++target_link_libraries(khotnewstuff4 ${KDE4_KNEWSTUFF2_LIBS})
+ 
+-target_link_libraries(khotnewstuff  ${KDE4_KNEWSTUFF2_LIBS})
++install(TARGETS khotnewstuff4 DESTINATION ${BIN_INSTALL_DIR} )
+ 
+-install(TARGETS khotnewstuff DESTINATION ${BIN_INSTALL_DIR} )
+-
+ install( FILES khotnewstuffrc  DESTINATION  ${CONFIG_INSTALL_DIR} )
+ 
+ kde4_install_icons( ${ICON_INSTALL_DIR}  )
+ 
+-
+-
+-
+--- runtime/pics/emoticons/CMakeLists.txt	(revision 725906)
++++ runtime/pics/emoticons/CMakeLists.txt	(revision 725907)
+@@ -1,7 +1,7 @@
+ 
+ ########### install files ###############
+ 
+-install( FILES angry.png bat.png beer.png biggrin.png cake.png camera.png cat.png clock.png cocktail.png confused.png cry.png cup.png dog.png email.png embarassed.png emoticons.xml film.png kiss.png lightbulb.png love.png note.png oh.png omg.png phone.png present.png rose.png sad.png shade.png sleep.png smile.png star.png teeth.png thumbs_down.png thumbs_up.png tongue.png unhappy.png unlove.png wilted_rose.png wink.png foot_in_mouth.png innocent.png undecided.png DESTINATION ${SHARE_INSTALL_PREFIX}/emoticons/Default)
++install( FILES angry.png bat.png beer.png biggrin.png cake.png camera.png cat.png clock.png cocktail.png confused.png cry.png cup.png dog.png email.png embarassed.png emoticons.xml film.png kiss.png lightbulb.png love.png note.png oh.png omg.png phone.png present.png rose.png sad.png shade.png sleep.png smile.png star.png teeth.png thumbs_down.png thumbs_up.png tongue.png unhappy.png unlove.png wilted_rose.png wink.png foot_in_mouth.png innocent.png undecided.png DESTINATION ${SHARE_INSTALL_PREFIX}/emoticons/kde4)
+ 
+ 
+ 
+--- apps/config-apps.h.cmake	(revision 726654)
++++ apps/config-apps.h.cmake	(revision 726655)
+@@ -70,13 +70,13 @@
+ #cmakedefine HAVE_VSNPRINTF 1
+ 
+ /* KDE's binaries directory */
+-#define KDE_BINDIR "${CMAKE_INSTALL_PREFIX}/bin"
++#define KDE_BINDIR "${BIN_INSTALL_DIR}"
+ 
+ /* KDE's configuration directory */
+-#define KDE_CONFDIR "${CMAKE_INSTALL_PREFIX}/share/config"
++#define KDE_CONFDIR "${CONFIG_INSTALL_DIR}"
+ 
+ /* KDE's static data directory */
+-#define KDE_DATADIR "${CMAKE_INSTALL_PREFIX}/share/apps"
++#define KDE_DATADIR "${DATA_INSTALL_DIR}"
+ 
+ /* Define where your java executable is */
+ #undef PATH_JAVA
