@@ -1,12 +1,19 @@
 kdebase (4:3.94.0-2) experimental; urgency=low
 
-  * svn branch pull to r726783.
+  +++ Changes by Fathi Boudra:
+
+  * Pull SVN branch to r726783.
 
   +++ Changes by Armin Berres:
 
   * Add debug package.
-  * Split the Oxygen icons into a seperate package kde-icons-oxygen. This way
+  * Split the Oxygen icons into a separate package kde-icons-oxygen. This way
     KDE4 applications can be used when running KDE3.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update *.install files.
+  * Upload! :-)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 23:32:51 +0200
 

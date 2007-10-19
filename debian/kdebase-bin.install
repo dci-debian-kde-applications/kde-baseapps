@@ -1,4 +1,4 @@
-usr/bin/kcmshell
+usr/bin/kcmshell4
 usr/bin/kde4-menu
 usr/bin/kdebugdialog
 usr/bin/kde-cp
@@ -9,8 +9,8 @@ usr/bin/kdesu
 usr/bin/kdesud
 usr/bin/kdialog
 usr/bin/keditfiletype
-usr/bin/kfile
-usr/bin/khotnewstuff
+usr/bin/kfile4
+usr/bin/khotnewstuff4
 usr/bin/kinfocenter
 usr/bin/kioclient
 usr/bin/klocaldomainurifilterhelper
@@ -23,9 +23,11 @@ usr/bin/ksvgtopng
 usr/bin/ktraderclient
 usr/bin/kuiserver
 usr/bin/kwriteconfig
+usr/lib/kde4/kcm_componentchooser.so
 usr/lib/kde4/kcm_css.so
 usr/lib/kde4/kcm_filetypes.so
 usr/lib/kde4/kcm_icons.so
+usr/lib/kde4/kcm_ioslaveinfo.so
 usr/lib/kde4/kcm_kded.so
 usr/lib/kde4/kcm_kdnssd.so
 usr/lib/kde4/kcm_kio.so
@@ -57,6 +59,6 @@ usr/lib/kde4/librenimageplugin.so
 usr/lib/kde4/phonon_xine.so
 usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/plugins/styles/plastik.so
-usr/lib/libkdeinit4_kcmshell.so
+usr/lib/libkdeinit4_kcmshell4.so
 usr/lib/libkdeinit4_kinfocenter.so
 usr/lib/libkdeinit4_kuiserver.so
