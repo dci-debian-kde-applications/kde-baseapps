@@ -93,7 +93,7 @@ Description: shared data files for the KDE base module
 Package: kdebase-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase (>= ${binary:Version}),
+Depends: ${shlibs:Depends}, kdebase (= ${binary:Version}),
  kdepimlibs5-dev (>= 3.94.0), libqimageblitz-dev, libxine-dev, libusb-dev,
  libsmbclient-dev
 Description: development files for the KDE base module
