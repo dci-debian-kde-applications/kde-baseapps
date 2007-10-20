@@ -4,8 +4,11 @@ kdebase (4:3.94.0-3) experimental; urgency=low
 
   * Add libxcb1-dev build dependency.
   * Let kdebase-dev strictly depend on the same binary version of kdebase.
+  * Build depend on kdepimlibs >= 3.94.0-3.
+  * Remove the conflict of kde-icons-oxygen with kdebase-data. It isn't
+    needed and prevents co-installability with KDE3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 12:56:56 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 14:14:53 +0200
 
 kdebase (4:3.94.0-2) experimental; urgency=low
 
