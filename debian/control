@@ -95,7 +95,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase (= ${binary:Version}),
  kdepimlibs5-dev (>= 3.94.0), libqimageblitz-dev, libxine-dev, libusb-dev,
- libsmbclient-dev
+ libsmbclient-dev, libxcb1-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile
  software based on the KDE base module.

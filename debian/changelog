@@ -1,9 +1,11 @@
 kdebase (4:3.94.0-3) experimental; urgency=low
 
+  +++ Changes by Armin Berres:
+
   * Add libxcb1-dev build dependency.
   * Let kdebase-dev strictly depend on the same binary version of kdebase.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sat, 20 Oct 2007 12:56:56 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 12:56:56 +0200
 
 kdebase (4:3.94.0-2) experimental; urgency=low
 
