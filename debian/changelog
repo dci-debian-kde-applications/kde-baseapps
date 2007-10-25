@@ -1,5 +1,9 @@
 kdebase (4:3.94.0-3) experimental; urgency=low
 
+  +++ Changes by Fathi Boudra:
+
+  * Pull SVN branch to r729276.
+
   +++ Changes by Armin Berres:
 
   * Add libxcb1-dev build dependency.
