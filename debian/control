@@ -138,19 +138,6 @@ Description: password changer for KDE
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
-Package: kdeprint
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: print system for KDE
- This package contains the KDE printing subsystem. It can use CUPS, lpd-ng or
- the traditional lpd. It also includes support for fax and pdf printing.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase' packages for more information.
- .
-  Homepage: http://printing.kde.org
-
 Package: kfind
 Section: kde
 Architecture: any

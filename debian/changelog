@@ -2,7 +2,7 @@ kdebase (4:3.94.0-3) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
 
-  * Pull SVN branch to r729276.
+  * Pull SVN branch to r729583.
 
   +++ Changes by Armin Berres:
 
@@ -11,8 +11,10 @@ kdebase (4:3.94.0-3) experimental; urgency=low
   * Build depend on kdepimlibs >= 3.94.0-3.
   * Remove the conflict of kde-icons-oxygen with kdebase-data. It isn't
     needed and prevents co-installability with KDE3.
+  * Update *.install files.
+  * Remove the kdeprint package. Kdeprint is dead.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 14:14:53 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Oct 2007 11:43:14 +0000
 
 kdebase (4:3.94.0-2) experimental; urgency=low
 
