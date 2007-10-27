@@ -14,10 +14,10 @@ Architecture: all
 Depends: dolphin (>= ${binary:Version}), kappfinder (>= ${binary:Version}), 
  kdebase-bin (>= ${binary:Version}), kdebase-data (>= ${binary:Version}), 
  kdebase-kio-plugins (>= ${binary:Version}), kdepasswd (>= ${binary:Version}), 
- kdeprint (>= ${binary:Version}), kfind (>= ${binary:Version}),
- knetattach (>= ${binary:Version}), konqueror-nsplugins (>= ${binary:Version}), 
- konqueror (>= ${binary:Version}), konsole (>= ${binary:Version}), 
- kwrite (>= ${binary:Version}), libkonq5 (>= ${binary:Version})
+ kfind (>= ${binary:Version}), knetattach (>= ${binary:Version}),
+ konqueror-nsplugins (>= ${binary:Version}), konqueror (>= ${binary:Version}),
+ konsole (>= ${binary:Version}), kwrite (>= ${binary:Version}),
+ libkonq5 (>= ${binary:Version})
 Recommends: kdm (>= ${binary:Version})
 Description: base components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
