@@ -5,5 +5,3 @@
 usr/lib/libdolphinprivate.so
 usr/lib/libkonqsidebarplugin.so
 usr/lib/libkonq.so
-usr/share/kde4/apps/cmake/modules/FindXCB.cmake
-usr/share/kde4/apps/cmake/modules/FindXine.cmake

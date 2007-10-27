@@ -144,8 +144,6 @@ usr/share/kde4/services/konq_aboutpage.desktop
 usr/share/kde4/services/konq_sidebartng.desktop
 usr/share/kde4/services/konqfilemgr.desktop
 usr/share/kde4/services/konqueror.desktop
-usr/share/kde4/services/renaudiodlg.desktop
-usr/share/kde4/services/renimagedlg.desktop
 usr/share/kde4/services/useragentstrings/firefox20oncurrent.desktop
 usr/share/kde4/services/useragentstrings/op90oncurrent.desktop
 usr/share/kde4/servicetypes/konqaboutpage.desktop

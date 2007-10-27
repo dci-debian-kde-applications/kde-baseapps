@@ -11,12 +11,10 @@ Standards-Version: 3.7.2
 Package: kdebase
 Section: kde
 Architecture: all
-Depends: dolphin (>= ${binary:Version}), drkonqi (>= ${binary:Version}),
- kappfinder (>= ${binary:Version}), 
+Depends: dolphin (>= ${binary:Version}), kappfinder (>= ${binary:Version}), 
  kdebase-bin (>= ${binary:Version}), kdebase-data (>= ${binary:Version}), 
  kdebase-kio-plugins (>= ${binary:Version}), kdepasswd (>= ${binary:Version}), 
  kdeprint (>= ${binary:Version}), kfind (>= ${binary:Version}),
- khelpcenter (>= ${binary:Version}), 
  knetattach (>= ${binary:Version}), konqueror-nsplugins (>= ${binary:Version}), 
  konqueror (>= ${binary:Version}), konsole (>= ${binary:Version}), 
  kwrite (>= ${binary:Version}), libkonq5 (>= ${binary:Version})
@@ -42,17 +40,6 @@ Description: file manager for KDE focusing on usability
   Network transparency
   Undo/redo functionality
   Renaming of a variable number of selected items in one step.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase' packages for more information.
-
-Package: drkonqi
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: KDE crash handler
- drkonqi is the KDE crash handler, it gives information to the user when a
- KDE application crashes.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -119,14 +106,6 @@ Description: core I/O slaves for KDE
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
 
-Package: kde-icons-oxygen
-Section: kde
-Architecture: all
-Replaces: kdebase-data (<= 4:3.94.0-1)
-Suggests: kdebase (>= 4:3.94.0-2)
-Description: Oxygen icon theme for KDE
- Oxygen is the standard icon theme for KDE4.
-
 Package: kdepasswd
 Section: kde
 Architecture: any
@@ -144,19 +123,6 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Description: file-find utility for KDE
  kfind can be used to find files and directories on your workstations.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase' packages for more information.
-
-Package: khelpcenter
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: help center for KDE
- The KDE Help Center provides documentation on how to use the KDE desktop.
- .
- The htdig package is needed to build a searchable archive of KDE
- documentation.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
