@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake,
- kdepimlibs5-dev (>= 3.94.0-2), libqimageblitz-dev, libxine-dev, libusb-dev,
+ kdepimlibs5-dev (>= 3.95.0), libqimageblitz-dev, libxine-dev, libusb-dev,
  libsmbclient-dev, libxcb1-dev
 Standards-Version: 3.7.2
 
@@ -50,7 +50,7 @@ Package: drkonqi
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: KDE crash handler  
+Description: KDE crash handler
  drkonqi is the KDE crash handler, it gives information to the user when a
  KDE application crashes.
  .
@@ -94,7 +94,7 @@ Package: kdebase-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase (= ${binary:Version}),
- kdepimlibs5-dev (>= 3.94.0), libqimageblitz-dev, libxine-dev, libusb-dev,
+ kdepimlibs5-dev (>= 3.95.0), libqimageblitz-dev, libxine-dev, libusb-dev,
  libsmbclient-dev, libxcb1-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile

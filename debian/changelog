@@ -1,14 +1,12 @@
-kdebase (4:3.94.0-3) experimental; urgency=low
+kdebase (4:3.95.0-1) experimental; urgency=low
 
-  +++ Changes by Fathi Boudra:
-
-  * Pull SVN branch to r729583.
+  * New upstream release: KDE4 beta 4.
 
   +++ Changes by Armin Berres:
 
   * Add libxcb1-dev build dependency.
   * Let kdebase-dev strictly depend on the same binary version of kdebase.
-  * Build depend on kdepimlibs >= 3.94.0-3.
+  * Build depend on kdepimlibs >= 3.95.0.
   * Remove the conflict of kde-icons-oxygen with kdebase-data. It isn't
     needed and prevents co-installability with KDE3.
   * Update *.install files.
