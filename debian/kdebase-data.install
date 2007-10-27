@@ -106,7 +106,6 @@ usr/share/icons/oxygen/16x16/apps/plan.png
 usr/share/icons/oxygen/16x16/apps/planner.png
 usr/share/icons/oxygen/16x16/apps/pybliographic.png
 usr/share/icons/oxygen/16x16/apps/realplayer.png
-usr/share/icons/oxygen/16x16/apps/scribus.png
 usr/share/icons/oxygen/16x16/apps/sodipodi.png
 usr/share/icons/oxygen/16x16/apps/terminal.png
 usr/share/icons/oxygen/16x16/apps/tux.png
@@ -161,7 +160,6 @@ usr/share/icons/oxygen/32x32/apps/plan.png
 usr/share/icons/oxygen/32x32/apps/planner.png
 usr/share/icons/oxygen/32x32/apps/pybliographic.png
 usr/share/icons/oxygen/32x32/apps/realplayer.png
-usr/share/icons/oxygen/32x32/apps/scribus.png
 usr/share/icons/oxygen/32x32/apps/sodipodi.png
 usr/share/icons/oxygen/32x32/apps/terminal.png
 usr/share/icons/oxygen/32x32/apps/tux.png
@@ -207,7 +205,6 @@ usr/share/icons/oxygen/48x48/apps/opera.png
 usr/share/icons/oxygen/48x48/apps/pan.png
 usr/share/icons/oxygen/48x48/apps/penguin.png
 usr/share/icons/oxygen/48x48/apps/planner.png
-usr/share/icons/oxygen/48x48/apps/scribus.png
 usr/share/icons/oxygen/48x48/apps/sodipodi.png
 usr/share/icons/oxygen/48x48/apps/staroffice.png
 usr/share/icons/oxygen/48x48/apps/terminal.png
@@ -247,7 +244,6 @@ usr/share/icons/oxygen/scalable/apps/display.svgz
 usr/share/icons/oxygen/scalable/apps/download_manager.svgz
 usr/share/icons/oxygen/scalable/apps/email.svgz
 usr/share/icons/oxygen/scalable/apps/galeon.svgz
-usr/share/icons/oxygen/scalable/apps/hardware.svgz
 usr/share/icons/oxygen/scalable/apps/netscape.svgz
 usr/share/icons/oxygen/scalable/apps/penguin.svgz
 usr/share/icons/oxygen/scalable/apps/personal.svgz

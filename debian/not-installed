@@ -1,3 +1,9 @@
 # Files not installed because they conflict with hicolor-icon-theme:
   
 ./usr/share/icons/hicolor/index.theme
+
+# Images which are already in kdebase-runtime-data
+./usr/share/icons/oxygen/16x16/apps/scribus.png
+./usr/share/icons/oxygen/32x32/apps/scribus.png
+./usr/share/icons/oxygen/48x48/apps/scribus.png
+./usr/share/icons/oxygen/scalable/apps/hardware.svgz
