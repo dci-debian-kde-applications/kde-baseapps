@@ -4,8 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake,
- kdepimlibs5-dev (>= 3.95.0), libqimageblitz-dev, libxine-dev, libusb-dev,
- libsmbclient-dev, libxcb1-dev
+ kdepimlibs5-dev (>= 3.95.0), libqimageblitz-dev, libusb-dev, libsmbclient-dev
 Standards-Version: 3.7.2
 
 Package: kdebase

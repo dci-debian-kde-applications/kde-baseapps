@@ -4,7 +4,7 @@ kdebase (4:3.95.0-1) experimental; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Add libxcb1-dev build dependency.
+  * Remove no more needed build dependency on libxine-dev.
   * Let kdebase-dev strictly depend on the same binary version of kdebase.
   * Remove the conflict of kde-icons-oxygen with kdebase-data. It isn't
     needed and prevents co-installability with KDE3.
@@ -15,7 +15,7 @@ kdebase (4:3.95.0-1) experimental; urgency=low
   * Remove runtime files from copyright.
   * Make kdebase-data arch-all.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Oct 2007 16:10:36 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Oct 2007 11:48:30 +0100
 
 kdebase (4:3.94.0-2) experimental; urgency=low
 
