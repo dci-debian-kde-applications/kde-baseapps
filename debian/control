@@ -47,6 +47,7 @@ Package: kappfinder
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
+Recommends: xine-ui
 Description: non-KDE application finder for KDE
  kappfinder searches your workstation for many common applications and creates
  menu entries for them.
@@ -57,7 +58,7 @@ Description: non-KDE application finder for KDE
 Package: kdebase-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, kdebase-data (= ${binary:Version})
 Description: core binaries for the KDE base module
  This package contains miscellaneous programs needed by other KDE applications,
  particularly those in the KDE base module.
