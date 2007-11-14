@@ -1,3 +1,14 @@
+kdebase (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump kdepimlibs5-dev build dependency version.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:37:18 +0100
+
 kdebase (4:3.95.2-1) experimental; urgency=low
 
   * New upstream release.
