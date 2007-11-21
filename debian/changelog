@@ -1,3 +1,9 @@
+kdebase (4:3.96.0-2) experimental; urgency=low
+
+  * Remove dependency of kdebase-data on kde-icons-oxygen.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Wed, 21 Nov 2007 21:58:37 +0000
+
 kdebase (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.
