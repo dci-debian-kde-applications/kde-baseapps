@@ -3,9 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>, Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.96.0),
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.97.0),
  libqimageblitz-dev, libsmbclient-dev, libusb-dev, libxkbfile-dev
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
 
 Package: kdebase
 Section: kde
@@ -79,7 +79,7 @@ Description: shared data files for the KDE base module
 Package: kdebase-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase (= ${binary:Version}), kdepimlibs5-dev (>= 3.96.0),
+Depends: ${shlibs:Depends}, kdebase (= ${binary:Version}), kdepimlibs5-dev (>= 3.97.0),
  libqimageblitz-dev, libsmbclient-dev, libusb-dev, libxkbfile-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile
@@ -163,8 +163,6 @@ Description: KDE's advanced file manager, web browser and document viewer
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
- .
-  Homepage: http://konqueror.kde.org
 
 Package: konqueror-nsplugins
 Section: kde

@@ -1,8 +1,18 @@
-kdebase (4:3.96.0-2) experimental; urgency=low
+kdebase (4:3.97.0-1) experimental; urgency=low
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * New upstream release:
+    - Build depend on kdepimlibs5-dev >= 4:3.97.0.
+    - Update *.install files.
+  * Update Standards-Version to 3.7.3.
+  * Remove README about beta packages, they are supposed to be stable now.
+
+  +++ Changes by Armin Berres:
 
   * Remove dependency of kdebase-data on kde-icons-oxygen.
 
- -- Armin Berres <trigger+debian@space-based.de>  Wed, 21 Nov 2007 21:58:37 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Dec 2007 03:03:19 +0100
 
 kdebase (4:3.96.0-1) experimental; urgency=low
 
