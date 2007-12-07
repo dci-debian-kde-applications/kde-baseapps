@@ -228,7 +228,7 @@ Description: core libraries for Konqueror
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (= ${binary:Version})
+Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:3.97.0)
 Description: development files for Konqueror's core libraries
  This package contains headers and other development files for the core
  Konqueror libraries.
