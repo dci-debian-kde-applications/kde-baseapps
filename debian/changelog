@@ -1,7 +1,7 @@
 kdebase (4:3.97.0-1) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * New upstream release:
     - Build depend on kdepimlibs5-dev >= 4:3.97.0.
     - Update *.install files.
@@ -11,8 +11,9 @@ kdebase (4:3.97.0-1) experimental; urgency=low
   +++ Changes by Armin Berres:
 
   * Remove dependency of kdebase-data on kde-icons-oxygen.
+  * Depend on epoched version of kdepimlibs5-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Dec 2007 03:03:19 +0100
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 07 Dec 2007 13:00:05 +0100
 
 kdebase (4:3.96.0-1) experimental; urgency=low
 
