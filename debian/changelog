@@ -7,6 +7,9 @@ kdebase (4:3.97.0-1) experimental; urgency=low
     - Update *.install files.
   * Update Standards-Version to 3.7.3.
   * Remove README about beta packages, they are supposed to be stable now.
+  * Remove empty packages knetattach and kdebase-kio-plugins. 
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier.
 
   +++ Changes by Armin Berres:
 
