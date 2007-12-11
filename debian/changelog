@@ -9,7 +9,7 @@ kdebase (4:3.97.0-1) experimental; urgency=low
   * Remove README about beta packages, they are supposed to be stable now.
   * Remove empty packages knetattach and kdebase-kio-plugins. 
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
-    happier. (Closes: #452226)
+    happier.
 
   +++ Changes by Armin Berres:
 
