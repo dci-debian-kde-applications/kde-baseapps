@@ -17,7 +17,7 @@ kdebase (4:3.97.0-1) experimental; urgency=low
   * Depend on epoched version of kdepimlibs5-dev.
   * Correct libkonq5-dev's dependency on kdelibs5-dev.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 07 Dec 2007 13:05:45 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Dec 2007 21:32:04 +0100
 
 kdebase (4:3.96.0-1) experimental; urgency=low
 
