@@ -189,10 +189,21 @@ Description: text editor for KDE
 Package: libkonq5
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, libkonq5-templates | kdesktop
 Description: core libraries for Konqueror
  These libraries are used by several KDE applications, most notably Konqueror
  and the kdesktop package.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
+
+Package: libkonq5-templates
+Section: kde
+Architecture: all
+Replaces: libkonq5 (<= 4:3.97.0-1) 
+Description: data files needed by core libraries for Konqueror
+ Some data files which are used by the Konqueror core libraries. These
+ files are also provided by KDE 3's kdesktop package.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
