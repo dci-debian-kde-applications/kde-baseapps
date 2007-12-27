@@ -19,8 +19,8 @@ usr/lib/libkdeinit4_kfmclient.so
 usr/lib/libkdeinit4_konqueror.so
 usr/lib/libkonqsidebarplugin.so.4
 usr/lib/libkonqsidebarplugin.so.4.0.0
-usr/lib/libkonquerorprivate.so.1
-usr/lib/libkonquerorprivate.so.1.0.0
+usr/lib/libkonquerorprivate.so.4
+usr/lib/libkonquerorprivate.so.4.0.0
 usr/share/applications/kde4/Home.desktop
 usr/share/applications/kde4/kfmclient.desktop
 usr/share/applications/kde4/kfmclient_dir.desktop
@@ -41,16 +41,10 @@ usr/share/doc/kde4/HTML/en/konqueror/parts.png
 usr/share/doc/kde4/HTML/en/konqueror/shortcut1.png
 usr/share/doc/kde4/HTML/en/konqueror/shortcut2.png
 usr/share/icons/hicolor/128x128/apps/konqueror.png
-usr/share/icons/hicolor/16x16/apps/kfm.png
 usr/share/icons/hicolor/16x16/apps/konqueror.png
-usr/share/icons/hicolor/22x22/actions/kde.png
-usr/share/icons/hicolor/22x22/apps/kfm.png
 usr/share/icons/hicolor/22x22/apps/konqueror.png
-usr/share/icons/hicolor/32x32/apps/kfm.png
 usr/share/icons/hicolor/32x32/apps/konqueror.png
-usr/share/icons/hicolor/48x48/apps/kfm.png
 usr/share/icons/hicolor/48x48/apps/konqueror.png
-usr/share/icons/hicolor/64x64/apps/kfm.png
 usr/share/icons/hicolor/64x64/apps/konqueror.png
 usr/share/icons/hicolor/scalable/apps/konqueror.svgz
 usr/share/kde4/apps/kconf_update/kfmclient_3_2.upd
@@ -96,7 +90,6 @@ usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/web/look_web.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/applications.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/audiocd.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/.directory
-usr/share/kde4/apps/konqsidebartng/virtual_folders/services/printsystem.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/settings.desktop
 usr/share/kde4/apps/konqsidebartng/websidebar/websidebar.html
 usr/share/kde4/apps/konqueror/about/box-centre-konqueror.png

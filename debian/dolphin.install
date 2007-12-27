@@ -1,7 +1,7 @@
 usr/bin/dolphin
 usr/lib/kde4/dolphinpart.so
-usr/lib/libdolphinprivate.so.1
-usr/lib/libdolphinprivate.so.1.0.0
+usr/lib/libdolphinprivate.so.4
+usr/lib/libdolphinprivate.so.4.0.0
 usr/share/applications/kde4/dolphin.desktop
 usr/share/doc/kde4/HTML/en/dolphin/bookmarkbutton.png
 usr/share/doc/kde4/HTML/en/dolphin/bookmarksidebar.png

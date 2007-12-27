@@ -4,7 +4,6 @@ usr/lib/kde4/kded_kwrited.so
 usr/lib/kde4/libkonsolepart.so
 usr/lib/libkdeinit4_konsole.so
 usr/share/applications/kde4/konsole.desktop
-usr/share/applications/kde4/konsolesu.desktop
 usr/share/applications/kde4/quick-access-konsole.desktop
 usr/share/doc/kde4/HTML/en/konsole/index.cache.bz2
 usr/share/doc/kde4/HTML/en/konsole/index.docbook

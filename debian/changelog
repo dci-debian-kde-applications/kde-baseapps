@@ -1,4 +1,8 @@
-kdebase (4:3.97.0-2) experimental; urgency=low
+kdebase (4:3.98.0~svn753247-1) experimental; urgency=low
+
+  * Svn snapshot of revision 753247.
+
+  +++ Changes by Armin Berres:
 
   * Split some files from libkonq5 out into libkonq5-templates which conflict
     with KDE 3's kdesktop.
@@ -7,7 +11,13 @@ kdebase (4:3.97.0-2) experimental; urgency=low
     kdebase-data and add a conflict with kdesktop. Package doesn't exist
     anymore and should be removed if new kdebase gets installed.
 
- -- Armin Berres <trigger+debian@space-based.de>  Wed, 26 Dec 2007 00:17:38 +0100
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-dep to >= 4:3.98.0~svn753247-1.
+  * Update *.install files.
+  * Add kinfocenter, it has been moved from -runtime.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 27 Dec 2007 04:37:59 +0100
 
 kdebase (4:3.97.0-1) experimental; urgency=low
 
