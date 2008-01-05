@@ -27,6 +27,11 @@ usr/share/kde4/apps/dolphin/icons/hicolor/22x22/actions/preview.png
 usr/share/kde4/apps/dolphin/icons/hicolor/32x32/actions/preview.png
 usr/share/kde4/apps/dolphin/icons/hicolor/48x48/actions/preview.png
 usr/share/kde4/apps/dolphin/icons/hicolor/64x64/actions/preview.png
+usr/share/kde4/apps/dolphin/icons/oxygen/16x16/actions/view-file-columns.png
+usr/share/kde4/apps/dolphin/icons/oxygen/22x22/actions/view-file-columns.png
+usr/share/kde4/apps/dolphin/icons/oxygen/32x32/actions/view-file-columns.png
+usr/share/kde4/apps/dolphin/icons/oxygen/48x48/actions/view-file-columns.png
+usr/share/kde4/apps/dolphin/icons/oxygen/scalable/actions/view-file-columns.svgz
 usr/share/kde4/apps/dolphinpart/dolphinpart.rc
 usr/share/kde4/config.kcfg/dolphin_columnmodesettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_detailsmodesettings.kcfg
