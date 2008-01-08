@@ -2,16 +2,11 @@ kdebase (4:4.0.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  +++ Changes By Fathi Boudra:
+  +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Bump build-depends to >= 4.0.0-1.
   * Update dolphin.install.
   * Update years in copyright.
-
-  +++ Changes by Fathi Boudra:
-
-  * Add patch to fix detection of optional features
-    from upstream revision 758600.
 
   +++ Changes by Matthew Rosewarne:
 
