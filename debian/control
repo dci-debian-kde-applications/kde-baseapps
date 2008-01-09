@@ -119,7 +119,6 @@ Section: kde
 Architecture: any
 Provides: info-browser, man-browser, www-browser
 Depends: ${shlibs:Depends},  kdebase-data (>= ${binary:Version})
-Homepage: http://www.konqueror.org/
 Description: KDE's advanced file manager, web browser and document viewer
  Konqueror is the KDE web browser and advanced file manager.
  .
@@ -150,7 +149,6 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-terminal-emulator
-Homepage: http://konsole.kde.org/
 Description: X terminal emulator for KDE
  Konsole is the KDE terminal emulator.  It can contain multiple terminal
  sessions inside one window using detachable tabs.
@@ -164,7 +162,6 @@ Package: kwrite
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Homepage: http://kate-editor.org/
 Description: text editor for KDE
  KWrite is the KDE simple text editor.  It uses the Kate editor component, so
  it supports powerful features such as flexible syntax highlighting, automatic
@@ -176,7 +173,6 @@ Package: libkonq5
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, libkonq5-templates | kdesktop
-Homepage: http://www.konqueror.org/
 Description: core libraries for Konqueror
  These libraries are used by several KDE applications, particularly Konqueror.
  .
@@ -187,7 +183,6 @@ Section: kde
 Architecture: all
 Replaces: libkonq5 (<= 4:3.97.0-1) 
 Conflicts: kdesktop
-Homepage: http://www.konqueror.org/
 Description: data files needed by core libraries for Konqueror
  Some data files which are used by the Konqueror core libraries. These
  files are also provided by KDE 3's kdesktop package.
@@ -198,7 +193,6 @@ Package: libkonq5-dev
 Section: libdevel
 Architecture: any
 Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Homepage: http://www.konqueror.org/
 Description: development files for Konqueror's core libraries
  This package contains headers and other development files for the Konqueror
  libraries.
