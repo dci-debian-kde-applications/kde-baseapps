@@ -29,16 +29,16 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: file manager for KDE focusing on usability
- Dolphin is the default file manager for KDE focusing on usability.
+ Dolphin is the default KDE file manager.
  .
  Features include:
-  Sidebar
-  Navigation bar (breadcrumbs)
-  View properties remembered for each folder
-  Split views
-  Network transparency
-  Undo/redo functionality
-  Renaming of a variable number of selected items in one step.
+   Customisable sidebars
+   "Breadcrumb" navigation
+   View properties remembered for each folder
+   Split views
+   Network transparency
+   Undo/redo functionality
+   Ratings, comments, and tags
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -49,8 +49,8 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: xine-ui
 Description: non-KDE application finder for KDE
- kappfinder searches your workstation for many common applications and creates
- menu entries for them.
+ kappfinder searches your system for common applications and creates entries
+ for them in the KDE menu.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -58,7 +58,7 @@ Description: non-KDE application finder for KDE
 Package: kdebase-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-data (= ${source:Version})
+Depends: ${shlibs:Depends}, kdebase-data (= ${binary:Version})
 Conflicts: kdesktop
 Description: core binaries for the KDE base module
  This package contains miscellaneous programs needed by other KDE applications,
@@ -83,8 +83,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdebase (= ${binary:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
  libqimageblitz-dev, libsmbclient-dev, libusb-dev, libxkbfile-dev
 Description: development files for the KDE base module
- This package contains headers and other development files needed to compile
- software based on the KDE base module.
+ This package contains headers and other development files needed to build
+ software that uses the KDE base module.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -94,8 +94,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: password changer for KDE
- This is a simple application which allows users to change their system
- passwords.
+ This is a simple application which allows users to change their password,
+ user icon, and other information.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -105,7 +105,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: file-find utility for KDE
- kfind can be used to find files and directories on your workstations.
+ kfind can be used to find files and directories on your system.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -116,9 +116,8 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kdebase-bin (<< 4:3.96.0)
 Description: graphical overview of KDE and system settings
- KInfocenter provides you with a graphical overview of various system settings.
- Examples are DMA-Channels, interrupts, io-ports, memory, network interfaces,
- samba status, USB devices and more.
+ KInfocenter provides you with a graphical overview of various aspects of your
+ system, such as memory usage, storage capacity, and attached devices.
  .
  This package is part of KDE, and a component of the KDE base runtime module.
  See the 'kde' and 'kdebase-runtime' packages for more information.
@@ -130,24 +129,17 @@ Provides: info-browser, man-browser, www-browser
 Depends: ${shlibs:Depends},  kdebase-data (>= ${binary:Version})
 Homepage: http://www.konqueror.org/
 Description: KDE's advanced file manager, web browser and document viewer
- Konqueror is a file manager and a web browser for the K Desktop Environment.
+ Konqueror is the KDE web browser and advanced file manager.
  .
- It supports basic file management on local UNIX filesystems, from simple
- cut/copy and paste operations to advanced remote and local network file
- browsing.
+ Konqueror is a standards-compliant web browser, supporting HTML 4.01, Java,
+ JavaScript, CSS3, and Netscape plugins such as Flash.
  .
- It is also the canvas for all the latest KDE technology, from KIO slaves
- (which provide mechanisms for file access) to component embedding via the
- KParts object interface, and it is one of the most customizable applications
- available.
+ It supports advanced file management on local UNIX filesystems, with flexible
+ views, network transparency, and embedded file viewing.
  .
- Konqueror is an Open Source web browser with HTML4.0 compliance, supporting
- Java applets, JavaScript, CSS1 and (partially) CSS2, as well as Netscape
- plugins (for example, Flash or RealVideo plugins).
- .
- It is a universal viewing application, capable of embedding read-only viewing
- components in itself to view documents without ever launching another
- application.
+ It is the canvas for many KDE technologies, from remote file access via KIO to
+ component embedding via the KParts object interface, making it one of the most
+ customizable applications available.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -157,7 +149,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: Netscape plugin support for Konqueror
- This package includes support for Netscape plugins in Konqueror.
+ This package includes support for using Netscape plugins, such as Flash,
+ in Konqueror.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -169,20 +162,11 @@ Depends: ${shlibs:Depends}
 Provides: x-terminal-emulator
 Homepage: http://konsole.kde.org/
 Description: X terminal emulator for KDE
- Konsole is an X terminal emulation which provides a command-line interface
- (CLI) while using the graphical K Desktop Environment. Konsole helps to better
- organize user's desktop by containing multiple sessions in a single window
- (a less cluttered desktop).
+ Konsole is the KDE terminal emulator.  It can contain multiple terminal
+ sessions inside one window using detachable tabs.
  .
- Its advanced features include a simple configuration and the ability to use
- multiple terminal shells in a single window
- .
- Using Konsole, a user can open:
- .
-  Linux console sessions
-  Midnight Commander file manager sessions
-  Shell sessions
-  Root consoles sessions
+ Konsole supports powerful terminal features, such as customizable schemes,
+ saved sessions, and output monitoring.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -193,12 +177,9 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Homepage: http://kate-editor.org/
 Description: text editor for KDE
- KWrite is more than a text editor for the KDE Desktop. It is meant to be a
- programmer's editor, and could be considered as at least a partial alternative
- to more powerful editors. It may be best used in conjunction with Konqueror
- for source file browsing for different languages. KWrite also works very well
- as a simple text editor. One of KWrite's main features is the colorized
- syntax, customized for many different programming languages.
+ KWrite is the KDE simple text editor.  It uses the Kate editor component, so
+ it supports powerful features such as flexible syntax highlighting, automatic
+ indentation, and numerous other text tools.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -210,8 +191,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, libkonq5-templates | kdesktop
 Homepage: http://www.konqueror.org/
 Description: core libraries for Konqueror
- These libraries are used by several KDE applications, most notably Konqueror
- and the kdesktop package.
+ These libraries are used by several KDE applications, particularly Konqueror.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
@@ -235,8 +215,8 @@ Architecture: any
 Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Homepage: http://www.konqueror.org/
 Description: development files for Konqueror's core libraries
- This package contains headers and other development files for the core
- Konqueror libraries.
+ This package contains headers and other development files for the Konqueror
+ libraries.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase' packages for more information.
