@@ -60,7 +60,7 @@ Description: non-KDE application finder for KDE
 Package: kdebase-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-data (= ${binary:Version})
+Depends: ${shlibs:Depends}, kdebase-data (= ${source:Version})
 Conflicts: kdesktop
 Description: core binaries for the KDE base module
  This package contains miscellaneous programs needed by other KDE applications,
@@ -80,7 +80,7 @@ Description: shared data files for the KDE base module
 Package: kdebase-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase (= ${binary:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
+Depends: ${shlibs:Depends}, kdebase (= ${source:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
  libqimageblitz-dev, libsmbclient-dev, libusb-dev, libxkbfile-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to build
@@ -207,7 +207,7 @@ Package: kdebase-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdebase (= ${binary:Version}), kdepimlibs-dbg
+Depends: kdebase (= ${source:Version}), kdepimlibs-dbg
 Description: debugging symbols for kdebase
  This package contains the debugging symbols associated with kdebase.
  They will automatically be used by gdb for debugging kdebase-related
