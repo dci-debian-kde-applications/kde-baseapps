@@ -1,3 +1,10 @@
+kdebase (4:4.0.0-2) UNRELEASED; urgency=low
+
+  * KWrite ships files which are contained in kate from KDE 3. Add
+    replaces.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sun, 13 Jan 2008 23:14:15 +0100
+
 kdebase (4:4.0.0-1) experimental; urgency=low
 
   * New upstream release.
