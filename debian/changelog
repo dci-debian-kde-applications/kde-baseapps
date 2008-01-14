@@ -3,7 +3,7 @@ kdebase (4:4.0.0-2) UNRELEASED; urgency=low
   +++ Changes by Armin Berres:
 
   * KWrite ships files which are contained in kate from KDE 3. Add
-    replaces.
+    conflict and replaces.
 
   +++ Changes by Matthew Rosewarne:
 

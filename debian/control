@@ -166,6 +166,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kate (<< 4:4.0.0)
+Conflicts: kate (<< 4:4.0.0)
 Description: text editor for KDE
  KWrite is the KDE simple text editor.  It uses the Kate editor component, so
  it supports powerful features such as flexible syntax highlighting, automatic
