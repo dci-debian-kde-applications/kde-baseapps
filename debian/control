@@ -208,7 +208,7 @@ Package: kdebase-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdebase (= ${source:Version}), kdepimlibs-dbg
+Depends: kdebase-runtime-dbg
 Description: debugging symbols for kdebase
  This package contains the debugging symbols associated with kdebase.
  They will automatically be used by gdb for debugging kdebase-related
