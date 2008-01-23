@@ -8,3 +8,4 @@ usr/include/konqmimedata.h
 usr/include/konq_operations.h
 usr/include/konq_popupmenu.h
 usr/include/libkonq_export.h
+usr/lib/libkonq.so

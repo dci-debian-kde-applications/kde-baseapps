@@ -11,12 +11,11 @@ Homepage: http://www.kde.org/
 Package: kdebase
 Section: kde
 Architecture: all
-Depends: dolphin (>= ${binary:Version}), kappfinder (>= ${binary:Version}),
- kdebase-bin (>= ${binary:Version}), kdepasswd (>= ${binary:Version}),
- kfind (>= ${binary:Version}), konqueror-nsplugins (>= ${binary:Version}),
- konqueror (>= ${binary:Version}), konsole (>= ${binary:Version}),
- kwrite (>= ${binary:Version}), libkonq5 (>= ${binary:Version})
-Recommends: kdm (>= ${binary:Version})
+Depends: dolphin (>= ${source:Version}), kappfinder (>= ${source:Version}),
+ kdebase-bin (>= ${source:Version}), kdepasswd (>= ${source:Version}),
+ kfind (>= ${source:Version}), konqueror-nsplugins (>= ${source:Version}),
+ konqueror (>= ${source:Version}), konsole (>= ${source:Version}),
+ kwrite (>= ${source:Version}), libkonq5 (>= ${source:Version})
 Description: Base applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -78,9 +77,11 @@ Description: Shared data files for the KDE 4 base module
 
 Package: kdebase-dev
 Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}, kdebase (= ${source:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
- libqimageblitz-dev, libsmbclient-dev, libusb-dev, libxkbfile-dev
+Architecture: all
+Depends: ${shlibs:Depends}, dolphin (= ${source:Version}),
+ konqueror (= ${source:Version}), libkonq5-dev (= ${source:Version}),
+ kdepimlibs5-dev (>= 4:4.0.0-1), libqimageblitz-dev, libsmbclient-dev,
+ libusb-dev, libxkbfile-dev
 Description: Development files for the KDE 4 base module
  This package contains headers and other development files needed to build
  software that uses the KDE 4 base module.
@@ -196,7 +197,7 @@ Description: Data files for the Konqueror libraries
 
 Package: libkonq5-dev
 Section: libdevel
-Architecture: any
+Architecture: all
 Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the Konqueror libraries
  This package contains headers and other development files needed to build
@@ -209,6 +210,7 @@ Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
+Suggests: kdebase (= ${source:Version})
 Description: debugging symbols for kdebase
  This package contains the debugging symbols associated with kdebase.
  They will automatically be used by gdb for debugging kdebase-related
