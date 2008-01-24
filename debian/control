@@ -77,9 +77,9 @@ Description: Shared data files for the KDE 4 base module
 
 Package: kdebase-dev
 Section: kde
-Architecture: all
-Depends: ${shlibs:Depends}, dolphin (= ${source:Version}),
- konqueror (= ${source:Version}), libkonq5-dev (= ${source:Version}),
+Architecture: any
+Depends: ${shlibs:Depends}, dolphin (= ${binary:Version}),
+ konqueror (= ${binary:Version}), libkonq5-dev (= ${binary:Version}),
  kdepimlibs5-dev (>= 4:4.0.0-1), libqimageblitz-dev, libsmbclient-dev,
  libusb-dev, libxkbfile-dev
 Description: Development files for the KDE 4 base module
@@ -197,7 +197,7 @@ Description: Data files for the Konqueror libraries
 
 Package: libkonq5-dev
 Section: libdevel
-Architecture: all
+Architecture: any
 Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the Konqueror libraries
  This package contains headers and other development files needed to build
