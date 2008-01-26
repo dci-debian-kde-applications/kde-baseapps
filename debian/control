@@ -16,7 +16,7 @@ Depends: dolphin (>= ${source:Version}), kappfinder (>= ${source:Version}),
  kfind (>= ${source:Version}), konqueror-nsplugins (>= ${source:Version}),
  konqueror (>= ${source:Version}), konsole (>= ${source:Version}),
  kwrite (>= ${source:Version}), libkonq5 (>= ${source:Version})
-Description: Base applications from the official KDE release
+Description: base applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -30,7 +30,7 @@ Package: dolphin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: File manager for KDE 4
+Description: file manager for KDE 4
  Dolphin is the default KDE 4 file manager, intended to be both powerful and
  easy to use.
  .
@@ -49,7 +49,7 @@ Package: kappfinder
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: Non-KDE application finder for KDE 4
+Description: non-KDE application finder for KDE 4
  KAppfinder searches your system for common applications and creates entries
  for them in the KDE 4 menu.
  .
@@ -60,7 +60,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-data (= ${source:Version})
 Conflicts: kdesktop
-Description: Core binaries for the KDE 4 base module
+Description: core binaries for the KDE 4 base module
  This package contains miscellaneous programs needed by other KDE 4 
  applications, particularly those in the KDE 4 base module.
  .
@@ -69,7 +69,7 @@ Description: Core binaries for the KDE 4 base module
 Package: kdebase-data
 Section: kde
 Architecture: all
-Description: Shared data files for the KDE 4 base module
+Description: shared data files for the KDE 4 base module
  This package contains the architecture-independent shared data files needed
  for a basic KDE 4 desktop installation.
  .
@@ -82,7 +82,7 @@ Depends: ${shlibs:Depends}, dolphin (= ${binary:Version}),
  konqueror (= ${binary:Version}), libkonq5-dev (= ${binary:Version}),
  kdepimlibs5-dev (>= 4:4.0.0-1), libqimageblitz-dev, libsmbclient-dev,
  libusb-dev, libxkbfile-dev
-Description: Development files for the KDE 4 base module
+Description: development files for the KDE 4 base module
  This package contains headers and other development files needed to build
  software that uses the KDE 4 base module.
  .
@@ -92,7 +92,7 @@ Package: kdepasswd
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: Password changer for KDE 4
+Description: password changer for KDE 4
  kdepasswd allows users to change their password, user icon, and other
  information.  A variety of user icons are included.
  .
@@ -102,7 +102,7 @@ Package: kfind
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: File search utility for KDE 4
+Description: file search utility for KDE 4
  KFind can be used to find files and directories on your system.
  .
  This package is part of the KDE 4 base module.
@@ -112,7 +112,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kdebase-bin (<< 4:4.0.0-1)
-Description: System information viewer for KDE 4
+Description: system information viewer for KDE 4
  KInfoCenter provides you with a graphical overview of various aspects of your
  system, such as memory usage, storage capacity, and attached devices.
  .
@@ -168,7 +168,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kate (<< 4:4.0.0-1)
 Conflicts: kate (<< 4:4.0.0-1)
-Description: Text editor for KDE 4
+Description: text editor for KDE 4
  KWrite is the KDE 4 simple text editor.  It uses the Kate editor component, so
  it supports powerful features such as flexible syntax highlighting, automatic
  indentation, and numerous other text tools.
@@ -179,7 +179,7 @@ Package: libkonq5
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, libkonq5-templates | kdesktop
-Description: Core libraries for Konqueror
+Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
  .
@@ -189,7 +189,7 @@ Package: libkonq5-templates
 Section: kde
 Architecture: all
 Conflicts: kdesktop
-Description: Data files for the Konqueror libraries
+Description: data files for the Konqueror libraries
  This package contains data files used by the Konqueror libraries.
  These files are also provided by the 'kdesktop' package from KDE 3.
  .
@@ -199,7 +199,7 @@ Package: libkonq5-dev
 Section: libdevel
 Architecture: any
 Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: Development files for the Konqueror libraries
+Description: development files for the Konqueror libraries
  This package contains headers and other development files needed to build
  software the uses the Konqueror libraries.
  .
