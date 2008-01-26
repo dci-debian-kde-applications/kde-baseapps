@@ -22,7 +22,6 @@ kdebase (4:4.0.0-2) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Update to debhelper 6.
   * Add lintian overrides for dolphin, kinfocenter, konqueror, konsole and
     kwrite.
 
