@@ -33,6 +33,7 @@ usr/share/dbus-1/interfaces/org.kde.Konqueror.MainWindow.xml
 usr/share/dbus-1/interfaces/org.kde.Konqueror.Main.xml
 usr/share/dbus-1/interfaces/org.kde.konqueror.Preloader.xml
 usr/share/doc/kde4/HTML/en/konqueror/cmndline.png
+usr/share/doc/kde4/HTML/en/konqueror/common
 usr/share/doc/kde4/HTML/en/konqueror/dirtree.png
 usr/share/doc/kde4/HTML/en/konqueror/dragdrop.png
 usr/share/doc/kde4/HTML/en/konqueror/index.docbook
@@ -73,12 +74,6 @@ usr/share/kde4/apps/konqsidebartng/entries/remote.desktop
 usr/share/kde4/apps/konqsidebartng/entries/root.desktop
 usr/share/kde4/apps/konqsidebartng/entries/services.desktop
 usr/share/kde4/apps/konqsidebartng/entries/.version
-usr/share/kde4/apps/konqsidebartng/kicker_entries/bookmarks.desktop
-usr/share/kde4/apps/konqsidebartng/kicker_entries/history.desktop
-usr/share/kde4/apps/konqsidebartng/kicker_entries/home.desktop
-usr/share/kde4/apps/konqsidebartng/kicker_entries/remote.desktop
-usr/share/kde4/apps/konqsidebartng/kicker_entries/root.desktop
-usr/share/kde4/apps/konqsidebartng/kicker_entries/services.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/.directory
 usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/ftp/.directory
 usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/ftp/kde_ftp.desktop
@@ -90,7 +85,6 @@ usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/web/look_web.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/applications.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/audiocd.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/.directory
-usr/share/kde4/apps/konqsidebartng/virtual_folders/services/settings.desktop
 usr/share/kde4/apps/konqsidebartng/websidebar/websidebar.html
 usr/share/kde4/apps/konqueror/about/box-centre-konqueror.png
 usr/share/kde4/apps/konqueror/about/intro.html
