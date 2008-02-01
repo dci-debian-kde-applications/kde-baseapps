@@ -43,7 +43,7 @@ Description: file manager for KDE 4
    Undo/redo functionality
    Ratings, comments, and tags
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kappfinder
 Section: kde
@@ -53,7 +53,7 @@ Description: non-KDE application finder for KDE 4
  KAppfinder searches your system for common applications and creates entries
  for them in the KDE 4 menu.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kdebase-bin
 Section: kde
@@ -64,7 +64,7 @@ Description: core binaries for the KDE 4 base module
  This package contains miscellaneous programs needed by other KDE 4 
  applications, particularly those in the KDE 4 base module.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kdebase-data
 Section: kde
@@ -73,7 +73,7 @@ Description: shared data files for the KDE 4 base module
  This package contains the architecture-independent shared data files needed
  for a basic KDE 4 desktop installation.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kdebase-dev
 Section: kde
@@ -83,10 +83,8 @@ Depends: ${shlibs:Depends}, dolphin (= ${binary:Version}),
  kdepimlibs5-dev (>= 4:4.0.0-1), libqimageblitz-dev, libsmbclient-dev,
  libusb-dev, libxkbfile-dev
 Description: development files for the KDE 4 base module
- This package contains headers and other development files needed to build
- software that uses the KDE 4 base module.
- .
- This package is part of the KDE 4 base module.
+ This package contains development files for building software that uses
+ libraries from the KDE 4 base applications module.
 
 Package: kdepasswd
 Section: kde
@@ -96,7 +94,7 @@ Description: password changer for KDE 4
  kdepasswd allows users to change their password, user icon, and other
  information.  A variety of user icons are included.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kfind
 Section: kde
@@ -105,7 +103,7 @@ Depends: ${shlibs:Depends}
 Description: file search utility for KDE 4
  KFind can be used to find files and directories on your system.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kinfocenter
 Section: kde
@@ -116,7 +114,7 @@ Description: system information viewer for KDE 4
  KInfoCenter provides you with a graphical overview of various aspects of your
  system, such as memory usage, storage capacity, and attached devices.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: konqueror
 Section: kde
@@ -137,7 +135,7 @@ Description: KDE 4's advanced file manager, web browser and document viewer
  component embedding via the KParts object interface, making it one of the most
  customizable applications available.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: konqueror-nsplugins
 Section: kde
@@ -146,7 +144,7 @@ Depends: ${shlibs:Depends}
 Description: Netscape plugin support for Konqueror
  This package enables Konqueror to use Netscape plugins, such as Flash.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: konsole
 Section: kde
@@ -160,7 +158,7 @@ Description: X terminal emulator for KDE 4
  Konsole supports powerful terminal features, such as customizable schemes,
  saved sessions, and output monitoring.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kwrite
 Section: kde
@@ -173,7 +171,7 @@ Description: text editor for KDE 4
  it supports powerful features such as flexible syntax highlighting, automatic
  indentation, and numerous other text tools.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: libkonq5
 Section: kde
@@ -183,7 +181,7 @@ Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: libkonq5-templates
 Section: kde
@@ -193,17 +191,17 @@ Description: data files for the Konqueror libraries
  This package contains data files used by the Konqueror libraries.
  These files are also provided by the 'kdesktop' package from KDE 3.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
 Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: development files for the Konqueror libraries
- This package contains headers and other development files needed to build
- software the uses the Konqueror libraries.
+ This package contains development files for building software that uses the
+ Konqueror libraries.
  .
- This package is part of the KDE 4 base module.
+ This package is part of the KDE 4 base applications module.
 
 Package: kdebase-dbg
 Section: libdevel
@@ -211,7 +209,6 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdebase (= ${source:Version})
-Description: debugging symbols for kdebase
- This package contains the debugging symbols associated with kdebase.
- They will automatically be used by gdb for debugging kdebase-related
- issues.
+Description: debugging symbols for the KDE 4 base applications module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 base applications module.
