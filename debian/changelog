@@ -1,10 +1,16 @@
 kdebase (4:4.0.1-1) UNRELEASED; urgency=low
 
+  +++ Changes by Armin Berres:
+
   * New upstream release.
-  * Update istalled files.
+  * Update installed files.
   * Bump build-depends to >= 4.0.1-1.
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 31 Jan 2008 20:29:40 +0000
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update to debhelper 6.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 04:16:13 +0100
 
 kdebase (4:4.0.0-2) experimental; urgency=low
 
