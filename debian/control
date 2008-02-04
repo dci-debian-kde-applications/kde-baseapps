@@ -7,6 +7,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, kdepimlibs5-dev
  libphonon-dev, libqimageblitz-dev, libsmbclient-dev, libusb-dev, libxkbfile-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdebase
 
 Package: kdebase
 Section: kde
