@@ -29,7 +29,7 @@ Description: base applications from the official KDE release
  This package provides core applications for the KDE 4 desktop.
 
 Package: dolphin
-Section: kde
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: file manager for KDE 4
@@ -89,7 +89,7 @@ Description: development files for the KDE 4 base module
  libraries from the KDE 4 base applications module.
 
 Package: kdepasswd
-Section: kde
+Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: password changer for KDE 4
@@ -99,7 +99,7 @@ Description: password changer for KDE 4
  This package is part of the KDE 4 base applications module.
 
 Package: kfind
-Section: kde
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: file search utility for KDE 4
@@ -108,7 +108,7 @@ Description: file search utility for KDE 4
  This package is part of the KDE 4 base applications module.
 
 Package: kinfocenter
-Section: kde
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kdebase-bin (<< 4:4.0.0-1)
@@ -163,7 +163,7 @@ Description: X terminal emulator for KDE 4
  This package is part of the KDE 4 base applications module.
 
 Package: kwrite
-Section: kde
+Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kate (<< 4:4.0.0-1)
