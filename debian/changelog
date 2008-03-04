@@ -1,12 +1,19 @@
-kdebase (4:4.0.1-2) UNRELEASED; urgency=low
+kdebase (4:4.0.2-1) experimental; urgency=low
 
+  * New upstream release.
+  
   +++ Changes by Matthew Rosewarne:
 
   * Move dolphin, kfind, and kinfocenter to Section: utils.
   * Move kdepasswd to Section: admin.
   * Move kwrite to Section: editors.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Feb 2008 19:12:22 -0500
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files.
+  * Bump build-depends to >= 4.0.2.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 19:35:59 +0100
 
 kdebase (4:4.0.1-1) experimental; urgency=low
 
