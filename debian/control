@@ -111,6 +111,7 @@ Package: kinfocenter
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
+Conflicts: kcontrol
 Replaces: kdebase-bin (<< 4:4.0.0-1)
 Description: system information viewer for KDE 4
  KInfoCenter provides you with a graphical overview of various aspects of your

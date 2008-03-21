@@ -1,3 +1,9 @@
+kdebase (4:4.0.2-2) experimental; urgency=low
+
+  * Add conflict against kcontrol to kinfocenter (Closes: #465702).
+
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 21 Mar 2008 17:17:29 +0100
+
 kdebase (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release.
