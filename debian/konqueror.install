@@ -18,9 +18,9 @@ usr/lib/libkdeinit4_keditbookmarks.so
 usr/lib/libkdeinit4_kfmclient.so
 usr/lib/libkdeinit4_konqueror.so
 usr/lib/libkonqsidebarplugin.so.4
-usr/lib/libkonqsidebarplugin.so.4.0.0
+usr/lib/libkonqsidebarplugin.so.4.1.0
 usr/lib/libkonquerorprivate.so.4
-usr/lib/libkonquerorprivate.so.4.0.0
+usr/lib/libkonquerorprivate.so.4.1.0
 usr/share/applications/kde4/Home.desktop
 usr/share/applications/kde4/kfmclient.desktop
 usr/share/applications/kde4/kfmclient_dir.desktop
@@ -83,7 +83,6 @@ usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/web/dot_web.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/web/kde_web.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/remote/web/look_web.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/applications.desktop
-usr/share/kde4/apps/konqsidebartng/virtual_folders/services/audiocd.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/.directory
 usr/share/kde4/apps/konqsidebartng/websidebar/websidebar.html
 usr/share/kde4/apps/konqueror/about/box-centre-konqueror.png

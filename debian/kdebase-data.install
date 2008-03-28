@@ -216,6 +216,8 @@ usr/share/icons/oxygen/scalable/apps/xeyes.svgz
 usr/share/icons/oxygen/scalable/apps/xpaint.svgz
 usr/share/kde4/apps/kbookmark/directory_bookmarkbar.desktop
 usr/share/kde4/apps/kcmcss/template.css
+usr/share/kde4/apps/kcmusb/usb.ids
+usr/share/kde4/apps/kcmview1394/oui.db
 usr/share/kde4/apps/kconf_update/favicons.upd
 usr/share/kde4/apps/kconf_update/move_favicons.sh
 usr/share/kde4/apps/kconf_update/socks.upd
@@ -223,6 +225,7 @@ usr/share/kde4/apps/kcontrol/pics/onlyone.png
 usr/share/kde4/apps/kcontrol/pics/overlapping.png
 usr/share/kde4/apps/khtml/kpartplugins/khtmlkttsd.desktop
 usr/share/kde4/apps/khtml/kpartplugins/khtmlkttsd.rc
+usr/share/kde4/config.kcfg/kcm_useraccount_pass.kcfg
 usr/share/kde4/services/cache.desktop
 usr/share/kde4/services/cookies.desktop
 usr/share/kde4/services/desktoppath.desktop
@@ -232,8 +235,11 @@ usr/share/kde4/services/filebrowser.desktop
 usr/share/kde4/services/filepreviews.desktop
 usr/share/kde4/services/filetypes.desktop
 usr/share/kde4/services/kcmcss.desktop
+usr/share/kde4/services/kcmdolphin.desktop
 usr/share/kde4/services/kcmkonqyperformance.desktop
 usr/share/kde4/services/kcmperformance.desktop
+usr/share/kde4/services/kcmsolidproc.desktop
+usr/share/kde4/services/kcmview1394.desktop
 usr/share/kde4/services/kded/favicons.desktop
 usr/share/kde4/services/khtml_behavior.desktop
 usr/share/kde4/services/khtml_filter.desktop

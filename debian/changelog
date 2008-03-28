@@ -1,8 +1,17 @@
-kdebase (4:4.0.2-2) experimental; urgency=low
+kdebase (4:4.0.66+svn791114-1) experimental; urgency=low
 
+  * First KDE 4.1 snapshot packaged.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files.
+  * Add build depend on libraw1394-dev.
+
+  +++ Changes by Armin Berres
+  
   * Add conflict against kcontrol to kinfocenter (Closes: #465702).
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 21 Mar 2008 17:17:29 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Mar 2008 16:22:10 +0100
 
 kdebase (4:4.0.2-1) experimental; urgency=low
 

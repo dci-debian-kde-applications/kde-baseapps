@@ -1,7 +1,4 @@
 usr/bin/kinfocenter
-usr/lib/kde4/kcm_info.so
-usr/lib/kde4/kcm_nic.so
-usr/lib/kde4/kcm_usb.so
 usr/lib/libkdeinit4_kinfocenter.so
 usr/share/applications/kde4/kinfocenter.desktop
 usr/share/doc/kde4/HTML/en/kinfocenter/common
@@ -58,7 +55,6 @@ usr/share/doc/kde4/HTML/en/kinfocenter/usb/index.docbook
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/common
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/index.docbook
-usr/share/kde4/apps/kcmusb/usb.ids
 usr/share/kde4/apps/kinfocenter/about/kinfocenter.css
 usr/share/kde4/apps/kinfocenter/about/main.html
 usr/share/kde4/apps/kinfocenter/about/top-right-kinfocenter.png
@@ -73,7 +69,6 @@ usr/share/kde4/services/nic.desktop
 usr/share/kde4/services/opengl.desktop
 usr/share/kde4/services/partitions.desktop
 usr/share/kde4/services/pci.desktop
-usr/share/kde4/services/processor.desktop
 usr/share/kde4/services/scsi.desktop
 usr/share/kde4/services/sound.desktop
 usr/share/kde4/services/xserver.desktop

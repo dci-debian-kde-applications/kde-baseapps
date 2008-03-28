@@ -9,13 +9,6 @@ usr/share/doc/kde4/HTML/en/konsole/index.cache.bz2
 usr/share/doc/kde4/HTML/en/konsole/index.docbook
 usr/share/doc/kde4/HTML/en/konsole/konsole.png
 usr/share/doc/kde4/HTML/en/konsole/tabbar.png
-usr/share/icons/hicolor/128x128/apps/konsole.png
-usr/share/icons/hicolor/16x16/apps/konsole.png
-usr/share/icons/hicolor/22x22/apps/konsole.png
-usr/share/icons/hicolor/32x32/apps/konsole.png
-usr/share/icons/hicolor/48x48/apps/konsole.png
-usr/share/icons/hicolor/64x64/apps/konsole.png
-usr/share/icons/hicolor/scalable/apps/konsole.svgz
 usr/share/kde4/apps/konsole/BlackOnLightYellow.schema
 usr/share/kde4/apps/konsole/BlackOnRandomLight.colorscheme
 usr/share/kde4/apps/konsole/BlackOnWhite.schema
@@ -30,11 +23,9 @@ usr/share/kde4/apps/konsole/README.KeyTab
 usr/share/kde4/apps/konsole/sessionui.rc
 usr/share/kde4/apps/konsole/Shell.profile
 usr/share/kde4/apps/konsole/solaris.keytab
-usr/share/kde4/apps/konsole/tips
 usr/share/kde4/apps/konsole/vt420pc.keytab
 usr/share/kde4/apps/konsole/WhiteOnBlack.schema
 usr/share/kde4/services/kded/kwrited.desktop
 usr/share/kde4/services/konsolepart.desktop
-usr/share/kde4/services/konsole-script.desktop
 usr/share/kde4/services/ServiceMenus/konsolehere.desktop
 usr/share/kde4/servicetypes/terminalemulator.desktop
