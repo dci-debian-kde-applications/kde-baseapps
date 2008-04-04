@@ -1,6 +1,7 @@
 kdebase (4:4.0.68-1) experimental; urgency=low
 
   * New upstream snapshot. 
+  * Add versioned build depend on qimageblitz >= 1:0.0.4-2.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 04 Apr 2008 16:37:13 +0200
 
