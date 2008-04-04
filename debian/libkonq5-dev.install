@@ -1,7 +1,6 @@
 usr/include/knewmenu.h
 usr/include/konq_defaults.h
 usr/include/konq_events.h
-usr/include/konq_filetip.h
 usr/include/konq_fileundomanager.h
 usr/include/konq_menuactions.h
 usr/include/konqmimedata.h
