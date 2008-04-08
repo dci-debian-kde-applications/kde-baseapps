@@ -118,7 +118,6 @@ usr/share/kde4/config.kcfg/konqueror.kcfg
 usr/share/kde4/services/kcmhistory.desktop
 usr/share/kde4/services/kded/konqy_preloader.desktop
 usr/share/kde4/services/konq_aboutpage.desktop
-usr/share/kde4/services/konqfilemgr.desktop
 usr/share/kde4/services/konq_sidebartng.desktop
 usr/share/kde4/services/konqueror.desktop
 usr/share/kde4/services/useragentstrings/firefox20oncurrent.desktop
