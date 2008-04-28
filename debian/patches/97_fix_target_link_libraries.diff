@@ -1,5 +1,5 @@
---- kdebase.orig/konqueror/src/CMakeLists.txt	2008-04-28 09:47:29.000000000 +0000
-+++ kdebase/konqueror/src/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/src/CMakeLists.txt
++++ b/apps/konqueror/src/CMakeLists.txt
 @@ -13,6 +13,7 @@
  configure_file(config-konqueror.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-konqueror.h )
  
@@ -26,8 +26,8 @@
  
  kde4_add_app_icon(konqueror_KDEINIT_SRCS "${KDE4_ICON_INSTALL_DIR}/oxygen/*/apps/konqueror.png")
  
---- kdebase.orig/lib/konq/CMakeLists.txt	2008-04-28 09:48:17.000000000 +0000
-+++ kdebase/lib/konq/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/lib/konq/CMakeLists.txt
++++ b/apps/lib/konq/CMakeLists.txt
 @@ -23,7 +23,7 @@
  
  kde4_add_library(konq SHARED ${konq_LIB_SRCS})
@@ -37,8 +37,8 @@
  
  set_target_properties(konq PROPERTIES VERSION ${KDE_NON_GENERIC_LIB_VERSION} SOVERSION ${KDE_NON_GENERIC_LIB_SOVERSION} )
  install(TARGETS konq  ${INSTALL_TARGETS_DEFAULT_ARGS})
---- kdebase.orig/lib/konq/favicons/CMakeLists.txt	2008-04-28 09:48:17.000000000 +0000
-+++ kdebase/lib/konq/favicons/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/lib/konq/favicons/CMakeLists.txt
++++ b/apps/lib/konq/favicons/CMakeLists.txt
 @@ -4,7 +4,7 @@
  
  kde4_add_plugin(kded_favicons ${kded_favicons_SRCS})
@@ -48,8 +48,8 @@
  
  
  install(TARGETS kded_favicons  DESTINATION ${PLUGIN_INSTALL_DIR} )
---- kdebase.orig/konqueror/client/CMakeLists.txt	2008-04-28 09:47:46.000000000 +0000
-+++ kdebase/konqueror/client/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/client/CMakeLists.txt
++++ b/apps/konqueror/client/CMakeLists.txt
 @@ -16,7 +16,7 @@
      target_link_libraries(kfmclient  ${KDE4_KIO_LIBS} )
  else (WIN32)
@@ -59,8 +59,8 @@
      install(TARGETS kdeinit_kfmclient  ${INSTALL_TARGETS_DEFAULT_ARGS} )
  endif (WIN32)
  
---- kdebase.orig/konqueror/preloader/CMakeLists.txt	2008-04-28 09:47:46.000000000 +0000
-+++ kdebase/konqueror/preloader/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/preloader/CMakeLists.txt
++++ b/apps/konqueror/preloader/CMakeLists.txt
 @@ -13,7 +13,7 @@
  
  kde4_add_plugin(kded_konqy_preloader ${kded_konqy_preloader_PART_SRCS})
@@ -70,8 +70,8 @@
  
  install(TARGETS kded_konqy_preloader DESTINATION ${PLUGIN_INSTALL_DIR})
  
---- kdebase.orig/konqueror/settings/kio/CMakeLists.txt	2008-04-28 09:47:36.000000000 +0000
-+++ kdebase/konqueror/settings/kio/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/settings/kio/CMakeLists.txt
++++ b/apps/konqueror/settings/kio/CMakeLists.txt
 @@ -31,7 +31,7 @@
  kde4_add_plugin(kcm_kio ${kcm_kio_PART_SRCS})
  
@@ -81,8 +81,8 @@
  
  install(TARGETS kcm_kio  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase.orig/konqueror/settings/konq/CMakeLists.txt	2008-04-28 09:47:39.000000000 +0000
-+++ kdebase/konqueror/settings/konq/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/settings/konq/CMakeLists.txt
++++ b/apps/konqueror/settings/konq/CMakeLists.txt
 @@ -22,7 +22,7 @@
  kde4_add_plugin(kcm_konq ${kcm_konq_PART_SRCS})
  
@@ -92,8 +92,8 @@
  
  install(TARGETS kcm_konq  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase.orig/konqueror/settings/konqhtml/CMakeLists.txt	2008-04-28 09:47:40.000000000 +0000
-+++ kdebase/konqueror/settings/konqhtml/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/settings/konqhtml/CMakeLists.txt
++++ b/apps/konqueror/settings/konqhtml/CMakeLists.txt
 @@ -22,7 +22,7 @@
  kde4_add_plugin(kcm_konqhtml ${kcm_konqhtml_PART_SRCS})
  
@@ -103,8 +103,8 @@
  
  install(TARGETS kcm_konqhtml  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase.orig/konqueror/settings/performance/CMakeLists.txt	2008-04-28 09:47:32.000000000 +0000
-+++ kdebase/konqueror/settings/performance/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/settings/performance/CMakeLists.txt
++++ b/apps/konqueror/settings/performance/CMakeLists.txt
 @@ -11,7 +11,7 @@
  kde4_add_plugin(kcm_performance ${kcm_performance_PART_SRCS})
  
@@ -114,8 +114,8 @@
  
  install(TARGETS kcm_performance  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase.orig/kinfocenter/pci/CMakeLists.txt	2008-04-28 09:48:21.000000000 +0000
-+++ kdebase/kinfocenter/pci/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/kinfocenter/pci/CMakeLists.txt
++++ b/apps/kinfocenter/pci/CMakeLists.txt
 @@ -10,14 +10,14 @@
  
  if(PCIUTILS_FOUND)
@@ -142,8 +142,8 @@
  endif(PCIUTILS_FOUND)
  
  install(TARGETS kcm_pci  DESTINATION ${PLUGIN_INSTALL_DIR})
---- kdebase.orig/konqueror/kttsplugin/CMakeLists.txt	2008-04-28 09:47:41.000000000 +0000
-+++ kdebase/konqueror/kttsplugin/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konqueror/kttsplugin/CMakeLists.txt
++++ b/apps/konqueror/kttsplugin/CMakeLists.txt
 @@ -28,7 +28,7 @@
  
  kde4_add_plugin(khtmlkttsdplugin ${khtmlkttsdplugin_PART_SRCS})
@@ -153,8 +153,8 @@
  
  if( WEBKITKDE_FOUND)
      target_link_libraries(khtmlkttsdplugin ${WEBKITKDE_LIBRARIES} ${QT_QTWEBKIT_LIBRARY} )
---- kdebase.orig/konsole/src/CMakeLists.txt	2008-04-28 09:48:34.000000000 +0000
-+++ kdebase/konsole/src/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/konsole/src/CMakeLists.txt
++++ b/apps/konsole/src/CMakeLists.txt
 @@ -82,7 +82,7 @@
  
  kde4_add_kdeinit_executable( konsole ${konsole_KDEINIT_SRCS})
@@ -173,8 +173,8 @@
  if(X11_Xrender_FOUND)
    target_link_libraries(konsolepart ${X11_Xrender_LIB})
  endif(X11_Xrender_FOUND)
---- kdebase.orig/nsplugins/CMakeLists.txt	2008-04-28 09:47:05.000000000 +0000
-+++ kdebase/nsplugins/CMakeLists.txt	2008-04-28 21:04:55.000000000 +0000
+--- a/apps/nsplugins/CMakeLists.txt
++++ b/apps/nsplugins/CMakeLists.txt
 @@ -26,7 +26,7 @@
  
    kde4_add_plugin(libnsplugin ${nsplugins_PART_SRCS})
@@ -184,8 +184,8 @@
  
    install(TARGETS libnsplugin  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
---- kdebase.orig/dolphin/src/CMakeLists.txt	2008-04-28 21:16:43.000000000 +0000
-+++ kdebase/dolphin/src/CMakeLists.txt	2008-04-28 21:33:07.000000000 +0000
+--- a/apps/dolphin/src/CMakeLists.txt
++++ b/apps/dolphin/src/CMakeLists.txt
 @@ -52,7 +52,16 @@
  
  configure_file(config-nepomuk.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-nepomuk.h )
