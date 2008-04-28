@@ -1,4 +1,9 @@
 usr/bin/kinfocenter
+usr/lib/kde4/kcm_ioslaveinfo.so
+usr/lib/kde4/kcm_memory.so
+usr/lib/kde4/kcm_partition.so exists
+usr/lib/kde4/kcm_pci.so
+usr/lib/kde4/kcm_samba.so
 usr/lib/libkdeinit4_kinfocenter.so
 usr/share/applications/kde4/kinfocenter.desktop
 usr/share/doc/kde4/HTML/en/kinfocenter/common
@@ -63,12 +68,14 @@ usr/share/kde4/services/devices.desktop
 usr/share/kde4/services/dma.desktop
 usr/share/kde4/services/interrupts.desktop
 usr/share/kde4/services/ioports.desktop
+usr/share/kde4/services/ioslaveinfo.desktop
+usr/share/kde4/services/kcm_memory.desktop
+usr/share/kde4/services/kcm_partition.desktop
+usr/share/kde4/services/kcm_pci.desktop
 usr/share/kde4/services/kcmusb.desktop
-usr/share/kde4/services/memory.desktop
 usr/share/kde4/services/nic.desktop
 usr/share/kde4/services/opengl.desktop
-usr/share/kde4/services/partitions.desktop
-usr/share/kde4/services/pci.desktop
 usr/share/kde4/services/scsi.desktop
+usr/share/kde4/services/smbstatus.desktop
 usr/share/kde4/services/sound.desktop
 usr/share/kde4/services/xserver.desktop

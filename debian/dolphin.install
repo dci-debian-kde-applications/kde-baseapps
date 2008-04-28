@@ -8,9 +8,9 @@ usr/share/doc/kde4/HTML/en/dolphin/bookmarksidebar.png
 usr/share/doc/kde4/HTML/en/dolphin/breadcrumb.png
 usr/share/doc/kde4/HTML/en/dolphin/browsebutton.png
 usr/share/doc/kde4/HTML/en/dolphin/common
+usr/share/doc/kde4/HTML/en/dolphin/configurationwindow.png
 usr/share/doc/kde4/HTML/en/dolphin/configurationwindow2.png
 usr/share/doc/kde4/HTML/en/dolphin/configurationwindow3.png
-usr/share/doc/kde4/HTML/en/dolphin/configurationwindow.png
 usr/share/doc/kde4/HTML/en/dolphin/directorypath.png
 usr/share/doc/kde4/HTML/en/dolphin/dolphin.png
 usr/share/doc/kde4/HTML/en/dolphin/hiddenfolder.png
@@ -34,6 +34,10 @@ usr/share/kde4/apps/dolphin/icons/oxygen/32x32/actions/view-file-columns.png
 usr/share/kde4/apps/dolphin/icons/oxygen/48x48/actions/view-file-columns.png
 usr/share/kde4/apps/dolphin/icons/oxygen/scalable/actions/view-file-columns.svgz
 usr/share/kde4/apps/dolphinpart/dolphinpart.rc
+usr/share/kde4/apps/dolphinpart/kpartplugins/kremoteencodingplugin.desktop
+usr/share/kde4/apps/dolphinpart/kpartplugins/kremoteencodingplugin.rc
+usr/share/kde4/apps/dolphinpart/kpartplugins/kshellcmdplugin.desktop
+usr/share/kde4/apps/dolphinpart/kpartplugins/kshellcmdplugin.rc
 usr/share/kde4/config.kcfg/dolphin_columnmodesettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_detailsmodesettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_directoryviewpropertysettings.kcfg

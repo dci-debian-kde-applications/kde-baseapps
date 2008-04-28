@@ -50,8 +50,8 @@ usr/share/icons/oxygen/16x16/apps/gimp.png
 usr/share/icons/oxygen/16x16/apps/gnomemeeting.png
 usr/share/icons/oxygen/16x16/apps/gnucash.png
 usr/share/icons/oxygen/16x16/apps/gnumeric.png
-usr/share/icons/oxygen/16x16/apps/gvim.png
 usr/share/icons/oxygen/16x16/apps/gv.png
+usr/share/icons/oxygen/16x16/apps/gvim.png
 usr/share/icons/oxygen/16x16/apps/licq.png
 usr/share/icons/oxygen/16x16/apps/linguist.png
 usr/share/icons/oxygen/16x16/apps/lyx.png
@@ -59,8 +59,8 @@ usr/share/icons/oxygen/16x16/apps/netscape.png
 usr/share/icons/oxygen/16x16/apps/opera.png
 usr/share/icons/oxygen/16x16/apps/pan.png
 usr/share/icons/oxygen/16x16/apps/penguin.png
-usr/share/icons/oxygen/16x16/apps/planner.png
 usr/share/icons/oxygen/16x16/apps/plan.png
+usr/share/icons/oxygen/16x16/apps/planner.png
 usr/share/icons/oxygen/16x16/apps/pybliographic.png
 usr/share/icons/oxygen/16x16/apps/realplayer.png
 usr/share/icons/oxygen/16x16/apps/sodipodi.png
@@ -103,8 +103,8 @@ usr/share/icons/oxygen/32x32/apps/gimp.png
 usr/share/icons/oxygen/32x32/apps/gnomemeeting.png
 usr/share/icons/oxygen/32x32/apps/gnucash.png
 usr/share/icons/oxygen/32x32/apps/gnumeric.png
-usr/share/icons/oxygen/32x32/apps/gvim.png
 usr/share/icons/oxygen/32x32/apps/gv.png
+usr/share/icons/oxygen/32x32/apps/gvim.png
 usr/share/icons/oxygen/32x32/apps/licq.png
 usr/share/icons/oxygen/32x32/apps/linguist.png
 usr/share/icons/oxygen/32x32/apps/lyx.png
@@ -113,8 +113,8 @@ usr/share/icons/oxygen/32x32/apps/opera.png
 usr/share/icons/oxygen/32x32/apps/pan.png
 usr/share/icons/oxygen/32x32/apps/penguin.png
 usr/share/icons/oxygen/32x32/apps/pinguin.png
-usr/share/icons/oxygen/32x32/apps/planner.png
 usr/share/icons/oxygen/32x32/apps/plan.png
+usr/share/icons/oxygen/32x32/apps/planner.png
 usr/share/icons/oxygen/32x32/apps/pybliographic.png
 usr/share/icons/oxygen/32x32/apps/realplayer.png
 usr/share/icons/oxygen/32x32/apps/sodipodi.png
@@ -259,8 +259,8 @@ usr/share/kde4/services/useragentstrings/ie55onwinnt5.desktop
 usr/share/kde4/services/useragentstrings/ie60oncurrent.desktop
 usr/share/kde4/services/useragentstrings/ie60onwinnt51.desktop
 usr/share/kde4/services/useragentstrings/lynxoncurrent.desktop
-usr/share/kde4/services/useragentstrings/mozoncurrent12.desktop
 usr/share/kde4/services/useragentstrings/mozoncurrent.desktop
+usr/share/kde4/services/useragentstrings/mozoncurrent12.desktop
 usr/share/kde4/services/useragentstrings/mozonwinxp.desktop
 usr/share/kde4/services/useragentstrings/nn301oncurrent.desktop
 usr/share/kde4/services/useragentstrings/nn475oncurrent.desktop

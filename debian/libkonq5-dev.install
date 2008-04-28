@@ -1,10 +1,9 @@
 usr/include/knewmenu.h
-usr/include/konq_defaults.h
 usr/include/konq_events.h
 usr/include/konq_fileundomanager.h
 usr/include/konq_menuactions.h
-usr/include/konqmimedata.h
 usr/include/konq_operations.h
 usr/include/konq_popupmenu.h
+usr/include/konqmimedata.h
 usr/include/libkonq_export.h
 usr/lib/libkonq.so
