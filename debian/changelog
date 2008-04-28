@@ -2,7 +2,7 @@ kdebase (4:4.0.71+svn802233-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
     - The latest upstream commit is r802233 by ppenz
-    - Date: Mon, 28 Apr 2008 22:05:20 -0000
+    - Date: Mon, 28 Apr 2008 22:42:28 -0000
 
    +++ Changes by Modestas Vainius:
 
@@ -15,7 +15,7 @@ kdebase (4:4.0.71+svn802233-1~pre1) UNRELEASED; urgency=low
    * Do not install README to each package. It's pointless. Install it only
      to kdebase.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Apr 2008 01:24:53 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Apr 2008 01:42:28 +0300
 
 kdebase (4:4.0.68+svn794641-1) experimental; urgency=low
 
