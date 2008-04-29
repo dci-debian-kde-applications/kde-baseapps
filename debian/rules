@@ -1,5 +1,5 @@
 #!/usr/bin/make -f
 
-DEB_INSTALL_DOCS_ALL=
-
 include debian/cdbs/kde.mk
+
+DEB_INSTALL_DOCS_ALL=
