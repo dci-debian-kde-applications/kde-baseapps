@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, 
- kdepimlibs5-dev (>= 4:4.0.68), libphonon-dev (>= 4:4.0.68), 
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake,
+ kdepimlibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72),
  libqimageblitz-dev (>= 1:0.0.4-2), libsmbclient-dev, libusb-dev, libxkbfile-dev,
  libraw1394-dev, libstreamanalyzer-dev, libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
  libpci-dev, libxt-dev, pkg-config
@@ -66,7 +66,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdebase-data (= ${source:Version})
 Conflicts: kdesktop
 Description: core binaries for the KDE 4 base module
- This package contains miscellaneous programs needed by other KDE 4 
+ This package contains miscellaneous programs needed by other KDE 4
  applications, particularly those in the KDE 4 base module.
  .
  This package is part of the KDE 4 base applications module.
@@ -85,7 +85,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, dolphin (= ${binary:Version}),
  konqueror (= ${binary:Version}), libkonq5-dev (= ${binary:Version}),
- kdepimlibs5-dev (>= 4:4.0.68), libphonon-dev (>= 4:4.0.68), 
+ kdepimlibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72),
  libqimageblitz-dev (>=1:0.0.4-2), libsmbclient-dev, libusb-dev, libxkbfile-dev, libraw1394-dev
 Description: development files for the KDE 4 base module
  This package contains development files for building software that uses
@@ -158,7 +158,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-terminal-emulator
 Description: X terminal emulator for KDE 4
- Konsole is the KDE 4 terminal emulator.  It can contain multiple terminal
+ Konsole is the KDE 4 terminal emulator. It can contain multiple terminal
  sessions inside one window using detachable tabs.
  .
  Konsole supports powerful terminal features, such as customizable schemes,
@@ -173,7 +173,7 @@ Depends: ${shlibs:Depends}
 Replaces: kate (<< 4:4.0.0-1)
 Conflicts: kate (<< 4:4.0.0-1)
 Description: text editor for KDE 4
- KWrite is the KDE 4 simple text editor.  It uses the Kate editor component, so
+ KWrite is the KDE 4 simple text editor. It uses the Kate editor component, so
  it supports powerful features such as flexible syntax highlighting, automatic
  indentation, and numerous other text tools.
  .
@@ -202,7 +202,7 @@ Description: data files for the Konqueror libraries
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.68)
+Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.72)
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
