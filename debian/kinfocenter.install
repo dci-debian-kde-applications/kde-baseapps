@@ -1,7 +1,7 @@
 usr/bin/kinfocenter
 usr/lib/kde4/kcm_ioslaveinfo.so
 usr/lib/kde4/kcm_memory.so
-usr/lib/kde4/kcm_partition.so exists
+usr/lib/kde4/kcm_partition.so
 usr/lib/kde4/kcm_pci.so
 usr/lib/kde4/kcm_samba.so
 usr/lib/libkdeinit4_kinfocenter.so
