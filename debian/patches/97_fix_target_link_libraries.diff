@@ -179,28 +179,25 @@
  
    kde4_add_plugin(libnsplugin ${nsplugins_PART_SRCS})
  
--  target_link_libraries(libnsplugin  ${KDE4_KDE3SUPPORT_LIBS} ${KDE4_KPARTS_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTGUI_LIBRARY} )
-+target_link_libraries(libnsplugin  ${KDE4_KDE3SUPPORT_LIBS} ${KDE4_KPARTS_LIBS} ${QT_QT3SUPPORT_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTDBUS_LIBRARY} )
+-  target_link_libraries(libnsplugin ${KDE4_KPARTS_LIBS} ${QT_QTGUI_LIBRARY})
++  target_link_libraries(libnsplugin ${KDE4_KPARTS_LIBS} ${QT_QTGUI_LIBRARY} ${QT_QTDBUS_LIBRARY})
  
    install(TARGETS libnsplugin  DESTINATION ${PLUGIN_INSTALL_DIR} )
  
 --- a/apps/dolphin/src/CMakeLists.txt
 +++ b/apps/dolphin/src/CMakeLists.txt
-@@ -52,7 +52,16 @@
+@@ -52,7 +52,13 @@
  
  configure_file(config-nepomuk.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-nepomuk.h )
  
--target_link_libraries(dolphinprivate ${KDE4_KFILE_LIBS} konq ${BLITZ_LIBRARIES})
-+target_link_libraries(dolphinprivate ${KDE4_KFILE_LIBS} konq ${BLITZ_LIBRARIES} )
-+
+-target_link_libraries(dolphinprivate ${KDE4_KFILE_LIBS} konq ${QIMAGEBLITZ_LIBRARIES})
++target_link_libraries(dolphinprivate ${KDE4_KFILE_LIBS} konq ${QIMAGEBLITZ_LIBRARIES})
 +if (X11_FOUND)
 +  target_link_libraries(dolphinprivate ${X11_X11_LIB})
 +endif (X11_FOUND)
 +if (X11_Xext_FOUND)
 +  target_link_libraries(dolphinprivate ${X11_Xext_LIB})
 +endif (X11_Xext_FOUND)
-+
-+
  if(X11_Xrender_FOUND)
    target_link_libraries(dolphinprivate ${X11_Xrender_LIB} )
  endif(X11_Xrender_FOUND)
