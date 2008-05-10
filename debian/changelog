@@ -1,12 +1,11 @@
-kdebase (4:4.0.72+svn804272-1~pre1) UNRELEASED; urgency=low
+kdebase (4:4.0.73-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r804272 by dfaure
-    - Date: Mon, 05 May 2008 17:20:39 -0000
+  * New upstream development snapshot.
+
   * Corrections to *.install files:
     - libkonq5.install: 1 file(s) removed;
     - libkonq5-dev.install: 1 file(s) removed;
-  
+
   +++ Changes by Modestas Vainius:
 
   * Resync 97_ patch.

@@ -28,7 +28,7 @@
  
 --- a/apps/lib/konq/CMakeLists.txt
 +++ b/apps/lib/konq/CMakeLists.txt
-@@ -23,7 +23,7 @@
+@@ -20,7 +20,7 @@
  
  kde4_add_library(konq SHARED ${konq_LIB_SRCS})
  
@@ -175,7 +175,7 @@
  endif(X11_Xrender_FOUND)
 --- a/apps/nsplugins/CMakeLists.txt
 +++ b/apps/nsplugins/CMakeLists.txt
-@@ -26,7 +26,7 @@
+@@ -25,7 +25,7 @@
  
    kde4_add_plugin(libnsplugin ${nsplugins_PART_SRCS})
  
@@ -186,12 +186,10 @@
  
 --- a/apps/dolphin/src/CMakeLists.txt
 +++ b/apps/dolphin/src/CMakeLists.txt
-@@ -52,7 +52,13 @@
- 
+@@ -58,6 +58,12 @@
  configure_file(config-nepomuk.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-nepomuk.h )
  
--target_link_libraries(dolphinprivate ${KDE4_KFILE_LIBS} konq ${QIMAGEBLITZ_LIBRARIES})
-+target_link_libraries(dolphinprivate ${KDE4_KFILE_LIBS} konq ${QIMAGEBLITZ_LIBRARIES})
+ target_link_libraries(dolphinprivate ${KDE4_KFILE_LIBS} konq ${QIMAGEBLITZ_LIBRARIES})
 +if (X11_FOUND)
 +  target_link_libraries(dolphinprivate ${X11_X11_LIB})
 +endif (X11_FOUND)
