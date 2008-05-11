@@ -199,3 +199,14 @@
  if(X11_Xrender_FOUND)
    target_link_libraries(dolphinprivate ${X11_Xrender_LIB} )
  endif(X11_Xrender_FOUND)
+--- a/apps/konqueror/settings/filetypes/CMakeLists.txt
++++ b/apps/konqueror/settings/filetypes/CMakeLists.txt
+@@ -18,7 +18,7 @@
+ 
+ kde4_add_plugin(kcm_filetypes ${kcm_filetypes_SRCS})
+ 
+-target_link_libraries(kcm_filetypes  ${KDE4_KDE3SUPPORT_LIBS} )
++target_link_libraries(kcm_filetypes  ${KDE4_KDE3SUPPORT_LIBS} ${QT_QTDBUS_LIBRARY} )
+ 
+ install(TARGETS kcm_filetypes  DESTINATION ${PLUGIN_INSTALL_DIR} )
+ 

@@ -1,6 +1,8 @@
-kdebase (4:4.0.73-1) UNRELEASED; urgency=low
+kdebase (4:4.0.73+svn806201-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream development snapshot:
+    - The latest upstream commit is r806201 by ppenz
+    - Date: Sat, 10 May 2008 18:06:59 -0000
 
   * Corrections to *.install files:
     - libkonq5.install: 1 file(s) removed;
@@ -10,7 +12,7 @@ kdebase (4:4.0.73-1) UNRELEASED; urgency=low
 
   * Resync 97_ patch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2008 20:58:22 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 21:06:59 +0300
 
 kdebase (4:4.0.72-1) experimental; urgency=low
 
