@@ -1,4 +1,4 @@
-kdebase (4:4.0.80-1~pre1) UNRELEASED; urgency=low
+kdebase (4:4.0.80-1~pre2) UNRELEASED; urgency=low
 
   * New upstream development milestone (KDE 4.1 Beta1).
 
@@ -6,8 +6,10 @@ kdebase (4:4.0.80-1~pre1) UNRELEASED; urgency=low
 
   * Resync 97_ patch.
   * Update install files.
+  * Backport 01_r811027_konqcrash_on_rightclick.diff patch from upstream svn
+    which fixes a konqueror crash on each mouse right click.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2008 02:58:28 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2008 11:55:10 +0300
 
 kdebase (4:4.0.74-1) experimental; urgency=low
 

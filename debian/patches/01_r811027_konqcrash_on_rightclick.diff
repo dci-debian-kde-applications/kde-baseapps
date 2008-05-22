@@ -1,0 +1,17 @@
+Index: apps/lib/konq/konq_popupmenu.cpp
+===================================================================
+--- a/apps/lib/konq/konq_popupmenu.cpp	(revision 811026)
++++ b/apps/lib/konq/konq_popupmenu.cpp	(revision 811027)
+@@ -196,8 +196,10 @@
+     QFileInfo parentDirInfo;
+ 
+     KUrl url;
+-    KFileItemList::const_iterator it = m_popupMenuInfo.items().begin();
+-    const KFileItemList::const_iterator kend = m_popupMenuInfo.items().end();
++
++    KFileItemList lstItems = m_popupMenuInfo.items();
++    KFileItemList::const_iterator it = lstItems.begin();
++    const KFileItemList::const_iterator kend = lstItems.end();
+     for ( ; it != kend; ++it )
+     {
+         url = (*it).url();
