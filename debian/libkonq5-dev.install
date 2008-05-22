@@ -6,3 +6,5 @@ usr/include/konq_popupmenu.h
 usr/include/konqmimedata.h
 usr/include/libkonq_export.h
 usr/lib/libkonq.so
+usr/include/konq_popupmenuplugin.h
+usr/include/konq_popupmenuinformation.h
