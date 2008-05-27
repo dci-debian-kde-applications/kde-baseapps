@@ -1,3 +1,12 @@
+kdebase (4:4.0.80-2) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump kdepimlibs5-dev and libphonon-dev build depends to 4.0.80
+    (Closes: #483116).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:04:47 +0300
+
 kdebase (4:4.0.80-1) experimental; urgency=low
 
   * New upstream development milestone (KDE 4.1 Beta1).
