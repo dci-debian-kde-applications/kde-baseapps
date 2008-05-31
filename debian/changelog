@@ -1,9 +1,19 @@
-kdebase (4:4.0.80-2) UNRELEASED; urgency=low
+kdebase (4:4.0.81+svn814614-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
 
   +++ Changes by Modestas Vainius:
 
   * Bump kdepimlibs5-dev and libphonon-dev build depends to 4.0.80
     (Closes: #483116).
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove 01_r811027_konqcrash_on_rightclick.diff, merged upstream.
+  * Add small update in 97_fix_target_link_libraries.diff.
+  * Update build dependencies:
+    - Bump kdepimlibs5-dev to (>= 4:4.0.81).
+    - Change libphonon-dev to new versioning (>= 4:4.2~).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:04:47 +0300
 
