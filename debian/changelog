@@ -1,6 +1,8 @@
-kdebase (4:4.0.81+svn814614-1) UNRELEASED; urgency=low
+kdebase (4:4.0.81+svn815038-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream snapshot.
+  * New upstream development snapshot:
+    - The latest upstream commit is r815038 by knight
+    - Date: Sun Jun 1 00:25:19 2008 UTC
 
   +++ Changes by Modestas Vainius:
 
