@@ -1,8 +1,8 @@
-kdebase (4:4.0.81+svn815038-1~pre1) UNRELEASED; urgency=low
+kdebase (4:4.0.81+svn816283-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r815038 by knight
-    - Date: Sun Jun 1 00:25:19 2008 UTC
+    - The latest upstream commit is r816283 by 
+    - Date: 
 
   +++ Changes by Modestas Vainius:
 
@@ -16,7 +16,7 @@ kdebase (4:4.0.81+svn815038-1~pre1) UNRELEASED; urgency=low
   * Update build dependencies:
     - Bump kdepimlibs5-dev to (>= 4:4.0.81).
     - Change libphonon-dev to new versioning (>= 4:4.2~).
-  * Update kdepasswd.install.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:04:47 +0300
 
