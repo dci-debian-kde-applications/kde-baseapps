@@ -1,4 +1,4 @@
-etc/kde4/konqsidebartng.rc
+usr/share/kde4/config/konqsidebartng.rc
 usr/bin/kbookmarkmerger
 usr/bin/keditbookmarks
 usr/bin/kfmclient
