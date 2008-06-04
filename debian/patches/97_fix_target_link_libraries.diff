@@ -28,7 +28,7 @@
      install(TARGETS kdeinit_konqueror  ${INSTALL_TARGETS_DEFAULT_ARGS} )
 --- a/apps/lib/konq/CMakeLists.txt
 +++ b/apps/lib/konq/CMakeLists.txt
-@@ -22,7 +22,7 @@
+@@ -23,7 +23,7 @@
  
  kde4_add_library(konq SHARED ${konq_LIB_SRCS})
  
