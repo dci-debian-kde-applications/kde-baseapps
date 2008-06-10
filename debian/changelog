@@ -1,11 +1,17 @@
-kdebase (4:4.0.81+svn816164-1) UNRELEASED; urgency=low
+kdebase (4:4.0.81+svn818867-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream development snapshot:
+    - The latest upstream commit is r818867 by dfaure
+    - Date: Mon, 09 Jun 2008 23:51:18 -0000
+  * Update install files:
 
   +++ Changes by Modestas Vainius:
 
   * Bump kdepimlibs5-dev and libphonon-dev build depends to 4.0.80
     (Closes: #483116).
+  * Build depend on libplasma-dev (folderview applet).
+  * Add a new binary kdebase-plasma for a Folder View applet. Add appropriate
+    replaces with libplasma2.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
@@ -16,7 +22,7 @@ kdebase (4:4.0.81+svn816164-1) UNRELEASED; urgency=low
     - Change libphonon-dev to new versioning (>= 4:4.2~).
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 12:04:47 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 03:29:19 +0300
 
 kdebase (4:4.0.80-1) experimental; urgency=low
 
