@@ -216,10 +216,10 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: libplasma2 (<< 4:4.0.82)
 Description: plasma widgets from the KDE 4 base applications module.
- This package contains plasma widgets (plasmoids) shipped in the KDE 4 base
- applications module. This package contains the following widget:
- .
-  - Folder View
+ This package contains plasma applets (also known as widgets or plasmoids)
+ included in the KDE 4 base applications module. Currently, the following
+ plasmoids are provided:
+   - Folder View
  .
  This package is part of the KDE 4 base applications module.
 

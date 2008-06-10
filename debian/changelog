@@ -1,6 +1,7 @@
-kdebase (4:4.0.81+svn818867-1~pre1) UNRELEASED; urgency=low
+kdebase (4:4.0.81+svn818989-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
+
   * Update install files.
 
   +++ Changes by Modestas Vainius:
@@ -20,11 +21,11 @@ kdebase (4:4.0.81+svn818867-1~pre1) UNRELEASED; urgency=low
     - Change libphonon-dev to new versioning (>= 4:4.2~).
   * Update installed files.
 
-   +++ Changes by Fathi Boudra:
+  +++ Changes by Fathi Boudra:
 
-   * Add libxext-dev build dependency.
+  * Add libxext-dev build dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 03:29:19 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 12:52:59 +0300
 
 kdebase (4:4.0.80-1) experimental; urgency=low
 
