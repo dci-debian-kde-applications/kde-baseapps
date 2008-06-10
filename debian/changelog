@@ -1,14 +1,12 @@
-kdebase (4:4.0.82+svn819237-1~pre1) UNRELEASED; urgency=low
+kdebase (4:4.0.82+svn819237-1~pre2) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-
   * Update install files.
 
   +++ Changes by Modestas Vainius:
 
-  * Bump kdepimlibs5-dev and libphonon-dev build depends to 4.0.80
-    (Closes: #483116).
-  * Build depend on libplasma-dev (folderview applet).
+  * Bump kdepimlibs5-dev to 4.0.82, libphonon-dev to 4.2~ (Closes: #483116).
+  * Build depend on libplasma-dev >=4.0.82 (folderview applet).
   * Add a new binary kdebase-plasma for a Folder View applet. Add appropriate
     replaces with libplasma2.
 
