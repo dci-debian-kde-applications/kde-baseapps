@@ -1,4 +1,4 @@
-kdebase (4:4.0.81+svn818989-1~pre1) UNRELEASED; urgency=low
+kdebase (4:4.0.82+svn819237-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -25,7 +25,7 @@ kdebase (4:4.0.81+svn818989-1~pre1) UNRELEASED; urgency=low
 
   * Add libxext-dev build dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 12:52:59 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Jun 2008 00:03:21 +0300
 
 kdebase (4:4.0.80-1) experimental; urgency=low
 
