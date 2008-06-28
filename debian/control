@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.4.5),
  kdepimlibs5-dev (>= 4:4.0.82), libphonon-dev (>= 4:4.2~), libplasma-dev (>= 4:4.0.82),
  libqimageblitz-dev (>= 1:0.0.4-2), libsmbclient-dev, libusb-dev, libxkbfile-dev,
  libraw1394-dev, libstreamanalyzer-dev, libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
- libpci-dev, libxt-dev, libxext-dev, pkg-config
+ libpci-dev, libxt-dev, libxext-dev, pkg-config, libglib2.0-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase
