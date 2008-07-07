@@ -1,8 +1,16 @@
-kdebase (4:4.0.84-2) UNRELEASED; urgency=low
+kdebase (4:4.0.85+svn829067-0) UNRELEASED; urgency=low
 
-  * konqueror now suggests konq-plugins >=4:4.1~
+  * New development snapshot.
 
- -- Xavier Vello <xavier.vello@gmail.com>  Wed, 2 Jul 2008 00:34:30 +0200
+  +++ Changes by Xavier Vello:
+
+  * konqueror now suggests konq-plugins >=4:4.1~.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Remove patch 97_fix_target_link_libraries.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Jul 2008 17:10:13 +0200
 
 kdebase (4:4.0.84-1) experimental; urgency=low
 
