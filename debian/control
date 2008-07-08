@@ -65,7 +65,7 @@ Package: kdebase-bin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-data (= ${source:Version})
-Conflicts: kdesktop
+Conflicts: kdesktop, kcontrol
 Description: core binaries for the KDE 4 base module
  This package contains miscellaneous programs needed by other KDE 4
  applications, particularly those in the KDE 4 base module.

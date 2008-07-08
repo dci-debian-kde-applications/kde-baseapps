@@ -9,8 +9,10 @@ kdebase (4:4.0.85+svn829067-0) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
   
   * Remove patch 97_fix_target_link_libraries.
+  * Add Conflicts with kcontrol to kdebase-bin. Thanks Peter! 
+    (Closes: #483658)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Jul 2008 17:10:13 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Jul 2008 21:12:59 +0200
 
 kdebase (4:4.0.84-1) experimental; urgency=low
 
