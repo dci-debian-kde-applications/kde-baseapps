@@ -1,7 +1,7 @@
-kdebase (4:4.0.85+svn829067-0) UNRELEASED; urgency=low
+kdebase (4:4.0.98-0) UNRELEASED; urgency=low
 
-  * New development snapshot.
-
+  * New upstream release, Release Candidate 1.
+  
   +++ Changes by Xavier Vello:
 
   * konqueror now suggests konq-plugins >=4:4.1~.
