@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.4.5),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0),
  kdepimlibs5-dev (>= 4:4.0.98), libphonon-dev (>= 4:4.2~), libplasma-dev (>= 4:4.0.98),
  libqimageblitz-dev (>= 1:0.0.4-2), libsmbclient-dev, libusb-dev, libxkbfile-dev,
  libraw1394-dev, libstreamanalyzer-dev, libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
@@ -86,7 +86,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, dolphin (= ${binary:Version}),
  konqueror (= ${binary:Version}), libkonq5-dev (= ${binary:Version}),
- kdepimlibs5-dev (>= 4:4.0.73), libphonon-dev (>= 4:4.0.73),
+ kdepimlibs5-dev (>= 4:4.0.98), libphonon-dev (>= 4:4.0.98),
  libqimageblitz-dev (>=1:0.0.4-2), libsmbclient-dev, libusb-dev, libxkbfile-dev, libraw1394-dev
 Description: development files for the KDE 4 base module
  This package contains development files for building software that uses
@@ -204,7 +204,7 @@ Description: data files for the Konqueror libraries
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.73)
+Depends: libkonq5 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.98)
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
