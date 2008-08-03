@@ -82,7 +82,7 @@ Description: shared data files for the KDE 4 base module
  This package is part of the KDE 4 base applications module.
 
 Package: kdebase-dev
-Section: kde
+Section: devel
 Architecture: any
 Depends: ${shlibs:Depends}, dolphin (= ${binary:Version}),
  konqueror (= ${binary:Version}), libkonq5-dev (= ${binary:Version}),
@@ -93,7 +93,7 @@ Description: development files for the KDE 4 base module
  libraries from the KDE 4 base applications module.
 
 Package: kdepasswd
-Section: admin
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: password changer for KDE 4
@@ -124,7 +124,7 @@ Description: system information viewer for KDE 4
  This package is part of the KDE 4 base applications module.
 
 Package: konqueror
-Section: kde
+Section: web
 Architecture: any
 Provides: info-browser, man-browser, www-browser
 Depends: ${shlibs:Depends},  kdebase-data (>= ${source:Version})
@@ -146,7 +146,7 @@ Description: KDE 4's advanced file manager, web browser and document viewer
  This package is part of the KDE 4 base applications module.
 
 Package: konqueror-nsplugins
-Section: kde
+Section: web
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: Netscape plugin support for Konqueror
@@ -182,7 +182,7 @@ Description: text editor for KDE 4
  This package is part of the KDE 4 base applications module.
 
 Package: libkonq5
-Section: kde
+Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, libkonq5-templates | kdesktop
 Description: core libraries for Konqueror
@@ -192,7 +192,7 @@ Description: core libraries for Konqueror
  This package is part of the KDE 4 base applications module.
 
 Package: libkonq5-templates
-Section: kde
+Section: libs
 Architecture: all
 Conflicts: kdesktop
 Description: data files for the Konqueror libraries
