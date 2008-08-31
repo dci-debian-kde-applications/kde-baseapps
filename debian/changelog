@@ -1,12 +1,12 @@
 kdebase (4:4.1.1-0) UNRELEASED; urgency=low
 
-  * New upstreaem release
+  * New upstream release.
 
   +++ Changes by Sune Vuorela: 
   
-  * Change sections
+  * Change sections.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 03 Aug 2008 15:51:41 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Aug 2008 20:49:19 +0200
 
 kdebase (4:4.1.0-1) experimental; urgency=low
 
