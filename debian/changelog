@@ -1,8 +1,384 @@
+kdebase (4:4.1.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Sune Vuorela: 
+  
+  * Change sections.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Aug 2008 20:49:19 +0200
+
 kdebase (4:4.1.0-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 03 Aug 2008 15:51:41 +0200
+
+kdebase (4:4.1.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update build depends and depends to >=4.1.0.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 27 Jul 2008 14:25:51 +0200
+
+kdebase (4:4.0.98-1) experimental; urgency=low
+
+  * New upstream release, Release Candidate 1.
+  
+  +++ Changes by Xavier Vello:
+
+  * konqueror now suggests konq-plugins >=4:4.1~.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Remove patch 97_fix_target_link_libraries.
+  * Add Conflicts with kcontrol to kdebase-bin. Thanks Peter! 
+    (Closes: #483658)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jul 2008 18:50:01 +0200
+
+kdebase (4:4.0.84-1) experimental; urgency=low
+
+  * New upstream snapshot
+  * Nspluginviewer needs glib
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 19:21:30 +0000
+
+kdebase (4:4.0.82+svn819867-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump kdepimlibs5-dev to 4.0.82, libphonon-dev to 4.2~ (Closes: #483116).
+  * Build depend on libplasma-dev >=4.0.82 (folderview applet).
+  * Add a new binary kdebase-plasma for a Folder View applet. Add appropriate
+    replaces with libplasma2.
+  * Update install files.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove 01_r811027_konqcrash_on_rightclick.diff, merged upstream.
+  * Add small update in 97_fix_target_link_libraries.diff.
+  * Update build dependencies:
+    - Bump kdepimlibs5-dev to (>= 4:4.0.81).
+    - Change libphonon-dev to new versioning (>= 4:4.2~).
+  * Update installed files.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add libxext-dev build dependency.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 15:22:53 +0200
+
+kdebase (4:4.0.80-1) experimental; urgency=low
+
+  * New upstream development milestone (KDE 4.1 Beta1).
+
+  +++ Changes by Modestas Vainius:
+
+  * Resync 97_ patch.
+  * Update install files.
+  * Backport 01_r811027_konqcrash_on_rightclick.diff patch from upstream svn
+    which fixes a konqueror crash on each mouse right click.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2008 11:55:10 +0300
+
+kdebase (4:4.0.74-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+  * Corrections to *.install files:
+    - libkonq5.install: 1 file(s) removed;
+    - libkonq5-dev.install: 1 file(s) removed;
+
+  +++ Changes by Modestas Vainius:
+
+  * Resync 97_ patch.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 21:06:59 +0300
+
+kdebase (4:4.0.72-1) experimental; urgency=low
+
+  * New upstream development snapshot.
+
+   +++ Changes by Modestas Vainius:
+
+   * Add libstreamanalyzer-dev, libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
+     libpci-dev, libxt-dev, pkg-config (for getting strigi version) to
+     build depends.
+   * Add 97_fix_target_link_libraries.diff.
+   * Update install files, sort them.
+   * Remove AUTHORS from debian/docs.
+   * Do not install README to each package. It's pointless. Install it only
+     to kdebase.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 May 2008 08:11:05 +0200
+
+kdebase (4:4.0.68+svn794641-1) experimental; urgency=low
+
+  * New upstream snapshot. 
+  * Add versioned build depend on qimageblitz >= 1:0.0.4-2.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 04 Apr 2008 16:37:13 +0200
+
+kdebase (4:4.0.66+svn791114-1) experimental; urgency=low
+
+  * First KDE 4.1 snapshot packaged.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files.
+  * Add build depend on libraw1394-dev.
+
+  +++ Changes by Armin Berres
+  
+  * Add conflict against kcontrol to kinfocenter (Closes: #465702).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Mar 2008 16:22:10 +0100
+
+kdebase (4:4.0.2-1) experimental; urgency=low
+
+  * New upstream release.
+  
+  +++ Changes by Matthew Rosewarne:
+
+  * Move dolphin, kfind, and kinfocenter to Section: utils.
+  * Move kdepasswd to Section: admin.
+  * Move kwrite to Section: editors.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files.
+  * Bump build-depends to >= 4.0.2.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2008 19:35:59 +0100
+
+kdebase (4:4.0.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Armin Berres:
+
+  * Update installed files.
+  * Bump build-depends to >= 4.0.1-1.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump compat/debhelper 6.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add Vcs-Browser and Vcs-Svn fields.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Feb 2008 14:35:21 +0100
+
+kdebase (4:4.0.0-2) experimental; urgency=low
+
+  +++ Changes by Armin Berres:
+
+  * KWrite ships files which are contained in kate from KDE 3. Add
+    conflict and replaces.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Tweak package descriptions.
+  * Change KDE 4 dependency version to 4:4.0.0-1.
+  * Remove unnecessary Replaces.
+  * Make dependencies binNMU-friendly.
+  * More specific dependencies for kdebase-dev.
+  * Move libkonq.so from kdebase-dev to libkonq5-dev.
+  * Use source:Version for kdebase metapackage.
+  * Remove Recommends: kdm from kdebase.
+  * Add Recommends: konqueror-nsplugins to konqueror.
+  * Remove Recommends: xine-ui from kappfinder.
+  * Change kdebase-dbg Depends to kdebase-runtime-dbg.
+  * Add Suggests: kdebase to kdebase-dbg.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Add lintian overrides for dolphin, kinfocenter, konqueror, konsole and
+    kwrite.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Jan 2008 05:46:56 +0100
+
+kdebase (4:4.0.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-depends to >= 4.0.0-1.
+  * Update dolphin.install.
+  * Update years in copyright.
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Add Homepage: to control.
+  * Tweak package descriptions.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Jan 2008 09:19:46 +0100
+
+kdebase (4:3.98.0~svn755919-1) experimental; urgency=low
+
+  * New svn snapshot release to revision 755919.
+
+  +++ Changes by Armin Berres:
+
+  * Update installed files.
+  * Raise build-dep to >= 4:3.98.0~svn755919-1.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add libphonon-dev build dependency.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Jan 2008 12:24:03 +0100
+
+kdebase (4:3.98.0~svn753247-1) experimental; urgency=low
+
+  * Svn snapshot of revision 753247.
+
+  +++ Changes by Armin Berres:
+
+  * Split some files from libkonq5 out into libkonq5-templates which conflict
+    with KDE 3's kdesktop.
+  * Remove extra LDFLAGS. Included via CDBS now.
+  * Make kdebase-bin depend on the source and not the binary version of
+    kdebase-data and add a conflict with kdesktop. Package doesn't exist
+    anymore and should be removed if new kdebase gets installed.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build-dep to >= 4:3.98.0~svn753247-1.
+  * Update *.install files.
+  * Add kinfocenter, it has been moved from -runtime.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 27 Dec 2007 04:37:59 +0100
+
+kdebase (4:3.97.0-1) experimental; urgency=low
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * New upstream release:
+    - Build depend on kdepimlibs5-dev >= 4:3.97.0.
+    - Update *.install files.
+  * Update Standards-Version to 3.7.3.
+  * Remove README about beta packages, they are supposed to be stable now.
+  * Remove empty packages knetattach and kdebase-kio-plugins. 
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
+    happier.
+
+  +++ Changes by Armin Berres:
+
+  * Remove dependency of kdebase-data on kde-icons-oxygen.
+  * Depend on epoched version of kdepimlibs5-dev.
+  * Correct libkonq5-dev's dependency on kdelibs5-dev.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Dec 2007 21:32:04 +0100
+
+kdebase (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump kdepimlibs5-dev build dependency version.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:37:18 +0100
+
+kdebase (4:3.95.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Fathi Boudra:
+
+  * Bump kdepimlibs5-dev build dependency version.
+  * Update installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Nov 2007 01:17:02 +0100
+
+kdebase (4:3.95.0-1) experimental; urgency=low
+
+  * New upstream release: KDE4 beta 4.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add kdebase-data build dependency to kdebase-bin.
+  * Add xine-ui recommends to kappfinder. See xine call in xine.desktop.
+
+  +++ Changes by Armin Berres:
+
+  * Remove no more needed build dependency on libxine-dev.
+  * Add build dependency on libxkbfile-dev.
+  * Let kdebase-dev strictly depend on the same binary version of kdebase.
+  * Remove the conflict of kde-icons-oxygen with kdebase-data. It isn't
+    needed and prevents co-installability with KDE3.
+  * Update *.install files.
+  * Remove drkonqi, kde-icons-oxygen and khelpcenter which are shipped with
+    kdebase-runtime now.
+  * Remove kdeprint package which has been removed upstream.
+  * Remove runtime files from copyright.
+  * Make kdebase-data arch-all.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Oct 2007 11:51:21 +0000
+
+kdebase (4:3.94.0-2) experimental; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Pull SVN branch to r726783.
+
+  +++ Changes by Armin Berres:
+
+  * Add debug package.
+  * Split the Oxygen icons into a separate package kde-icons-oxygen. This way
+    KDE4 applications can be used when running KDE3.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update *.install files.
+  * Upload! :-)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 23:32:51 +0200
+
+kdebase (4:3.94.0-1) experimental; urgency=low
+
+  * KDE4 beta3.
+
+  +++ Changes by Armin Berres:
+
+  * Remove listed directories in kdebase-data.install to avoid accidentally
+    installed files - removes conflicting file between kdebase-data and
+    kdeprint.
+  * Update *.install files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Oct 2007 23:37:18 +0200
+
+kdebase (4:3.93.0-1) experimental; urgency=low
+
+  * KDE4 beta2, first upload to the Debian archive.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 01 Sep 2007 16:17:55 +0200
+
+kdebase (4:3.92.0-1) experimental; urgency=low
+
+  * KDE4 beta 1, first upload to the Debian archive.
+  * Update *.install files.
+  * Added patch 01_kdehome_kde4.diff to set kdehome directory to .kde4.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 15 Aug 2007 01:57:17 +0200
+
+kdebase (4:3.91.0-1) alioth; urgency=low
+
+  * New alpha release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 05 Jul 2007 19:11:19 +0200
+
+kdebase (4:3.90.1-1) alioth; urgency=low
+
+  * Initial release of KDE4.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 11 May 2007 16:23:33 +0100
 
 kdebase (4:4.1.0-1) experimental; urgency=low
 
