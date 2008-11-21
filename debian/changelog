@@ -4,8 +4,12 @@ kdebase (4:4.1.3-2) UNRELEASED; urgency=low
 
   * Remove kdepimlibs5-dev from kdebase-dev depends.
   * Use sameVersionDep for libkonq5-dev dependecy on kdelibs5-dev.
+  
+  +++ Changes by Armin Berres:
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Nov 2008 22:33:31 +0200
+  * Install konqueror as alternative for x-www-browser. 
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Nov 2008 22:37:25 +0100
 
 kdebase (4:4.1.3-1) experimental; urgency=low
 

@@ -36,6 +36,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
+Recommends: kfind
 Description: file manager for KDE 4
  Dolphin is the default KDE 4 file manager, intended to be both powerful and
  easy to use.
