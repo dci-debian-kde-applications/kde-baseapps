@@ -1,4 +1,12 @@
 usr/bin/kbookmarkmerger
 usr/bin/kdialog
 usr/bin/keditbookmarks
+usr/bin/keditfiletype
+usr/lib/kde4/kcm_css.so
+usr/lib/kde4/kcm_filetypes.so
+usr/lib/kde4/kcm_kio.so
+usr/lib/kde4/kcm_konq.so
+usr/lib/kde4/kcm_konqhtml.so
+usr/lib/kde4/kcm_kurifilt.so
+usr/lib/kde4/kcm_performance.so
 usr/lib/libkdeinit4_keditbookmarks.so

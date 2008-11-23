@@ -9,10 +9,21 @@ from:lib/konq/Templates/
 [libkonq5]
 from:/lib/konq/
 
-[kdebase-dev]
-dst:usr/include
-dst:dbus-1/interfaces
-dst:usr/lib/lib.*\.so$ link:usr/lib/lib.*\.so\.
+[libkonqsidebarplugin4-dev]
+from:/konqueror/sidebar/$ dst:usr/include/
+from:/konqueror/sidebar/$ dst:dbus-1/interfaces
+dst:usr/lib/libkonqsidebarplugin.so$
+
+[libkonqsidebarplugin4]
+from:/konqueror/sidebar/$ dst:usr/lib/[^/]+$
+
+[devel_virtual]
+# Catch missing headers
+stop dst:usr/include
+# Simply miss DBUS interface XMLs. Sorry.
+miss dst:dbus-1/interfaces
+# usr/lib/lib*.so symlinks are safe to miss as long as there are no header files
+miss dst:usr/lib/lib[^/]+\.so$ link:usr/lib/lib[^/]+\.so\.
 
 [dolphin]
 from:/dolphin/
@@ -34,6 +45,9 @@ from:/kfind/
 from:/kinfocenter/
 
 [konqueror]
+# These go to kdebase-bin and kdebase-data since most of them
+# configure all KHTML applications
+skip from:/konqueror/settings/
 from:/konqueror/
 
 [konqueror-nsplugins]
@@ -51,6 +65,7 @@ from:/plasma/
 [kdebase-bin]
 dst:usr/bin
 dst:usr/lib/libkdeinit4
+dst:usr/lib/kde4/kcm_[^/]+\.so$
 
 [kdebase-data]
 dst:usr/share/
