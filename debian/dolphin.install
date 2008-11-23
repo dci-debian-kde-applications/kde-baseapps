@@ -1,7 +1,8 @@
 usr/bin/dolphin
 usr/lib/kde4/dolphinpart.so
+usr/lib/kde4/kcm_dolphin.so
 usr/lib/libdolphinprivate.so.4
-usr/lib/libdolphinprivate.so.4.1.0
+usr/lib/libdolphinprivate.so.4.2.0
 usr/share/applications/kde4/dolphin.desktop
 usr/share/doc/kde4/HTML/en/dolphin/bookmarkbutton.png
 usr/share/doc/kde4/HTML/en/dolphin/bookmarksidebar.png
@@ -34,13 +35,10 @@ usr/share/icons/oxygen/48x48/actions/view-file-columns.png
 usr/share/icons/oxygen/scalable/actions/view-file-columns.svgz
 usr/share/kde4/apps/dolphin/dolphinui.rc
 usr/share/kde4/apps/dolphinpart/dolphinpart.rc
-usr/share/kde4/apps/dolphinpart/kpartplugins/kremoteencodingplugin.desktop
-usr/share/kde4/apps/dolphinpart/kpartplugins/kremoteencodingplugin.rc
-usr/share/kde4/apps/dolphinpart/kpartplugins/kshellcmdplugin.desktop
-usr/share/kde4/apps/dolphinpart/kpartplugins/kshellcmdplugin.rc
 usr/share/kde4/config.kcfg/dolphin_columnmodesettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_detailsmodesettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_directoryviewpropertysettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_generalsettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_iconsmodesettings.kcfg
 usr/share/kde4/services/dolphinpart.desktop
+usr/share/kde4/services/kcmdolphin.desktop

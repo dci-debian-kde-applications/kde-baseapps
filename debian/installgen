@@ -1,0 +1,59 @@
+[libkonq5-dev]
+from:/lib/konq/ dst:usr/include/
+from:/lib/konq/ dst:dbus-1/interfaces
+dst:usr/lib/libkonq.so$
+
+[libkonq5-templates]
+from:lib/konq/Templates/
+
+[libkonq5]
+from:/lib/konq/
+
+[kdebase-dev]
+dst:usr/include
+dst:dbus-1/interfaces
+dst:usr/lib/lib.*\.so$ link:usr/lib/lib.*\.so\.
+
+[dolphin]
+from:/dolphin/
+
+[kappfinder]
+# Those pics go to kdebase-data
+skip from:/kappfinder/pics
+from:/kappfinder/
+
+[kdepasswd]
+# Pics go to kdebase-data
+skip from:/kdepasswd/kcm/pics
+from:/kdepasswd/
+
+[kfind]
+from:/kfind/
+
+[kinfocenter]
+from:/kinfocenter/
+
+[konqueror]
+from:/konqueror/
+
+[konqueror-nsplugins]
+from:/nsplugins/
+
+[konsole]
+from:/konsole/
+
+[kwrite]
+from:/kwrite/
+
+[kdebase-plasma]
+from:/plasma/
+
+[kdebase-bin]
+dst:usr/bin
+dst:usr/lib/libkdeinit4
+
+[kdebase-data]
+dst:usr/share/
+mime:text/.*
+mime:image/.*
+mime:application/xml
