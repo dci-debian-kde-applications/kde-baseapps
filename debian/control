@@ -66,6 +66,7 @@ Package: kdebase-bin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-data (= ${source:Version})
+Replaces: konqueror (<< 4:4.1.80)
 Conflicts: kdesktop, kcontrol
 Description: core binaries for the KDE 4 base module
  This package contains miscellaneous programs needed by other KDE 4
@@ -76,6 +77,7 @@ Description: core binaries for the KDE 4 base module
 Package: kdebase-data
 Section: kde
 Architecture: all
+Replaces: konqueror (<< 4:4.1.80), kdepasswd (<< 4:4.1.80)
 Description: shared data files for the KDE 4 base module
  This package contains the architecture-independent shared data files needed
  for a basic KDE 4 desktop installation.
@@ -213,6 +215,7 @@ Package: libkonqsidebarplugin4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}
+Replaces: konqueror (<< 4:4.1.80)
 Description: Konqueror sidebar plugin library
  This package contains base library for Konqueror sidebar plugins.
  .
