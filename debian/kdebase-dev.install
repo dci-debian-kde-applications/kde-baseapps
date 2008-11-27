@@ -1,6 +1,4 @@
-usr/include/konqsidebarplugin.h
 usr/lib/libdolphinprivate.so
-usr/lib/libkonqsidebarplugin.so
 usr/lib/libkonquerorprivate.so
 usr/share/dbus-1/interfaces/org.kde.Konqueror.Main.xml
 usr/share/dbus-1/interfaces/org.kde.Konqueror.MainWindow.xml
