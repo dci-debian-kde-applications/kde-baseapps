@@ -1,4 +1,4 @@
-kdebase (4:4.1.80+svn889070-0r1) UNRELEASED; urgency=low
+kdebase (4:4.1.80+svn890046-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -23,7 +23,15 @@ kdebase (4:4.1.80+svn889070-0r1) UNRELEASED; urgency=low
 
   * Install konqueror as alternative for x-www-browser. 
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Nov 2008 03:52:02 +0200
+  +++ Changes by George Kiagiadakis:
+
+  * konqueror recommends dolphin as it needs the dolphinpart to
+    do file management.
+  * libkonqsidebarplugin4-dev conflicts and replaces kdebase-dev.
+  * Add some replaces to fix upgrade errors, as some files were
+    moved between packages.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 13:43:04 +0000
 
 kdebase (4:4.1.3-1) experimental; urgency=low
 
