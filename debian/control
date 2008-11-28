@@ -187,6 +187,7 @@ Package: libkonq5
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, libkonq5-templates | kdesktop
+Replaces: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80)
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
