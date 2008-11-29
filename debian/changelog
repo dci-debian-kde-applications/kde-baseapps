@@ -1,8 +1,10 @@
-kdebase (4:4.1.80+svn889730-0r1) UNRELEASED; urgency=low
+kdebase (4:4.1.81+svn890595-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   TODO: where to put kfmclient.
+  * Update install files:
+    - konqueror.install: 6 file(s) removed;
 
   +++ Changes by Modestas Vainius:
 
@@ -32,7 +34,7 @@ kdebase (4:4.1.80+svn889730-0r1) UNRELEASED; urgency=low
   * Add some replaces to fix upgrade errors, as some files were
     moved between packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 16:47:14 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Nov 2008 22:27:26 +0200
 
 kdebase (4:4.1.3-1) experimental; urgency=low
 

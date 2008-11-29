@@ -98,12 +98,6 @@ usr/share/kde4/apps/konqueror/about/plugins_rtl.html
 usr/share/kde4/apps/konqueror/about/specs.html
 usr/share/kde4/apps/konqueror/about/tips.html
 usr/share/kde4/apps/konqueror/about/top-left-konqueror.png
-usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde1.png
-usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde2.png
-usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde3.png
-usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde4.png
-usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde5.png
-usr/share/kde4/apps/konqueror/icons/crystalsvg/16x16/actions/kde6.png
 usr/share/kde4/apps/konqueror/konqueror.rc
 usr/share/kde4/apps/konqueror/pics/indicator_connect.png
 usr/share/kde4/apps/konqueror/pics/indicator_empty.png
