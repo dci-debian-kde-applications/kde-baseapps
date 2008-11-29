@@ -3,8 +3,6 @@ kdebase (4:4.1.81+svn890595-0r1) UNRELEASED; urgency=low
   * New upstream development snapshot.
 
   TODO: where to put kfmclient.
-  * Update install files:
-    - konqueror.install: 6 file(s) removed;
 
   +++ Changes by Modestas Vainius:
 
