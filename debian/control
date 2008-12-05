@@ -21,7 +21,7 @@ Depends: dolphin (>= ${source:Version}), kappfinder (>= ${source:Version}),
  kfind (>= ${source:Version}), konqueror-nsplugins (>= ${source:Version}),
  konqueror (>= ${source:Version}), konsole (>= ${source:Version}),
  kwrite (>= ${source:Version}), libkonq5 (>= ${source:Version}),
- kdebase-plasma (>= ${source:Version})
+ plasma-applet-folderview (>= ${source:Version})
 Description: base applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -229,16 +229,18 @@ Description: Konqueror sidebar plugin library development files
  .
  This package is part of the KDE 4 base applications module.
 
-Package: kdebase-plasma
+Package: plasma-applet-folderview
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: libplasma2 (<< 4:4.0.82)
-Description: plasma widgets from the KDE 4 base applications module.
- This package contains plasma applets (also known as widgets or plasmoids)
- included in the KDE 4 base applications module. Currently, the following
- plasmoids are provided:
-   - Folder View
+Replaces: libplasma2 (<< 4:4.0.82), kdebase-plasma
+Conflicts: kdebase-plasma
+Description: Folder View Plasma applet
+ This package contains the Folder View Plasma applet which is capable of
+ displaying and managing contents of any KDE supported location. It can be used
+ as a replacement for the traditional "desktop" folder concept in the main
+ Plasma shell, but it is a lot more flexible. Folder View is part of the
+ initial default KDE 4 desktop configuration.
  .
  This package is part of the KDE 4 base applications module.
 

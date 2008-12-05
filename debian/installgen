@@ -59,8 +59,8 @@ from:/konsole/
 [kwrite]
 from:/kwrite/
 
-[kdebase-plasma]
-from:/plasma/
+[plasma-applet-folderview]
+from:/plasma/applets/folderview/
 
 [kdebase-bin]
 dst:usr/bin
