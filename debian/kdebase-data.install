@@ -214,15 +214,12 @@ usr/share/kde4/services/cookies.desktop
 usr/share/kde4/services/desktoppath.desktop
 usr/share/kde4/services/ebrowsing.desktop
 usr/share/kde4/services/filebehavior.desktop
-usr/share/kde4/services/filebrowser.desktop
-usr/share/kde4/services/filepreviews.desktop
 usr/share/kde4/services/filetypes.desktop
-usr/share/kde4/services/kcmcss.desktop
 usr/share/kde4/services/kcmkonqyperformance.desktop
 usr/share/kde4/services/kcmperformance.desktop
+usr/share/kde4/services/khtml_appearance.desktop
 usr/share/kde4/services/khtml_behavior.desktop
 usr/share/kde4/services/khtml_filter.desktop
-usr/share/kde4/services/khtml_fonts.desktop
 usr/share/kde4/services/khtml_general.desktop
 usr/share/kde4/services/khtml_java_js.desktop
 usr/share/kde4/services/lanbrowser.desktop
