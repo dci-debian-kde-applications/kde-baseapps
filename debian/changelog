@@ -2,9 +2,6 @@ kdebase (4:4.1.85+svn895801-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
-  TODO: where to put kfmclient.
-  TODO: usr/share/dbus-1/interfaces/org*.xml files
-
   +++ Changes by Modestas Vainius:
 
   * Drop excess kdepimlibs5-dev build dependency.
