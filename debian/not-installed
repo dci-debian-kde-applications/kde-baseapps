@@ -1,2 +1,13 @@
 ./usr/lib/libdolphinprivate.so
 ./usr/lib/libkonquerorprivate.so
+
+# Only for deveploment and we are not shipping any kdebase-dev
+./usr/share/dbus-1/interfaces/org.kde.Konqueror.Main.xml
+./usr/share/dbus-1/interfaces/org.kde.Konqueror.MainWindow.xml
+./usr/share/dbus-1/interfaces/org.kde.kdialog.ProgressDialog.xml
+./usr/share/dbus-1/interfaces/org.kde.konqueror.Preloader.xml
+./usr/share/dbus-1/interfaces/org.kde.nsplugins.CallBack.xml
+./usr/share/dbus-1/interfaces/org.kde.nsplugins.class.xml
+./usr/share/dbus-1/interfaces/org.kde.nsplugins.instance.xml
+./usr/share/dbus-1/interfaces/org.kde.nsplugins.viewer.xml
+

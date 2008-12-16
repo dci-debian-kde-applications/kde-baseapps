@@ -1,4 +1,4 @@
-kdebase (4:4.1.85+svn895801-0r1) UNRELEASED; urgency=low
+kdebase (4:4.1.85+svn897382-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -31,7 +31,11 @@ kdebase (4:4.1.85+svn895801-0r1) UNRELEASED; urgency=low
   * Add some replaces to fix upgrade errors, as some files were
     moved between packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Dec 2008 10:43:35 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update not-installed files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Dec 2008 16:15:09 +0100
 
 kdebase (4:4.1.3-1) experimental; urgency=low
 
