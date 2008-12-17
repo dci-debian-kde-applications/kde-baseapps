@@ -116,3 +116,4 @@ usr/share/kde4/services/konq_aboutpage.desktop
 usr/share/kde4/services/konq_sidebartng.desktop
 usr/share/kde4/services/konqueror.desktop
 usr/share/kde4/servicetypes/konqaboutpage.desktop
+usr/share/man/man1/kbookmarkmerger.1

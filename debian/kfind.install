@@ -12,3 +12,4 @@ usr/share/icons/hicolor/48x48/apps/kfind.png
 usr/share/icons/hicolor/64x64/apps/kfind.png
 usr/share/kde4/services/kfindpart.desktop
 usr/share/kde4/servicetypes/findpart.desktop
+usr/share/man/man1/kfind.1
