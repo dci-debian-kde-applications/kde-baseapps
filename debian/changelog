@@ -1,8 +1,6 @@
 kdebase (4:4.1.86+svn902162-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-  * Update install files:
-    - dolphin.install: 5 file(s) removed;
 
   +++ Changes by Modestas Vainius:
 
