@@ -1,4 +1,4 @@
-kdebase (4:4.1.87+svn905486-0r1) UNRELEASED; urgency=low
+kdebase (4:4.1.97+svn907177-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -6,7 +6,7 @@ kdebase (4:4.1.87+svn905486-0r1) UNRELEASED; urgency=low
 
   * Drop excess kdepimlibs5-dev build dependency.
   * Use sameVersionDep for libkonq5-dev dependecy on kdelibs5-dev.
-  * Bump KDE build dependencies to 4.1.87, drop implicit cmake build depend.
+  * Bump KDE build dependencies to 4.1.96, drop implicit cmake build depend.
   * Add explicit kdelibs5-dev build depend (for upcoming symbols files).
   * Bump Standards-Version to 3.8.0: add README.source.
   * Add debian/installgen.
