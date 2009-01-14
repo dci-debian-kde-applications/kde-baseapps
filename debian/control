@@ -6,7 +6,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  kdelibs5-dev (>= 4:4.1.96), libphonon-dev (>= 4:4.2),
  libqimageblitz-dev (>= 1:0.0.4-2), libsmbclient-dev, libusb-dev, libxkbfile-dev,
- libraw1394-dev, libstreamanalyzer-dev, libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
+ libraw1394-dev, libstreamanalyzer-dev (>= 0.6.3), libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
  libpci-dev, libxt-dev, libxext-dev, pkg-config, libglib2.0-dev
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
