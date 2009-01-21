@@ -217,7 +217,7 @@ Description: Konqueror sidebar plugin library
  This package is part of the KDE 4 base applications module.
 
 Package: libkonqsidebarplugin4-dev
-Section: libs
+Section: libdevel
 Architecture: any
 Depends: libkonqsidebarplugin4 (= ${binary:Version}),
  ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4}
