@@ -1,6 +1,6 @@
 kdebase (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
@@ -36,6 +36,7 @@ kdebase (4:4.2.0-0r1) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update not-installed files.
+  * Bump phonon build depend version to >= 4:4.3.0
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Jan 2009 12:33:04 +0100
 
