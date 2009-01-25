@@ -1,5 +1,5 @@
 #!/usr/bin/make -f
 
-include debian/cdbs/kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 DEB_INSTALL_DOCS_ALL=
