@@ -46,6 +46,10 @@ kdebase (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Update not-installed files.
   * Bump phonon build depend version to >= 4:4.3.0
 
+  +++ Changes by Sune Vuorela:
+
+  * Update copyright file. Thanks Modestas.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:37:53 +0200
 
 kdebase (4:4.1.3-1) experimental; urgency=low

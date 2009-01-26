@@ -59,989 +59,794 @@ kdebase copyright situation is a bit complex. The following table tries
 to detail the copyright/license information of the files that are not under the
 directories detailed above.
 
- file ~ license ~ copyright holder
-------~---------~------------------
 
-Files
- AUTHORS ~ unspec ~ unspec
- CMakeLists.txt ~ unspec ~ unspec
- configure.in.in ~ unspec ~ unspec
- COPYING ~ unspec ~ unspec
- COPYING-DOCS ~ unspec ~ unspec
- COPYING.LIB ~ unspec ~ unspec
- Mainpage.dox ~ unspec ~ unspec
- README ~ unspec ~ unspec
-
-
-Files under apps/
- CMakeLists.txt ~ unspec ~ unspec
- config-apps.h.cmake ~ unspec ~ unspec
- ConfigureChecks.cmake ~ unspec ~ unspec
- Mainpage.dox ~ unspec ~ unspec
- README ~ unspec ~ unspec
+------
+cmake/
+------
 
 
 
-Files under apps/dolphin:
- According to COPYING and COPYING-DOCS under apps/dolphin, dolphin is licensed
- under the GPL v2 (as above) and all the documentation files included are under 
- the GFDL-1.2 (as above).
- later.
+Licensing information is not explicitly available for the files below:
+--
 
-Files under apps/kappfinder:
+    modules/*
 
- apps/kappfinder/apps/* ~ unspec ~ unspec
- apps/kappfinder/CMakeLists.txt ~ unspec ~ unspec
- apps/kappfinder/common.cpp ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
- apps/kappfinder/common.h ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
- apps/kappfinder/hi128-app-kappfinder.png ~ unspec ~ unspec
- apps/kappfinder/hi16-app-kappfinder.png ~ unspec ~ unspec
- apps/kappfinder/hi22-app-kappfinder.png ~ unspec ~ unspec
- apps/kappfinder/hi32-app-kappfinder.png ~ unspec ~ unspec
- apps/kappfinder/hi48-app-kappfinder.png ~ unspec ~ unspec
- apps/kappfinder/hi64-app-kappfinder.png ~ unspec ~ unspec
- apps/kappfinder/kappfinder.desktop ~ unspec ~ unspec
- apps/kappfinder/main.cpp ~ LGPLv2 ~     Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
- apps/kappfinder/main_install.cpp ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
- apps/kappfinder/Messages.sh ~ unspec ~ unspec
- apps/kappfinder/pics/CMakeLists.txt ~ unspec ~ unspec
- apps/kappfinder/pics/* ~ unspec ~ unspec
- apps/kappfinder/README.apps ~ unspec ~ unspec
- apps/kappfinder/toplevel.cpp ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
- apps/kappfinder/toplevel.h ~ LGPLv2 ~     Copyright (c) 2002-2003 Tobias Koenig <tokoe@kde.org>
+------
+dolphin/
+------
 
-
-Files under apps/kdepasswd:
-
- apps/kdepasswd/CMakeLists.txt ~ unspec ~ unspec
- apps/kdepasswd/kcm/chfacedlg.cpp ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>                   
-                                            Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>       
- apps/kdepasswd/kcm/chfacedlg.h ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>
-                                           Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>
- apps/kdepasswd/kcm/chfnprocess.cpp ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>                   
-                                               Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>       
- apps/kdepasswd/kcm/chfnprocess.h ~ LGPLv2h ~ Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>                   
-                                             Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>       
- apps/kdepasswd/kcm/CMakeLists.txt ~ unspec ~ unspec
- apps/kdepasswd/kcm/cr128-app-personal.png ~ unspec ~ unspec
- apps/kdepasswd/kcm/cr16-app-personal.png ~ unspec ~ unspec
- apps/kdepasswd/kcm/cr22-app-personal.png ~ unspec ~ unspec
- apps/kdepasswd/kcm/cr32-app-personal.png ~ unspec ~ unspec
- apps/kdepasswd/kcm/cr48-app-personal.png ~ unspec ~ unspec
- apps/kdepasswd/kcm/cr64-app-personal.png ~ unspec ~ unspec
- apps/kdepasswd/kcm/kcm_useraccount.desktop ~ unspec ~ unspec
- apps/kdepasswd/kcm/kcm_useraccount.kcfg ~ unspec ~ unspec
- apps/kdepasswd/kcm/main.cpp ~ LGPLv2h ~ Copyright (C) 2004 Frans Englich <frans.englich@telia.com>
- apps/kdepasswd/kcm/main.h ~ LGPLv2h ~ Copyright (C) 2004 Frans Englich <frans.englich@telia.com>
- apps/kdepasswd/kcm/main_widget.ui ~ unspec ~ unspec
- apps/kdepasswd/kcm/Messages.sh ~ unspec ~ unspec
- apps/kdepasswd/kcm/pass.kcfgc ~ unspec ~ unspec
- apps/kdepasswd/kcm/pics/* 
-  | Butterfly.png, Konqui.png:
-  |        KDE Graphics Team
-  |
-  |BeachBall.png BlueMarble1.png Flower.png Night.png Star2.png Star3.png
-  |Star4.png Star.png Stars2.png Stars.png:
-  |           Braden MacDonald
-  |
-  |Apple.png Cheese.png Ghost.png Pearl.png Skull.png Blowfish.png Cow.png
-  |Guitar.png Penguin.png Smiley.png Bug.png Daemon.png Lion.png Pig.png
-  |Splash.png Burger.png Dog.png Man.png Scream.png Turtle.png Car.png
-  |Elephant.png Monkey.png Shark.png Watch.png Astronaut.png Heart.png
-  |Ring.png Rabbit.png Speakers.png UFO.png : 
-  |           Hans Karlsson <karlsson.h@home.se>
-  |License: free for commercial and noncommercial usage, distribution and 
-  |modification
-  |
-  |Arch.png BeachBall2.png Butterfly2.png Cactus.png Car2.png Clock.png
-  |Dice.png Dog2.png Dragon.png Fish.png Flower2.png Flower3.png Frog.png
-  |Kiwi.png Lava.png Pineapple.png Teddybear.png Tiger.png Tukan.png
-  |Wind.png :
-  |           Hermann Thomas <h.thomas@gmx.de>
- apps/kdepasswd/kcm/README ~ unspec ~ unspec
- apps/kdepasswd/kcm/settings.kcfgc ~ unspec ~ unspec
- apps/kdepasswd/kdepasswd.cpp ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
- apps/kdepasswd/kdepasswd.desktop ~ unspec ~ unspec
- apps/kdepasswd/Messages.sh ~ unspec ~ unspec
- apps/kdepasswd/passwd.cpp ~ Artistic ~ Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
- apps/kdepasswd/passwddlg.cpp ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
- apps/kdepasswd/passwddlg.h ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
- apps/kdepasswd/passwd.h ~ Artistic ~ Copyright (C) 2000 Geert Jansen <jansen@kde.org>
- apps/kdepasswd/README ~ unspec ~ unspec
-
-Files under apps/kdialog:
-
- apps/kdialog/CMakeLists.txt ~ unspec ~ unspec
- apps/kdialog/dialog-compat.txt ~ unspec ~ unspec
- apps/kdialog/kdialog.cpp ~ LGPLv2h ~ Copyright (C) 1998 Matthias Hoelzer <hoelzer@kde.org>
-                                     Copyright (C) 2002 David Faure <faure@kde.org>
-                                     Copyright (C) 2005 Brad Hards <bradh@frogmouth.net>
- apps/kdialog/klistboxdialog.cpp ~ LGPLv2h ~ Copyright (C) 1998-2005 Matthias Hoelzer
- apps/kdialog/klistboxdialog.h ~ LGPLv2h ~ Copyright (C) 1998-2005 Matthias Hoelzer
- apps/kdialog/Messages.sh ~ unspec ~ unspec
- apps/kdialog/org.kde.kdialog.ProgressDialog.xml ~ unspec ~ unspec
- apps/kdialog/progresscanceldemo ~ unspec ~ unspec
- apps/kdialog/progressdemo ~ unspec ~ unspec
- apps/kdialog/progressdialog.cpp ~ LGPLv2h ~ Copyright (C) 2004-2005 Stephan Binner <binner@kde.org>
- apps/kdialog/progressdialog.h ~ LGPLv2h ~ Copyright (C) 2004-2005 Stephan Binner <binner@kde.org>
- apps/kdialog/README ~ unspec ~ unspec
- apps/kdialog/test ~ unspec ~ unspec
- apps/kdialog/widgets.cpp ~ LGPLv2h ~ Copyright (C) 1998 Matthias Hoelzer <hoelzer@kde.org>
-                                     Copyright (C) 2002-2005 David Faure <faure@kde.org>
- apps/kdialog/widgets.h ~ LGPLv2h ~ Copyright (C) 1998 Matthias Hoelzer <hoelzer@kde.org>
-                                   Copyright (C) 2002-2005 David Faure <faure@kde.org>
+Copyright: Â© 2006-2008 Peter Penz <peter.penz@gmx.at>
+Copyright: Â© 2007-2008 Sebastian Trueg <trueg@kde.org>
+Copyright: Â© 2006-2008 David Faure <faure@kde.org>
+Copyright: Â© 2006 Cvetoslav Ludmiloff <ludmiloff@gmail.com>
+Copyright: Â© 2008 Fredrik HÃ¶glund <fredrik@kde.org>
+Copyright: Â© 2007 Rafael FernÃ¡ndez LÃ³pez <ereslibre@kde.org>
+Copyright: Â© 2006 Patrice Tremblay
+Copyright: Â© 2008 Simon St James <kdedevel@etotheipiplusone.com>
+Copyright: Â© 2008 Konstantin Heil <konst.heil@stud.uni-heidelberg.de>
+Copyright: Â© 2006 Gregor KaliÅ¡nik <gregor@podnapisi.net>
+Copyright: Â© 2006 Stefan Monov <logixoul@gmail.com>
+Copyright: Â© 2008 by <peter.penz@gmx.at>
+Copyright: Â© 1992-2007 Trolltech ASA.
+Copyright: Â© 2008 Simon St. James <kdedevel@etotheipiplusone.com>
+Copyright: Â© 2006 Aaron J. Seigo <aseigo@kde.org>
+Copyright: Â© 2006 Holger 'zecke' Freyther <freyther@kde.org>
+Copyright: Â© 2006 Dominic Battre <dominic@battre.de>
+Copyright: Â© 2007 Montel Laurent <montel@kde.org>
+Copyright: Â© 2006 Martin Pool <mbp@canonical.com>
 
 
-Files under apps/keditbookmarks:
+License for all components unless stated otherwise:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
 
- apps/keditbookmarks/actionsimpl.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                               Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/actionsimpl.h ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/bookmarkinfo.cpp ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/bookmarkinfo.h ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                              Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/bookmarkiterator.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                                    Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/bookmarkiterator.h ~ LGPLv2 ~ Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/bookmarklistview.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                                    Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
-                                                    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/bookmarklistview.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/bookmarkmodel.cpp ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/bookmarkmodel.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/CMakeLists.txt ~ unspec ~ unspec
- apps/keditbookmarks/commands.cpp ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
-                                             Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/commands.h ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
-                                           Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/cr16-app-keditbookmarks.png ~ unspec ~ unspec
- apps/keditbookmarks/cr32-app-keditbookmarks.png ~ unspec ~ unspec
- apps/keditbookmarks/cr48-app-keditbookmarks.png ~ unspec ~ unspec
- apps/keditbookmarks/cr64-app-keditbookmarks.png ~ unspec ~ unspec
- apps/keditbookmarks/dcop.cpp ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
-                                         Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/dcop.h ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/DESIGN ~ unspec ~ unspec
- apps/keditbookmarks/exporters.cpp ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/exporters.h ~ LGPLv2 ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/favicons.cpp ~ LGPLv2 ~ Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/favicons.h ~ LGPLv2 ~ Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/importers.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                             Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/importers.h ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
-                                            Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
 
- apps/keditbookmarks/kbookmarkmerger.cpp ~ BSD ~ Copyright (C) 2005 Frerich Raabe <raabe@kde.org>
- apps/keditbookmarks/kebsearchline.cpp ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/kebsearchline.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/keditbookmarks-genui.rc ~ unspec ~ unspec
- apps/keditbookmarks/keditbookmarks.kcfg ~ unspec ~ unspec
- apps/keditbookmarks/keditbookmarksui.rc ~ unspec ~ unspec
- apps/keditbookmarks/kinsertionsort.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/keditbookmarks/main.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                       Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/Messages.sh ~ unspec ~ unspec
- apps/keditbookmarks/settings.kcfgc ~ unspec ~ unspec
- apps/keditbookmarks/testlink.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                            Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/testlink.h ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                          Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/TODO ~ unspec ~ unspec
- apps/keditbookmarks/toplevel.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                             Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/toplevel.h ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
-                                           Copyright (C) 2002-2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/treeitem.cpp ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/treeitem_p.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Teske <teske@squorn.de>
- apps/keditbookmarks/updater.cpp ~ LGPLv2 ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
- apps/keditbookmarks/updater.h ~ LGPLv2 ~    Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
+Other used licenses:
+--
+  GNU Library General Public License, version 2 (LGPL-2)
+    7 files are licensed under this license:
+
+    + src/libdolphin_export.h
+    src/tagcloud/* excluding:
+    -+ src/tagcloud/newtagdialog.cpp
+    -+ src/tagcloud/newtagdialog.h
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+--
+  GNU Library General Public License, version 2 or later (LGPL-2+)
+    6 files are licensed under this license:
+
+    + src/dolphincategorydrawer.cpp
+    + src/dolphincategorydrawer.h
+    + src/dolphinmodel.cpp
+    + src/dolphinmodel.h
+    + src/dolphinpart.cpp
+    + src/dolphinpart.h
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
 
 
-Files under apps/kfind:
- According to the header of apps/kfind/kfind.cpp the application is GPLv2 or
- later.
- Copyright: (c) 1998-2003 The KDE Developers
-  Martin Hartig
-  Stephan Kulow <coolo@kde.org>
-  Mario Weilguni <mweilguni@sime.com>
-  Alex Zepeda <zipzippy@sonic.net>
-  Miroslav Flídr <flidr@kky.zcu.cz>
-  Harri Porten <porten@kde.org>
-  Dima Rogozin <dima@mercury.co.il>
-  Carsten Pfeiffer <pfeiffer@kde.org>
-  Hans Petter Bieker <bieker@kde.org>
-  Waldo Bastian <bastian@kde.org>
-  Beppe Grimaldi <grimalkin@ciaoweb.it>
-  Eric Coquelle <coquelle@caramail.com>
+------
+kappfinder/
+------
+
+Copyright: Â© 2002-2003 Tobias Koenig <tokoe@kde.org>
+Copyright: Â© 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
 
 
-Files under apps/konqueror:
+License for all components is:
+--
+  GNU General Public License (GPL-any)
 
- apps/konqueror/about/* ~ unspec ~ unspec
- apps/konqueror/AUTHORS ~ unspec ~ unspec
- apps/konqueror/ChangeLog ~ unspec ~ unspec
- apps/konqueror/client/ChangeLog ~ unspec ~ unspec
- apps/konqueror/client/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/client/kfmclient_3_2.upd ~ unspec ~ unspec
- apps/konqueror/client/kfmclient_3_2_update.sh ~ unspec ~ unspec
- apps/konqueror/client/kfmclient.cpp ~ LGPLv2h ~    Copyright (C) 1999-2006 David Faure <faure@kde.org>
- apps/konqueror/client/kfmclient.h ~ LGPLv2h ~    Copyright (C) 1999-2006 David Faure <faure@kde.org>
- apps/konqueror/client/Messages.sh ~ unspec ~ unspec
- apps/konqueror/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/convert_kdelnk.sh ~ unspec ~ unspec
- apps/konqueror/DESIGN ~ unspec ~ unspec
- apps/konqueror/DESIGN_config ~ unspec ~ unspec
- apps/konqueror/dirpart/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/dirpart/konq_iconview4.desktop ~ unspec ~ unspec
- apps/konqueror/dirpart/konq_iconview.cc ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_iconview.h ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_iconviewitemdelegate.cc ~ LGPLv2h ~ Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_iconviewitemdelegate.h ~ LGPLv2h ~ Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_iconview.rc ~ unspec ~ unspec
- apps/konqueror/dirpart/konq_itemdelegate.cc ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_itemdelegate.h ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_listview.cc ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_listview.desktop ~ unspec ~ unspec
- apps/konqueror/dirpart/konq_listview.h ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_listview.rc ~ unspec ~ unspec
- apps/konqueror/dirpart/konq_part.cc ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_part.h ~ LGPLv2h ~    Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_selectionmodel.cc ~ LGPLv2 ~ Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/dirpart/konq_selectionmodel.h ~ LGPLv2h ~ Copyright (c) 2005 Pascal Létourneau <pascal.letourneau@kdemail.net>
- apps/konqueror/Home.desktop ~ unspec ~ unspec
- apps/konqueror/IDEAS ~ unspec ~ unspec
- apps/konqueror/kfmclient.desktop ~ unspec ~ unspec
- apps/konqueror/kfmclient_dir.desktop ~ unspec ~ unspec
- apps/konqueror/kfmclient_html.desktop ~ unspec ~ unspec
- apps/konqueror/kfmclient_war.desktop ~ unspec ~ unspec
- apps/konqueror/konqbrowser.desktop ~ unspec ~ unspec
- apps/konqueror/konqfilemgr.desktop ~ unspec ~ unspec
- apps/konqueror/konqueror.desktop ~ unspec ~ unspec
- apps/konqueror/konquerorsu.desktop ~ unspec ~ unspec
- apps/konqueror/kttsplugin/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/kttsplugin/khtmlkttsd.cpp ~ GPLv2h ~  Copyright (C) 2002 by George Russell <george.russell@clara.net>
-                                                     Copyright (C) 2003-2004 by Olaf Schmidt <ojschmidt@kde.org>
- apps/konqueror/kttsplugin/khtmlkttsd.desktop ~ unspec ~ unspec
- apps/konqueror/kttsplugin/khtmlkttsd.h ~ GPLv2h ~  Copyright (C) 2002 by George Russell <george.russell@clara.net>
-                                                   Copyright (C) 2003-2004 by Olaf Schmidt <ojschmidt@kde.org>
- apps/konqueror/kttsplugin/khtmlkttsd.rc ~ unspec ~ unspec
- apps/konqueror/kttsplugin/Messages.sh ~ unspec ~ unspec
- apps/konqueror/Messages.sh ~ unspec ~ unspec
- apps/konqueror/pics/* ~ unspec ~ unspec
- apps/konqueror/preloader/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/preloader/configure.in.in ~ unspec ~ unspec
- apps/konqueror/preloader/konqy_preload.desktop ~ unspec ~ unspec
- apps/konqueror/preloader/konqy_preloader.desktop ~ unspec ~ unspec
- apps/konqueror/preloader/org.kde.konqueror.Preloader.xml ~ unspec ~ unspec
- apps/konqueror/preloader/preloader.cc ~ LGPLv2h ~    Copyright (C) 2002 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/preloader/preloader.h ~ LGPLv2 h~    Copyright (C) 2002 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/profile_filemanagement.desktop ~ unspec ~ unspec
- apps/konqueror/profile_filepreview.desktop ~ unspec ~ unspec
- apps/konqueror/profile_kde_devel.desktop ~ unspec ~ unspec
- apps/konqueror/profile_midnightcommander.desktop ~ unspec ~ unspec
- apps/konqueror/profile_simplebrowser.desktop ~ unspec ~ unspec
- apps/konqueror/profile_tabbedbrowsing.desktop ~ unspec ~ unspec
- apps/konqueror/profile_webbrowsing.desktop ~ unspec ~ unspec
- apps/konqueror/quickprint/*~ unspec ~ unspec
- apps/konqueror/remoteencodingplugin/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/remoteencodingplugin/kremoteencodingplugin.cpp ~ LGPLv2h ~ Copyright (c) 2003 Thiago Macieira <thiago.macieira@kdemail.net>
-                                                                        Copyright © 2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/remoteencodingplugin/kremoteencodingplugin.desktop ~ unspec ~ unspec
- apps/konqueror/remoteencodingplugin/kremoteencodingplugin.h ~ LGPLv2h ~ Copyright (c) 2003 Thiago Macieira <thiago.macieira@kdemail.net>
- apps/konqueror/remoteencodingplugin/kremoteencodingplugin.rc ~ unspec ~ unspec
- apps/konqueror/settings/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/css/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/css/cssconfig.ui ~ unspec ~ unspec
- apps/konqueror/settings/css/csscustom.ui ~ unspec ~ unspec
- apps/konqueror/settings/css/kcmcss.cpp ~ unspec ~ unspec
- apps/konqueror/settings/css/kcmcss.desktop ~ unspec ~ unspec
- apps/konqueror/settings/css/kcmcss.h ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
- apps/konqueror/settings/css/Messages.sh ~ unspec ~ unspec
- apps/konqueror/settings/css/preview.ui ~ unspec ~ unspec
- apps/konqueror/settings/css/template.cpp ~ unspec ~ unspec
- apps/konqueror/settings/css/template.css ~ unspec ~ unspec
- apps/konqueror/settings/css/template.h ~ unspec ~ unspec
- apps/konqueror/settings/ebrowsing/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/ebrowsing/ebrowsing.desktop ~ unspec ~ unspec
- apps/konqueror/settings/ebrowsing/filteropts.cpp ~ GPLv2h ~  * Copyright (c) 2000 Yves Arrouye <yves@realnames.com>
- apps/konqueror/settings/ebrowsing/filteropts.h ~ GPLv2h ~  * Copyright (c) 2000 Yves Arrouye <yves@realnames.com>
- apps/konqueror/settings/ebrowsing/main.cpp ~ GPLv2h ~  * Copyright (c) 2000 Yves Arrouye <yves@realnames.com>
- apps/konqueror/settings/ebrowsing/main.h ~ GPLv2h ~  * Copyright (c) 2000 Yves Arrouye <yves@realnames.com>
- apps/konqueror/settings/ebrowsing/Messages.sh ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/filegroupdetails.cpp ~ GPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/settings/filetypes/filegroupdetails.h ~ GPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/settings/filetypes/filetypedetails.cpp ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/filetypedetails.h ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/filetypes.desktop ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/filetypesview.cpp ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/filetypesview.h ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/keditfiletype.cpp ~ GPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/settings/filetypes/keditfiletype.h ~ GPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/settings/filetypes/kservicelistwidget.cpp ~ GPLv2 ~  Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
-                                                                    Copyright (C) 2003 David Faure <faure@kde.org>
-                                                                    Copyright (C) 2002 Daniel Molkentin <molkentin@kde.org>
- apps/konqueror/settings/filetypes/kservicelistwidget.h ~ GPLv2 ~    Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
-                                                                    Copyright (C) 2003 David Faure <faure@kde.org>
-                                                                     Copyright (C) 2002 Daniel Molkentin <molkentin@kde.org>
- apps/konqueror/settings/filetypes/kserviceselectdlg.cpp ~ GPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/settings/filetypes/kserviceselectdlg.h ~ GPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/settings/filetypes/Messages.sh ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/newtypedlg.cpp ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/newtypedlg.h ~ unspec ~ unspec
- apps/konqueror/settings/filetypes/typeslistitem.cpp ~ GPLv2 ~    Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
-                                                                Copyright (C) 2003 David Faure <faure@kde.org>
- apps/konqueror/settings/filetypes/typeslistitem.h ~ GPLv2 ~    Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
-                                                              Copyright (C) 2003 David Faure <faure@kde.org>
- apps/konqueror/settings/kio/cache.cpp ~ GPLv2 ~    Copyright (C) 2001,02,03 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/cache.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/cache.h ~ GPLv2 ~    Copyright (C) 2001,02,03 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/cache_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/kio/cookies.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/envvarproxy_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/fakeuaprovider.cpp ~ GPLv2h ~  * Copyright (c) 2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/fakeuaprovider.h ~ GPLv2h ~  * Copyright (c) 2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kcookiesmain.cpp ~ unspec ~ Waldo Bastian <bastian@kde.org>
- apps/konqueror/settings/kio/kcookiesmain.h ~ unspec ~ Waldo Bastian <bastian@kde.org>
- apps/konqueror/settings/kio/kcookiesmanagement.cpp ~ GPLv2h ~ Copyright 2000-2001 Marco Pinelli <pinmc@orion.it>
-                                                              Copyright (c) 2000-2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kcookiesmanagementdlg_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/kcookiesmanagement.h ~ GPLv2h ~ Copyright 2000-2001 Marco Pinelli <pinmc@orion.it>
-                                                            Copyright (c) 2000-2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kcookiespolicies.cpp ~ GPLv2h ~  Copyright (c) Waldo Bastian <bastian@kde.org>
-                                                             Copyright (c) 1999 David Faure <faure@kde.org>
-                                                             Copyright (c) 2000- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kcookiespoliciesdlg_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/kcookiespolicies.h ~ GPLv2h ~  Copyright (c) Waldo Bastian <bastian@kde.org>
-                                                           Copyright (c) 1999 David Faure <faure@kde.org>
-                                                           Copyright (c) 2000- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kenvvarproxydlg.cpp ~ GPLv2 ~    Copyright (C) 2001- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kenvvarproxydlg.h ~ GPLv2 ~    Copyright (C) 2001- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kio_ftprc.kcfg ~ unspec ~ unspec
- apps/konqueror/settings/kio/kio_ftprc.kcfgc ~ unspec ~ unspec
- apps/konqueror/settings/kio/kioslave.kcfg ~ unspec ~ unspec
- apps/konqueror/settings/kio/kioslave.kcfgc ~ unspec ~ unspec
- apps/konqueror/settings/kio/kmanualproxydlg.cpp ~ GPLv2 ~    Copyright (C) 2001-2004 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kmanualproxydlg.h ~ GPLv2 ~    Copyright (C) 2001-2004 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kproxydlgbase.cpp ~ GPLv2 ~    Copyright (C) 2001- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kproxydlgbase.h ~ GPLv2 ~    Copyright (C) 2001- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kproxydlg.cpp ~ GPLv2 ~    Copyright (C) 2001- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kproxydlg.h ~ GPLv2 ~    Copyright (C) 2001- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/kproxydlg_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/ksaveioconfig.cpp ~ LGPLv2h ~    Copyright (C) 2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/ksaveioconfig.h ~ LGPLv2h ~    Copyright (C) 2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/lanbrowser.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/main.cpp ~ GPLv2h ~  *  Copyright (C) 2000,2001 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/settings/kio/main.h ~ GPLv2h ~  *  Copyright (C) 2000, 2006 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/settings/kio/manualproxy_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/Messages.sh ~ unspec ~ unspec
- apps/konqueror/settings/kio/netpref.cpp ~ unspec ~ unspec
- apps/konqueror/settings/kio/netpref.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/netpref.h ~ unspec ~ unspec
- apps/konqueror/settings/kio/policydlg.cpp ~ GPLv2h ~  * Copyright (c) 2000- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/policydlg.h ~ GPLv2h ~  * Copyright (c) 2000- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/policydlg_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/proxy.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/smb.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/smbrodlg.cpp ~ GPLv2h ~     Copyright (C) 2000 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/settings/kio/smbrodlg.h ~ GPLv2h ~     Copyright (C) 2000, 2005 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/settings/kio/socksbase.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/socks.cpp ~ GPLv2h ~ Copyright (c) 2001 George Staikos <staikos@kde.org>
-                                                 Copyright (c) 2001 Daniel Molkentin <molkentin@kde.org> (designer port)
- apps/konqueror/settings/kio/socks.h ~ GPLv2h ~ Copyright (c) 2001 George Staikos <staikos@kde.org>
-                                               Copyright (c) 2001 Daniel Molkentin <molkentin@kde.org> (designer port)
- apps/konqueror/settings/kio/socks.upd ~ unspec ~ unspec
- apps/konqueror/settings/kio/UA-DESKTOP-FILE-HOWTO ~ unspec ~ unspec
- apps/konqueror/settings/kio/uagentproviderdlg.cpp ~ GPLv2h ~  * Copyright (c) 2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/uagentproviderdlg.h ~ GPLv2h ~  * Copyright (c) 2001 Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/uagentproviderdlg_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/kio/uasprovider.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/uasproviders/* ~ unspec ~ unspec
- apps/konqueror/settings/kio/useragent.desktop ~ unspec ~ unspec
- apps/konqueror/settings/kio/useragentdlg.cpp ~ GPLv2 ~  Copyright (c) Kalle Dalheimer <kalle@kde.org> 1997
-                                                        Copyright (c) David Faure <faure@kde.org> 1998
-                                                        Copyright (c) Dirk Mueller <mueller@kde.org> 2000
-                                                        Copyright (C) 2000- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/useragentdlg.h ~ GPLv2 ~    Copyright (c) Kalle Dalheimer <kalle@kde.org> 1997
-                                                        Copyright (c) David Faure <faure@kde.org> 1998
-                                                        Copyright (c) Dirk Mueller <mueller@kde.org> 2000
-                                                        Copyright (C) 2000- Dawit Alemayehu <adawit@kde.org>
- apps/konqueror/settings/kio/useragentdlg_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/konq/behaviour.cpp ~ GPLv2h ~  *  Copyright (c) 2001 David Faure <david@mandrakesoft.com>
- apps/konqueror/settings/konq/behaviour.h ~ GPLv2h ~  *  Copyright (c) 2001 David Faure <david@mandrakesoft.com>
- apps/konqueror/settings/konq/browser.cpp ~ LGPLv2 ~    Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
- apps/konqueror/settings/konq/browser.h ~ LGPLv2 ~    Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
- apps/konqueror/settings/konq/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/konq/desktopbehavior.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/desktopbehavior_impl.cpp ~ GPLv2h ~  (c) Martin R. Jones 1996
-                                                        (c) Bernd Wuebben 1998
-                                                        (c) Christian Tibirna 1998
-                                                        (c) David Faure 1998, 2000
-                                                        (c) John Firebaugh 2003
- apps/konqueror/settings/konq/desktopbehavior_impl.h ~ GPLv2h ~  Copyright (c) Martin R. Jones 1996
-                                                                Copyright (c) David Faure 1998, 2000
-                                                                Copyright (c) John Firebaugh 2003
- apps/konqueror/settings/konq/desktopbehavior.ui ~ unspec ~ unspec
- apps/konqueror/settings/konq/desktop.cpp ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
- apps/konqueror/settings/konq/desktop.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/desktop.h ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
- apps/konqueror/settings/konq/desktoppath.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/fileappearance.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/filebehavior.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/filebrowser.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/filepreviews.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/fontopts.cpp ~ LGPLv2h ~    Copyright (C) 1999 David Faure <faure@kde.org>
- apps/konqueror/settings/konq/fontopts.h ~ LGPLv2h ~    Copyright (C) 1999 David Faure <faure@kde.org>
- apps/konqueror/settings/konq/globalpaths.cpp ~ GPLv2h ~ Copyright (c) Martin R. Jones 1996
-                                                        Copyright (c) Bernd Wuebben 1998
-                                                        Copyright (c) Christian Tibirna 1998
-                                                        Copyright 1998-2007 David Faure <faure@kde.org>
- apps/konqueror/settings/konq/globalpaths.h ~ GPLv2h ~  Copyright (c) Martin R. Jones 1996
-                                                       Copyright 1998-2007 David Faure <faure@kde.org>
- apps/konqueror/settings/konqhtml/advancedTabOptions.ui ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/appearance.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/appearance.h ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/domainlistview.cpp ~ GPLv2h ~   Copyright (c) 2002 Leo Savernik <l.savernik@aon.at>
- apps/konqueror/settings/konqhtml/domainlistview.h ~ GPLv2h ~   Copyright (c) 2002 Leo Savernik <l.savernik@aon.at>
- apps/konqueror/settings/konqhtml/filteropts.cpp ~ GPLv2h ~    Copyright (C) 2005 Ivor Hewitt <ivor@ivor.org>
- apps/konqueror/settings/konqhtml/filteropts.h ~ GPLv2h ~   Copyright (C) 2005 Ivor Hewitt <ivor@ivor.org>
- apps/konqueror/settings/konqhtml/generalopts.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/generalopts.h ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/htmlopts.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/htmlopts.h ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/javaopts.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/javaopts.h ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/jsopts.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/jsopts.h ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/jspolicies.cpp ~ GPLv2 ~   Copyright (c) 2002 Leo Savernik <l.savernik@aon.at>
- apps/konqueror/settings/konqhtml/jspolicies.h ~ GPLv2 ~   Copyright (c) 2002 Leo Savernik <l.savernik@aon.at>
- apps/konqueror/settings/konqhtml/khtml_behavior.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/khtml_filter.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/khtml_fonts.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/khtml_general.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/khtml_java_js.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/khttpoptdlg.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/khttpoptdlg.h ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/main.cpp ~LGPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
-                                                     Copyright (c) 2000 Daniel Molkentin <molkentin@kde.org>
- apps/konqueror/settings/konqhtml/main.h ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
-                                                    Copyright (c) 2000 Daniel Molkentin <molkentin@kde.org>
- apps/konqueror/settings/konqhtml/Messages.sh ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/nsconfigwidget.ui ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/pluginopts.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/pluginopts.h ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/policies.cpp ~ GPLv2h ~   Copyright (c) 2002 Leo Savernik <l.savernik@aon.at>
- apps/konqueror/settings/konqhtml/policies.h ~ GPLv2h ~   Copyright (c) 2002 Leo Savernik <l.savernik@aon.at>
- apps/konqueror/settings/konqhtml/policydlg.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konqhtml/policydlg.h ~ unspec ~ unspec
- apps/konqueror/settings/konq/kcustommenueditor.cpp ~ LGPLv2 ~     Copyright (C) 2002 Waldo Bastian (bastian@kde.org)
- apps/konqueror/settings/konq/kcustommenueditor.h ~ LGPLv2 ~     Copyright (C) 2002 Waldo Bastian (bastian@kde.org)
- apps/konqueror/settings/konq/konqkcmfactory.cpp ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
- apps/konqueror/settings/konq/konqkcmfactory.h ~ LGPLv2 ~     Copyright (C) 2006-2007 Matthias Kretz <kretz@kde.org>
- apps/konqueror/settings/konq/Messages.sh ~ unspec ~ unspec
- apps/konqueror/settings/konq/onlyone.png ~ unspec ~ unspec
- apps/konqueror/settings/konq/overlapping.png ~ unspec ~ unspec
- apps/konqueror/settings/konq/previews.cpp ~ LGPLv2 ~     Copyright (C) 2002 David Faure <faure@kde.org>
- apps/konqueror/settings/konq/previews.h ~ LGPLv2 ~     Copyright (C) 2002 David Faure <faure@kde.org>
- apps/konqueror/settings/konq/README ~ unspec ~ unspec
- apps/konqueror/settings/konq/tests/kcustommenueditortest.cpp ~ unspec ~ unspec
- apps/konqueror/settings/konq/webappearance.desktop ~ unspec ~ unspec
- apps/konqueror/settings/konq/webbehavior.desktop ~ unspec ~ unspec
- apps/konqueror/settings/performance/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/settings/performance/kcmkonqyperformance.desktop ~ unspec ~ unspec
- apps/konqueror/settings/performance/kcmperformance.cpp ~ GPLv2h ~  *  Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/settings/performance/kcmperformance.desktop ~ unspec ~ unspec
- apps/konqueror/settings/performance/kcmperformance.h ~ GPLv2h ~  *  Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/settings/performance/konqueror.cpp ~ GPLv2h ~  *  Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/settings/performance/konqueror.h ~ GPLv2h ~  *  Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/settings/performance/konqueror_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/performance/Messages.sh ~ unspec ~ unspec
- apps/konqueror/settings/performance/system.cpp ~ GPLv2h ~  *  Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/settings/performance/system.h ~ GPLv2h ~  *  Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
- apps/konqueror/settings/performance/system_ui.ui ~ unspec ~ unspec
- apps/konqueror/settings/pics/* ~ unspec ~ unspec
- apps/konqueror/shellcmdplugin/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/shellcmdplugin/kshellcmddialog.cpp ~ LGPLv2h ~     Copyright (C) 2000 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/shellcmdplugin/kshellcmddialog.h ~ LGPLv2h ~     Copyright (C) 2000 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/shellcmdplugin/kshellcmdexecutor.cpp ~ LGPLv2h ~     Copyright (C) 2000 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/shellcmdplugin/kshellcmdexecutor.h ~ LGPLv2h ~     Copyright (C) 2000 Alexander Neundorf <neundorf@kde.org>
- apps/konqueror/shellcmdplugin/kshellcmdplugin.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/shellcmdplugin/kshellcmdplugin.desktop ~ unspec ~ unspec
- apps/konqueror/shellcmdplugin/kshellcmdplugin.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/shellcmdplugin/kshellcmdplugin.rc ~ unspec ~ unspec
- apps/konqueror/sidebar/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/sidebar/konqsidebar.cpp ~ GPLv2h ~     copyright            : (C) 2001 Joseph Wenninger
- apps/konqueror/sidebar/konqsidebar.h ~ GPLv2h ~     copyright            : (C) 2001 Joseph Wenninger
- apps/konqueror/sidebar/konqsidebariface_p.h ~ unspec ~ unspec
- apps/konqueror/sidebar/konqsidebarplugin.cpp ~ LGPLv2h ~    Copyright (C) 2001,2002 Joseph Wenninger <jowenn@kde.org>
- apps/konqueror/sidebar/konqsidebarplugin.h ~ LGPLv2h ~    Copyright (C) 2001,2002 Joseph Wenninger <jowenn@kde.org>
- apps/konqueror/sidebar/konq_sidebartng.desktop ~ unspec ~ unspec
- apps/konqueror/sidebar/konqsidebartng.rc ~ unspec ~ unspec
- apps/konqueror/sidebar/konqsidebartng.upd ~ unspec ~ unspec
- apps/konqueror/sidebar/move_konqsidebartng_entries.sh ~ unspec ~ unspec
- apps/konqueror/sidebar/sidebar_widget.cpp ~ GPLv2h ~     copyright            : (C) 2001 Joseph Wenninger
- apps/konqueror/sidebar/sidebar_widget.h ~ GPLv2h ~     copyright            : (C) 2001 Joseph Wenninger
- apps/konqueror/sidebar/test/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/sidebar/test/konqsidebartest.cpp ~ GPLv2h ~     copyright            : (C) 2001 Joseph Wenninger
- apps/konqueror/sidebar/test/konqsidebartest.h ~ GPLv2h ~     copyright            : (C) 2001 Joseph Wenninger
- apps/konqueror/sidebar/test/test.desktop ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/bookmark_module/bookmark_item.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/bookmark_module/bookmark_item.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/bookmark_module/bookmark_module.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/bookmark_module/bookmark_module.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/bookmark_module/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/dirtree_module/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/dirtree_module/dirtree_item.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                                                        Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
- apps/konqueror/sidebar/trees/dirtree_module/dirtree_item.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/dirtree_module/dirtree_module.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                                                          Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
- apps/konqueror/sidebar/trees/dirtree_module/dirtree_module.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/history_module/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/history_module/history_dlg.ui ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/history_module/history_item.cpp ~ LGPLv2 ~  Copyright (C) 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/konqueror/sidebar/trees/history_module/history_item.h ~ LGPLv2 ~  Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org
- apps/konqueror/sidebar/trees/history_module/history_module.cpp ~ LGPLv2 ~ Copyright (C) 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/konqueror/sidebar/trees/history_module/history_module.h ~ LGPLv2 ~    Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/konqueror/sidebar/trees/history_module/history_settings.cpp ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/history_module/history_settings.h ~ LGPLv2 ~ Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/konqueror/sidebar/trees/history_module/kcmhistory.cpp ~ LGPLv2 ~  Copyright (c) 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
-                                                        Copyright (c) 2002 Stephan Binner <binner@kde.org>
-                                                         Copyright (c) 2000 Kurt Granroth <granroth@kde.org>
- apps/konqueror/sidebar/trees/history_module/kcmhistory.desktop ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/history_module/kcmhistory.h ~ LGPLv2 ~  Copyright (c) 2002 Stephan Binner <binner@kde.org>
-                                                           Copyright (c) 2000 Kurt Granroth <granroth@kde.org>
- apps/konqueror/sidebar/trees/init/* ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/konq_sidebartree.cpp ~ LGPLv2 ~  Copyright (C) 2000 David Faure <faure@kde.org>
-                                                              2000 Carsten Pfeiffer <pfeiffer@kde.org>
-                                                              2003 Waldo Bastian <bastian@kde.org>
- apps/konqueror/sidebar/trees/konqsidebar_tree.cpp ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/konq_sidebartree.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
-                                                               2000 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/konqueror/sidebar/trees/konqsidebar_tree.h ~ unspec ~ unspec
- apps/konqueror/sidebar/trees/konq_sidebartreeitem.cpp ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                                                Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
- apps/konqueror/sidebar/trees/konq_sidebartreeitem.h ~ LGPLv2 ~ Copyright (C) 2000 David Faure <faure@kde.org>
-                                                               Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
- apps/konqueror/sidebar/trees/konq_sidebartreemodule.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/konq_sidebartreetoplevelitem.cpp ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/trees/konq_sidebartreetoplevelitem.h ~ LGPLv2 ~    Copyright (C) 2000 David Faure <faure@kde.org>
- apps/konqueror/sidebar/.version ~ unspec ~ unspec
- apps/konqueror/sidebar/web_module/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/sidebar/web_module/TODO ~ unspec ~ unspec
- apps/konqueror/sidebar/web_module/webmodule_add.desktop ~ unspec ~ unspec
- apps/konqueror/sidebar/web_module/web_module.cpp ~ LGPLv2 ~    Copyright (C) 2003, George Staikos <staikos@kde.org>
- apps/konqueror/sidebar/web_module/web_module.h ~ LGPLv2 ~    Copyright (C) 2003 George Staikos <staikos@kde.org>
- apps/konqueror/sidebar/web_module/websidebar.desktop ~ unspec ~ unspec
- apps/konqueror/sidebar/web_module/websidebar.html ~ unspec ~ unspec
- apps/konqueror/src/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/src/config-konqueror.h.cmake ~ unspec ~ unspec
- apps/konqueror/src/delayedinitializer.cpp ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/delayedinitializer.h ~ GPLv2h ~    Copyright (C) 2003 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqactions.cpp ~ LGPLv2h ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqactions.h ~ LGPLv2h ~    Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqapplication.cpp ~ GPLv2 ~    Copyright (C) 2006 David Faure <faure@kde.org>
- apps/konqueror/src/konqapplication.h ~ GPLv2 ~    Copyright (C) 2006 David Faure <faure@kde.org>
- apps/konqueror/src/konqbookmarkbar.cpp ~ LGPLv2h ~ Copyright (C) 1999 Kurt Granroth <granroth@kde.org>
-                                                   Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
- apps/konqueror/src/konqbookmarkbar.h ~ LGPLv2h ~    Copyright (C) 1999 Kurt Granroth <granroth@kde.org>
- apps/konqueror/src/konqbrowseriface.cpp ~ unspec ~ unspec
- apps/konqueror/src/konqbrowseriface.h ~ unspec ~ unspec
- apps/konqueror/src/konqcombo.cpp ~ GPLv2h ~    Copyright (C) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/konqueror/src/konqcombo.h ~ GPLv2h ~    Copyright (C) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+  On Debian systems, the complete text of the
+  GNU General Public License can be found in
+  /usr/share/common-licenses/GPL
+--
 
- apps/konqueror/src/konqextendedbookmarkowner.h ~ GPLv2h ~ Copyright (C) 2003 Alexander Kellett <lypanov@kde.org>
-                                                          Copyright (C) 1998, 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqextensionmanager.cpp ~ GPLv2h ~ Copyright (c) 2003      by Martijn Klingens      <klingens@kde.org>
-                                                     Copyright (c) 2004      by Arend van Beelen jr.  <arend@auton.nl>
- apps/konqueror/src/konqextensionmanager.h ~ GPLv2h ~ Copyright (c) 2003      by Martijn Klingens      <klingens@kde.org>
-                                                     Copyright (c) 2004      by Arend van Beelen jr.  <arend@auton.nl>
- apps/konqueror/src/konqfactory.cpp ~ GPLv2h ~  Copyright (C) 1999 Simon Hausmann <hausmann@kde.org>
-                                               Copyright (C) 1999 David Faure <faure@kde.org>
-                                               Copyright (C) 1999 Torben Weis <weis@kde.org>
- apps/konqueror/src/konqfactory.h ~ GPLv2h ~  Copyright (C) 1999 Simon Hausmann <hausmann@kde.org>
-                                             Copyright (C) 1999 David Faure <faure@kde.org>
-                                             Copyright (C) 1999 Torben Weis <weis@kde.org>
- apps/konqueror/src/konqframecontainer.cpp ~ GPLv2h ~ Copyright (C) 1998, 1999 Michael Reiher <michael.reiher@gmx.de>
-                                                     Copyright 2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqframecontainer.h ~ GPLv2h ~ Copyright (C) 1998, 1999 Michael Reiher <michael.reiher@gmx.de>
-                                                   Copyright 2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqframe.cpp ~ GPLv2h ~    Copyright (C) 1998, 1999 Michael Reiher <michael.reiher@gmx.de>
- apps/konqueror/src/konqframe.h ~ GPLv2h ~     Copyright (C) 1998, 1999 Michael Reiher <michael.reiher@gmx.de>
- apps/konqueror/src/konqframestatusbar.cpp ~ GPLv2h ~  Copyright (C) 1998, 1999 Michael Reiher <michael.reiher@gmx.de>
-                                                      Copyright 2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqframestatusbar.h ~ GPLv2h ~ Copyright (C) 1998, 1999 Michael Reiher <michael.reiher@gmx.de>
-                                                   Copyright 2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqframevisitor.cpp ~ GPLv2h ~ Copyright (C) 2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqframevisitor.h ~ GPLv2h ~  Copyright (C) 2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqguiclients.cpp ~ GPLv2h ~ Copyright (C) 1998, 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqguiclients.h ~ GPLv2h ~ Copyright (C) 1998, 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqmain.cpp ~ GPLv2h ~    Copyright (C) 1998, 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/KonqMainWindowAdaptor.cpp ~ GPLv2h ~    Copyright 2000 Simon Hausmann <hausmann@kde.org>
-                                                   Copyright 2000, 2006 David Faure <faure@kde.org>
- apps/konqueror/src/KonqMainWindowAdaptor.h ~ GPLv2h ~    Copyright 2000 Simon Hausmann <hausmann@kde.org>
-                                             Copyright 2000, 2006 David Faure <faure@kde.org>
- apps/konqueror/src/konqmainwindow.cpp ~ GPLv2h ~    Copyright (C) 1998, 1999 Simon Hausmann <hausmann@kde.org>
-                                             Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
-                                             Copyright (C) 2000-2005 David Faure <faure@kde.org>
- apps/konqueror/src/konqmainwindow.h ~ GPLv2h ~    Copyright (C) 1998, 1999 Simon Hausmann <hausmann@kde.org>
-                                             Copyright (C) 2000-2004 David Faure <faure@kde.org>
- apps/konqueror/src/konqmisc.cpp ~ GPLv2h ~    Copyright (C) 1998, 1999 David Faure <faure@kde.org>
- apps/konqueror/src/konqmisc.h ~ GPLv2h ~    Copyright (C) 1998, 1999 David Faure <faure@kde.org>
- apps/konqueror/src/konqopenurlrequest.h ~ unspec ~ unspec
- apps/konqueror/src/konqprivate_export.h ~ LGPLv2h ~     Copyright (C) 2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqprofiledlg.cpp ~ GPLv2h ~     Copyright (C) 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqprofiledlg.h ~ GPLv2h ~     Copyright (C) 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqrun.cpp ~ GPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
- apps/konqueror/src/konqrun.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
- apps/konqueror/src/konqsettings.cpp ~ LGPLv2h ~    Copyright (C) 1999 David Faure <faure@kde.org>
- apps/konqueror/src/konqsettings.h ~ LGPLv2h ~    Copyright (C) 1999-2007 David Faure <faure@kde.org>
- apps/konqueror/src/konqsettingsxt.kcfgc ~ unspec ~ unspec
- apps/konqueror/src/konq-simplebrowser.rc ~ unspec ~ unspec
- apps/konqueror/src/konqtabs.cpp ~ GPLv2h ~ Copyright (C) 2002-2003 Konqueror Developers <konq-e@kde.org>
-                                           Copyright (C) 2002-2003 Douglas Hanley <douglash@caltech.edu>
- apps/konqueror/src/konqtabs.h ~ LGPLv2h ~ Copyright (C) 2002-2003 Konqueror Developers <konq-e@kde.org>
-                                         Copyright (C) 2002-2003 Douglas Hanley <douglash@caltech.edu>
- apps/konqueror/src/KonquerorAdaptor.cpp ~ GPLv2h ~  Copyright 1998, 1999 Simon Hausmann <hausmann@kde.org>
-                                                     Copyright 2000, 2006 David Faure <faure@kde.org>
- apps/konqueror/src/KonquerorAdaptor.h ~ GPLv2h ~  Copyright 2000 Simon Hausmann <hausmann@kde.org>
-                                                  Copyright 2000-2006 David Faure <faure@kde.org>
- apps/konqueror/src/konqueror.kcfg ~ unspec ~ unspec
- apps/konqueror/src/konqueror.rc ~ unspec ~ unspec
- apps/konqueror/src/KonqViewAdaptor.cpp ~ GPLv2h ~ Copyright 2000       Simon Hausmann <hausmann@kde.org>
-                                                  Copyright 2000, 2006 David Faure <faure@kde.org>
- apps/konqueror/src/KonqViewAdaptor.h ~ GPLv2h ~ Copyright 2000       Simon Hausmann <hausmann@kde.org>
-                                                 Copyright 2000, 2006 David Faure <faure@kde.org>
- apps/konqueror/src/konqview.cpp ~ GPLv2h ~    Copyright (C) 1998-2005 David Faure <faure@kde.org>
- apps/konqueror/src/konqview.h ~ GPLv2 h~  *  Copyright (C) 1998-2005 David Faure <faure@kde.org>
- apps/konqueror/src/konqviewmanager.cpp ~ GPLv2h ~     Copyright (C) 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/konqviewmanager.h ~ GPLv2h ~     Copyright (C) 1999 Simon Hausmann <hausmann@kde.org>
- apps/konqueror/src/org.kde.Konqueror.MainWindow.xml ~ unspec ~ unspec
- apps/konqueror/src/org.kde.Konqueror.Main.xml ~ unspec ~ unspec
- apps/konqueror/src/tests/centralwidget.cpp ~ GPLv2 ~    Copyright (C) 2006 David Faure <faure@kde.org>
- apps/konqueror/src/tests/centralwidget.h ~ GPLv2 ~    Copyright (C) 2006 David Faure <faure@kde.org>
- apps/konqueror/src/tests/CMakeLists.txt ~ unspec ~ unspec
- apps/konqueror/src/tests/konqviewmgrtest.cpp ~ GPLv2 ~    Copyright (C) 2006 David Faure <faure@kde.org>
- apps/konqueror/src/tests/konqviewmgrtest.h ~ GPLv2 ~    Copyright (C) 2006 David Faure <faure@kde.org>
- apps/konqueror/TODO ~ unspec ~ unspec
- apps/konqueror/uninstall.desktop ~ unspec ~ unspec
+------
+kdepasswd/
+------
+
+Copyright: Â© 1999-2000 Geert Jansen <jansen@kde.org>
+Copyright: Â© 2003 Braden MacDonald <bradenm_k@shaw.ca>
+Copyright: Â© 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>
+Copyright: Â© 2004 Frans Englich <frans.englich@telia.com>
 
 
-Files under apps/konsole:
-
- apps/konsole/CMakeLists.txt ~ unspec ~ unspec
- apps/konsole/configure.in.in ~ unspec ~ unspec
- apps/konsole/COPYING ~ unspec ~ unspec
- apps/konsole/data/* ~ unspec ~ unspec
- apps/konsole/desktop/* ~ unspec ~ unspec
- apps/konsole/developer-doc/* ~ unspec ~ unspec
- apps/konsole/Mainpage.dox ~ unspec ~ unspec
- apps/konsole/README ~ unspec ~ unspec
- apps/konsole/src/Application.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Application.h ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/BlockArray.cpp ~ GPLv2h ~     Copyright (C) 2000 by Stephan Kulow <coolo@kde.org>
- apps/konsole/src/BlockArray.h ~ GPLv2h ~     Copyright (C) 2000 by Stephan Kulow <coolo@kde.org>
- apps/konsole/src/BookmarkHandler.cpp ~ GPLv2h ~ Copyright 2002 Carsten Pfeiffer <pfeiffer@kde.org>
-                                                Copyright 2007 Robert Knight <robertknight@gmail.com> 
- apps/konsole/src/BookmarkHandler.h ~ GPLv2h ~     Copyright (C) 2002 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/konsole/src/CharacterColor.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-                                                Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/Character.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-                                                Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/CMakeLists.txt ~ unspec ~ unspec
- apps/konsole/src/ColorScheme.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ColorSchemeEditor.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ColorSchemeEditor.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ColorSchemeEditor.ui ~ unspec ~ unspec
- apps/konsole/src/ColorScheme.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/config-konsole.h.cmake ~ unspec ~ unspec
- apps/konsole/src/EditProfileDialog.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/EditProfileDialog.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/EditProfileDialog.ui ~ unspec ~ unspec
- apps/konsole/src/Emulation.cpp ~ GPLv2h ~     Copyright (C) 2007 Robert Knight <robertknight@gmail.com> 
-                                                Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
-                                                Copyright (C) 1996 by Matthias Ettrich <ettrich@kde.org>
- apps/konsole/src/Emulation.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-                                                Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/Filter.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Filter.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/fontembedder.cpp ~ GPLv2h ~     Copyright (C) 2005 by Maksim Orlovich <maksim@kde.org>
- apps/konsole/src/History.cpp ~ GPLv2h ~     Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/History.h ~ GPLv2h ~     Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/HistorySizeDialog.cpp ~ GPLv2h ~     Copyright 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/HistorySizeDialog.h ~ GPLv2h ~     Copyright 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/IncrementalSearchBar.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/IncrementalSearchBar.h ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/KeyBindingEditor.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/KeyBindingEditor.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/KeyBindingEditor.ui ~ unspec ~ unspec
- apps/konsole/src/KeyboardTranslator.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/KeyboardTranslator.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/konsoleprofile ~ unspec ~ unspec
- apps/konsole/src/konsole_wcwidth.cpp ~ unspec ~ unspec
- apps/konsole/src/konsole_wcwidth.h ~ unspec ~ unspec
- apps/konsole/src/kwrited.cpp ~ GPLv2h ~     Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/kwrited.h ~ GPLv2h ~     Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/LineFont.h ~ unspec ~ unspec
- apps/konsole/src/LineFont.src ~ unspec ~ unspec
- apps/konsole/src/main.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/MainWindow.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/MainWindow.h ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ManageProfilesDialog.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ManageProfilesDialog.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ManageProfilesDialog.ui ~ unspec ~ unspec
- apps/konsole/src/Messages.sh ~ unspec ~ unspec
- apps/konsole/src/org.kde.konsole.KonsoleScripting.xml ~ unspec ~ unspec
- apps/konsole/src/org.kde.konsole.Konsole.xml ~ unspec ~ unspec
- apps/konsole/src/org.kde.konsole.SessionScripting.xml ~ unspec ~ unspec
- apps/konsole/src/org.kde.konsole.Session.xml ~ unspec ~ unspec
- apps/konsole/src/OverlayFrame.cpp ~ GPLv2h ~     Copyright (C) 2006 Robert Knight <robertknight@gmail.com>
- apps/konsole/src/OverlayFrame.h ~ GPLv2h ~     Copyright (C) 2006 Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Part.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Part.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/PrintSettings.cpp ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.backgroundColore>
- apps/konsole/src/PrintSettings.h ~ LGPLv2 ~  *  Copyright (c) 2002 Michael Goffioul <kdeprint@swing.backgroundColore>
-                                                Copyright (c) 2003 Waldo Bastian <bastian@kde.org>
- apps/konsole/src/ProcessInfo.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.countm>
- apps/konsole/src/ProcessInfo.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Profile.cpp ~ GPLv2h ~     Copyright (C) 2006-7 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Profile.h ~ GPLv2h ~     Copyright (C) 2006-7 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ProfileList.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ProfileList.h ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ProfileListWidget.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ProfileListWidget.h ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Pty.cpp ~ GPLv2h ~     Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/Pty.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-    Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/RemoteConnectionDialog.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/RemoteConnectionDialog.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/RemoteConnectionDialog.ui ~ unspec ~ unspec
- apps/konsole/src/Screen.cpp ~ GPLv2h ~     Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/Screen.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-    Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/ScreenWindow.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ScreenWindow.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/SessionController.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/SessionController.h ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Session.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
-    Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/Session.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-    Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/SessionManager.cpp ~ GPLv2h ~     Copyright (C) 2006-7 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/SessionManager.h ~ GPLv2h ~     Copyright (C) 2006-7 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ShellCommand.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ShellCommand.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/TabTitleFormatAction.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/TabTitleFormatAction.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/TerminalCharacterDecoder.cpp ~ LGPLv2h ~     Copyright (C) 2006 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/TerminalCharacterDecoder.h ~ LGPLv2h ~     Copyright (C) 2006 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/TerminalDisplay.cpp ~ GPLv2h ~ Copyright (C) 2006-7 by Robert Knight <robertknight@gmail.com>
-                                                Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/TerminalDisplay.h ~ GPLv2h ~  Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-                                               Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/ViewContainer.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ViewContainer.h ~ GPLv2h ~     Copyright (C) 2006 Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ViewManager.cpp ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ViewManager.h ~ GPLv2h ~     Copyright (C) 2006-2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ViewProperties.cpp ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ViewProperties.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ViewSplitter.cpp ~ GPLv2h ~     Copyright (C) 2006 Robert Knight <robertknight@gmail.com>
- apps/konsole/src/ViewSplitter.h ~ GPLv2h ~     Copyright (C) 2006 Robert Knight <robertknight@gmail.com>
- apps/konsole/src/Vt102Emulation.cpp ~ GPLv2h ~     Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/Vt102Emulation.h ~ GPLv2h ~     Copyright (C) 2007 by Robert Knight <robertknight@gmail.com>
-                                                Copyright (C) 1997,1998 by Lars Doelle <lars.doelle@on-line.de>
- apps/konsole/src/XKB.cpp ~ MIT ~  Copyright (C) 2000-2001 Lubos Lunak        <l.lunak@kde.org>
-                                  Copyright (C) 2001      Oswald Buddenhagen <ossi@kde.org>
- apps/konsole/src/ZModemDialog.cpp ~ LGPLv2 ~  *  Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
- apps/konsole/src/ZModemDialog.h ~ LGPLv2 ~  *  Copyright (C) 2002 Waldo Bastian <bastian@kde.org>
- apps/konsole/tests/*~ unspec ~ unspec
- apps/konsole/TODO ~ unspec ~ unspec
- apps/konsole/user-doc/* ~ unspec ~ unspec
+License for all components unless stated otherwise:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    However, the license of 8 files was not explicitly specified:
 
 
-Files under apps/kwrite:
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
 
- apps/kwrite/CMakeLists.txt ~ unspec ~ unspec
- apps/kwrite/kwrite.desktop ~ unspec ~ unspec
- apps/kwrite/kwritemain.cpp ~ LGPLv2 ~ Copyright (C) 2001 Christoph Cullmann <cullmann@kde.org>
-                                      Copyright (C) 2001 Joseph Wenninger <jowenn@kde.org>
-                                      Copyright (C) 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
- apps/kwrite/kwritemain.h ~ LGPLv2 ~ Copyright (C) 2001 Christoph Cullmann <cullmann@kde.org>
-                                    Copyright (C) 2001 Joseph Wenninger <jowenn@kde.org>
-                                    Copyright (C) 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
- apps/kwrite/kwriteui.rc ~ unspec ~ unspec
- apps/kwrite/Messages.sh ~ unspec ~ unspec
- apps/kwrite/pics/* ~ unspec ~ unspec
+Other used licenses:
+--
+  GNU General Public License, version 2 (GPL-2)
+    2 files are licensed under this license:
 
+    + kcm/chfnprocess.cpp
+    + kcm/chfnprocess.h
 
-Files under apps/lib:
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+  BSD-ish
+    /* excluding kcm
+	 Permission to use, copy, modify, and distribute this software
+	 and its documentation for any purpose and without fee is hereby
+	 granted, provided that the above copyright notice appear in all
+	 copies and that both that the copyright notice and this
+	 permission notice and warranty disclaimer appear in supporting
+	 documentation, and that the name of the author not be used in
+	 advertising or publicity pertaining to distribution of the
+	 software without specific, written prior permission.
 
- apps/lib/CMakeLists.txt ~ unspec ~ unspec
- apps/lib/konq/AUTHORS ~ unspec ~ unspec
- apps/lib/konq/CMakeLists.txt ~ unspec ~ unspec
- apps/lib/konq/DESIGN ~ unspec ~ unspec
- apps/lib/konq/directory_bookmarkbar.desktop ~ unspec ~ unspec
- apps/lib/konq/favicons/CMakeLists.txt ~ unspec ~ unspec
- apps/lib/konq/favicons/favicons_adaptor.cpp ~ unspec ~ Copyright (C) 2006 Trolltech AS. All rights reserved.
- apps/lib/konq/favicons/favicons_adaptor.h ~ unspec ~ Copyright (C) 2006 Trolltech AS. All rights reserved.
- apps/lib/konq/favicons/favicons.cpp ~ LGPLv2h ~    Copyright (C) 2001 Malte Starostik <malte@kde.org>
- apps/lib/konq/favicons/favicons.desktop ~ unspec ~ unspec
- apps/lib/konq/favicons/favicons.h ~ LGPLv2 ~    Copyright (c) 2001 Malte Starostik <malte@kde.org>
- apps/lib/konq/favicons/favicons.upd ~ unspec ~ unspec
- apps/lib/konq/favicons/move_favicons.sh ~ unspec ~ unspec
- apps/lib/konq/favicons/org.kde.FavIcon.xml ~ unspec ~ unspec
- apps/lib/konq/knewmenu.cpp ~ LGPLv2 ~  Copyright (C) 1998, 1999 David Faure <faure@kde.org>
-                                       2003       Sven Leiber <s.leiber@web.de>
- apps/lib/konq/knewmenu.h ~ LGPLv2 ~ Copyright (C) 1998-2006 David Faure <faure@kde.org>
-                                     2003       Sven Leiber <s.leiber@web.de>
- apps/lib/konq/knewmenu_p.h ~ LGPLv2 ~    Copyright (C) 1998-2006 David Faure <faure@kde.org>
-                                     2003       Sven Leiber <s.leiber@web.de>
- apps/lib/konq/konq_bgnddlg.cc ~ LGPLv2h ~ Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
-                                          Copyright (c) 1999 David Faure <faure@kde.org>
- apps/lib/konq/konq_bgnddlg.h ~ LGPLv2h ~ Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
-                                         Copyright (c) 1999 David Faure <fauren@kde.org>
- apps/lib/konq/konqbookmarkmanager.cpp ~ LGPLv2h ~     Copyright (C) 2006  David Faure <faure@kde.org>
- apps/lib/konq/konqbookmarkmanager.h ~ LGPLv2h ~     Copyright (C) 2006  David Faure <faure@kde.org>
- apps/lib/konq/konq_defaults.h ~ LGPLv2h ~    Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
-                                          Copyright (C) 1999 - 2002 David Faure <faure@kde.org>
- apps/lib/konq/konq_events.cc ~ unspec ~ unspec
- apps/lib/konq/konq_events.h ~ unspec ~ unspec
- apps/lib/konq/konq_faviconmgr.cc ~ LGPLv2h ~ Copyright (C) 2000 Malte Starostik <malte@kde.org>
- apps/lib/konq/konq_faviconmgr.h ~ LGPLv2h ~ Copyright (C) 1999 Malte Starostik <malte@kde.org>
- apps/lib/konq/konq_filetip.cc ~ LGPLv2h ~  Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
-                                           Copyright (C) 2000, 2001, 2002 David Faure <faure@kde.org>
-                                           Copyright (C) 2004 Martin Koller <m.koller@surfeu.at>
- apps/lib/konq/konq_filetip.h ~ LGPLv2h ~  Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
-                                         Copyright (C) 2000, 2001, 2002 David Faure <faure@kde.org>
-                                        Copyright (C) 2004 Martin Koller <m.koller@surfeu.at>
- apps/lib/konq/konq_historyentry.cpp ~ unspec ~ unspec
- apps/lib/konq/konq_historyentry.h ~ LGPLv2h ~    Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/lib/konq/konq_historymgr.cc ~ LGPLv2h ~    Copyright (C) 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/lib/konq/konq_historymgr.h ~ LGPLv2h ~    Copyright (C) 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/lib/konq/konqmimedata.cpp ~ LGPLv2 ~    Copyright (C) 2005 David Faure <faure@kde.org>
- apps/lib/konq/konqmimedata.h ~ LGPLv2 ~    Copyright (C) 2005 David Faure <faure@kde.org>
- apps/lib/konq/konq_operations.cc ~ LGPLv2h ~     Copyright (C) 2000  David Faure <faure@kde.org>
- apps/lib/konq/konq_operations.h ~ LGPLv2h ~     Copyright (C) 2000  David Faure <faure@kde.org>
- apps/lib/konq/konq_pixmapprovider.cc ~ LGPLv2h ~    Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/lib/konq/konq_pixmapprovider.h ~ LGPLv2h ~    Copyright (C) 2000 Carsten Pfeiffer <pfeiffer@kde.org>
- apps/lib/konq/konq_popupmenu.cc ~ LGPLv2h ~ Copyright (C) 1998-2006 David Faure <faure@kde.org>
-                                            Copyright (C) 2001 Holger Freyther <freyther@yahoo.com>
- apps/lib/konq/konq_popupmenu.h ~ LGPLv2h ~ Copyright (C) 1998, 1999 David Faure <faure@kde.org>
-                                           Copyright (C) 2001 Holger Freyther <freyther@yahoo.com>
- apps/lib/konq/konqpopupmenuplugin.desktop ~ unspec ~ unspec
- apps/lib/konq/konq_sound.cc ~ LGPLv2 ~    Copyright (c) 2001 Malte Starostik <malte@kde.org>
-                                          Copyright (c) 2006 Matthias Kretz <kretz@kde.org>
- apps/lib/konq/konq_sound.h ~ LGPLv2 ~    Copyright (c) 2001 Malte Starostik <malte@kde.org>
- apps/lib/konq/konq_undo.cc ~ LGPLv2h ~ Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
-                                       Copyright (C) 2006 David Faure <faure@kde.org>
- apps/lib/konq/konq_undo.h ~ LGPLv2h ~ Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
-                                      Copyright (C) 2006 David Faure <faure@kde.org>
- apps/lib/konq/konq_undo_p.h ~ LGPLv2h ~ Copyright (C) 2000 Simon Hausmann <hausmann@kde.org>
-                                        Copyright (C) 2006 David Faure <faure@kde.org>
- apps/lib/konq/konq_xmlguiclient.cc ~ LGPLv2h ~    Copyright (C) 2001 Holger Freyther <freyther@yahoo.com>
-                                        Copyright (c) 1998, 1999 David Faure <faure@kde.org>
- apps/lib/konq/konq_xmlguiclient.h ~ LGPLv2h ~    Copyright (C) 2001 Holger Freyther <freyther@yahoo.com>
- apps/lib/konq/libkonq_export.h ~ LGPLv2h ~    Copyright (C) 2004 Jaroslaw Staniek <js@iidea.pl>
- apps/lib/konq/Mainpage.dox ~ unspec ~ unspec
- apps/lib/konq/Messages.sh ~ unspec ~ unspec
- apps/lib/konq/org.kde.libkonq.KonqHistoryManager.xml ~ unspec ~ unspec
- apps/lib/konq/org.kde.libkonq.UndoManager.xml ~ unspec ~ unspec
- apps/lib/konq/pics/arrow_bottomleft.png ~ unspec ~ unspec
- apps/lib/konq/pics/arrow_bottomright.png ~ unspec ~ unspec
- apps/lib/konq/pics/arrow_topleft.png ~ unspec ~ unspec
- apps/lib/konq/pics/arrow_topright.png ~ unspec ~ unspec
- apps/lib/konq/pics/CMakeLists.txt ~ unspec ~ unspec
- apps/lib/konq/pics/thumbnailfont_7x4.png ~ unspec ~ unspec
- apps/lib/konq/PLUGINS ~ unspec ~ unspec
- apps/lib/konq/SERVICEMENUS ~ unspec ~ unspec
- apps/lib/konq/tests/CMakeLists.txt ~ unspec ~ unspec
- apps/lib/konq/tests/favicontest.cpp ~ LGPLv2 ~     Copyright (c) 2006 David Faure <faure@kde.org>
- apps/lib/konq/tests/favicontest.h ~ LGPLv2 ~     Copyright (c) 2006 David Faure <faure@kde.org>
- apps/lib/konq/tests/historymgrtest.cpp ~ LGPLv2 ~     Copyright (c) 2006 David Faure <faure@kde.org>
- apps/lib/konq/tests/historymgrtest.h ~ LGPLv2 ~     Copyright (c) 2006 David Faure <faure@kde.org>
- apps/lib/konq/tests/konqmimedatatest.cpp ~ LGPLv2 ~     Copyright (c) 2005-2006 David Faure <faure@kde.org>
- apps/lib/konq/tests/konqmimedatatest.h ~ LGPLv2 ~     Copyright (c) 2005-2006 David Faure <faure@kde.org>
- apps/lib/konq/tests/konqundomanagertest.cpp ~ LGPLv2 ~     Copyright (c) 2006 David Faure <faure@kde.org>
- apps/lib/konq/tests/konqundomanagertest.h ~ LGPLv2 ~     Copyright (c) 2006 David Faure <faure@kde.org>
- apps/lib/Mainpage.dox ~ unspec ~ unspec
+	 The author disclaim all warranties with regard to this
+	 software, including all implied warranties of merchantability
+	 and fitness.  In no event shall the author be liable for any
+	 special, indirect or consequential damages or any damages
+	 whatsoever resulting from loss of use, data or profits, whether
+	 in an action of contract, negligence or other tortious action,
+	 arising out of or in connection with the use or performance of
+	 this software.
+--
 
 
-Files under apps/nsplugins:
 
- apps/nsplugins/CMakeLists.txt ~ unspec ~ unspec
- apps/nsplugins/HOWTO.DEBUG ~ unspec ~ unspec
- apps/nsplugins/kcm_nsplugins.cpp ~ GPLv2h ~   Copyright (c) 2003 Dirk Mueller <mueller@kde.org>
- apps/nsplugins/khtml_plugins.desktop ~ unspec ~ unspec
- apps/nsplugins/Messages.sh ~ unspec ~ unspec
- apps/nsplugins/nspluginloader.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
-                                              Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
- apps/nsplugins/nspluginloader.h ~ GPLv2h ~  Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
-                                             Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
- apps/nsplugins/nspluginpart.rc ~ unspec ~ unspec
- apps/nsplugins/org.kde.nsplugins.CallBack.xml ~ unspec ~ unspec
- apps/nsplugins/plugin_part.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
-                                           Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
- apps/nsplugins/plugin_part.h ~ GPLv2h ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
-                                         Copyright (c) 2002-2005 George Staikos <staikos@kde.org>
- apps/nsplugins/pluginscan.cpp ~ GPLv2 ~ Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>, Stefan Schimanski <1Stein@gmx.de>
- apps/nsplugins/README ~ unspec ~ unspec
- apps/nsplugins/sdk/jni.h ~ MPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
-                                                       * Netscape Communications Corporation and Sun Microsystems, Inc.
-                                                       * Portions created by the Initial Developer are Copyright (C) 1993-1996
-                                                       * the Initial Developer. All Rights Reserved.
- apps/nsplugins/sdk/jni_md.h ~ MPL1.1 ~ Copyright (C) 1998 Netscape Communications Corporation. All Rights Reserved.
-                                       Copyright (c) International Business Machines
- apps/nsplugins/sdk/jri.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
-                                                       * Netscape Communications Corporation.
-                                                       * Portions created by the Initial Developer are Copyright (C) 1998
-                                                       * the Initial Developer. All Rights Reserved.
- apps/nsplugins/sdk/jri_md.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
-                                                       * Netscape Communications Corporation.
-                                                       * Portions created by the Initial Developer are Copyright (C) 1998
-                                                       * the Initial Developer. All Rights Reserved.
- apps/nsplugins/sdk/jritypes.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
-                                                       * Netscape Communications Corporation.
-                                                       * Portions created by the Initial Developer are Copyright (C) 1998
-                                                       * the Initial Developer. All Rights Reserved.
- apps/nsplugins/sdk/npapi.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
-                                                       * Netscape Communications Corporation.
-                                                       * Portions created by the Initial Developer are Copyright (C) 1998
-                                                       * the Initial Developer. All Rights Reserved.
- apps/nsplugins/sdk/npupp.h ~ NPL 1.1/GPL 2.0/LGPL 2.1 ~  * The Initial Developer of the Original Code is
-                                                       * Netscape Communications Corporation.
-                                                       * Portions created by the Initial Developer are Copyright (C) 1998
-                                                       * the Initial Developer. All Rights Reserved.
- apps/nsplugins/sdk/obsolete/protypes.h ~ MPL1.1 ~  * Copyright (C) 1998-2000 Netscape Communications Corporation.
- apps/nsplugins/sdk/prcpucfg.h ~ MPL 1.1/GPL 2.0/LGPL 2.1 ~    * The Initial Developer of the Original Code is
-                                                       * Netscape Communications Corporation.
-                                                       * Portions created by the Initial Developer are Copyright (C) 1998
-                                                       * the Initial Developer. All Rights Reserved.
- apps/nsplugins/sdk/prtypes.h ~ MPL1.1 ~  * The Initial Developer of the Original Code is Netscape
-                                         * Communications Corporation.  Portions created by Netscape are
-                                         * Copyright (C) 1998-2000 Netscape Communications Corporation.  All
-                                         * Rights Reserved.
- apps/nsplugins/TESTCASES ~ unspec ~ unspec
- apps/nsplugins/test/CMakeLists.txt ~ unspec ~ unspec
- apps/nsplugins/test/testnsplugin.cpp ~ GPLv2h ~   Copyright (c) 2000 Stefan Schimanski <1Stein@gmx.de>
- apps/nsplugins/test/testnsplugin.h ~ GPLv2h ~   Copyright (c) 2000 Stefan Schimanski <1Stein@gmx.de>
- apps/nsplugins/test/testnsplugin.rc ~ unspec ~ unspec
- apps/nsplugins/TODO ~ unspec ~ unspec
- apps/nsplugins/viewer/CMakeLists.txt ~ unspec ~ unspec
- apps/nsplugins/viewer/nsplugin.cpp ~ GPLv2 ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
- apps/nsplugins/viewer/nsplugin.h ~ GPLv2 ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
-  Copyright (c) 2003-2005 George Staikos <staikos@kde.org>
- apps/nsplugins/viewer/org.kde.nsplugins.class.xml ~ unspec ~ unspec
- apps/nsplugins/viewer/org.kde.nsplugins.instance.xml ~ unspec ~ unspec
- apps/nsplugins/viewer/org.kde.nsplugins.viewer.xml ~ unspec ~ unspec
- apps/nsplugins/viewer/qxteventloop.cpp ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
- apps/nsplugins/viewer/qxteventloop.h ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
- apps/nsplugins/viewer/resolve.h ~ GPLv2h ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
- apps/nsplugins/viewer/viewer.cpp ~ GPLv2h ~   Copyright (c) 2000 Matthias Hoelzer-Kluepfel <mhk@caldera.de>
- apps/nsplugins/wrapper/CMakeLists.txt ~ unspec ~ unspec
- apps/nsplugins/wrapper/wrapper.c ~ unspec ~ unspec
+------
+kdialog/
+------
+
+Copyright: Â© 1998-2005 Matthias Hoelzer <hoelzer@kde.org> <hoelzer@physik.uni-wuerzburg.de>
+Copyright: Â© 2002-2005 David Faure <faure@kde.org>
+Copyright: Â© 2004-2005 Stephan Binner <binner@kde.org>
+Copyright: Â© 2005 Brad Hards <bradh@frogmouth.net>
+Copyright: Â© 2008 Dmitry Suzdalev <dimsuz@gmail.com>
+
+
+License for all components is:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    However, the license was not explicitly specified for the following file:
+
+    ? CMakeLists.txt
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+------
+keditbookmarks/
+------
+
+Copyright: Â© 2002-2003 Alexander Kellett <lypanov@kde.org>
+Copyright: Â© 2000 David Faure <faure@kde.org>
+Copyright: Â© 2005 Daniel Teske <teske@squorn.de>
+Copyright: Â© 2005 Frerich Raabe <raabe@kde.org>
+
+
+License for all components unless stated otherwise:
+--
+  GNU General Public License, version 2 (GPL-2)
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+Other used licenses:
+--
+  BSD-like License (BSD)
+    The following file is licensed under this license:
+
+    + kbookmarkmerger.cpp
+
+  Redistribution and use in source and binary forms, with or without modification,
+  are permitted provided that the following conditions are met:
+  
+  1. Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer. 2. Redistributions in binary
+  form must reproduce the above copyright notice, this list of conditions and the
+  following disclaimer in the documentation and/or other materials provided with
+  the distribution.
+  
+  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+  SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+  OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+  IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+  OF SUCH DAMAGE.
+
+  On Debian systems, the complete text of the
+  BSD-like License can be found in
+  /usr/share/common-licenses/BSD
+--
+
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    The following file is licensed under this license:
+
+    + kinsertionsort.h
+
+  This program is free software: you can redistribute it and/or modify it under
+  the terms of the GNU General Public License as published by the Free Software
+  Foundation, either version 2 of the License, or (at your option) any later
+  version.
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+
+------
+kfind/
+------
+
+Copyright: Â© 2000 David Faure <faure@kde.org>
+Copyright: Â© 1998-2003 Harri Porten <dima@mercury.co.il>
+Copyright: Â© 1998-2003 Beppe Grimaldi <coquelle@caramail.com>
+Copyright: Â© 1998-2003 Dima Rogozin <pfeiffer@kde.org>
+Copyright: Â© 1998-2003 Mario Weilguni <zipzippy@sonic.net>
+Copyright: Â© 1998-2003 Hans Petter Bieker <bastian@kde.org>
+Copyright: Â© 1998-2003 Alex Zepeda <flidr@kky.zcu.cz>
+Copyright: Â© 1998-2003 The KDE <coolo@kde.org>
+Copyright: Â© 1998-2003 Waldo Bastian <grimalkin@ciaoweb.it>
+Copyright: Â© 1998-2003 Miroslav FlÃ­dr <porten@kde.org>
+Copyright: Â© 1998-2003 Carsten Pfeiffer <bieker@kde.org>
+Copyright: Â© 1998-2003 Martin Hartig
+Copyright: Â© 1998-2003 Stephan Kulow <mweilguni@sime.com>
+Copyright: Â© 1998-2003 Eric Coquelle
+
+
+License for all components is:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    However, the license of 14 files was not explicitly specified:
+
+    * excluding:
+    -+ kfind.cpp
+    -+ kfindpart.cpp
+    -+ kfindpart.h
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+------
+kinfocenter/
+------
+
+Copyright: Â© 1999, 2001 Matthias Hoelzer-Kluepfel <hoelzer@kde.org> <mhk@caldera.de>
+Copyright: Â© 2000-2001 Matthias Elter <elter@kde.org>
+Copyright: Â© 2000-2001, 2003 Alexander Neundorf <neundorf@kde.org> <alexander.neundorf@rz.tu-ilmenau.de>
+Copyright: Â© 2008 Nicolas Ternisien <nicolas.ternisien@gmail.com>
+Copyright: Â© 1999 Gary Meyer <gary@meyer.net>
+Copyright: Â© 2008 Ivo Anjo <knuckles@gmail.com>
+Copyright: Â© 1998-2003 Helge Deller <deller@gmx.de> <deller@kde.org>
+Copyright: Â©  Konrad Rzepecki <hannibal@megapolis.pl>
+Copyright: Â©  Hubert Feyer <hubertf@NetBSD.org>
+Copyright: Â© 2001 George Staikos <staikos@kde.org>
+Copyright: Â©  Torsten Kasch <tk@Genetik.Uni-Bielefeld.DE>
+Copyright: Â© 1991-1992 Free Software Foundation
+Copyright: Â© 2003 Benjamin Reed <ranger@befunk.com>
+Copyright: Â© 2000 Brad Hughes <bhughes@trolltech.com>
+Copyright: Â©  David Brownlee <abs@NetBSD.org>
+Copyright: Â©  Anthony Baxter <anthony@aaii.oz.au>
+Copyright: Â© 2004 Adapted from Brian
+Copyright: Â© 2003 Frauke Oster <frauke.oster@t-online.de>
+Copyright: Â©  Reza Arbab <arbab@austin.ibm.com>
+Copyright: Â© 2008 Pino Toscano <pino@kde.org>
+Copyright: Â© 1999-2002 Brian Paul
+Copyright: Â© 2004 Ilya Korniyko <k_ilya@ukr.net>
+Copyright: Â© 2000 Modified <bhughes@trolltech.com>
+Copyright: Â© 1994-1995 Mike Romberg <romberg@fsl.noaa.gov>
+Copyright: Â©  Ronald Joe Record <rr@sco.com>
+
+
+License for all components is:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    However, the license of 42 files was not explicitly specified:
+
+    base/* excluding:
+    -+ base/info_osx.cpp
+    info/* excluding:
+    -+ info/main.cpp
+    ? memory/base.h
+    ? memory/memory_fbsd.cpp
+    ? memory/memory_hpux.cpp
+    ? memory/memory_linux.cpp
+    ? memory/memory_netbsd.cpp
+    ? memory/memory_sgi.cpp
+    ? memory/memory_solaris.cpp
+    ? memory/memory_tru64.cpp
+    ? nics/CMakeLists.txt
+    ? nics/config-nic.h.cmake
+    ? opengl/CMakeLists.txt
+    ? partition/CMakeLists.txt
+    pci/* excluding:
+    -+ pci/kcm_pci.cpp
+    -+ pci/kcm_pci.h
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+------
+konqueror/
+------
+
+Copyright: Â© 1998-2008 David Faure <faure@kde.org> <david@mandrakesoft.com>
+Copyright: Â© 02-03, 2000, 2000-, 2001, 2001-, 2002-2004 Dawit Alemayehu <adawit@kde.org>
+Copyright: Â© 1998-2001, 2003 Simon Hausmann <hausmann@kde.org>
+Copyright: Â© 2001-2003 Waldo Bastian <bastian@kde.org>
+Copyright: Â© 2000-2001 Carsten Pfeiffer <pfeiffer@kde.org>
+Copyright: Â© 2007-2008 Eduardo Robles Elvira <edulix@gmail.com>
+Copyright: Â© 2002-2003 Leo Savernik <l.savernik@aon.at>
+Copyright: Â© 1998-1999 Torben Weis <weis@kde.org>
+Copyright: Â© 2001-2002 Joseph Wenninger <jowenn@kde.org>
+Copyright: Â© 2000-2001, 2005-2006 Alexander Neundorf <neundorf@kde.org>
+Copyright: Â© 2002-2004 Lubos Lunak <l.lunak@kde.org>
+Copyright: Â© 2000, 2002 Daniel Molkentin <molkentin@kde.org>
+Copyright: Â© 1996 Martin R. Jones
+Copyright: Â© 1999-2000 Kurt Granroth <granroth@kde.org>
+Copyright: Â© 1998-1999 Michael Reiher <michael.reiher@gmx.de>
+Copyright: Â© 1998 Bernd Wuebben
+Copyright: Â© 1998 Sven Radej
+Copyright: Â© 1997, 2000 Kalle Dalheimer <kalle@kde.org>
+Copyright: Â© 2008 Urs Wolfer
+Copyright: Â© 2007 Fredrik HÃ¶glund <fredrik@kde.org>
+Copyright: Â© 1999-2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+Copyright: Â© 1998 Port to KControl
+Copyright: Â© 2007 Daniel GarcÃ­a Moreno <danigm@gmail.com>
+Copyright: Â© 2000 Yves Arrouye <yves@realnames.com>
+Copyright: Â© 2004 Arend van Beelen <arend@auton.nl>
+Copyright: Â© 2000-2001 Marco Pinelli <pinmc@orion.it>
+Copyright: Â© 2002-2003 Douglas Hanley <douglash@caltech.edu>
+Copyright: Â© 2005 Ivor Hewitt <ivor@ivor.org>
+Copyright: Â© 2002 George Russell <george.russell@clara.net>
+Copyright: Â© 2002 Stephan Binner <binner@kde.org>
+Copyright: Â© 2007 Nick Shaforostoff <shafff@ukr.net>
+Copyright: Â© 2001 Daniel Naber
+Copyright: Â© 2006-2007 Matthias Kretz <kretz@kde.org>
+Copyright: Â© 2000 Dirk Mueller <mueller@kde.org>
+Copyright: Â© 1998 Christian Tibirna
+Copyright: Â© 2003 Martijn Klingens <klingens@kde.org>
+Copyright: Â© 2002 John Firebaugh <jfirebaugh@kde.org>
+Copyright: Â© 2003 George Staikos <staikos@kde.org>
+Copyright: Â© 2003-2004 Olaf Schmidt <ojschmidt@kde.org>
+Copyright: Â© 2002-2003 Konqueror <konq-e@kde.org>
+Copyright: Â©  Jacek Konieczny <jajcus@zeus.posl.gliwice.pl> <jajcus@zeus.polsl.gliwice.pl>
+Copyright: Â© 2008 Xavier Vello <xavier.vello@gmail.com>
+Copyright: Â© 2003 Thiago Macieira <thiago.macieira@kdemail.net>
+Copyright: Â© 2000 Stefan Schimanski <1Stein@gmx.de>
+Copyright: Â© 2002 Michael Brade <brade@kde.org>
+Copyright: Â© 1996 HTML Options
+Copyright: Â© 2003 Alexander Kellett <lypanov@kde.org>
+Copyright: Â© 1998 Misc Tab
+
+
+License for all components unless stated otherwise:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    However, the license of 65 files was not explicitly specified:
+
+    *
+    pics/*
+    pics/indicators/*
+    ? settings/kio/kcookiesmain.cpp
+    ? settings/kio/kcookiesmain.h
+    ? settings/kio/netpref.cpp
+    ? settings/kio/netpref.h
+
+    settings/konqhtml/* excluding:
+    -+ settings/konqhtml/domainlistview.cpp
+    -+ settings/konqhtml/domainlistview.h
+    -+ settings/konqhtml/filteropts.cpp
+    -+ settings/konqhtml/filteropts.h
+    -+ settings/konqhtml/jspolicies.cpp
+    -+ settings/konqhtml/jspolicies.h
+    -+ settings/konqhtml/main.cpp
+    -+ settings/konqhtml/main.h
+    -+ settings/konqhtml/policies.cpp
+    -+ settings/konqhtml/policies.h
+
+    settings/konqhtml/css/* excluding:
+    -+ settings/konqhtml/css/kcmcss.h
+
+    ? sidebar/trees/konqsidebar_tree.cpp
+    ? sidebar/trees/konqsidebar_tree.h
+    ? sidebar/trees/history_module/history_settings.cpp
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+Other used licenses:
+--
+  GNU General Public License, version 2 (GPL-2)
+    26 files are licensed under this license:
+
+    settings/filetypes/* excluding:
+    -? settings/filetypes/CMakeLists.txt
+    -+ settings/filetypes/filetypes-config.h
+    -+ settings/filetypes/filetypesview.cpp
+    -+ settings/filetypes/filetypesview.h
+    -+ settings/filetypes/kserviceselectdlg.cpp
+    -+ settings/filetypes/kserviceselectdlg.h
+    -+ settings/filetypes/mimetypewriter.cpp
+    -+ settings/filetypes/mimetypewriter.h
+    + settings/kio/cache.cpp
+    + settings/kio/cache.h
+    + settings/kio/kenvvarproxydlg.cpp
+    + settings/kio/kenvvarproxydlg.h
+    + settings/kio/kmanualproxydlg.cpp
+    + settings/kio/kmanualproxydlg.h
+    + settings/kio/kproxydlg.cpp
+    + settings/kio/kproxydlg.h
+    + settings/kio/kproxydlgbase.cpp
+    + settings/kio/kproxydlgbase.h
+    + settings/kio/useragentdlg.cpp
+    + settings/kio/useragentdlg.h
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+--
+  GNU Library General Public License, version 2 (LGPL-2)
+    27 files are licensed under this license:
+
+    + settings/konq/kcustommenueditor.cpp
+    + settings/konq/kcustommenueditor.h
+    + settings/konq/konqkcmfactory.cpp
+    + settings/konq/konqkcmfactory.h
+    + shellcmdplugin/kshellcmdplugin.cpp
+    + shellcmdplugin/kshellcmdplugin.h
+    sidebar/trees/* excluding:
+    -? sidebar/trees/CMakeLists.txt
+    -? sidebar/trees/konqsidebar_tree.cpp
+    -? sidebar/trees/konqsidebar_tree.h
+    sidebar/trees/bookmark_module/* excluding:
+    -? sidebar/trees/bookmark_module/CMakeLists.txt
+    sidebar/trees/dirtree_module/* excluding:
+    -? sidebar/trees/dirtree_module/CMakeLists.txt
+    + sidebar/trees/history_module/history_item.cpp
+    + sidebar/trees/history_module/history_item.h
+    + sidebar/trees/history_module/history_module.cpp
+    + sidebar/trees/history_module/history_module.h
+    sidebar/web_module/* excluding:
+    -? sidebar/web_module/CMakeLists.txt
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+--
+  GNU Library General Public License, version 2 or later (LGPL-2+)
+    27 files are licensed under this license:
+
+    client/* excluding:
+    -? client/CMakeLists.txt
+    preloader/* excluding:
+    -? preloader/CMakeLists.txt
+    remoteencodingplugin/* excluding:
+    -? remoteencodingplugin/CMakeLists.txt
+    + settings/kio/ksaveioconfig.cpp
+    + settings/kio/ksaveioconfig.h
+    + settings/kio/smbrodlg.cpp
+    + settings/kio/smbrodlg.h
+    shellcmdplugin/* excluding:
+    -? shellcmdplugin/CMakeLists.txt
+    -+ shellcmdplugin/kshellcmdplugin.cpp
+    -+ shellcmdplugin/kshellcmdplugin.h
+    + sidebar/konqsidebarplugin.cpp
+    + sidebar/konqsidebarplugin.h
+    + src/konqactions.cpp
+    + src/konqactions.h
+    + src/konqbookmarkbar.cpp
+    + src/konqbookmarkbar.h
+    + src/konqprivate_export.h
+    + src/konqrun.h
+    + src/konqsettings.cpp
+    + src/konqsettings.h
+    + src/tests/historymanagertest.cpp
+    + src/tests/historymanagertest.h
+    + src/tests/undomanagertest.cpp
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+
+------
+konsole/
+------
+
+Copyright: Â© 2006-2008 Robert Knight <robertknight@gmail.com> <robertknight@gmail.countm> <robert.knight@gmail.com>
+Copyright: Â© 1997-1998 Lars Doelle <lars.doelle@on-line.de>
+Copyright: Â© 2002 Waldo Bastian <bastian@kde.org>
+Copyright: Â© 2002 Carsten Pfeiffer <pfeiffer@kde.org>
+Copyright: Â© 2000 Stephan Kulow <coolo@kde.org>
+Copyright: Â© 1995 Columbia University
+Copyright: Â© 1996 Matthias Ettrich <ettrich@kde.org>
+Copyright: Â© 2000-2001 Lubos Lunak <l.lunak@kde.org>
+Copyright: Â© 1995 Frank da Cruz
+Copyright: Â© 2005 Maksim Orlovich <maksim@kde.org>
+Copyright: Â©  Todd Larason <jtl@molehill.org>
+Copyright: Â© 2001 Oswald Buddenhagen <ossi@kde.org>
+
+
+License for all components unless stated otherwise:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    However, the license of 24 files was not explicitly specified:
+
+    *
+    ? src/konsole_wcwidth.cpp
+    ? src/konsole_wcwidth.h
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+Other used licenses:
+--
+  GNU Library General Public License, version 2 (LGPL-2)
+    2 files are licensed under this license:
+
+    + src/ZModemDialog.cpp
+    + src/ZModemDialog.h
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+--
+  GNU Library General Public License, version 2 or later (LGPL-2+)
+    4 files are licensed under this license:
+
+    + src/BookmarkHandler.cpp
+    + src/BookmarkHandler.h
+    + src/TerminalCharacterDecoder.cpp
+    + src/TerminalCharacterDecoder.h
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+--
+  MIT-like License (MIT)
+    The following file is licensed under this license:
+
+    + src/XKB.cpp
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of
+  this software and associated documentation files (the "Software"), to deal in
+  the Software without restriction, including without limitation the rights to
+  use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+  the Software, and to permit persons to whom the Software is furnished to do so,
+  subject to the following conditions:
+  
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+  
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+  FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+------
+kwrite/
+------
+
+Copyright: Â© 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
+Copyright: Â© 2001 Joseph Wenninger <jowenn@kde.org>
+Copyright: Â© 2001 Christoph Cullmann <cullmann@kde.org>
+
+
+License for all components is:
+--
+  GNU Library General Public License, version 2 (LGPL-2)
+
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+------
+lib/
+------
+
+Copyright: Â© 1998-2008 David Faure <faure@kde.org>
+Copyright: Â© 2001 Malte Starostik <malte@kde.org>
+Copyright: Â© 2003 Sven Leiber <s.leiber@web.de>
+Copyright: Â© 2000-2001 Simon Hausmann <hausmann@kde.org>
+Copyright: Â© 2008 George Goldberg <grundleborg@googlemail.com>
+Copyright: Â© 1998-1999 Torben Weis <weis@kde.org>
+Copyright: Â© 2001-2002 Alexander Neundorf <neundorf@kde.org>
+Copyright: Â© 2001 Holger Freyther <freyther@yahoo.com>
+Copyright: Â© 2003 Waldo Bastian <bastian@kde.org>
+Copyright: Â© 2004 Martin Koller <m.koller@surfeu.at>
+Copyright: Â© 2002 Michael Brade <brade@kde.org>
+Copyright: Â© 2008 Peter Penz <peter.penz@gmx.at>
+Copyright: Â© 2004 Dirk Mueller <mueller@kde.org>
+Copyright: Â© 2004 JarosÅaw Staniek <staniek@kde.org>
+Copyright: Â© 2006 Matthias Kretz <kretz@kde.org>
+
+
+License for all components unless stated otherwise:
+--
+  GNU Library General Public License, version 2 or later (LGPL-2+)
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+Other used licenses:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+    4 files are licensed under this license:
+
+    + konq/konq_fileitemcapabilities.cpp
+    + konq/konq_fileitemcapabilities.h
+    + konq/konq_filetip.cc
+    + konq/konq_filetip.h
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+--
+  GNU Library General Public License, version 2 (LGPL-2)
+    9 files are licensed under this license:
+
+    + konq/knewmenu.cpp
+    + konq/knewmenu.h
+    + konq/knewmenu_p.h
+    + konq/konq_operations.cpp
+    + konq/konq_operations.h
+    + konq/konq_sound.cc
+    + konq/konq_sound.h
+    + konq/libkonq_export.h
+    + konq/favicons/favicons.h
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
+
+------
+nsplugins/
+------
+
+Copyright: Â© 2000, 2003-2005 Stefan Schimanski <1Stein@gmx.de> <schimmi@kde.org>
+Copyright: Â© 2000 Matthias Hoelzer-Kluepfel <hoelzer@kde.org> <mhk@caldera.de>
+Copyright: Â© 2002-2005, 2007-2008 George Staikos <staikos@kde.org>
+Copyright: Â© 1993-1996, 1998-2000 Initial All Rights Reserved.
+Copyright: Â© 2006-2008 Maksim Orlovich <maksim@kde.org>
+Copyright: Â© 2007 Lubos Lunak <l.lunak@suse.cz>
+Copyright: Â© 1992-2007 Trolltech AS. All Rights Reserved.
+Copyright: Â© 1998-2000 Netscape Communications Corporation. All
+Copyright: Â© 2008 Sebastian Sauer
+Copyright: Â© 1998-2000 Rights Reserved.
+Copyright: Â© 2008 Collabora Ltd.
+Copyright: Â© 2008 Apple Inc. <mail@dipe.org>
+Copyright: Â© 2003 Dirk Mueller <mueller@kde.org>
+Copyright: Â© 2004 The Mozilla Foundation.
+Copyright: Â© 2004 All Rights Reserved.
+Copyright: Â© 2000 International Business Machines
+Copyright: Â© 2004 Apple Computer Inc.
+
+
+License for all components unless stated otherwise:
+--
+  GNU General Public License, version 2 or later (GPL-2+)
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+Other used licenses:
+--
+  BSD-like License (BSD)
+    The following file is licensed under this license:
+
+    + sdk/npruntime.h
+
+  Redistribution and use in source and binary forms, with or without modification,
+  are permitted provided that the following conditions are met:
+  
+  1. Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer. 2. Redistributions in binary
+  form must reproduce the above copyright notice, this list of conditions and the
+  following disclaimer in the documentation and/or other materials provided with
+  the distribution. 3. Neither the names of Apple Computer, Inc. ("Apple") or The
+  Mozilla Foundation ("Mozilla") nor the names of their contributors may be used
+  to endorse or promote products derived from this software without specific prior
+  written permission.
+
+  On Debian systems, the complete text of the
+  BSD-like License can be found in
+  /usr/share/common-licenses/BSD
+--
+
+--
+  GNU General Public License, version 2 (GPL-2)
+    12 files are licensed under this license:
+
+    sdk/* excluding:
+    -+ sdk/npruntime.h
+    sdk/obsolete/*
+    + viewer/qxteventloop.cpp
+    + viewer/qxteventloop.h
+
+  On Debian systems, the complete text of the
+  GNU General Public License version 2 can be found in
+  /usr/share/common-licenses/GPL-2
+--
+
+
+------
+plasma/
+------
+
+Copyright: Â© 2008 Fredrik HÃ¶glund <fredrik@kde.org>
+Copyright: Â© 2008 Rafael FernÃ¡ndez LÃ³pez <ereslibre@kde.org>
+Copyright: Â© 2008 Allan Sandfeld Jensen <kde@carewolf.com>
+Copyright: Â© 2008 Andrew Lake <jamboarder@yahoo.com>
+Copyright: Â© 2006-2008 Germain Garand <germain@ebooksfrance.org>
+
+
+License for all components is:
+--
+  GNU Library General Public License, version 2 or later (LGPL-2+)
+
+  On Debian systems, the complete text of the
+  GNU Library General Public License version 2 can be found in
+  /usr/share/common-licenses/LGPL-2
+--
+
 
 -------------------------------------------------------------------------------
 Legend:
