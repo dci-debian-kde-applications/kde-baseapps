@@ -59,7 +59,7 @@ from:/konsole/
 [kwrite]
 from:/kwrite/
 
-[plasma-applet-folderview]
+[plasma-widget-folderview]
 from:/plasma/applets/folderview/
 
 [kdebase-bin]
