@@ -1,4 +1,4 @@
-kdebase (4:4.2.1-0) UNRELEASED; urgency=low
+kdebase (4:4.2.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -8,8 +8,9 @@ kdebase (4:4.2.1-0) UNRELEASED; urgency=low
   * Rename plasma-applet-folderview to plasma-widget-folderview, add
     appropriate conflicts/replaces.
   * Replace all references to plasma "applet" with "widget".
+  * Bump kdelibs5-dev build depend to 4.2.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Feb 2009 22:29:10 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Feb 2009 00:30:59 +0200
 
 kdebase (4:4.2.0-1) experimental; urgency=low
 
