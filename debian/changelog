@@ -1,8 +1,12 @@
 kdebase (4:4.2.2-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - khtml fixes. (Closes: #290285, #359680)
+    - Default konsole sessions can be deleted. (Closes: #286342)
+    - Tag widget uses standard application palette. (Closes: #444800)
+    - ... and surely many more but we have lost track...
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 06:32:44 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 05 Apr 2009 05:22:13 +0200
 
 kdebase (4:4.2.1-1) experimental; urgency=low
 
