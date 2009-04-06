@@ -245,7 +245,7 @@ Description: Folder View Plasma widget
  This package is part of the KDE 4 base applications module.
 
 Package: kdebase-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
