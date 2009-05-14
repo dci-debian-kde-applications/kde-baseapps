@@ -7,6 +7,12 @@ kdebase (4:4.2.3-1) UNRELEASED; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
+  
+  +++ Changes by Aurelien Jarno:
+
+  * debian/control: don't build-depends on libraw1394-dev on 
+    GNU/kFreeBSD. Create debian/kinfocenter.install.kfreebsd.
+    (Closes: #528692).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2009 18:35:24 +0200
 
