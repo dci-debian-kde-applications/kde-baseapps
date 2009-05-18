@@ -3,6 +3,7 @@ kdebase (4:4.2.3-1) UNRELEASED; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
+  * Add Breaks: to konsole to tell that it breaks older versions of yakuake.
 
   +++ Changes by Fathi Boudra:
 

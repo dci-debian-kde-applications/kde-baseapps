@@ -153,6 +153,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-terminal-emulator
+Breaks: yakuake (<< 2.9.0)
 Description: X terminal emulator for KDE 4
  Konsole is the KDE 4 terminal emulator. It can contain multiple terminal
  sessions inside one window using detachable tabs.
