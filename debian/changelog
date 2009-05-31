@@ -7,6 +7,7 @@ kdebase (4:4.2.4-1) UNRELEASED; urgency=low
 
   * Add Conflicts: gtk-qt-engine to konqueror-nsplugins since they are
     incompatible. (Closes: #513881)
+  * Add konsole as an alternative for x-terminal-emulator. (Closes: #528307)
 
   +++ Changes by Sune Vuorela:
 
