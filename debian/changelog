@@ -3,6 +3,11 @@ kdebase (4:4.2.4-1) UNRELEASED; urgency=low
   * New upstream release:
     - khtml fixes. (Closes: #529851)
 
+  +++ Changes by Josh Metzler:
+
+  * Add Conflicts: gtk-qt-engine to konqueror-nsplugins since they are
+    incompatible. (Closes: #513881)
+
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
