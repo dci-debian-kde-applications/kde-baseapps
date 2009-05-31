@@ -143,7 +143,7 @@ Package: konqueror-nsplugins
 Section: web
 Architecture: any
 Depends: ${shlibs:Depends}
-Conflicts: gtk-qt-engine
+Conflicts: gtk-qt-engine (<< 1:1.0)
 Description: Netscape plugin support for Konqueror
  This package enables Konqueror to use Netscape plugins, such as Flash.
  .
