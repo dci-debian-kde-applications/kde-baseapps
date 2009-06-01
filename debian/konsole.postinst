@@ -2,7 +2,7 @@
 
 case "$1" in
     configure)
-	    update-alternatives --install /usr/bin/x-terminal-emulator \
+        update-alternatives --install /usr/bin/x-terminal-emulator \
         x-terminal-emulator /usr/bin/konsole 40
     ;;
 
