@@ -18,7 +18,8 @@ kdebase (4:4.2.4-1) UNRELEASED; urgency=low
 
   * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
   * Call update-alternatives without absolute path. (Closes: #510939)
-  
+  * Set an higher priority (40) on the x-terminal-emulator alternative.
+
   +++ Changes by Aurelien Jarno:
 
   * debian/control: don't build-depends on libraw1394-dev on 
