@@ -1,4 +1,5 @@
 usr/include/knewmenu.h
+usr/include/konq_dndpopupmenuplugin.h
 usr/include/konq_events.h
 usr/include/konq_fileitemcapabilities.h
 usr/include/konq_menuactions.h

@@ -1,7 +1,7 @@
 usr/lib/kde4/kded_favicons.so
 usr/lib/kde4/konq_sound.so
 usr/lib/libkonq.so.5
-usr/lib/libkonq.so.5.2.0
+usr/lib/libkonq.so.5.3.0
 usr/share/kde4/apps/kbookmark/directory_bookmarkbar.desktop
 usr/share/kde4/apps/kconf_update/favicons.upd
 usr/share/kde4/apps/kconf_update/move_favicons.sh
@@ -10,4 +10,5 @@ usr/share/kde4/apps/konqueror/pics/arrow_bottomright.png
 usr/share/kde4/apps/konqueror/pics/arrow_topleft.png
 usr/share/kde4/apps/konqueror/pics/arrow_topright.png
 usr/share/kde4/services/kded/favicons.desktop
+usr/share/kde4/servicetypes/konqdndpopupmenuplugin.desktop
 usr/share/kde4/servicetypes/konqpopupmenuplugin.desktop

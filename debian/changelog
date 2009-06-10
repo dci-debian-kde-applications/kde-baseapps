@@ -1,3 +1,15 @@
+kdebase (4:4.2.91+svn979321-0r1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+
+  +++ Changes by George Kiagiadakis:
+
+  * Bump build-dependency on kdelibs5 to version 4.2.91.
+  * Update installed files.
+  * Add myself to uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 10 Jun 2009 15:57:37 +0300
+
 kdebase (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release:

@@ -1,8 +1,11 @@
 usr/bin/dolphin
 usr/lib/kde4/dolphinpart.so
-usr/lib/kde4/kcm_dolphin.so
+usr/lib/kde4/kcm_dolphingeneral.so
+usr/lib/kde4/kcm_dolphinnavigation.so
+usr/lib/kde4/kcm_dolphinservices.so
+usr/lib/kde4/kcm_dolphinviewmodes.so
 usr/lib/libdolphinprivate.so.4
-usr/lib/libdolphinprivate.so.4.2.0
+usr/lib/libdolphinprivate.so.4.3.0
 usr/share/applications/kde4/dolphin.desktop
 usr/share/doc/kde4/HTML/en/dolphin/bookmarkbutton.png
 usr/share/doc/kde4/HTML/en/dolphin/bookmarksidebar.png
@@ -22,12 +25,6 @@ usr/share/doc/kde4/HTML/en/dolphin/split.png
 usr/share/doc/kde4/HTML/en/dolphin/systemmediadirectory.png
 usr/share/doc/kde4/HTML/en/dolphin/toolbarbuttons.png
 usr/share/doc/kde4/HTML/en/dolphin/workspacebuttons.png
-usr/share/icons/hicolor/128x128/actions/preview.png
-usr/share/icons/hicolor/16x16/actions/preview.png
-usr/share/icons/hicolor/22x22/actions/preview.png
-usr/share/icons/hicolor/32x32/actions/preview.png
-usr/share/icons/hicolor/48x48/actions/preview.png
-usr/share/icons/hicolor/64x64/actions/preview.png
 usr/share/kde4/apps/dolphin/dolphinui.rc
 usr/share/kde4/apps/dolphinpart/dolphinpart.rc
 usr/share/kde4/config.kcfg/dolphin_columnmodesettings.kcfg
@@ -36,4 +33,7 @@ usr/share/kde4/config.kcfg/dolphin_directoryviewpropertysettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_generalsettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_iconsmodesettings.kcfg
 usr/share/kde4/services/dolphinpart.desktop
-usr/share/kde4/services/kcmdolphin.desktop
+usr/share/kde4/services/kcmdolphingeneral.desktop
+usr/share/kde4/services/kcmdolphinnavigation.desktop
+usr/share/kde4/services/kcmdolphinservices.desktop
+usr/share/kde4/services/kcmdolphinviewmodes.desktop

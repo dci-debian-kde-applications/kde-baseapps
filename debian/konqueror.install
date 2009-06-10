@@ -4,7 +4,6 @@ usr/lib/kde4/kcm_history.so
 usr/lib/kde4/kded_konqy_preloader.so
 usr/lib/kde4/khtmlkttsdplugin.so
 usr/lib/kde4/konq_aboutpage.so
-usr/lib/kde4/konq_remoteencoding.so
 usr/lib/kde4/konq_shellcmdplugin.so
 usr/lib/kde4/konq_sidebar.so
 usr/lib/kde4/konq_sidebartree_bookmarks.so
@@ -15,7 +14,7 @@ usr/lib/kde4/konqsidebar_web.so
 usr/lib/libkdeinit4_kfmclient.so
 usr/lib/libkdeinit4_konqueror.so
 usr/lib/libkonquerorprivate.so.4
-usr/lib/libkonquerorprivate.so.4.2.0
+usr/lib/libkonquerorprivate.so.4.3.0
 usr/share/applications/kde4/Home.desktop
 usr/share/applications/kde4/kfmclient.desktop
 usr/share/applications/kde4/kfmclient_dir.desktop
@@ -55,8 +54,6 @@ usr/share/icons/hicolor/32x32/apps/konqueror.png
 usr/share/icons/hicolor/48x48/apps/konqueror.png
 usr/share/icons/hicolor/64x64/apps/konqueror.png
 usr/share/icons/hicolor/scalable/apps/konqueror.svgz
-usr/share/kde4/apps/dolphinpart/kpartplugins/kremoteencodingplugin.desktop
-usr/share/kde4/apps/dolphinpart/kpartplugins/kremoteencodingplugin.rc
 usr/share/kde4/apps/dolphinpart/kpartplugins/kshellcmdplugin.desktop
 usr/share/kde4/apps/dolphinpart/kpartplugins/kshellcmdplugin.rc
 usr/share/kde4/apps/kconf_update/kfmclient_3_2.upd
