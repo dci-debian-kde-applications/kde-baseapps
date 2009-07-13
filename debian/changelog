@@ -1,3 +1,10 @@
+kdebase (4:4.2.96-2) UNRELEASED; urgency=low
+
+  TODO: Sanitycheck that this is a good idea:
+  * Make konsole ignore -T. (Closes: 532029)
+
+ -- Sune Vuorela <debian@pusling.com>  Tue, 14 Jul 2009 00:02:37 +0200
+
 kdebase (4:4.2.96-1) experimental; urgency=low
 
   * New upstream snapshot.
