@@ -1,6 +1,10 @@
 kdebase (4:4.3.0-0r1) UNRELEASED; urgency=low
 
+  [ Fathi Boudra ]
   * New upstream release.
+
+  [ Didier Raboud ]
+  * Add dependency on install-info, thanks to Norbert Preining (Closes: #532585)
 
  -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 22:08:45 +0200
 

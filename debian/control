@@ -120,7 +120,7 @@ Package: konqueror
 Section: web
 Architecture: any
 Provides: info-browser, man-browser, www-browser
-Depends: ${shlibs:Depends},  kdebase-data (= ${source:Version}), kdebase-bin (= ${binary:Version})
+Depends: ${shlibs:Depends},  kdebase-data (= ${source:Version}), kdebase-bin (= ${binary:Version}), install-info
 Replaces: dolphin (<< 4:4.1.80)
 Suggests: konq-plugins (>= 4:4.1~)
 Recommends: konqueror-nsplugins (= ${binary:Version}), dolphin
