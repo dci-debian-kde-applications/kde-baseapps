@@ -1,19 +1,17 @@
-kdebase (4:4.3.0-0r1) UNRELEASED; urgency=low
+kdebase (4:4.3.0-0r2) UNRELEASED; urgency=low
 
-  [ Fathi Boudra ]
   * New upstream release.
 
-  [ Didier Raboud ]
-  * Add dependency on install-info, thanks to Norbert Preining (Closes: #532585)
+  +++ Changes by Didier Raboud:
 
- -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 22:08:45 +0200
+  * Add dependency on install-info, thanks to Norbert Preining. (Closes: #532585)
 
-kdebase (4:4.2.96-2) UNRELEASED; urgency=low
-
-  TODO: Sanitycheck that this is a good idea:
+  +++ Changes by Sune Vuorela:
+  
   * Make konsole ignore -T. (Closes: #532029)
+  * TODO: Sanitycheck that this is a good idea:
 
- -- Sune Vuorela <debian@pusling.com>  Tue, 14 Jul 2009 00:02:37 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Aug 2009 14:19:02 +0200
 
 kdebase (4:4.2.96-1) experimental; urgency=low
 
