@@ -1,4 +1,4 @@
-kdebase (4:4.3.0-0r3) UNRELEASED; urgency=low
+kdebase (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -17,7 +17,7 @@ kdebase (4:4.3.0-0r3) UNRELEASED; urgency=low
   * Update packaging copyright in debian/copyright.
   * Update to Standards-Version: 3.8.2, no changes required.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Aug 2009 14:19:02 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 09:05:27 +0200
 
 kdebase (4:4.2.96-1) experimental; urgency=low
 
