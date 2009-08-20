@@ -9,7 +9,6 @@ usr/lib/kde4/kcm_pci.so
 usr/lib/kde4/kcm_samba.so
 usr/lib/kde4/kcm_solidproc.so
 usr/lib/kde4/kcm_usb.so
-usr/lib/kde4/kcm_view1394.so
 usr/lib/libkdeinit4_kinfocenter.so
 usr/share/applications/kde4/kinfocenter.desktop
 usr/share/doc/kde4/HTML/en/kinfocenter/common
@@ -67,7 +66,6 @@ usr/share/doc/kde4/HTML/en/kinfocenter/xserver/common
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/index.docbook
 usr/share/kde4/apps/kcmusb/usb.ids
-usr/share/kde4/apps/kcmview1394/oui.db
 usr/share/kde4/apps/kinfocenter/about/kinfocenter.css
 usr/share/kde4/apps/kinfocenter/about/main.html
 usr/share/kde4/apps/kinfocenter/about/top-right-kinfocenter.png
@@ -82,7 +80,6 @@ usr/share/kde4/services/kcm_partition.desktop
 usr/share/kde4/services/kcm_pci.desktop
 usr/share/kde4/services/kcmsolidproc.desktop
 usr/share/kde4/services/kcmusb.desktop
-usr/share/kde4/services/kcmview1394.desktop
 usr/share/kde4/services/nic.desktop
 usr/share/kde4/services/opengl.desktop
 usr/share/kde4/services/scsi.desktop

@@ -5,3 +5,12 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 DEB_DH_MAKESHLIBS_ARGS_ALL := -V
 
 DEB_INSTALL_DOCS_ALL=
+
+DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
+
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+install/kinfocenter::
+	dh_install -pkinfocenter usr/lib/kde4/kcm_view1394.so
+	dh_install -pkinfocenter usr/share/kde4/apps/kcmview1394/oui.db
+	dh_install -pkinfocenter usr/share/kde4/services/kcmview1394.desktop
+endif

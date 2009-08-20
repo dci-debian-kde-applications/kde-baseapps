@@ -4,7 +4,13 @@ kdebase (4:4.3.0-2~pre1) unstable; urgency=low
 
   * Bump shlibs each new upstream version.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 21:52:54 +0300
+  +++ Changes by Pino Toscano:
+
+  * Remove the separate kinfocenter.install.kfreebsd and instead install
+    Linux-specific stuff using rules. This way there is a .install file less
+    to maintain, and it works on hurd-i3876 as well.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Aug 2009 15:11:35 +0200
 
 kdebase (4:4.3.0-1) unstable; urgency=low
 
