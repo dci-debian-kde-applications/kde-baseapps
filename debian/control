@@ -9,12 +9,12 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libraw1394-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libstreamanalyzer-dev (>= 0.6.3),
  libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
  libpci-dev, libxt-dev, libxext-dev, pkg-config, libglib2.0-dev
-Standards-Version: 3.8.2
+Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdebase
 
-Package: kdebase
+Package: kdebase-apps
 Section: kde
 Architecture: all
 Depends: dolphin (>= ${source:Version}), kappfinder (>= ${source:Version}),

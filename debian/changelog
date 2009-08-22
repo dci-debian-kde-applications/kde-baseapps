@@ -1,4 +1,4 @@
-kdebase (4:4.3.0-2~pre1) unstable; urgency=low
+kdebase (4:4.3.0-2) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
 
@@ -8,10 +8,16 @@ kdebase (4:4.3.0-2~pre1) unstable; urgency=low
 
   * Remove the separate kinfocenter.install.kfreebsd and instead install
     Linux-specific stuff using rules. This way there is a .install file less
-    to maintain, and it works on hurd-i3876 as well.
+    to maintain, and it works on hurd-i386 as well.
   * Recommend kinfocenter in the kdebase metapackage. (Closes: #524115)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Aug 2009 16:28:59 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update to Standards-Version: 3.8.3, no changes required.
+  * Rename kdebase metapackage to kdebase-apps. kdebase metapackage is moved
+    to meta-kde source and will be slightly different.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 15:23:25 +0200
 
 kdebase (4:4.3.0-1) unstable; urgency=low
 
