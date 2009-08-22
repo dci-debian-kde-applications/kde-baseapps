@@ -9,7 +9,7 @@ kdebase (4:4.3.0-2) unstable; urgency=low
   * Remove the separate kinfocenter.install.kfreebsd and instead install
     Linux-specific stuff using rules. This way there is a .install file less
     to maintain, and it works on hurd-i386 as well.
-  * Recommend kinfocenter in the kdebase metapackage. (Closes: #524115)
+  * Recommend kinfocenter in the kdebase-apps metapackage. (Closes: #524115)
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
@@ -17,7 +17,7 @@ kdebase (4:4.3.0-2) unstable; urgency=low
   * Rename kdebase metapackage to kdebase-apps. kdebase metapackage is moved
     to meta-kde source and will be slightly different.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 15:23:25 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 15:43:32 +0200
 
 kdebase (4:4.3.0-1) unstable; urgency=low
 
