@@ -24,7 +24,6 @@ kdebase (4:4.3.0-1) unstable; urgency=low
   +++ Changes by Sune Vuorela:
   
   * Make konsole ignore -T. (Closes: #532029)
-  * TODO: Sanitycheck that this is a good idea: ^^^^is this done :?
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
