@@ -1,10 +1,15 @@
-kdebase (4:4.3.0-3) UNRELEASED; urgency=low
+kdebase (4:4.3.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
   * Downgrade konqueror-nsplugins from kdebase-apps Depends to Recommends.
+  * Update install files.
+  * Bump KDE build dependencies to KDE 4.3.1.
+  * Rewrite Linux only installation hack and use BUILD_OS rather than HOST_OS.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Aug 2009 12:20:48 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Aug 2009 11:32:51 +0300
 
 kdebase (4:4.3.0-2) unstable; urgency=low
 
