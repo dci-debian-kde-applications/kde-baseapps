@@ -1,4 +1,4 @@
-kdebase (4:4.3.2-0r1) UNRELEASED; urgency=low
+kdebase (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,7 @@ kdebase (4:4.3.2-0r1) UNRELEASED; urgency=low
 
   * Use DEB_HOST_ARCH_OS rather than DEB_BUILD_ARCH_OS in debian/rules
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Oct 2009 01:08:15 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Oct 2009 17:55:14 +0200
 
 kdebase (4:4.3.1-1) unstable; urgency=low
 
