@@ -9,9 +9,9 @@ kdebase (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   +++ Changes by Lukasz Janyst:
 
-  * Updated build dep's version numbers in debian/control
+  * Bump build depends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Oct 2009 02:11:03 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Nov 2009 02:11:03 +0100
 
 kdebase (4:4.3.2-1) unstable; urgency=low
 
