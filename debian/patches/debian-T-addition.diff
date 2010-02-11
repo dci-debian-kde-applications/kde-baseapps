@@ -1,6 +1,6 @@
 --- a/apps/konsole/src/main.cpp
 +++ b/apps/konsole/src/main.cpp
-@@ -137,6 +137,7 @@ void fillCommandLineOptions(KCmdLineOpti
+@@ -103,6 +103,7 @@
      options.add("noclose",ki18n("Do not close the initial session automatically when it ends."));
      // TODO - Document this option more clearly
      options.add("p <property=value>",ki18n("Change the value of a profile property."));

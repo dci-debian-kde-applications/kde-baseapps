@@ -1,9 +1,17 @@
-kdebase (4:4.3.4-2) UNRELEASED; urgency=low
+kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 16:57:17 +0200
+  [ George Kiagiadakis ]
+  * Refresh patches.
+  * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Remove kdebase-workspace-dev build dependency as it doesn't
+    seem to be used anymore.
+  * Update installed files.
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Fri, 12 Feb 2010 00:42:22 +0200
 
 kdebase (4:4.3.4-1) unstable; urgency=low
 

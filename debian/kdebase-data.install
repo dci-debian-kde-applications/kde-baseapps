@@ -221,7 +221,6 @@ usr/share/kde4/services/khtml_behavior.desktop
 usr/share/kde4/services/khtml_filter.desktop
 usr/share/kde4/services/khtml_general.desktop
 usr/share/kde4/services/khtml_java_js.desktop
-usr/share/kde4/services/lanbrowser.desktop
 usr/share/kde4/services/netpref.desktop
 usr/share/kde4/services/proxy.desktop
 usr/share/kde4/services/smb.desktop

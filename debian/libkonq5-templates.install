@@ -22,6 +22,7 @@ usr/share/templates/linkFloppy.desktop
 usr/share/templates/linkHD.desktop
 usr/share/templates/linkMO.desktop
 usr/share/templates/linkNFS.desktop
+usr/share/templates/linkPath.desktop
 usr/share/templates/linkProgram.desktop
 usr/share/templates/linkURL.desktop
 usr/share/templates/linkZIP.desktop

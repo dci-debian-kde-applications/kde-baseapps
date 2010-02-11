@@ -62,13 +62,15 @@ usr/share/doc/kde4/HTML/en/kinfocenter/sound/index.docbook
 usr/share/doc/kde4/HTML/en/kinfocenter/usb/common
 usr/share/doc/kde4/HTML/en/kinfocenter/usb/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kinfocenter/usb/index.docbook
+usr/share/doc/kde4/HTML/en/kinfocenter/view1394/common
+usr/share/doc/kde4/HTML/en/kinfocenter/view1394/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kinfocenter/view1394/index.docbook
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/common
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kinfocenter/xserver/index.docbook
 usr/share/kde4/apps/kcmusb/usb.ids
 usr/share/kde4/apps/kinfocenter/about/kinfocenter.css
 usr/share/kde4/apps/kinfocenter/about/main.html
-usr/share/kde4/apps/kinfocenter/about/top-right-kinfocenter.png
 usr/share/kde4/apps/kinfocenter/kinfocenterui.rc
 usr/share/kde4/services/devices.desktop
 usr/share/kde4/services/dma.desktop
