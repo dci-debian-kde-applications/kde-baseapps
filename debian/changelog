@@ -1,6 +1,8 @@
 kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release. (Closes: #568776)
+    - does no more close the window when entering a new adblock filter and
+      pressing Enter. (Closes: #450774)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
@@ -13,7 +15,7 @@ kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
     seem to be used anymore.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:51:42 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:56:28 +0100
 
 kdebase (4:4.3.4-1) unstable; urgency=low
 
