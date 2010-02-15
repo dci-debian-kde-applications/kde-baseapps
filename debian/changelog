@@ -1,5 +1,7 @@
 kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
 
+  * New upstream release. (Closes: #568776)
+
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
@@ -11,7 +13,7 @@ kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
     seem to be used anymore.
   * Update installed files.
 
- -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Fri, 12 Feb 2010 00:42:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:51:42 +0100
 
 kdebase (4:4.3.4-1) unstable; urgency=low
 
