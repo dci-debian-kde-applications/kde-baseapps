@@ -7,6 +7,7 @@ kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
+  * libkdeinit4_*.so have been moved to private directory (Closes: #553007).
 
   [ George Kiagiadakis ]
   * Refresh patches.
