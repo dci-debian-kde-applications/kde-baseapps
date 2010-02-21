@@ -18,7 +18,10 @@ kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
     seem to be used anymore.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Feb 2010 23:08:00 +0100
+  [ Pino Toscano ]
+  * Register the konqueror manpage as slave in the x-www-browser alternative.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Feb 2010 14:57:19 +0100
 
 kdebase (4:4.3.4-1) unstable; urgency=low
 
