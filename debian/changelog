@@ -5,6 +5,10 @@ kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
       pressing Enter. (Closes: #450774)
     - Konqueror does not hangs after first letter of autocompletion at Google
       Custom Search sites. (Closes: #565270)
+    - Konqueror now displays SHA1 digest for SSL certificates.
+      (Closes: #525975)
+    - Fixes random crashes in dolphin caused by Nepomuk D-Bus calls.
+      (Closes: #558010)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
