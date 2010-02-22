@@ -1,4 +1,0 @@
-kwrite: no-shlibs-control-file usr/lib/libkdeinit4_kwrite.so
-kwrite: postinst-must-call-ldconfig usr/lib/libkdeinit4_kwrite.so
-kwrite: postrm-should-call-ldconfig usr/lib/libkdeinit4_kwrite.so
-kwrite: package-name-doesnt-match-sonames libkdeinit4-kwrite

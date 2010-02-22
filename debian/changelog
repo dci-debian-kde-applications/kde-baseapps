@@ -17,6 +17,8 @@ kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Remove kdebase-workspace-dev build dependency as it doesn't
     seem to be used anymore.
   * Update installed files.
+  * Recommend ruby in dolphin for the new get hot new stuff scripts.
+  * Remove unused lintian overrides.
 
   [ Pino Toscano ]
   * Register the konqueror manpage as slave in the x-www-browser alternative.

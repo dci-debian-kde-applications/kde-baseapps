@@ -1,3 +1,0 @@
-kinfocenter: no-shlibs-control-file usr/lib/libkdeinit4_kinfocenter.so
-kinfocenter: postinst-must-call-ldconfig usr/lib/libkdeinit4_kinfocenter.so
-kinfocenter: package-name-doesnt-match-sonames libkdeinit4-kinfocenter
