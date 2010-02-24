@@ -9,6 +9,8 @@ kdebase (4:4.4.0-0r1) UNRELEASED; urgency=low
       (Closes: #525975)
     - Fixes random crashes in dolphin caused by Nepomuk D-Bus calls.
       (Closes: #558010)
+    - Konsole now uses the more readable color scheme "Linux" by default.
+      (Closes: #570907)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
