@@ -1,4 +1,4 @@
-kdebase (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
+kdebase (4:4.4.1-0) UNRELEASED; urgency=low
 
   * New upstream release (Closes: #568776):
     - does no more close the window when entering a new adblock filter and
