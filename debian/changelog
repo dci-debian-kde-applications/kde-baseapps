@@ -1,4 +1,4 @@
-kdebase (4:4.4.1-0) UNRELEASED; urgency=low
+kdebase (4:4.4.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release (Closes: #568776):
     - does no more close the window when entering a new adblock filter and
@@ -22,6 +22,7 @@ kdebase (4:4.4.1-0) UNRELEASED; urgency=low
   [ George Kiagiadakis ]
   * Refresh patches.
   * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Add build dependency on shared-desktop-ontologies.
   * Remove kdebase-workspace-dev build dependency as it doesn't
     seem to be used anymore.
   * Update installed files.
@@ -31,7 +32,7 @@ kdebase (4:4.4.1-0) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Register the konqueror manpage as slave in the x-www-browser alternative.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:09 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Feb 2010 19:09:23 +0200
 
 kdebase (4:4.3.4-1) unstable; urgency=low
 
