@@ -10,7 +10,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.1),
  libraw1394-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libstreamanalyzer-dev (>= 0.6.3),
  libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
  libpci-dev, libxt-dev, libxext-dev, pkg-config, libglib2.0-dev, shared-desktop-ontologies
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase/#_trunk_packages_kdebase_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdebase
