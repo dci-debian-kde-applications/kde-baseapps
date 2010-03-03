@@ -1,6 +1,7 @@
 
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=562504
 
+Fixed in KDE 4.4.2.
 --- a/apps/nsplugins/sdk/prcpucfg.h	2009-12-24 13:33:55.000000000 +0900
 +++ b/apps/nsplugins/sdk/prcpucfg.h	2009-12-24 13:43:53.000000000 +0900
 @@ -600,6 +600,47 @@
