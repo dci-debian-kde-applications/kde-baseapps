@@ -1,4 +1,4 @@
-kdebase (4:4.4.1-0r2) UNRELEASED; urgency=low
+kdebase (4:4.4.1-0r3) UNRELEASED; urgency=low
 
   * New upstream release (Closes: #568776):
     - does no more close the window when entering a new adblock filter and
@@ -20,6 +20,10 @@ kdebase (4:4.4.1-0r2) UNRELEASED; urgency=low
   * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump pkg-kde-tools build dependency to 0.6.4.
+  * Add a symbol file for libkonq5: based on 4.3.4, update for 4.4.1 on
+    amd64/i386.
+  * Merge libkonqsidebarplugin4 into konqueror package, kill
+    libkonqsidebarplugin4-dev.
 
   [ George Kiagiadakis ]
   * Refresh patches.

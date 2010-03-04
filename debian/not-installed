@@ -11,3 +11,6 @@
 ./usr/share/dbus-1/interfaces/org.kde.nsplugins.instance.xml
 ./usr/share/dbus-1/interfaces/org.kde.nsplugins.viewer.xml
 
+# Former libkonqsidebarplugin4-dev, unstable ABI
+./usr/include/konqsidebarplugin.h
+./usr/lib/libkonqsidebarplugin.so

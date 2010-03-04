@@ -1,1 +1,1 @@
-konqueror: package-name-doesnt-match-sonames libkonquerorprivate4
+konqueror: package-name-doesnt-match-sonames libkonqsidebarplugin4 libkonquerorprivate4
