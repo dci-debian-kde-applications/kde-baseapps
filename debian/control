@@ -225,8 +225,8 @@ Section: libdevel
 Architecture: any
 Depends: libkonqsidebarplugin4a (= ${binary:Version}),
  ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a}, ${misc:Depends}
-Replaces: konqueror (<< 4:4.1.80), kdebase-dev
-Conflicts: kdebase-dev
+Replaces: konqueror (<< 4:4.1.80), kdebase-dev, libkonqsidebarplugin4-dev
+Conflicts: kdebase-dev, libkonqsidebarplugin4-dev
 Description: Konqueror sidebar plugin library development files
  This package contains development headers for the Konqueror sidebar plugin
  library.
