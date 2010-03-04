@@ -122,8 +122,7 @@ Architecture: any
 Provides: info-browser, man-browser, www-browser
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version}),
  kdebase-bin (= ${binary:Version}), install-info
-Conflicts: libkonqsidebarplugin4
-Replaces: dolphin (<< 4:4.1.80), libkonqsidebarplugin4
+Replaces: dolphin (<< 4:4.1.80)
 Suggests: konq-plugins (>= 4:4.1~)
 Recommends: konqueror-nsplugins (= ${binary:Version}), dolphin
 Description: KDE 4's advanced file manager, web browser and document viewer
@@ -207,6 +206,30 @@ Depends: libkonq5 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkonq5}
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
+ .
+ This package is part of the KDE 4 base applications module.
+
+Package: libkonqsidebarplugin4a
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libkonqsidebarplugin4
+Replaces: konqueror (<< 4:4.1.80), libkonqsidebarplugin4
+Description: Konqueror sidebar plugin library
+ This package contains base library for Konqueror sidebar plugins.
+ .
+ This package is part of the KDE 4 base applications module.
+
+Package: libkonqsidebarplugin-dev
+Section: libdevel
+Architecture: any
+Depends: libkonqsidebarplugin4a (= ${binary:Version}),
+ ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a}, ${misc:Depends}
+Replaces: konqueror (<< 4:4.1.80), kdebase-dev
+Conflicts: kdebase-dev
+Description: Konqueror sidebar plugin library development files
+ This package contains development headers for the Konqueror sidebar plugin
+ library.
  .
  This package is part of the KDE 4 base applications module.
 
