@@ -1,4 +1,4 @@
-kdebase (4:4.4.1-0r4) UNRELEASED; urgency=low
+kdebase (4:4.4.1-0rc1) UNRELEASED; urgency=low
 
   * New upstream release (Closes: #568776):
     - does no more close the window when entering a new adblock filter and
@@ -45,7 +45,7 @@ kdebase (4:4.4.1-0r4) UNRELEASED; urgency=low
   * Add patch to support sh4 architecture. Thanks to Nobuhiro Iwamatsu.
     Closes: 562504
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Feb 2010 19:09:23 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 03:48:21 +0200
 
 kdebase (4:4.3.4-1) unstable; urgency=low
 
