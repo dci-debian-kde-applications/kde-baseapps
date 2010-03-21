@@ -11,6 +11,8 @@ kdebase (4:4.4.1+svn1105657-0rc1) UNRELEASED; urgency=low
       (Closes: #558010)
     - Konsole now uses the more readable color scheme "Linux" by default.
       (Closes: #570907)
+    - The nsplugins' copy of np sdk supports the SH4 architecture.
+      (Closes: 562504)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
@@ -41,11 +43,7 @@ kdebase (4:4.4.1+svn1105657-0rc1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Register the konqueror manpage as slave in the x-www-browser alternative.
 
-  [ Sune Vuorela ]
-  * Add patch to support sh4 architecture. Thanks to Nobuhiro Iwamatsu.
-    Closes: 562504
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Mar 2010 03:48:21 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Mar 2010 23:50:14 +0100
 
 kdebase (4:4.3.4-1) unstable; urgency=low
 
