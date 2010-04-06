@@ -1,3 +1,10 @@
+kdebase (4:4.4.2-2) UNRELEASED; urgency=low
+
+  [Martin Alfke]
+  * Update of debian/copyright for kde 4.4
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Apr 2010 12:31:29 +0200
+
 kdebase (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release (Closes: #568776):
