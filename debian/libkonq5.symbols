@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
 libkonq.so.5 libkonq5 #MINVER#
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@Base 4:4.3.4
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@Base 4:4.3.4
@@ -211,8 +211,6 @@ libkonq.so.5 libkonq5 #MINVER#
  _ZNK25KonqNameAndUrlInputDialog3urlEv@Base 4:4.4.1
  _ZNK25KonqNameAndUrlInputDialog4nameEv@Base 4:4.4.1
  _ZNK8KNewMenu10metaObjectEv@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64)_ZNK8KService14createInstanceI19KonqPopupMenuPluginEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.3.4
- (optional=templinst|arch=kfreebsd-amd64)_ZNK8KService14createInstanceI22KonqDndPopupMenuPluginEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 4:4.3.4
  _ZTI13KonqPopupMenu@Base 4:4.3.4
  _ZTI14KonqOperations@Base 4:4.3.4
  _ZTI19KonqHistoryProvider@Base 4:4.3.4
