@@ -1,6 +1,9 @@
 kdebase (4:4.4.3-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Konsole does not crash when closing a broken restored session.
+      (Closes: #555831)
+    - Konqueror does not crash when closing fast a tab. (Closes: #441298)
 
   [Martin Alfke]
   * Update of debian/copyright for kde 4.4
@@ -10,7 +13,7 @@ kdebase (4:4.4.3-0r1) UNRELEASED; urgency=low
   * Confirm symbol files for 4.4.2 on hurd-i386 i386 ia64 kfreebsd-amd64
     kfreebsd-i386 mips powerpc s390 sparc.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:02 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 12:47:59 +0200
 
 kdebase (4:4.4.2-1) experimental; urgency=low
 
