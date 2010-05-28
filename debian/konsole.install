@@ -4,9 +4,9 @@ usr/lib/kde4/libkonsolepart.so
 usr/lib/libkdeinit4_konsole.so
 usr/lib/libkonsoleprivate.so
 usr/share/applications/kde4/konsole.desktop
-usr/share/doc/kde4/HTML/en/konsole/common
-usr/share/doc/kde4/HTML/en/konsole/index.cache.bz2
-usr/share/doc/kde4/HTML/en/konsole/index.docbook
+usr/share/doc/kde/HTML/en/konsole/common
+usr/share/doc/kde/HTML/en/konsole/index.cache.bz2
+usr/share/doc/kde/HTML/en/konsole/index.docbook
 usr/share/kde4/apps/konsole/BlackOnLightYellow.schema
 usr/share/kde4/apps/konsole/BlackOnRandomLight.colorscheme
 usr/share/kde4/apps/konsole/BlackOnWhite.schema
