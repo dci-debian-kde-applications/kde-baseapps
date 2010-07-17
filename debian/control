@@ -40,9 +40,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-bin (<< 4:4.1.80), kdebase-data (<< 4:4.1.80)
 Recommends: kfind, ruby
-Description: file manager for KDE 4
- Dolphin is the default KDE 4 file manager, intended to be both powerful and
- easy to use.
+Description: file manager 
+ Dolphin is the default file manager in the KDE Plasma Workspaces, intended to be 
+ both powerful and easy to use.
  .
  Features include:
    Customisable sidebars
@@ -53,33 +53,33 @@ Description: file manager for KDE 4
    Undo/redo functionality
    Ratings, comments, and tags
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: kappfinder
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version})
-Description: non-KDE application finder for KDE 4
+Description: non-KDE application finder for KDE 
  KAppfinder searches your system for common applications and creates entries
- for them in the KDE 4 menu.
+ for them in the KDE menu.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: kdebase-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version})
 Replaces: konqueror (<< 4:4.1.80)
 Conflicts: kdesktop, kcontrol
-Description: core binaries for the KDE 4 base module
- This package contains miscellaneous programs needed by other KDE 4
- applications, particularly those in the KDE 4 base module.
+Description: core binaries for the KDE base applications
+ This package contains miscellaneous programs needed by other KDE
+ applications, particularly those in the KDE base module.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: kdebase-data
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: konqueror (<< 4:4.1.80), kdepasswd (<< 4:4.1.80)
-Description: shared data files for the KDE 4 base module
+Description: shared data files for the KDE base applications
  This package contains the architecture-independent shared data files needed
  for a basic KDE 4 desktop installation.
  .
@@ -89,20 +89,20 @@ Package: kdepasswd
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version})
-Description: password changer for KDE 4
+Description: graphical password changing utility
  kdepasswd allows users to change their password, user icon, and other
  information.  A variety of user icons are included.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: kfind
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: file search utility for KDE 4
+Description: file search utility 
  KFind can be used to find files and directories on your system.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: kinfocenter
 Section: utils
@@ -110,11 +110,11 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: kcontrol
 Replaces: kdebase-bin (<< 4:4.0.0-1)
-Description: system information viewer for KDE 4
+Description: system information viewer 
  KInfoCenter provides you with a graphical overview of various aspects of your
  system, such as memory usage, storage capacity, and attached devices.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: konqueror
 Section: web
@@ -125,7 +125,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version}),
 Replaces: dolphin (<< 4:4.1.80)
 Suggests: konq-plugins (>= 4:4.1~)
 Recommends: konqueror-nsplugins (= ${binary:Version}), dolphin
-Description: KDE 4's advanced file manager, web browser and document viewer
+Description:  advanced file manager, web browser and document viewer
  Konqueror is the KDE web browser and advanced file manager.
  .
  Konqueror is a standards-compliant web browser, supporting HTML 4.01, Java,
@@ -138,7 +138,7 @@ Description: KDE 4's advanced file manager, web browser and document viewer
  component embedding via the KParts object interface, making it one of the most
  customizable applications available.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: konqueror-nsplugins
 Section: web
@@ -148,21 +148,21 @@ Breaks: gtk-qt-engine (<< 1:1.0)
 Description: Netscape plugin support for Konqueror
  This package enables Konqueror to use Netscape plugins, such as Flash.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: konsole
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: x-terminal-emulator
 Breaks: yakuake (<< 2.9.0)
-Description: X terminal emulator for KDE 4
- Konsole is the KDE 4 terminal emulator. It can contain multiple terminal
- sessions inside one window using detachable tabs.
+Description: X terminal emulator
+ Konsole is a terminal emulator built on the KDE Platform. It can contain multiple
+ terminal sessions inside one window using detachable tabs.
  .
  Konsole supports powerful terminal features, such as customizable schemes,
  saved sessions, and output monitoring.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: kwrite
 Section: editors
@@ -170,12 +170,12 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kate (<< 4:4.0.0-1)
 Conflicts: kate (<< 4:4.0.0-1)
-Description: text editor for KDE 4
- KWrite is the KDE 4 simple text editor. It uses the Kate editor component, so
- it supports powerful features such as flexible syntax highlighting, automatic
- indentation, and numerous other text tools.
+Description: simple graphical text editor
+ KWrite is the a simple text editor built on the KDE Platform. It uses the Kate 
+ editor component, so  it supports powerful features such as flexible syntax 
+ highlighting, automatic indentation, and numerous other text tools.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: libkonq5
 Section: libs
@@ -186,7 +186,7 @@ Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: libkonq5-templates
 Section: libs
@@ -197,7 +197,7 @@ Description: data files for the Konqueror libraries
  This package contains data files used by the Konqueror libraries.
  These files are also provided by the 'kdesktop' package from KDE 3.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: libkonq5-dev
 Section: libdevel
@@ -207,7 +207,7 @@ Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: libkonqsidebarplugin4a
 Section: libs
@@ -215,10 +215,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libkonqsidebarplugin4
 Replaces: konqueror (<< 4:4.1.80), libkonqsidebarplugin4
-Description: Konqueror sidebar plugin library
+Description: konqueror sidebar plugin library
  This package contains base library for Konqueror sidebar plugins.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: libkonqsidebarplugin-dev
 Section: libdevel
@@ -227,25 +227,25 @@ Depends: libkonqsidebarplugin4a (= ${binary:Version}),
  ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a}, ${misc:Depends}
 Replaces: konqueror (<< 4:4.1.80), kdebase-dev, libkonqsidebarplugin4-dev
 Conflicts: kdebase-dev, libkonqsidebarplugin4-dev
-Description: Konqueror sidebar plugin library development files
+Description: konqueror sidebar plugin library development files
  This package contains development headers for the Konqueror sidebar plugin
  library.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: plasma-widget-folderview
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: libplasma2 (<< 4:4.0.82), kdebase-plasma, plasma-applet-folderview
 Conflicts: kdebase-plasma, plasma-applet-folderview
-Description: Folder View Plasma widget
+Description: plasma widget showing the content of a folder
  This package contains the Folder View Plasma widget which is capable of
  displaying and managing contents of any KDE supported location. It can be used
  as a replacement for the traditional "desktop" folder concept in the main
  Plasma shell, but it is a lot more flexible. Folder View is part of the
  initial default KDE 4 desktop configuration.
  .
- This package is part of the KDE 4 base applications module.
+ This package is part of the KDE base applications module.
 
 Package: kdebase-dbg
 Section: debug
@@ -253,6 +253,6 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg, ${misc:Depends}
 Suggests: kdebase (= ${source:Version})
-Description: debugging symbols for the KDE 4 base applications module
+Description: debugging symbols for the KDE base applications module
  This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 base applications module.
+ binaries included in the KDE base applications module.
