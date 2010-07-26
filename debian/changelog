@@ -164,7 +164,7 @@ kdebase (4:4.3.0-1) unstable; urgency=low
   * Add dependency on install-info, thanks to Norbert Preining. (Closes: #532585)
 
   +++ Changes by Sune Vuorela:
-  
+
   * Make konsole ignore -T. (Closes: #532029)
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
@@ -212,7 +212,7 @@ kdebase (4:4.2.4-1) unstable; urgency=low
 
   +++ Changes by Aurelien Jarno:
 
-  * debian/control: don't build-depends on libraw1394-dev on 
+  * debian/control: don't build-depends on libraw1394-dev on
     GNU/kFreeBSD. Create debian/kinfocenter.install.kfreebsd.
     (Closes: #528692).
 
@@ -305,10 +305,10 @@ kdebase (4:4.1.4-1) experimental; urgency=low
 
   * Remove kdepimlibs5-dev from kdebase-dev depends.
   * Use sameVersionDep for libkonq5-dev dependecy on kdelibs5-dev.
-  
+
   +++ Changes by Armin Berres:
 
-  * Install konqueror as alternative for x-www-browser. 
+  * Install konqueror as alternative for x-www-browser.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Jan 2009 11:10:30 +0100
 
@@ -330,8 +330,8 @@ kdebase (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
 
-  +++ Changes by Sune Vuorela: 
-  
+  +++ Changes by Sune Vuorela:
+
   * Change sections.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Aug 2008 20:49:19 +0200
@@ -346,15 +346,15 @@ kdebase (4:4.1.0-1) experimental; urgency=low
 kdebase (4:4.0.98-1) experimental; urgency=low
 
   * New upstream release, Release Candidate 1.
-  
+
   +++ Changes by Xavier Vello:
 
   * konqueror now suggests konq-plugins >=4:4.1~.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Remove patch 97_fix_target_link_libraries.
-  * Add Conflicts with kcontrol to kdebase-bin. Thanks Peter! 
+  * Add Conflicts with kcontrol to kdebase-bin. Thanks Peter!
     (Closes: #483658)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jul 2008 18:50:01 +0200
@@ -438,7 +438,7 @@ kdebase (4:4.0.72-1) experimental; urgency=low
 
 kdebase (4:4.0.68+svn794641-1) experimental; urgency=low
 
-  * New upstream snapshot. 
+  * New upstream snapshot.
   * Add versioned build depend on qimageblitz >= 1:0.0.4-2.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 04 Apr 2008 16:37:13 +0200
@@ -453,7 +453,7 @@ kdebase (4:4.0.66+svn791114-1) experimental; urgency=low
   * Add build depend on libraw1394-dev.
 
   +++ Changes by Armin Berres
-  
+
   * Add conflict against kcontrol to kinfocenter (Closes: #465702).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Mar 2008 16:22:10 +0100
@@ -461,7 +461,7 @@ kdebase (4:4.0.66+svn791114-1) experimental; urgency=low
 kdebase (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Matthew Rosewarne:
 
   * Move dolphin, kfind, and kinfocenter to Section: utils.
@@ -585,7 +585,7 @@ kdebase (4:3.97.0-1) experimental; urgency=low
     - Update *.install files.
   * Update Standards-Version to 3.7.3.
   * Remove README about beta packages, they are supposed to be stable now.
-  * Remove empty packages knetattach and kdebase-kio-plugins. 
+  * Remove empty packages knetattach and kdebase-kio-plugins.
   * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
     happier.
 
