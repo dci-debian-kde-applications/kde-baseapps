@@ -608,17 +608,6 @@ kdebase (4:3.96.0-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 20:37:18 +0100
 
-kdebase (4:3.95.2-1) experimental; urgency=low
-
-  * New upstream release.
-
-  +++ Changes by Fathi Boudra:
-
-  * Bump kdepimlibs5-dev build dependency version.
-  * Update installed files.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Nov 2007 01:17:02 +0100
-
 kdebase (4:3.95.0-1) experimental; urgency=low
 
   * New upstream release: KDE4 beta 4.
@@ -689,16 +678,3 @@ kdebase (4:3.92.0-1) experimental; urgency=low
   * Added patch 01_kdehome_kde4.diff to set kdehome directory to .kde4.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 15 Aug 2007 01:57:17 +0200
-
-kdebase (4:3.91.0-1) alioth; urgency=low
-
-  * New alpha release.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 05 Jul 2007 19:11:19 +0200
-
-kdebase (4:3.90.1-1) alioth; urgency=low
-
-  * Initial release of KDE4.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 11 May 2007 16:23:33 +0100
-
