@@ -1,5 +1,4 @@
 usr/bin/kfind
-usr/lib/kde4/libkfindpart.so
 usr/share/applications/kde4/kfind.desktop
 usr/share/doc/kde/HTML/en/kfind/common
 usr/share/doc/kde/HTML/en/kfind/index.cache.bz2
@@ -10,6 +9,4 @@ usr/share/icons/hicolor/22x22/apps/kfind.png
 usr/share/icons/hicolor/32x32/apps/kfind.png
 usr/share/icons/hicolor/48x48/apps/kfind.png
 usr/share/icons/hicolor/64x64/apps/kfind.png
-usr/share/kde4/services/kfindpart.desktop
-usr/share/kde4/servicetypes/findpart.desktop
 usr/share/man/man1/kfind.1

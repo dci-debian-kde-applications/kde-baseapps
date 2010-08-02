@@ -10,6 +10,7 @@ kdebase (4:4.5.0-0r1) UNRELEASED; urgency=low
   * Remove the kinfocenter package (moved to kdebase-workspace).
   * Remove the kappfinder package (removed upstream).
   * Refresh patches.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 00:07:45 +0300
 
