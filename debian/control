@@ -18,7 +18,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdebase.git
 
 Package: kdebase-apps
 Architecture: all
-Depends: dolphin (>= ${source:Version}), kappfinder (>= ${source:Version}),
+Depends: dolphin (>= ${source:Version}),
  kdebase-bin (>= ${source:Version}), kdepasswd (>= ${source:Version}),
  kfind (>= ${source:Version}), konqueror (>= ${source:Version}),
  konsole (>= ${source:Version}), kwrite (>= ${source:Version}),
@@ -53,15 +53,6 @@ Description: file manager
    Network transparency
    Undo/redo functionality
    Ratings, comments, and tags
- .
- This package is part of the KDE base applications module.
-
-Package: kappfinder
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version})
-Description: non-KDE application finder for KDE 
- KAppfinder searches your system for common applications and creates entries
- for them in the KDE menu.
  .
  This package is part of the KDE base applications module.
 
