@@ -5,9 +5,3 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 DEB_DH_MAKESHLIBS_ARGS_ALL := -V
 
 DEB_INSTALL_DOCS_ALL=
-
-ifeq ($(DEB_HOST_ARCH_OS),linux)
-install/kinfocenter::
-	# Install common files
-	dh_install -p$(cdbs_curpkg) --ignore=debian/$(cdbs_curpkg).install.linux
-endif

@@ -24,7 +24,7 @@ Depends: dolphin (>= ${source:Version}), kappfinder (>= ${source:Version}),
  konsole (>= ${source:Version}), kwrite (>= ${source:Version}),
  libkonq5 (>= ${source:Version}), plasma-widget-folderview (>= ${source:Version}),
  ${misc:Depends}
-Recommends: kinfocenter (>= ${source:Version}), konqueror-nsplugins (>= ${source:Version})
+Recommends: konqueror-nsplugins (>= ${source:Version})
 Description: base applications from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -102,18 +102,6 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: file search utility 
  KFind can be used to find files and directories on your system.
- .
- This package is part of the KDE base applications module.
-
-Package: kinfocenter
-Section: utils
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kcontrol
-Replaces: kdebase-bin (<< 4:4.0.0-1)
-Description: system information viewer 
- KInfoCenter provides you with a graphical overview of various aspects of your
- system, such as memory usage, storage capacity, and attached devices.
  .
  This package is part of the KDE base applications module.
 

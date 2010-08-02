@@ -7,6 +7,7 @@ kdebase (4:4.5.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
+  * Remove the kinfocenter package (moved to kdebase-workspace).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 00:07:45 +0300
 
