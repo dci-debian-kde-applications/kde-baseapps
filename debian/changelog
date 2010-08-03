@@ -11,6 +11,13 @@ kdebase (4:4.5.0-0r1) UNRELEASED; urgency=low
   * Remove the kappfinder package (removed upstream).
   * Refresh patches.
   * Update installed files.
+  * Remove unused build dependencies:
+    - libsmbclient-dev
+    - libusb-dev
+    - libraw1394-dev
+    - libglu1-mesa-dev
+    - libpci-dev
+    - libxext-dev
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 00:07:45 +0300
 

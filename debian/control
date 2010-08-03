@@ -7,10 +7,10 @@ Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Ar
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
  kdelibs5-dev (>= 4:4.4), libphonon-dev (>= 4:4.3.0),
- libqimageblitz-dev (>= 1:0.0.4-2), libsmbclient-dev, libusb-dev, libxkbfile-dev,
- libraw1394-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libstreamanalyzer-dev (>= 0.6.3),
- libxrender-dev, zlib1g-dev, libglu1-mesa-dev,
- libpci-dev, libxt-dev, libxext-dev, pkg-config, libglib2.0-dev, shared-desktop-ontologies
+ libqimageblitz-dev (>= 1:0.0.4-2), libxkbfile-dev,
+ libstreamanalyzer-dev (>= 0.6.3),
+ libxrender-dev, zlib1g-dev,
+ libxt-dev, pkg-config, libglib2.0-dev, shared-desktop-ontologies
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase.git
