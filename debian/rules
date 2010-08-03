@@ -2,6 +2,6 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
-DEB_DH_MAKESHLIBS_ARGS_ALL := -V
+DEB_DH_MAKESHLIBS_ARGS_ALL := -V -u-c0
 
 DEB_INSTALL_DOCS_ALL=
