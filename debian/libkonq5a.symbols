@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
-libkonq.so.5 libkonq5 #MINVER#
+libkonq.so.5 libkonq5a #MINVER#
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@Base 4:4.3.4
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@Base 4:4.3.4
  _ZN12KonqMimeData20decodeIsCutSelectionEPK9QMimeData@Base 4:4.3.4

@@ -22,7 +22,7 @@ Depends: dolphin (>= ${source:Version}),
  kdebase-bin (>= ${source:Version}), kdepasswd (>= ${source:Version}),
  kfind (>= ${source:Version}), konqueror (>= ${source:Version}),
  konsole (>= ${source:Version}), kwrite (>= ${source:Version}),
- libkonq5 (>= ${source:Version}), plasma-widget-folderview (>= ${source:Version}),
+ libkonq5a (>= ${source:Version}), plasma-widget-folderview (>= ${source:Version}),
  ${misc:Depends}
 Recommends: konqueror-nsplugins (>= ${source:Version})
 Description: base applications from the official KDE release
@@ -157,11 +157,12 @@ Description: simple graphical text editor
  .
  This package is part of the KDE base applications module.
 
-Package: libkonq5
+Package: libkonq5a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq5-templates | kdesktop
-Replaces: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80)
+Replaces: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80), libkonq5
+Conflicts: libkonq5
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
@@ -182,7 +183,7 @@ Description: data files for the Konqueror libraries
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkonq5}, ${misc:Depends}
+Depends: libkonq5a (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkonq5a}, ${misc:Depends}
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.

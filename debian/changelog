@@ -18,6 +18,7 @@ kdebase (4:4.5.0+svn1166505-0r1) UNRELEASED; urgency=low
     - libglu1-mesa-dev
     - libpci-dev
     - libxext-dev
+  * Rename libkonq5 to libkonq5a because BC was broken.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 00:07:45 +0300
 
