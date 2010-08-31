@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkonq.so.5 libkonq5a #MINVER#
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@Base 4:4.3.4
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@Base 4:4.3.4
@@ -7,8 +7,8 @@ libkonq.so.5 libkonq5a #MINVER#
  _ZN13KonqPopupMenu11qt_metacastEPKc@Base 4:4.3.4
  _ZN13KonqPopupMenu11setURLTitleERK7QString@Base 4:4.3.4
  _ZN13KonqPopupMenu16staticMetaObjectE@Base 4:4.3.4
- _ZN13KonqPopupMenuC1ERK13KFileItemListRK4KUrlR17KActionCollectionP8KNewMenuj6QFlagsIN6KParts16BrowserExtension9PopupFlagEEP7QWidgetP16KBookmarkManagerRK4QMapI7QString5QListIP7QActionEE@Base 4:4.3.4
- _ZN13KonqPopupMenuC2ERK13KFileItemListRK4KUrlR17KActionCollectionP8KNewMenuj6QFlagsIN6KParts16BrowserExtension9PopupFlagEEP7QWidgetP16KBookmarkManagerRK4QMapI7QString5QListIP7QActionEE@Base 4:4.3.4
+ _ZN13KonqPopupMenuC1ERK13KFileItemListRK4KUrlR17KActionCollectionP12KNewFileMenuj6QFlagsIN6KParts16BrowserExtension9PopupFlagEEP7QWidgetP16KBookmarkManagerRK4QMapI7QString5QListIP7QActionEE@Base 4:4.5.0
+ _ZN13KonqPopupMenuC2ERK13KFileItemListRK4KUrlR17KActionCollectionP12KNewFileMenuj6QFlagsIN6KParts16BrowserExtension9PopupFlagEEP7QWidgetP16KBookmarkManagerRK4QMapI7QString5QListIP7QActionEE@Base 4:4.5.0
  _ZN13KonqPopupMenuD0Ev@Base 4:4.3.4
  _ZN13KonqPopupMenuD1Ev@Base 4:4.3.4
  _ZN13KonqPopupMenuD2Ev@Base 4:4.3.4
@@ -159,25 +159,11 @@ libkonq.so.5 libkonq5a #MINVER#
  _ZN25KonqNameAndUrlInputDialogD0Ev@Base 4:4.4.1
  _ZN25KonqNameAndUrlInputDialogD1Ev@Base 4:4.4.1
  _ZN25KonqNameAndUrlInputDialogD2Ev@Base 4:4.4.1
- _ZN8KNewMenu10parseFilesEv@Base 4:4.3.4
- _ZN8KNewMenu10slotResultEP4KJob@Base 4:4.3.4
- _ZN8KNewMenu11itemCreatedERK4KUrl@Base 4:4.3.4
  _ZN8KNewMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN8KNewMenu11qt_metacastEPKc@Base 4:4.3.4
- _ZN8KNewMenu13setPopupFilesERKN4KUrl4ListE@Base 4:4.3.4
- _ZN8KNewMenu15createDirectoryEv@Base 4:4.3.4
  _ZN8KNewMenu16staticMetaObjectE@Base 4:4.3.4
- _ZN8KNewMenu17slotCheckUpToDateEv@Base 4:4.3.4
- _ZN8KNewMenu17slotFillTemplatesEv@Base 4:4.3.4
- _ZN8KNewMenu19slotActionTriggeredEP7QAction@Base 4:4.3.4
- _ZN8KNewMenu23setViewShowsHiddenFilesEb@Base 4:4.4.1
- _ZN8KNewMenu8fillMenuEv@Base 4:4.3.4
- _ZN8KNewMenu9makeMenusEv@Base 4:4.3.4
  _ZN8KNewMenuC1EP17KActionCollectionP7QWidgetRK7QString@Base 4:4.3.4
  _ZN8KNewMenuC2EP17KActionCollectionP7QWidgetRK7QString@Base 4:4.3.4
- _ZN8KNewMenuD0Ev@Base 4:4.3.4
- _ZN8KNewMenuD1Ev@Base 4:4.3.4
- _ZN8KNewMenuD2Ev@Base 4:4.3.4
  _ZNK13KonqPopupMenu10metaObjectEv@Base 4:4.3.4
  _ZNK14KonqOperations10metaObjectEv@Base 4:4.3.4
  _ZNK14KonqOperations11droppedUrlsEv@Base 4:4.3.4
