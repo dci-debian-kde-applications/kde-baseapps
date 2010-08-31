@@ -25,7 +25,7 @@ Depends: dolphin (>= ${source:Version}),
  libkonq5a (>= ${source:Version}), plasma-widget-folderview (>= ${source:Version}),
  ${misc:Depends}
 Recommends: konqueror-nsplugins (>= ${source:Version})
-Description: base applications from the official KDE release
+Description: base applications from the official KDE release (meta-package)
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -42,8 +42,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-bin (<< 4:4.1.80), kdebase-data (<< 4:4.1.80)
 Recommends: kfind, ruby
 Description: file manager 
- Dolphin is the default file manager in the KDE Plasma Workspaces, intended to be 
- both powerful and easy to use.
+ Dolphin is the default file manager in the KDE Plasma Workspaces, intended
+ to be both powerful and easy to use.
  .
  Features include:
    Customisable sidebars
