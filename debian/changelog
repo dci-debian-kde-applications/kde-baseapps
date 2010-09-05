@@ -21,6 +21,7 @@ kdebase (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Rename libkonq5 to libkonq5a because BC was broken.
   * Update libkonq5a.symbols.
   * Fix some lintian warnings related to package descriptions.
+  * Make dolphin suggest kdesdk-dolphin-plugins.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Aug 2010 00:07:45 +0300
 

@@ -41,6 +41,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-bin (<< 4:4.1.80), kdebase-data (<< 4:4.1.80)
 Recommends: kfind, ruby
+Suggests: kdesdk-dolphin-plugins
 Description: file manager 
  Dolphin is the default file manager in the KDE Plasma Workspaces, intended
  to be both powerful and easy to use.
