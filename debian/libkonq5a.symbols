@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.86 amd64
 libkonq.so.5 libkonq5a #MINVER#
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@Base 4:4.3.4
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@Base 4:4.3.4
@@ -159,6 +159,25 @@ libkonq.so.5 libkonq5a #MINVER#
  _ZN25KonqNameAndUrlInputDialogD0Ev@Base 4:4.4.1
  _ZN25KonqNameAndUrlInputDialogD1Ev@Base 4:4.4.1
  _ZN25KonqNameAndUrlInputDialogD2Ev@Base 4:4.4.1
+ _ZN25KonqStatusBarMessageLabel10paintEventEP11QPaintEvent@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel10setMessageERK7QStringNS_4TypeE@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel11qt_metacastEPKc@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel11resizeEventEP12QResizeEvent@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel14setDefaultTextERK7QString@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel16staticMetaObjectE@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel17assureVisibleTextEv@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel17closeErrorMessageEv@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel18showPendingMessageEv@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel20setMinimumTextHeightEi@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel25updateCloseButtonPositionEv@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel5resetEv@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabel9timerDoneEv@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabelC1EP7QWidget@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabelC2EP7QWidget@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabelD0Ev@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabelD1Ev@Base 4:4.5.86
+ _ZN25KonqStatusBarMessageLabelD2Ev@Base 4:4.5.86
  _ZN8KNewMenu11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN8KNewMenu11qt_metacastEPKc@Base 4:4.3.4
  _ZN8KNewMenu16staticMetaObjectE@Base 4:4.3.4
@@ -196,6 +215,14 @@ libkonq.so.5 libkonq5a #MINVER#
  _ZNK25KonqNameAndUrlInputDialog10metaObjectEv@Base 4:4.4.1
  _ZNK25KonqNameAndUrlInputDialog3urlEv@Base 4:4.4.1
  _ZNK25KonqNameAndUrlInputDialog4nameEv@Base 4:4.4.1
+ _ZNK25KonqStatusBarMessageLabel10metaObjectEv@Base 4:4.5.86
+ _ZNK25KonqStatusBarMessageLabel11defaultTextEv@Base 4:4.5.86
+ _ZNK25KonqStatusBarMessageLabel15minimumSizeHintEv@Base 4:4.5.86
+ _ZNK25KonqStatusBarMessageLabel17minimumTextHeightEv@Base 4:4.5.86
+ _ZNK25KonqStatusBarMessageLabel18availableTextWidthEv@Base 4:4.5.86
+ _ZNK25KonqStatusBarMessageLabel4textEv@Base 4:4.5.86
+ _ZNK25KonqStatusBarMessageLabel4typeEv@Base 4:4.5.86
+ _ZNK25KonqStatusBarMessageLabel8sizeHintEv@Base 4:4.5.86
  _ZNK8KNewMenu10metaObjectEv@Base 4:4.3.4
  _ZTI13KonqPopupMenu@Base 4:4.3.4
  _ZTI14KonqOperations@Base 4:4.3.4
@@ -205,6 +232,7 @@ libkonq.so.5 libkonq5a #MINVER#
  _ZTI22KonqDndPopupMenuPlugin@Base 4:4.3.4
  _ZTI24KonqFileItemCapabilities@Base 4:4.3.4
  _ZTI25KonqNameAndUrlInputDialog@Base 4:4.4.1
+ _ZTI25KonqStatusBarMessageLabel@Base 4:4.5.86
  _ZTI8KNewMenu@Base 4:4.3.4
  _ZTS13KonqPopupMenu@Base 4:4.3.4
  _ZTS14KonqOperations@Base 4:4.3.4
@@ -214,6 +242,7 @@ libkonq.so.5 libkonq5a #MINVER#
  _ZTS22KonqDndPopupMenuPlugin@Base 4:4.3.4
  _ZTS24KonqFileItemCapabilities@Base 4:4.3.4
  _ZTS25KonqNameAndUrlInputDialog@Base 4:4.4.1
+ _ZTS25KonqStatusBarMessageLabel@Base 4:4.5.86
  _ZTS8KNewMenu@Base 4:4.3.4
  _ZTV13KonqPopupMenu@Base 4:4.3.4
  _ZTV14KonqOperations@Base 4:4.3.4
@@ -223,6 +252,8 @@ libkonq.so.5 libkonq5a #MINVER#
  _ZTV22KonqDndPopupMenuPlugin@Base 4:4.3.4
  _ZTV24KonqFileItemCapabilities@Base 4:4.3.4
  _ZTV25KonqNameAndUrlInputDialog@Base 4:4.4.1
+ _ZTV25KonqStatusBarMessageLabel@Base 4:4.5.86
  _ZTV8KNewMenu@Base 4:4.3.4
  (c++)"non-virtual thunk to KonqNameAndUrlInputDialog::~KonqNameAndUrlInputDialog()@Base" 4:4.4.1
  (c++)"non-virtual thunk to KonqPopupMenu::~KonqPopupMenu()@Base" 4:4.3.4
+ (c++)"non-virtual thunk to KonqStatusBarMessageLabel::~KonqStatusBarMessageLabel()@Base" 4:4.5.86

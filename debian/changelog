@@ -26,6 +26,7 @@ kdebase (4:4.5.86-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Update installed files.
+  * Update libkonq5a.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 
