@@ -1,5 +1,4 @@
 ./usr/lib/libdolphinprivate.so
-./usr/lib/libkonquerorprivate.so
 ./usr/lib/libkbookmarkmodel_private.so
 
 # Only for deveploment and we are not shipping any kdebase-dev
