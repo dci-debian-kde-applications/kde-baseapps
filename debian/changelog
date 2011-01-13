@@ -1,9 +1,10 @@
-kdebase (4:4.4.5-2) UNRELEASED; urgency=low
+kdebase (4:4.4.5-2) unstable; urgency=high
 
   * Point debian/control Vcs fields to the new Git repository.
   * Remove '| kdestop' from libkonq5 Depends. Just confuses apt pointlessly.
+  * Urgengy=high, important for squeeze release.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:33 +0300
+ -- Modestas Vainius <modax@debian.org>  Thu, 13 Jan 2011 21:38:54 +0200
 
 kdebase (4:4.4.5-1) unstable; urgency=low
 
