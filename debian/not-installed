@@ -11,3 +11,14 @@
 ./usr/share/dbus-1/interfaces/org.kde.nsplugins.instance.xml
 ./usr/share/dbus-1/interfaces/org.kde.nsplugins.viewer.xml
 
+# Manpages are compressed
+./usr/share/man/man1/kbookmarkmerger.1
+./usr/share/man/man1/kfind.1
+
+# Moved by 
+./usr/lib/libkdeinit4_dolphin.so
+./usr/lib/libkdeinit4_keditbookmarks.so
+./usr/lib/libkdeinit4_kfmclient.so
+./usr/lib/libkdeinit4_konqueror.so
+./usr/lib/libkdeinit4_konsole.so
+./usr/lib/libkdeinit4_kwrite.so
