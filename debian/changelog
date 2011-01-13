@@ -1,6 +1,7 @@
 kdebase (4:4.4.5-2) UNRELEASED; urgency=low
 
   * Point debian/control Vcs fields to the new Git repository.
+  * Remove '| kdestop' from libkonq5 Depends. Just confuses apt pointlessly.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:33 +0300
 
