@@ -161,7 +161,7 @@ Description: simple graphical text editor
 Package: libkonq5a
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq5-templates | kdesktop
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq5-templates
 Replaces: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80), libkonq5
 Conflicts: libkonq5
 Description: core libraries for Konqueror

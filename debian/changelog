@@ -2,9 +2,6 @@ kdebase (4:4.5.95-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  [ Modestas Vainius ]
-  * Point debian/control Vcs fields to the new Git repository.
-
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
   * Remove the kinfocenter package (moved to kdebase-workspace).
@@ -29,6 +26,14 @@ kdebase (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Update libkonq5a.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
+
+kdebase (4:4.4.5-2) unstable; urgency=high
+
+  * Point debian/control Vcs fields to the new Git repository.
+  * Remove '| kdestop' from libkonq5 Depends. Just confuses apt pointlessly.
+  * Urgengy=high, important for squeeze release.
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 13 Jan 2011 21:38:54 +0200
 
 kdebase (4:4.4.5-1) unstable; urgency=low
 
