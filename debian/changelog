@@ -1,6 +1,18 @@
 kdebase (4:4.5.95-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes broken keyboard navigation in "column view" mode in dolphin
+      (Closes: #582023)
+    - waits for the screen saver lock before suspending (Closes: #580370)
+    - fixes faulty deletion of cookie policies when the policy list is filtered
+      (Closes: #602140)
+    - fixes WebDAV PUT requests not being issued (Closes: #602939)
+    - fixes first-letter search in konqueror details mode (Closes: #354874)
+    - places are now added below the currently selected place (Closes: #547559)
+    - better handling of whitespace in man: urls (Closes: #283472)
+    - adds metadata to the file properties dialog (Closes: #532411)
+    - adds context menu for Konsole tabs (Closes: #532412)
+    - Konqueror now detects duplicate web shortcuts (Closes: #479965)
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
