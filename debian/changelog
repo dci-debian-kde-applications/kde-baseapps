@@ -31,11 +31,12 @@ kdebase (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Update libkonq5a.symbols.
   * Fix some lintian warnings related to package descriptions.
   * Make dolphin suggest kdesdk-dolphin-plugins.
-  * Bump kdelibs5-dev build dependency to version 4:4.5.95.
+  * Bump kdelibs5-dev build dependency to version 4:4.6.0.
 
   [ José Manuel Santamaría Lema ]
   * Update installed files.
   * Update libkonq5a.symbols.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 
