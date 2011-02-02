@@ -13,13 +13,14 @@ kdebase (4:4.6.0-0r1) UNRELEASED; urgency=low
     - adds metadata to the file properties dialog (Closes: #532411)
     - adds context menu for Konsole tabs (Closes: #532412)
     - Konqueror now detects duplicate web shortcuts (Closes: #479965)
+  * Update installed files.
+  * Update libkonq symbols file.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
   * Remove the kinfocenter package (moved to kdebase-workspace).
   * Remove the kappfinder package (removed upstream).
   * Refresh patches.
-  * Update installed files.
   * Remove unused build dependencies:
     - libsmbclient-dev
     - libusb-dev
@@ -28,14 +29,11 @@ kdebase (4:4.6.0-0r1) UNRELEASED; urgency=low
     - libpci-dev
     - libxext-dev
   * Rename libkonq5 to libkonq5a because BC was broken.
-  * Update libkonq5a.symbols.
   * Fix some lintian warnings related to package descriptions.
   * Make dolphin suggest kdesdk-dolphin-plugins.
   * Bump kdelibs5-dev build dependency to version 4:4.6.
 
   [ José Manuel Santamaría Lema ]
-  * Update installed files.
-  * Update libkonq5a.symbols.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
