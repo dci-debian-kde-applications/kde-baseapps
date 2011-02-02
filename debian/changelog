@@ -35,6 +35,7 @@ kdebase (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
+  * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 
