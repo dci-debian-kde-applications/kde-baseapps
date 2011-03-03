@@ -1,4 +1,4 @@
-kdebase (4:4.6.1-0r0) UNRELEASED; urgency=low
+kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes broken keyboard navigation in "column view" mode in dolphin
