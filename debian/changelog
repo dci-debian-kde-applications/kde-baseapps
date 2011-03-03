@@ -38,6 +38,7 @@ kdebase (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Refresh debian-T-addition.diff.
   * Make Konsole long description smaller than 80 columns.
+  * Add lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 

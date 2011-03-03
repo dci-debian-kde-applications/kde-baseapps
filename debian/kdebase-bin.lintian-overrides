@@ -1,0 +1,3 @@
+kdebase-bin: package-name-doesnt-match-sonames libkbookmarkmodel-private4
+kdebase-bin: breaks-without-version kcontrol
+kdebase-bin: breaks-without-version kdesktop
