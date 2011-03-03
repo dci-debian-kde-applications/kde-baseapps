@@ -140,8 +140,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: x-terminal-emulator
 Breaks: yakuake (<< 2.9.0)
 Description: X terminal emulator
- Konsole is a terminal emulator built on the KDE Platform. It can contain multiple
- terminal sessions inside one window using detachable tabs.
+ Konsole is a terminal emulator built on the KDE Platform. It can contain
+ multiple terminal sessions inside one window using detachable tabs.
  .
  Konsole supports powerful terminal features, such as customizable schemes,
  saved sessions, and output monitoring.
