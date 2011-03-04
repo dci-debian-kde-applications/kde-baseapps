@@ -131,7 +131,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: gtk-qt-engine (<< 1:1.0)
 Description: Netscape plugin support for Konqueror
- This package enables Konqueror to use Netscape plugins, such as Flash.
+ Konqueror is the KDE web browser and advanced file manager.
+ .
+ This package provides a KDE component for enabling the use of
+ Netscape/Mozilla/etc browser plugins (such as Adobe Flash) within Konqueror.
  .
  This package is part of the KDE base applications module.
 
