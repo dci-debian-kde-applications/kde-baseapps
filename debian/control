@@ -159,8 +159,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kate (<< 4:4.0.0-1)
 Breaks: kate (<< 4:4.0.0-1)
 Description: simple graphical text editor
- KWrite is the a simple text editor built on the KDE Platform. It uses the Kate 
- editor component, so  it supports powerful features such as flexible syntax 
+ KWrite is a simple text editor built on the KDE Platform. It uses the Kate
+ editor component, so it supports powerful features such as flexible syntax
  highlighting, automatic indentation, and numerous other text tools.
  .
  This package is part of the KDE base applications module.
