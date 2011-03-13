@@ -42,7 +42,8 @@ kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Add myself to Uploaders.
 
   [ Pino Toscano ]
-  * Improve description of konqueror-nsplugins. (Closes: #614947)
+  * Modify the descriptions of few packages:
+    - improve konqueror-nsplugins. (Closes: #614947)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 
