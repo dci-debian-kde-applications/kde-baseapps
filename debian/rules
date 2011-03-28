@@ -1,7 +1,9 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_DH_MAKESHLIBS_ARGS_ALL := -V -u-c0
+override_dh_makeshlibs:
+	$(overriden_command) -V -- -c0
 
-DEB_INSTALL_DOCS_ALL=
+override_dh_strip:
+	$(overriden_command) --dbg-package=kdebase-dbg

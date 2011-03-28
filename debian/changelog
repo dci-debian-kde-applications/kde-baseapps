@@ -46,6 +46,9 @@ kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
     - improve konqueror-nsplugins. (Closes: #614947)
     - fix typo in kwrite. (Closes: #618041)
 
+  [ Modestas Vainius ]
+  * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 
 kdebase (4:4.4.5-2) unstable; urgency=high
