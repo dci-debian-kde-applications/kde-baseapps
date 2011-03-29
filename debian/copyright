@@ -259,10 +259,6 @@ Other used licenses:
   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
   IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
   OF SUCH DAMAGE.
-
-  On Debian systems, the complete text of the
-  BSD-like License can be found in
-  /usr/share/common-licenses/BSD
 --
 
 --
@@ -801,10 +797,6 @@ Other used licenses:
   Mozilla Foundation ("Mozilla") nor the names of their contributors may be used
   to endorse or promote products derived from this software without specific prior
   written permission.
-
-  On Debian systems, the complete text of the
-  BSD-like License can be found in
-  /usr/share/common-licenses/BSD
 --
 
 
@@ -914,12 +906,10 @@ Legend:
 
 On Debian systems, you can find the complete texts of these licenses at:
   - Artistic: /usr/share/common-licenses/Artistic
-  - BSD:      /usr/share/common-licenses/BSD
   - GPL:      /usr/share/common-licenses/GPL
   - GPLv2:    /usr/share/common-licenses/GPL-2
   - LGPLv2:   /usr/share/common-licenses/LGPL-2
   - GFDL:     /usr/share/common-licenses/GFDL
-  - BSD:      /usr/share/common-licenses/BSD
 
 -------------------------------------------------------------------------------
 
