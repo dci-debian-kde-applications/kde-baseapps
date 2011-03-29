@@ -168,12 +168,24 @@ Description: simple graphical text editor
 Package: libkonq5a
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq5-templates
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq-common (>= ${binary:Version})
 Replaces: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80), libkonq5
 Breaks: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80), libkonq5
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
+ .
+ This package is part of the KDE base applications module.
+
+Package: libkonq-common
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq5-templates
+Replaces: libkonq5 (<< 4:4.4.5-3)
+Breaks: libkonq5 (<< 4:4.4.5-3)
+Description: core Konqueror library - support files
+ This package contains plugins and data files used by the core Konqueror
+ library (libkonq).
  .
  This package is part of the KDE base applications module.
 
