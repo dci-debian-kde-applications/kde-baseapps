@@ -55,6 +55,7 @@ kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
     library in there (and it's an indirect dependency anyway).
   * Remove redudant links to common-licenses/BSD. Verbatim text was already
     there.
+  * Override all libkonsoleprivate.so shlibs related lintian reports.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 
