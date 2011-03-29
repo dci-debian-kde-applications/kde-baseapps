@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Ar
  Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>,
  José Manuel Santamaría Lema <panfaust@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.6.1),
- cmake, debhelper (>= 7.2.7~), pkg-kde-tools (>= 0.11),
+ cmake, debhelper (>= 7.2.7~), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.6), libphonon-dev (>= 4:4.3.0),
  libqimageblitz-dev (>= 1:0.0.4-2), libxkbfile-dev,
  libstreamanalyzer-dev (>= 0.6.3),
@@ -23,7 +23,7 @@ Depends: dolphin (>= ${source:Version}),
  kdebase-bin (>= ${source:Version}), kdepasswd (>= ${source:Version}),
  kfind (>= ${source:Version}), konqueror (>= ${source:Version}),
  konsole (>= ${source:Version}), kwrite (>= ${source:Version}),
- libkonq5a (>= ${source:Version}), plasma-widget-folderview (>= ${source:Version}),
+ libkonq5abi1 (>= ${source:Version}), plasma-widget-folderview (>= ${source:Version}),
  ${misc:Depends}
 Recommends: konqueror-nsplugins (>= ${source:Version})
 Description: base applications from the official KDE release (meta-package)
@@ -165,12 +165,11 @@ Description: simple graphical text editor
  .
  This package is part of the KDE base applications module.
 
-Package: libkonq5a
+Package: libkonq5abi1
 Section: libs
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq-common (>= ${binary:Version})
-Replaces: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80), libkonq5
-Breaks: kdebase-data (<< 4:4.1.80), kdebase-bin (<< 4:4.1.80), libkonq5
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
@@ -204,7 +203,7 @@ Description: data files for the Konqueror libraries
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5a (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkonq5a}, ${misc:Depends}
+Depends: libkonq5abi1 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkonq5abi1}, ${misc:Depends}
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
@@ -214,6 +213,7 @@ Description: development files for the Konqueror libraries
 Package: libkonqsidebarplugin4a
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: konqueror (<< 4:4.1.80), libkonqsidebarplugin4
 Breaks: konqueror (<< 4:4.1.80), libkonqsidebarplugin4

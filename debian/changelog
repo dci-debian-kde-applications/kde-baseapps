@@ -28,7 +28,6 @@ kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
     - libglu1-mesa-dev
     - libpci-dev
     - libxext-dev
-  * Rename libkonq5 to libkonq5a because BC was broken.
   * Fix some lintian warnings related to package descriptions.
   * Make dolphin suggest kdesdk-dolphin-plugins.
   * Bump kdelibs5-dev build dependency to version 4:4.6.
@@ -49,6 +48,9 @@ kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Do not run testsuite.
+  * Enable DebianABIManager:
+    - libkonq5abi1 - ABI-1;
+    - libkonqsidebarplugin4a - ABI-0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
 
