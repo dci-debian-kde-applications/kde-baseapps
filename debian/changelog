@@ -1,4 +1,4 @@
-kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
+kdebase (4:4.6.1-0r3) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes broken keyboard navigation in "column view" mode in dolphin
@@ -57,7 +57,7 @@ kdebase (4:4.6.1-0r1) UNRELEASED; urgency=low
     there.
   * Override all libkonsoleprivate.so shlibs related lintian reports.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Nov 2010 14:20:25 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2011 04:07:06 +0300
 
 kdebase (4:4.4.5-3) unstable; urgency=low
 
