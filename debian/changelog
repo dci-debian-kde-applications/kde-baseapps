@@ -56,6 +56,7 @@ kdebase (4:4.6.1-0r3) UNRELEASED; urgency=low
   * Remove redudant links to common-licenses/BSD. Verbatim text was already
     there.
   * Override all libkonsoleprivate.so shlibs related lintian reports.
+  * Add libkonq5a to libkonq-common breaks/conflicts.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2011 04:07:06 +0300
 
