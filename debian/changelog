@@ -1,10 +1,10 @@
-kdebase (4:4.4.5-3) UNRELEASED; urgency=low
+kdebase (4:4.4.5-3) unstable; urgency=low
 
   * Split off support files from libkonq5 to the libkonq-common package and
     make libkonq5 depend on libkonq-common. This is needed for better
     co-installability with KDE SC 4.6.
 
- -- Modestas Vainius <modax@debian.org>  Tue, 29 Mar 2011 02:45:05 +0300
+ -- Modestas Vainius <modax@debian.org>  Tue, 29 Mar 2011 03:03:39 +0300
 
 kdebase (4:4.4.5-2) unstable; urgency=high
 
