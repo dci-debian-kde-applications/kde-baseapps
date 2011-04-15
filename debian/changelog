@@ -44,6 +44,7 @@ kdebase (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Modify the descriptions of few packages:
     - improve konqueror-nsplugins. (Closes: #614947)
     - fix typo in kwrite. (Closes: #618041)
+  * Clean up Replaces/Breaks from the pre-squeeze era whenever possible.
 
   [ Modestas Vainius ]
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.

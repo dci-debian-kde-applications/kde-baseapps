@@ -40,8 +40,6 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-bin (<< 4:4.1.80), kdebase-data (<< 4:4.1.80)
-Breaks: kdebase-bin (<< 4:4.1.80), kdebase-data (<< 4:4.1.80)
 Recommends: kfind, ruby
 Suggests: kdesdk-dolphin-plugins
 Description: file manager 
@@ -62,7 +60,6 @@ Description: file manager
 Package: kdebase-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version})
-Replaces: konqueror (<< 4:4.1.80)
 Breaks: kdesktop, kcontrol
 Description: core binaries for the KDE base applications
  This package contains miscellaneous programs needed by other KDE
@@ -73,8 +70,6 @@ Description: core binaries for the KDE base applications
 Package: kdebase-data
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: konqueror (<< 4:4.1.80), kdepasswd (<< 4:4.1.80)
-Breaks: konqueror (<< 4:4.1.80), kdepasswd (<< 4:4.1.80)
 Description: shared data files for the KDE base applications
  This package contains the architecture-independent shared data files needed
  for a basic KDE 4 desktop installation.
@@ -106,8 +101,6 @@ Architecture: any
 Provides: info-browser, man-browser, www-browser
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version}),
  kdebase-bin (= ${binary:Version}), install-info
-Replaces: dolphin (<< 4:4.1.80)
-Breaks: dolphin (<< 4:4.1.80)
 Suggests: konq-plugins (>= 4:4.1~)
 Recommends: konqueror-nsplugins (= ${binary:Version}), dolphin
 Description:  advanced file manager, web browser and document viewer
@@ -156,8 +149,6 @@ Package: kwrite
 Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kate (<< 4:4.0.0-1)
-Breaks: kate (<< 4:4.0.0-1)
 Description: simple graphical text editor
  KWrite is a simple text editor built on the KDE Platform. It uses the Kate
  editor component, so it supports powerful features such as flexible syntax
@@ -215,8 +206,6 @@ Section: libs
 Architecture: any
 X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: konqueror (<< 4:4.1.80), libkonqsidebarplugin4
-Breaks: konqueror (<< 4:4.1.80), libkonqsidebarplugin4
 Description: konqueror sidebar plugin library
  This package contains base library for Konqueror sidebar plugins.
  .
@@ -227,8 +216,6 @@ Section: libdevel
 Architecture: any
 Depends: libkonqsidebarplugin4a (= ${binary:Version}),
  ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a}, ${misc:Depends}
-Replaces: konqueror (<< 4:4.1.80), kdebase-dev, libkonqsidebarplugin4-dev
-Breaks: konqueror (<< 4:4.1.80), kdebase-dev, libkonqsidebarplugin4-dev
 Description: konqueror sidebar plugin library development files
  This package contains development headers for the Konqueror sidebar plugin
  library.
@@ -238,8 +225,6 @@ Description: konqueror sidebar plugin library development files
 Package: plasma-widget-folderview
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: libplasma2 (<< 4:4.0.82), kdebase-plasma, plasma-applet-folderview
-Breaks: libplasma2 (<< 4:4.0.82), kdebase-plasma, plasma-applet-folderview
 Description: plasma widget showing the content of a folder
  This package contains the Folder View Plasma widget which is capable of
  displaying and managing contents of any KDE supported location. It can be used
