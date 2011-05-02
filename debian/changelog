@@ -1,3 +1,12 @@
+kdebase (4:4.6.3-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+  
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 May 2011 22:36:07 +0200
+
 kdebase (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
