@@ -1,4 +1,4 @@
-kdebase (4:4.6.3-0r1) UNRELEASED; urgency=low
+kdebase (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ kdebase (4:4.6.3-0r1) UNRELEASED; urgency=low
   * Enable DLRestrictions for libraries in this package. Requires
     libdlrestrictions-dev 0.14 and kdelibs5-dev 4:4.6.3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 May 2011 01:30:30 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:53:50 +0300
 
 kdebase (4:4.6.2-1) experimental; urgency=low
 
