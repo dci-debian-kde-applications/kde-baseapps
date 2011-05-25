@@ -43,3 +43,4 @@ libkonqsidebarplugin.so.4 libkonqsidebarplugin4a #MINVER#
  _ZTS17KonqSidebarPlugin@ABI_4_0 4:4.6.1
  _ZTV17KonqSidebarModule@ABI_4_0 4:4.6.1
  _ZTV17KonqSidebarPlugin@ABI_4_0 4:4.6.1
+ dlrestrictions_data@ABI_4_0 4:4.6.3

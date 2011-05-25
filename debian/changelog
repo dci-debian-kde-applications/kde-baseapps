@@ -1,10 +1,14 @@
 kdebase (4:4.6.3-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
   * Bump Standards-Version to 3.9.2; no changes needed.
+
+  [ Modestas Vainius ]
+  * Enable DLRestrictions for libraries in this package. Requires
+    libdlrestrictions-dev 0.14 and kdelibs5-dev 4:4.6.3.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 03 May 2011 01:30:30 +0200
 

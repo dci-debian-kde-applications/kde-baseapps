@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_1 4:4.6.1
@@ -255,6 +255,7 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZTV25KonqNameAndUrlInputDialog@ABI_5_1 4:4.6.1
  _ZTV25KonqStatusBarMessageLabel@ABI_5_1 4:4.6.1
  _ZTV8KNewMenu@ABI_5_1 4:4.6.1
+ dlrestrictions_data@ABI_5_1 4:4.6.3
  (c++)"non-virtual thunk to KonqNameAndUrlInputDialog::~KonqNameAndUrlInputDialog()@ABI_5_1" 4:4.6.1
  (c++)"non-virtual thunk to KonqPopupMenu::~KonqPopupMenu()@ABI_5_1" 4:4.6.1
  (c++)"non-virtual thunk to KonqStatusBarMessageLabel::~KonqStatusBarMessageLabel()@ABI_5_1" 4:4.6.1
