@@ -1,4 +1,4 @@
-kdebase (4:4.6.5-0r1) UNRELEASED; urgency=low
+kdebase (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,7 @@ kdebase (4:4.6.5-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2011 00:05:02 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:54 +0300
 
 kdebase (4:4.6.3-1) unstable; urgency=low
 
