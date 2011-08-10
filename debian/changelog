@@ -8,6 +8,7 @@ kdebase (4:4.7.0-0r0) UNRELEASED; urgency=low
   * Konsole isn't shipped in kdebase source package anymore:
     - Disable debian-T-addition.diff (which only changes Konsole).
     - Comment out konsole binary package in debian/control.
+  * Remove kwrite package, it was moved to source package kate.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Aug 2011 19:10:00 +0200
 

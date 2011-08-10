@@ -145,16 +145,16 @@ Description: Netscape plugin support for Konqueror
 # .
 # This package is part of the KDE base applications module.
 
-Package: kwrite
-Section: editors
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: simple graphical text editor
- KWrite is a simple text editor built on the KDE Platform. It uses the Kate
- editor component, so it supports powerful features such as flexible syntax
- highlighting, automatic indentation, and numerous other text tools.
- .
- This package is part of the KDE base applications module.
+#Package: kwrite
+#Section: editors
+#Architecture: any
+#Depends: ${shlibs:Depends}, ${misc:Depends}
+#Description: simple graphical text editor
+# KWrite is a simple text editor built on the KDE Platform. It uses the Kate
+# editor component, so it supports powerful features such as flexible syntax
+# highlighting, automatic indentation, and numerous other text tools.
+# .
+# This package is part of the KDE base applications module.
 
 Package: libkonq5abi1
 Section: libs
