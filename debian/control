@@ -11,7 +11,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.0),
  libqimageblitz-dev (>= 1:0.0.4-2), libxkbfile-dev,
  libstreamanalyzer-dev (>= 0.6.3),
  libxrender-dev, zlib1g-dev,
- libxt-dev, pkg-config, libglib2.0-dev, shared-desktop-ontologies
+ libxt-dev, pkg-config, libglib2.0-dev, shared-desktop-ontologies,
+ libtidy-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase.git
