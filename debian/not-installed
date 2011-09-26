@@ -20,5 +20,3 @@
 ./usr/lib/libkdeinit4_keditbookmarks.so
 ./usr/lib/libkdeinit4_kfmclient.so
 ./usr/lib/libkdeinit4_konqueror.so
-./usr/lib/libkdeinit4_konsole.so
-./usr/lib/libkdeinit4_kwrite.so
