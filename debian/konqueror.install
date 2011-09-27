@@ -99,12 +99,6 @@ usr/share/kde4/apps/konqueror/about/plugins_rtl.html
 usr/share/kde4/apps/konqueror/about/specs.html
 usr/share/kde4/apps/konqueror/about/tips.html
 usr/share/kde4/apps/konqueror/about/top-left-konqueror.png
-usr/share/kde4/apps/konqueror/icons/oxygen/16x16/actions/google.png
-usr/share/kde4/apps/konqueror/icons/oxygen/22x22/actions/google.png
-usr/share/kde4/apps/konqueror/icons/oxygen/32x32/actions/google.png
-usr/share/kde4/apps/konqueror/icons/oxygen/48x48/actions/google.png
-usr/share/kde4/apps/konqueror/icons/oxygen/64x64/actions/google.png
-usr/share/kde4/apps/konqueror/icons/oxygen/scalable/actions/google.svgz
 usr/share/kde4/apps/konqueror/konqueror.rc
 usr/share/kde4/apps/konqueror/pics/indicator_connect.png
 usr/share/kde4/apps/konqueror/pics/indicator_empty.png
