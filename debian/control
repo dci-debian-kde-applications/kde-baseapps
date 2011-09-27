@@ -18,25 +18,6 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdebase.git
 
-Package: kdebase-apps
-Architecture: all
-Depends: dolphin (>= ${source:Version}),
- kdebase-bin (>= ${source:Version}), kdepasswd (>= ${source:Version}),
- kfind (>= ${source:Version}), konqueror (>= ${source:Version}),
- konsole (>= ${source:Version}), kwrite (>= ${source:Version}),
- plasma-widget-folderview (>= ${source:Version}),
- ${misc:Depends}
-Recommends: konqueror-nsplugins (>= ${source:Version})
-Description: base applications from the official KDE release (meta-package)
- KDE is produced by an international technology team that creates free and open
- source software for desktop and portable computing. Among KDE's products are a
- modern desktop system for Linux and UNIX platforms, comprehensive office
- productivity and groupware suites and hundreds of software titles in many
- categories including Internet and web applications, multimedia, entertainment,
- educational, graphics and software development.
- .
- This package provides core applications for the KDE 4 desktop.
-
 Package: dolphin
 Section: utils
 Architecture: any

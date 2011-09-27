@@ -12,6 +12,7 @@ kdebase (4:4.7.1-0r1) UNRELEASED; urgency=low
   * Add konq-plugins package.
   * Add libtidy-dev build depend.
   * Update installed files.
+  * Remove kdebase-apps metapackage, moved to src:meta-kde.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Sep 2011 19:44:23 +0200
 
