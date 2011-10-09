@@ -15,6 +15,7 @@ kde-baseapps (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Add the following dummy packages:
     - kdebase-apps
     - kdebase-dbg
+  * Update Vcs-* fields.
   * Konsole isn't shipped in kdebase source package anymore:
     - Disable debian-T-addition.diff (which only changes Konsole).
     - Comment out konsole binary package in debian/control.
