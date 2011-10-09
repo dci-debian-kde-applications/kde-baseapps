@@ -84,8 +84,8 @@ Description: core binaries for the KDE base applications
 Package: kde-baseapps-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: kde-baseapps-data (<< 4:4.7.2)
-Replaces: kde-baseapps-data (<< 4:4.7.2)
+Breaks: kdebase-data (<< 4:4.7.2)
+Replaces: kdebase-data (<< 4:4.7.2)
 Description: shared data files for the KDE base applications
  This package contains the architecture-independent shared data files needed
  for a basic KDE 4 desktop installation.
