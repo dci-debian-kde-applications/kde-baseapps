@@ -18,6 +18,37 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdebase.git
 
+Package: kde-baseapps
+Architecture: all
+Depends: ${misc:Depends},
+ dolphin (>= ${source:Version}),
+ kde-baseapps-bin (>= ${source:Version}),
+ kdepasswd (>= ${source:Version}),
+ kfind (>= ${source:Version}), 
+ konqueror (>= ${source:Version}),
+ konsole, 
+ kwrite,
+ plasma-widget-folderview (>= ${source:Version})
+Recommends: konqueror-nsplugins (>= ${source:Version})
+Breaks: kdebase-apps (<< 4:4.7.2)
+Replaces: kdebase-apps (<< 4:4.7.2)
+Description: base applications from the official KDE release (meta-package)
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
+ .
+ This package provides core applications for the KDE 4 desktop.
+
+Package: kdebase-apps
+Architecture: all
+Depends: kde-baseapps, ${misc:Depends}
+Description: Transitional package for kde-baseapps
+ This transitional package takes care of pulling in the new kde-baseapps
+ package and can safely be removed after installation.
+
 Package: dolphin
 Section: utils
 Architecture: any
@@ -39,19 +70,22 @@ Description: file manager
  .
  This package is part of the KDE base applications module.
 
-Package: kdebase-bin
+Package: kde-baseapps-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version})
-Breaks: kdesktop, kcontrol
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Version})
+Breaks: kdesktop, kcontrol, kdebase-bin (<< 4:4.7.2)
+Replaces: kdebase-bin (<< 4:4.7.2)
 Description: core binaries for the KDE base applications
  This package contains miscellaneous programs needed by other KDE
  applications, particularly those in the KDE base module.
  .
  This package is part of the KDE base applications module.
 
-Package: kdebase-data
+Package: kde-baseapps-data
 Architecture: all
 Depends: ${misc:Depends}
+Breaks: kde-baseapps-data (<< 4:4.7.2)
+Replaces: kde-baseapps-data (<< 4:4.7.2)
 Description: shared data files for the KDE base applications
  This package contains the architecture-independent shared data files needed
  for a basic KDE 4 desktop installation.
@@ -61,7 +95,7 @@ Description: shared data files for the KDE base applications
 Package: kdepasswd
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Version})
 Description: graphical password changing utility
  kdepasswd allows users to change their password, user icon, and other
  information.  A variety of user icons are included.
@@ -81,8 +115,8 @@ Package: konqueror
 Section: web
 Architecture: any
 Provides: info-browser, man-browser, www-browser
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-data (= ${source:Version}),
- kdebase-bin (= ${binary:Version}), install-info
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Version}),
+ kde-baseapps-bin (= ${binary:Version}), install-info
 Suggests: konq-plugins (>= 4:4.1~)
 Recommends: konqueror-nsplugins (= ${binary:Version}), dolphin
 Description:  advanced file manager, web browser and document viewer
@@ -255,12 +289,24 @@ Description: plasma widget showing the content of a folder
  .
  This package is part of the KDE base applications module.
 
-Package: kdebase-dbg
+Package: kde-baseapps-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg, ${misc:Depends}
-Suggests: kdebase (= ${source:Version})
+Depends: ${misc:Depends}, kde-runtime-dbg, konsole-dbg
+Suggests: kde-baseapps (= ${source:Version})
+Breaks: kdebase-dbg (<< 4:4.7.2)
+Replaces: kdebase-dbg (<< 4:4.7.2)
 Description: debugging symbols for the KDE base applications module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE base applications module.
+
+Package: kdebase-dbg
+Section: debug
+Architecture: all
+Priority: extra
+Depends: kde-baseapps-dbg, ${misc:Depends}
+Description: Transitional package for kde-baseapps-dbg
+ This transitional package takes care of pulling in the new kde-baseapps-dbg
+ package and can safely be removed after installation.
+
