@@ -81,6 +81,12 @@ Description: core binaries for the KDE base applications
  .
  This package is part of the KDE base applications module.
 
+Package: kdebase-bin
+Architecture: all
+Depends: ${misc:Depends}, kde-baseapps-bin
+Description: Transitional package for new kde-baseapps
+ This transitional package can be safely removed after installation.
+
 Package: kde-baseapps-data
 Architecture: all
 Depends: ${misc:Depends}
