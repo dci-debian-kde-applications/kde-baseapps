@@ -28,6 +28,7 @@ kde-baseapps (4:4.7.2-0r2) UNRELEASED; urgency=low
 
   [ Felix Geyer ]
   * dolphin doesn't recommend kfind anymore since it uses nepomuk for searching.
+  * konqueror still uses kfind so make it recommend kfind.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Sep 2011 19:44:23 +0200
 
