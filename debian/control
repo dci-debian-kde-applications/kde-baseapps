@@ -53,7 +53,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: kfind, ruby
+Recommends: ruby
 Suggests: kdesdk-dolphin-plugins
 Description: file manager 
  Dolphin is the default file manager in the KDE Plasma Workspaces, intended
