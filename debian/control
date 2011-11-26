@@ -125,7 +125,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Versi
  kde-baseapps-bin (= ${binary:Version}), install-info
 Suggests: konq-plugins (>= 4:4.1~)
 Recommends: konqueror-nsplugins (= ${binary:Version}), dolphin, kfind
-Description:  advanced file manager, web browser and document viewer
+Description: advanced file manager, web browser and document viewer
  Konqueror is the KDE web browser and advanced file manager.
  .
  Konqueror is a standards-compliant web browser, supporting HTML 4.01, Java,
@@ -315,4 +315,3 @@ Depends: kde-baseapps-dbg, ${misc:Depends}
 Description: Transitional package for kde-baseapps-dbg
  This transitional package takes care of pulling in the new kde-baseapps-dbg
  package and can safely be removed after installation.
-
