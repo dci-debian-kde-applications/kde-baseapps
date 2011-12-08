@@ -5,7 +5,7 @@ kde-baseapps (4:4.7.4-0r1) UNRELEASED; urgency=low
   [ Eshat Cakar ]
   * Add myself to uploaders.
   * Bump kde-sc-dev-latest dependency to 4.7.4.
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build dependency to 0.8.
 
