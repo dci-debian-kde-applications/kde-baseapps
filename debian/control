@@ -43,6 +43,7 @@ Description: base applications from the official KDE release (meta-package)
  This package provides core applications for the KDE 4 desktop.
 
 Package: kdebase-apps
+Section: oldlibs
 Architecture: all
 Depends: kde-baseapps, ${misc:Depends}
 Description: Transitional package for kde-baseapps
@@ -82,6 +83,7 @@ Description: core binaries for the KDE base applications
  This package is part of the KDE base applications module.
 
 Package: kdebase-bin
+Section: oldlibs
 Architecture: all
 Depends: ${misc:Depends}, kde-baseapps-bin
 Description: Transitional package for new kde-baseapps
@@ -308,7 +310,7 @@ Description: debugging symbols for the KDE base applications module
  binaries included in the KDE base applications module.
 
 Package: kdebase-dbg
-Section: debug
+Section: oldlibs
 Architecture: all
 Priority: extra
 Depends: kde-baseapps-dbg, ${misc:Depends}

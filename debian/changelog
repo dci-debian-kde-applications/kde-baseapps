@@ -8,6 +8,10 @@ kde-baseapps (4:4.7.4-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build dependency to 0.8.
+  * The following dummy transitinal packages are now in section "oldlibs":
+    - kdebase-apps
+    - kdebase-apps-bin
+    - kdebase-dbg
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 16:32:05 +0100
 
