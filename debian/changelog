@@ -1,4 +1,4 @@
-kde-baseapps (4:4.7.4-0r3) UNRELEASED; urgency=low
+kde-baseapps (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -14,7 +14,7 @@ kde-baseapps (4:4.7.4-0r3) UNRELEASED; urgency=low
     - kdebase-dbg
   * Confirm symbols files on more architectures with 4.7.2 build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 16:32:05 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:09:26 +0100
 
 kde-baseapps (4:4.7.2-1) experimental; urgency=low
 
