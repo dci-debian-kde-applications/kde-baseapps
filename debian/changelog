@@ -12,6 +12,7 @@ kde-baseapps (4:4.7.4-0r3) UNRELEASED; urgency=low
     - kdebase-apps
     - kdebase-apps-bin
     - kdebase-dbg
+  * Confirm symbols files on more architectures with 4.7.2 build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 16:32:05 +0100
 

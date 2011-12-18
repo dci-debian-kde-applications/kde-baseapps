@@ -1,9 +1,13 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD1Ev@ABI_5_1 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD2Ev@ABI_5_1 4:4.7.2
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData20decodeIsCutSelectionEPK9QMimeData@ABI_5_1 4:4.6.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD1Ev@ABI_5_1 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN13KFileItemListD2Ev@ABI_5_1 4:4.7.2
  _ZN13KonqPopupMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
  _ZN13KonqPopupMenu11qt_metacastEPKc@ABI_5_1 4:4.6.1
  _ZN13KonqPopupMenu11setURLTitleERK7QString@ABI_5_1 4:4.6.1
@@ -179,6 +183,8 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN25KonqStatusBarMessageLabelD0Ev@ABI_5_1 4:4.6.1
  _ZN25KonqStatusBarMessageLabelD1Ev@ABI_5_1 4:4.6.1
  _ZN25KonqStatusBarMessageLabelD2Ev@ABI_5_1 4:4.6.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@ABI_5_1 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@ABI_5_1 4:4.7.2
  _ZN8KNewMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
  _ZN8KNewMenu11qt_metacastEPKc@ABI_5_1 4:4.6.1
  _ZN8KNewMenu16staticMetaObjectE@ABI_5_1 4:4.6.1
