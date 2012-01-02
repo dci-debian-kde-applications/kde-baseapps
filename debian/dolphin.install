@@ -8,7 +8,7 @@ usr/lib/kde4/kcm_dolphinservices.so
 usr/lib/kde4/kcm_dolphinviewmodes.so
 usr/lib/kde4/kio_filenamesearch.so
 usr/lib/libdolphinprivate.so.4
-usr/lib/libdolphinprivate.so.4.7.0
+usr/lib/libdolphinprivate.so.4.8.0
 usr/lib/libkdeinit4_dolphin.so
 usr/share/applications/kde4/dolphin.desktop
 usr/share/doc/kde/HTML/en/dolphin/common
@@ -20,6 +20,7 @@ usr/share/doc/kde/HTML/en/dolphin/locationbar-editable.png
 usr/share/doc/kde/HTML/en/dolphin/nepomuk-search.png
 usr/share/doc/kde/HTML/en/dolphin/preferences-general-behavior.png
 usr/share/doc/kde/HTML/en/dolphin/preferences-navigation.png
+usr/share/doc/kde/HTML/en/dolphin/preferences-services.png
 usr/share/doc/kde/HTML/en/dolphin/preferences-startup.png
 usr/share/doc/kde/HTML/en/dolphin/preferences-trash.png
 usr/share/doc/kde/HTML/en/dolphin/preferences-viewmodes-icons.png
@@ -29,7 +30,7 @@ usr/share/doc/kde/HTML/en/dolphin/toolbar-view-appearance.png
 usr/share/doc/kde/HTML/en/dolphin/viewproperties-dialog.png
 usr/share/kde4/apps/dolphin/dolphinui.rc
 usr/share/kde4/apps/dolphinpart/dolphinpart.rc
-usr/share/kde4/config.kcfg/dolphin_columnmodesettings.kcfg
+usr/share/kde4/config.kcfg/dolphin_compactmodesettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_detailsmodesettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_directoryviewpropertysettings.kcfg
 usr/share/kde4/config.kcfg/dolphin_generalsettings.kcfg
