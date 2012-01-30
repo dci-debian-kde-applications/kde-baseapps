@@ -87,6 +87,6 @@ usr/share/kde4/apps/kwebkitpart/kpartplugins/uachangerplugin.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/uachangerplugin.rc
 usr/share/kde4/config.kcfg/validators.kcfg
 usr/share/kde4/config/translaterc
-usr/share/kde4/services/ServiceMenus/imageconverter.desktop
 usr/share/kde4/services/fsview_part.desktop
+usr/share/kde4/services/ServiceMenus/imageconverter.desktop
 usr/share/kde4/services/webarchivethumbnail.desktop
