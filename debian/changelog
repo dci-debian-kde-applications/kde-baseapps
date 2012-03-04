@@ -1,5 +1,9 @@
 kde-baseapps (4:4.7.4-2) UNRELEASED; urgency=low
 
+  [ José Manuel Santamaría Lema ]
+  * The following dummy transitional packages have now priority "extra":
+    - kdebase-apps
+    - kdebase-bin
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 04 Mar 2012 21:16:05 +0100
 

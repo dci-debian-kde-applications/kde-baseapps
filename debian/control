@@ -44,6 +44,7 @@ Description: base applications from the official KDE release (meta-package)
 
 Package: kdebase-apps
 Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: kde-baseapps, ${misc:Depends}
 Description: Transitional package for kde-baseapps
@@ -84,6 +85,7 @@ Description: core binaries for the KDE base applications
 
 Package: kdebase-bin
 Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: ${misc:Depends}, kde-baseapps-bin
 Description: Transitional package for new kde-baseapps
