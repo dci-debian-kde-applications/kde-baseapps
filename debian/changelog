@@ -17,9 +17,9 @@ kde-baseapps (4:4.7.4-1) experimental; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build dependency to 0.8.
-  * The following dummy transitinal packages are now in section "oldlibs":
+  * The following dummy transitional packages are now in section "oldlibs":
     - kdebase-apps
-    - kdebase-apps-bin
+    - kdebase-bin
     - kdebase-dbg
   * Confirm symbols files on more architectures with 4.7.2 build logs.
 
