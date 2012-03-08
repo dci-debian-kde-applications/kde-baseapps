@@ -79,6 +79,8 @@ usr/share/kde4/apps/kwebkitpart/kpartplugins/akregator_konqfeedicon.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/akregator_konqfeedicon.rc
 usr/share/kde4/apps/kwebkitpart/kpartplugins/autorefresh.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/autorefresh.rc
+usr/share/kde4/apps/kwebkitpart/kpartplugins/khtmlsettingsplugin.desktop
+usr/share/kde4/apps/kwebkitpart/kpartplugins/khtmlsettingsplugin.rc
 usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_babelfish.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_babelfish.rc
 usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_validators.desktop
