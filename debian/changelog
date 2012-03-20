@@ -10,6 +10,17 @@ kde-baseapps (4:4.8.1-0r0) UNRELEASED; urgency=low
 
  -- Eshat Cakar <info@eshat.de>  Thu, 08 Mar 2012 18:30:33 +0100
 
+kde-baseapps (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+
+  [ José Manuel Santamaría Lema ]
+  * The following dummy transitional packages have now priority "extra":
+    - kdebase-apps
+    - kdebase-bin
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 11:31:48 +0100
+
 kde-baseapps (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
@@ -20,9 +31,9 @@ kde-baseapps (4:4.7.4-1) experimental; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump shared-desktop-ontologies build dependency to 0.8.
-  * The following dummy transitinal packages are now in section "oldlibs":
+  * The following dummy transitional packages are now in section "oldlibs":
     - kdebase-apps
-    - kdebase-apps-bin
+    - kdebase-bin
     - kdebase-dbg
   * Confirm symbols files on more architectures with 4.7.2 build logs.
 
