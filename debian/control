@@ -236,8 +236,8 @@ Package: libkonq-common
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq5-templates
-Replaces: libkonq5 (<< 4:4.4.5-3), libkonq5a
-Breaks: libkonq5 (<< 4:4.4.5-3), libkonq5a
+Replaces: libkonq5 (<< 4:4.4.5-3)
+Breaks: libkonq5 (<< 4:4.4.5-3)
 Description: core Konqueror library - support files
  This package contains plugins and data files used by the core Konqueror
  library (libkonq).
