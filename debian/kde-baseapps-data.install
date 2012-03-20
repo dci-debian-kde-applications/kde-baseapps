@@ -5,12 +5,12 @@ usr/share/kde4/apps/kcmcss/template.css
 usr/share/kde4/apps/kcontrol/pics/onlyone.png
 usr/share/kde4/apps/kcontrol/pics/overlapping.png
 usr/share/kde4/apps/kdm/pics/users/Blackbox.png
-usr/share/kde4/apps/kdm/pics/users/bomb.png
 usr/share/kde4/apps/kdm/pics/users/Green.png
 usr/share/kde4/apps/kdm/pics/users/Happy.png
 usr/share/kde4/apps/kdm/pics/users/Listening.png
 usr/share/kde4/apps/kdm/pics/users/Notme.png
 usr/share/kde4/apps/kdm/pics/users/TV.png
+usr/share/kde4/apps/kdm/pics/users/bomb.png
 usr/share/kde4/apps/keditbookmarks/keditbookmarks-genui.rc
 usr/share/kde4/apps/keditbookmarks/keditbookmarksui.rc
 usr/share/kde4/apps/kwebkitpart/kpartplugins/khtmlkttsd.desktop
