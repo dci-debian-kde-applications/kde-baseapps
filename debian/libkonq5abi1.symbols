@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.2 amd64
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD1Ev@ABI_5_1 4:4.7.2
@@ -209,6 +209,7 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN8KNewMenuD1Ev@ABI_5_1 4:4.6.5
  _ZN8KNewMenuD2Ev@ABI_5_1 4:4.6.5
  _ZNK13KonqPopupMenu10metaObjectEv@ABI_5_1 4:4.6.1
+ _ZNK13KonqPopupMenu15fileItemActionsEv@ABI_5_1 4:4.8.2
  _ZNK14KonqOperations10metaObjectEv@ABI_5_1 4:4.6.1
  _ZNK14KonqOperations11droppedUrlsEv@ABI_5_1 4:4.6.1
  _ZNK14KonqOperations12dropPositionEv@ABI_5_1 4:4.6.1
