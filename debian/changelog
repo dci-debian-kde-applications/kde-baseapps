@@ -1,6 +1,7 @@
 kde-baseapps (4:4.8.3-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes support for SOCKS proxy in konqueror. (Closes: #575885)
 
   [ Eshat Cakar ]
   * Update installed files.
