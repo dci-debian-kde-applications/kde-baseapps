@@ -1,7 +1,8 @@
-kde-baseapps (4:4.8.3-0r1) UNRELEASED; urgency=low
+kde-baseapps (4:4.8.3-1) experimental; urgency=low
 
   * New upstream release:
     - fixes support for SOCKS proxy in konqueror. (Closes: #575885)
+  * Team upload.
 
   [ Eshat Cakar ]
   * Update installed files.
@@ -11,7 +12,7 @@ kde-baseapps (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Remove obsolete libkonq5a breaks/replaces.
   * Update symbols files.
 
- -- Eshat Cakar <info@eshat.de>  Thu, 08 Mar 2012 18:30:33 +0100
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 03:09:23 +0300
 
 kde-baseapps (4:4.7.4-2) unstable; urgency=low
 
