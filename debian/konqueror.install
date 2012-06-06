@@ -37,6 +37,8 @@ usr/share/doc/kde/HTML/en/konqueror/dragdrop.png
 usr/share/doc/kde/HTML/en/konqueror/faq.docbook
 usr/share/doc/kde/HTML/en/konqueror/filemanager.docbook
 usr/share/doc/kde/HTML/en/konqueror/folders.png
+usr/share/doc/kde/HTML/en/konqueror/format-font-size-less.png
+usr/share/doc/kde/HTML/en/konqueror/format-font-size-more.png
 usr/share/doc/kde/HTML/en/konqueror/index.cache.bz2
 usr/share/doc/kde/HTML/en/konqueror/index.docbook
 usr/share/doc/kde/HTML/en/konqueror/introduction.docbook
@@ -53,6 +55,7 @@ usr/share/doc/kde/HTML/en/konqueror/shortcut2.png
 usr/share/doc/kde/HTML/en/konqueror/sidebar.docbook
 usr/share/doc/kde/HTML/en/konqueror/thumbnails.png
 usr/share/doc/kde/HTML/en/konqueror/view-extensions.docbook
+usr/share/doc/kde/HTML/en/konqueror/viewproperties-dialog.png
 usr/share/icons/hicolor/128x128/apps/konqueror.png
 usr/share/icons/hicolor/16x16/apps/konqueror.png
 usr/share/icons/hicolor/22x22/apps/konqueror.png

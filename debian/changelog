@@ -7,6 +7,10 @@ kde-baseapps (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to version 4:4.8.4.
   * Update installed files.
 
+  [ Pino Toscano ]
+  * Move files of the konqueror documentation from kde-baseapps-data to
+    konqueror itself.
+
  -- Eshat Cakar <info@eshat.de>  Tue, 05 Jun 2012 17:17:02 +0200
 
 kde-baseapps (4:4.8.3-1) experimental; urgency=low

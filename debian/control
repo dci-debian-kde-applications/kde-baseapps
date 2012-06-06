@@ -133,6 +133,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Versi
  kde-baseapps-bin (= ${binary:Version}), install-info
 Suggests: konq-plugins (>= 4:4.1~)
 Recommends: konqueror-nsplugins (= ${binary:Version}), dolphin, kfind
+Breaks: kde-baseapps-data (<< 4:4.8.4)
+Replaces: kde-baseapps-data (<< 4:4.8.4)
 Description: advanced file manager, web browser and document viewer
  Konqueror is the KDE web browser and advanced file manager.
  .
