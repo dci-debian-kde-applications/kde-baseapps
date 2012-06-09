@@ -1,4 +1,4 @@
-kde-baseapps (4:4.8.4-0r1) UNRELEASED; urgency=low
+kde-baseapps (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -11,7 +11,7 @@ kde-baseapps (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Move files of the konqueror documentation from kde-baseapps-data to
     konqueror itself.
 
- -- Eshat Cakar <info@eshat.de>  Tue, 05 Jun 2012 17:17:02 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 22:18:08 +0300
 
 kde-baseapps (4:4.8.3-1) experimental; urgency=low
 
