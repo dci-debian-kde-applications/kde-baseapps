@@ -1,4 +1,4 @@
-kde-baseapps (4:4.8.4-2) UNRELEASED; urgency=low
+kde-baseapps (4:4.8.4-2) unstable; urgency=low
 
   [ Pino Toscano ]
   * Add breaks/replaces in konqueror against kdebase-data << 4.7.2.
@@ -7,7 +7,7 @@ kde-baseapps (4:4.8.4-2) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Jul 2012 19:07:34 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 19 Oct 2012 18:04:13 -0300
 
 kde-baseapps (4:4.8.4-1) unstable; urgency=low
 
