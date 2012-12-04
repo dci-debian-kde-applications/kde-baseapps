@@ -1,0 +1,45 @@
+From bc8df3d5a1e3747a8971107bc17f593c506a6dc9 Mon Sep 17 00:00:00 2001
+From: David Faure <faure@kde.org>
+Date: Wed, 18 Jul 2012 20:40:56 +0200
+Subject: [PATCH] Fix open-in-new-window to work with remote URLs
+
+FIXED-IN: 4.9.0
+BUGS: 274655, 292822
+---
+ dolphin/src/dolphinmainwindow.cpp |    6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/dolphin/src/dolphinmainwindow.cpp b/dolphin/src/dolphinmainwindow.cpp
+index 1ce5193..1726829 100644
+--- a/dolphin/src/dolphinmainwindow.cpp
++++ b/dolphin/src/dolphinmainwindow.cpp
+@@ -462,7 +462,7 @@ void DolphinMainWindow::updateFilterBarAction(bool show)
+ 
+ void DolphinMainWindow::openNewMainWindow()
+ {
+-    KRun::run("dolphin", KUrl::List(), this);
++    KRun::run("dolphin %u", KUrl::List(), this);
+ }
+ 
+ void DolphinMainWindow::openNewTab()
+@@ -567,7 +567,7 @@ void DolphinMainWindow::openInNewWindow()
+     }
+ 
+     if (!newWindowUrl.isEmpty()) {
+-        KRun::run("dolphin", KUrl::List() << newWindowUrl, this);
++        KRun::run("dolphin %u", KUrl::List() << newWindowUrl, this);
+     }
+ }
+ 
+@@ -1399,7 +1399,7 @@ void DolphinMainWindow::openContextMenu(const QPoint& pos,
+ 
+     switch (command) {
+     case DolphinContextMenu::OpenParentFolderInNewWindow: {
+-        KRun::run("dolphin", KUrl::List() << item.url().upUrl(), this);
++        KRun::run("dolphin %u", KUrl::List() << item.url().upUrl(), this);
+         break;
+     }
+ 
+-- 
+1.7.10.4
+

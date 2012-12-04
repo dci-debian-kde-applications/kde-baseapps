@@ -1,5 +1,11 @@
 kde-baseapps (4:4.8.4-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream commit bc8df3d5a1e3747a8971107bc17f593c506a6dc9 to fix
+    the "open in new window" functionality in Dolphin for remote URLs (this
+    assumes libkio5 has the fix for in-memory services; patch
+    upstream_Fix-open-in-new-window-to-work-with-remote-URLs.patch.
+    (Closes: #685980)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Dec 2012 15:15:40 +0100
 

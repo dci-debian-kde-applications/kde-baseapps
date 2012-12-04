@@ -1,2 +1,3 @@
 enable_debianabimanager.diff
 enable_dlrestrictions.diff
+upstream_Fix-open-in-new-window-to-work-with-remote-URLs.patch
