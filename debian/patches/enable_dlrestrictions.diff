@@ -9,7 +9,7 @@ not stable and structures frequently conflict.
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -44,6 +44,13 @@ macro_optional_add_subdirectory( doc )
+@@ -41,6 +41,13 @@ macro_optional_add_subdirectory( doc )
  
  include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
  
