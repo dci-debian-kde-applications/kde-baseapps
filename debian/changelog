@@ -1,11 +1,11 @@
-kde-baseapps (4:4.9.5-0r1) UNRELEASED; urgency=low
+kde-baseapps (4:4.10.0-0r0) UNRELEASED; urgency=low
 
   * New upstream release. 
 
   [ José Manuel Santamaría Lema ]
   * Update patches to make them apply without any offset.
-  * Bump kde-sc-dev-latest build dependency to version 4:4.9.5.
-  * Bump kdelibs5-dev build dependency to version 4:4.9.
+  * Bump kde-sc-dev-latest build dependency to version 4:4.10.0.
+  * Bump kdelibs5-dev build dependency to version 4:4.10.
   * Update installed files.
   * Add lintian overrides for hardening-no-fortify-functions.
 
