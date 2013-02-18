@@ -11,6 +11,11 @@ kde-baseapps (4:4.10.0-0r0) UNRELEASED; urgency=low
   * Update installed files.
   * Add lintian overrides for hardening-no-fortify-functions.
 
+  [ Josep Febrer ]
+  * Refresh patches:
+    - enable_debianabimanager.diff.
+    - enable_dlrestrictions.diff.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Jan 2013 00:43:45 +0100
 
 kde-baseapps (4:4.8.4-2) unstable; urgency=low
