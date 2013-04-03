@@ -1,4 +1,4 @@
-kde-baseapps (4:4.10.1-0r1) UNRELEASED; urgency=low
+kde-baseapps (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release. 
 
@@ -17,7 +17,11 @@ kde-baseapps (4:4.10.1-0r1) UNRELEASED; urgency=low
     - enable_dlrestrictions.diff.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Jan 2013 00:43:45 +0100
+  [ Sune Vuorela ]
+  * Update uploaders
+  * Update my email address
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 18:55:57 +0000
 
 kde-baseapps (4:4.8.4-2) unstable; urgency=low
 
