@@ -2,26 +2,27 @@ Source: kde-baseapps
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <debian@pusling.com>,
- Fathi Boudra <fabo@debian.org>,
- Armin Berres <armin+debian@space-based.de>,
- Modestas Vainius <modax@debian.org>,
- George Kiagiadakis <kiagiadakis.george@gmail.com>,
- José Manuel Santamaría Lema <panfaust@gmail.com>,
- Eshat Cakar <info@eshat.de>,
- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12), libdlrestrictions-dev (>= 0.14),
- kdelibs5-dev (>= 4:4.8), libphonon-dev (>= 4:4.3.0),
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Eshat Cakar <info@eshat.de>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12), libdlrestrictions-dev (>= 0.14),
+ kdelibs5-dev (>= 4:4.10), libkactivities-dev (>= 4:4.10),
+ nepomuk-core-dev (>= 4:4.10), libnepomukwidgets-dev (>= 4:4.10),
+ libphonon-dev (>= 4:4.3.0),
  libqimageblitz-dev (>= 1:0.0.4-2), libxkbfile-dev,
  libstreamanalyzer-dev (>= 0.6.3),
  libxrender-dev, zlib1g-dev,
  libxt-dev, pkg-config, libglib2.0-dev, shared-desktop-ontologies (>= 0.8),
  libtidy-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-baseapps.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-baseapps.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-baseapps.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-baseapps.git
 
 Package: kde-baseapps
 Architecture: all
@@ -29,9 +30,9 @@ Depends: ${misc:Depends},
  dolphin (>= ${source:Version}),
  kde-baseapps-bin (>= ${source:Version}),
  kdepasswd (>= ${source:Version}),
- kfind (>= ${source:Version}), 
+ kfind (>= ${source:Version}),
  konqueror (>= ${source:Version}),
- konsole, 
+ konsole,
  kwrite,
  plasma-widget-folderview (>= ${source:Version})
 Recommends: konqueror-nsplugins (>= ${source:Version})
@@ -62,7 +63,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: ruby
 Suggests: kdesdk-dolphin-plugins
-Description: file manager 
+Description: file manager
  Dolphin is the default file manager in the KDE Plasma Workspaces, intended
  to be both powerful and easy to use.
  .
@@ -121,7 +122,7 @@ Package: kfind
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: file search utility 
+Description: file search utility
  KFind can be used to find files and directories on your system.
  .
  This package is part of the KDE base applications module.

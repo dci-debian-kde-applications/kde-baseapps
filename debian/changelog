@@ -1,3 +1,44 @@
+kde-baseapps (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 00:15:50 +0200
+
+kde-baseapps (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Update vcs fields.
+  * Add myself to uploaders.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 09:31:51 +0200
+
+kde-baseapps (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream release. 
+
+  [ José Manuel Santamaría Lema ]
+  * Update patches to make them apply without any offset.
+  * Bump kde-sc-dev-latest build dependency to version 4:4.10.1.
+  * Bump kdelibs5-dev build dependency to version 4:4.10.
+  * Add libkactivities-dev, nepomuk-core-dev and libnepomukwidgets-dev to
+    Build-Depends.
+  * Update installed files.
+  * Add lintian overrides for hardening-no-fortify-functions.
+
+  [ Josep Febrer ]
+  * Refresh patches:
+    - enable_debianabimanager.diff.
+    - enable_dlrestrictions.diff.
+  * Update installed files.
+
+  [ Sune Vuorela ]
+  * Update uploaders
+  * Update my email address
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 18:55:57 +0000
+
 kde-baseapps (4:4.8.4-3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
