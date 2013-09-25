@@ -54,12 +54,12 @@ usr/share/kde4/apps/khtml/kpartplugins/minitoolsplugin.desktop
 usr/share/kde4/apps/khtml/kpartplugins/minitoolsplugin.rc
 usr/share/kde4/apps/khtml/kpartplugins/plugin_adblock.desktop
 usr/share/kde4/apps/khtml/kpartplugins/plugin_adblock.rc
-usr/share/kde4/apps/khtml/kpartplugins/plugin_babelfish.desktop
 usr/share/kde4/apps/khtml/kpartplugins/plugin_babelfish.rc
 usr/share/kde4/apps/khtml/kpartplugins/plugin_domtreeviewer.desktop
 usr/share/kde4/apps/khtml/kpartplugins/plugin_domtreeviewer.rc
 usr/share/kde4/apps/khtml/kpartplugins/plugin_rellinks.desktop
 usr/share/kde4/apps/khtml/kpartplugins/plugin_rellinks.rc
+usr/share/kde4/apps/khtml/kpartplugins/plugin_translator.desktop
 usr/share/kde4/apps/khtml/kpartplugins/plugin_validators.desktop
 usr/share/kde4/apps/khtml/kpartplugins/plugin_validators.rc
 usr/share/kde4/apps/khtml/kpartplugins/plugin_webarchiver.desktop
@@ -81,8 +81,8 @@ usr/share/kde4/apps/kwebkitpart/kpartplugins/autorefresh.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/autorefresh.rc
 usr/share/kde4/apps/kwebkitpart/kpartplugins/khtmlsettingsplugin.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/khtmlsettingsplugin.rc
-usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_babelfish.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_babelfish.rc
+usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_translator.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_validators.desktop
 usr/share/kde4/apps/kwebkitpart/kpartplugins/plugin_validators.rc
 usr/share/kde4/apps/kwebkitpart/kpartplugins/uachangerplugin.desktop
