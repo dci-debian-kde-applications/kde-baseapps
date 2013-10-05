@@ -4,6 +4,7 @@ kde-baseapps (4:4.11.2-1) experimental; urgency=low
   * Refresh patches.
   * Update build-dependencies.
   * Update install files.
+  * Update symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:20:12 +0200
 

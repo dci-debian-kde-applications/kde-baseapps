@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.2 amd64
+# SymbolsHelper-Confirmed: 4:4.11.2 amd64
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
  (arch=kfreebsd-amd64 kfreebsd-i386)_ZN11KMountPoint4ListD1Ev@ABI_5_1 4:4.7.2
@@ -35,12 +35,16 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN14KonqOperations12setOperationEPN3KIO3JobENS_9OperationERK4KUrl@ABI_5_1 4:4.6.1
  _ZN14KonqOperations12statFinishedERK9KFileItem@ABI_5_1 4:4.6.1
  _ZN14KonqOperations13aboutToCreateERK6QPointRK5QListIN3KIO8CopyInfoEE@ABI_5_1 4:4.6.1
+ _ZN14KonqOperations13aboutToCreateERKN4KUrl4ListE@ABI_5_1 4:4.11.2
  _ZN14KonqOperations14doDropFileCopyEv@ABI_5_1 4:4.6.1
+ _ZN14KonqOperations14renamingFailedERK4KUrlS2_@ABI_5_1 4:4.11.2
  _ZN14KonqOperations14slotStatResultEP4KJob@ABI_5_1 4:4.6.1
+ _ZN14KonqOperations15slotCopyingDoneEPN3KIO3JobERK4KUrlS5_@ABI_5_1 4:4.11.2
  _ZN14KonqOperations16staticMetaObjectE@ABI_5_1 4:4.6.1
  _ZN14KonqOperations17_addPluginActionsER5QListIP7QActionERK4KUrlRK23KFileItemListProperties@ABI_5_1 4:4.6.1
  _ZN14KonqOperations17slotAboutToCreateEPN3KIO3JobERK5QListINS0_8CopyInfoEE@ABI_5_1 4:4.6.1
  _ZN14KonqOperations19restoreTrashedItemsERKN4KUrl4ListEP7QWidget@ABI_5_1 4:4.6.1
+ _ZN14KonqOperations19slotCopyingLinkDoneEPN3KIO3JobERK4KUrlRK7QStringS5_@ABI_5_1 4:4.11.2
  _ZN14KonqOperations20_restoreTrashedItemsERKN4KUrl4ListE@ABI_5_1 4:4.6.1
  _ZN14KonqOperations21askDeleteConfirmationERKN4KUrl4ListEiNS_16ConfirmationTypeEP7QWidget@ABI_5_1 4:4.6.1
  _ZN14KonqOperations3delEP7QWidgetNS_9OperationERKN4KUrl4ListE@ABI_5_1 4:4.6.1
@@ -56,7 +60,10 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN14KonqOperations7doPasteEP7QWidgetRK4KUrlRK6QPoint@ABI_5_1 4:4.6.1
  _ZN14KonqOperations7statUrlERK4KUrlPK7QObjectPKcP7QWidget@ABI_5_1 4:4.6.1
  _ZN14KonqOperations8_statUrlERK4KUrlPK7QObjectPKc@ABI_5_1 4:4.6.1
+ _ZN14KonqOperations8renameV2EP7QWidgetRK4KUrlRK7QString@ABI_5_1 4:4.11.2
+ _ZN14KonqOperations8renameV2EP7QWidgetRK4KUrlS4_@ABI_5_1 4:4.11.2
  _ZN14KonqOperations9asyncDropERK9KFileItem@ABI_5_1 4:4.6.1
+ _ZN14KonqOperations9doPasteV2EP7QWidgetRK4KUrlRK6QPoint@ABI_5_1 4:4.11.2
  _ZN14KonqOperations9pasteInfoERK4KUrl@ABI_5_1 4:4.6.1
  _ZN14KonqOperationsC1EP7QWidget@ABI_5_1 4:4.6.1
  _ZN14KonqOperationsC2EP7QWidget@ABI_5_1 4:4.6.1
