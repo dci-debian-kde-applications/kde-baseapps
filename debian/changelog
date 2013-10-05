@@ -1,11 +1,11 @@
-kde-baseapps (4:4.11.2-1) UNRELEASED; urgency=low
+kde-baseapps (4:4.11.2-1) experimental; urgency=low
 
   * New upstream release.
   * Refresh patches.
   * Update build-dependencies.
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:08:03 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Oct 2013 13:20:12 +0200
 
 kde-baseapps (4:4.10.5-1) unstable; urgency=low
 
