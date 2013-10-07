@@ -1,5 +1,6 @@
 kde-baseapps (4:4.11.2-1r1) UNRELEASED; urgency=low
 
+  * Update build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 13:21:52 +0200
 
