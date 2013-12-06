@@ -1,4 +1,6 @@
-kde-baseapps (4:4.11.3-2) UNRELEASED; urgency=medium
+kde-baseapps (4:4.11.4-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make konqueror recommend kpart-webkit. Upstream recommends using the
