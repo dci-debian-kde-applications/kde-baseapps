@@ -79,28 +79,28 @@ Copyright (C) 1989, 1991, 2000, 2001, 2002 Free Software Foundation, Inc
 Copyright (C) 19yy name of author
 Copyright (C) 19yy  <name of author>
 Copyright (c) 2003 Thiago Macieira <thiago.macieira@kdemail.net>
-Copyright (C) 2006-2009 by Peter Penz <peter.penz@gmx.at>             
-Copyright (C) 2006 by Aaron J. Seigo (<aseigo@kde.org>)               
-Copyright (C) 2006 by Cvetoslav Ludmiloff <ludmiloff@gmail.com>       
-Copyright (C) 2006 by Dominic Battre <dominic@battre.de>              
-Copyright (C) 2006 by Gregor Kališnik <gregor@podnapisi.net>          
-Copyright (C) 2006 by Holger 'zecke' Freyther <freyther@kde.org>      
-Copyright (C) 2006 by Martin Pool <mbp@canonical.com>                 
-Copyright (C) 2006 by Stefan Monov <logixoul@gmail.com>               
-Copyright (C) 2007, 2008 by David Faure <faure@kde.org>                     
-Copyright (C) 2007 by Rafael Fernández López <ereslibre@kde.org>      
+Copyright (C) 2006-2009 by Peter Penz <peter.penz@gmx.at>
+Copyright (C) 2006 by Aaron J. Seigo (<aseigo@kde.org>)
+Copyright (C) 2006 by Cvetoslav Ludmiloff <ludmiloff@gmail.com>
+Copyright (C) 2006 by Dominic Battre <dominic@battre.de>
+Copyright (C) 2006 by Gregor Kališnik <gregor@podnapisi.net>
+Copyright (C) 2006 by Holger 'zecke' Freyther <freyther@kde.org>
+Copyright (C) 2006 by Martin Pool <mbp@canonical.com>
+Copyright (C) 2006 by Stefan Monov <logixoul@gmail.com>
+Copyright (C) 2007, 2008 by David Faure <faure@kde.org>
+Copyright (C) 2007 by Rafael Fernández López <ereslibre@kde.org>
 Copyright (C) 2007 Matthias Kretz <kretz@kde.org>
 Copyright (C) 2007 Montel Laurent <montel@kde.org>
-Copyright (C) 2008 by Fredrik Höglund <fredrik@kde.org>               
-Copyright (C) 2008 by <haraldhv (at) stud.ntnu.no>                    
-Copyright (C) 2008 by Konstantin Heil <konst.heil@stud.uni-heidelberg.de> 
-Copyright (C) 2008, 2009 by Sebastian Trueg <trueg@kde.org>                 
-Copyright (C) 2008 by Simon St James <kdedevel@etotheipiplusone.com>  
-Copyright (C) 2009 by Adam Kidder <thekidder@gmail.com>               
-Copyright (C) 2009 by Frank Reininghaus (frank78ac@googlemail.com)    
-Copyright (C) 2009 by Matthias Fuchs <mat69@gmx.net>                  
-Copyright (C) 2009 by Rahman Duran <rahman.duran@gmail.com>           
-Copyright (C) 2009 by Shaun Reich shaun.reich@kdemail.net             
+Copyright (C) 2008 by Fredrik Höglund <fredrik@kde.org>
+Copyright (C) 2008 by <haraldhv (at) stud.ntnu.no>
+Copyright (C) 2008 by Konstantin Heil <konst.heil@stud.uni-heidelberg.de>
+Copyright (C) 2008, 2009 by Sebastian Trueg <trueg@kde.org>
+Copyright (C) 2008 by Simon St James <kdedevel@etotheipiplusone.com>
+Copyright (C) 2009 by Adam Kidder <thekidder@gmail.com>
+Copyright (C) 2009 by Frank Reininghaus (frank78ac@googlemail.com)
+Copyright (C) 2009 by Matthias Fuchs <mat69@gmx.net>
+Copyright (C) 2009 by Rahman Duran <rahman.duran@gmail.com>
+Copyright (C) 2009 by Shaun Reich shaun.reich@kdemail.net
 Copyright (C) 2009 Nokia Corporation
 Copyright (c)  YEAR  YOUR NAME
 
@@ -160,7 +160,7 @@ kdepasswd/
 ------
 
 Copyright 2003 Braden MacDonald <bradenm_k@shaw.ca>
-Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>       
+Copyright 2003 Ravikiran Rajagopal <ravi@ee.eng.ohio-state.edu>
 Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org
 Copyright (C) 2004 Frans Englich <frans.englich@telia.com
 
@@ -342,14 +342,14 @@ Copyright 2008 Pino Toscano <pino@kde.org>
 Copyright (C) 1991, 1992 Free Software Foundation, Inc
 Copyright (c) 1994, 1995 by Mike Romberg ( romberg@fsl.noaa.gov )
 Copyright (C) 1999-2002 Brian Pau
-Copyright (C) 1999, Gary Meyer <gary@meyer.net>                       
+Copyright (C) 1999, Gary Meyer <gary@meyer.net>
 Copyright (c) 1999, 2001 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
 Copyright (c) 2000,2001 Matthias Elter <elter@kde.org>
 Copyright (c) 2003 Benjamin Reed <ranger@befunk.com>
 Copyright (c) 2003 Frauke Oster <frauke.oster@t-online.de>
 Copyright (C) 2004 Ilya Korniyko <k_ilya@ukr.net>
 Copyright (C) 2008 Ivo Anjo <knuckles@gmail.com>
-Copyright (C) 2008 Nicolas Ternisien <nicolas.ternisien@gmail.com>   
+Copyright (C) 2008 Nicolas Ternisien <nicolas.ternisien@gmail.com>
 
 License for all components is:
 --
@@ -619,7 +619,7 @@ Copyright 2005 by Maksim Orlovich <maksim@kde.org>
 Copyright 2006-2008 by Robert Knight <robertknight@gmail.com>
 Copyright 2009 by Thomas Dreibholz <dreibh@iem.uni-due.de>
 Copyright (C) 1989, 1991 Free Software Foundation, Inc
-Copyright (c) 1998 by Lars Doelle <lars.doelle@on-line.de>                 
+Copyright (c) 1998 by Lars Doelle <lars.doelle@on-line.de>
 Copyright (C) 19yy name of author
 Copyright (C) 2009 Patrick Spendrin <ps_ml@gmx.de>
 
@@ -711,7 +711,7 @@ Copyright (C) 2001 Malte Starostik <malte@kde.org>
 Copyright (c) 1998-2009 David Faure <faure@kde.org>
 Copyright (C) 2000-2001      Simon Hausmann <hausmann@kde.org>
 Copyright 2000,2001 Carsten Pfeiffer <pfeiffer@kde.org>
-Copyright (C) 2008, 2009 by Peter Penz <peter.penz@gmx.at>                      
+Copyright (C) 2008, 2009 by Peter Penz <peter.penz@gmx.at>
 Copyright 2009  Harald Hvaal <haraldhv@stud.ntnu.no>
 Copyright (C) 2008 by George Goldberg <grundleborg@googlemail.com>
 Copyright 2001-2002  Alexander Neundorf <neundorf@kde.org>

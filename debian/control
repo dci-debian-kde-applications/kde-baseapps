@@ -9,16 +9,26 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12), libdlrestrictions-dev (>= 0.14),
- kdelibs5-dev (>= 4:4.11), libkactivities-dev (>= 4:4.11),
- nepomuk-core-dev (>= 4:4.11), libnepomukwidgets-dev (>= 4:4.11),
- libphonon-dev (>= 4:4.3.0),
- libqimageblitz-dev (>= 1:0.0.4-2), libxkbfile-dev,
- libstreamanalyzer-dev (>= 0.6.3),
- libxrender-dev, zlib1g-dev,
- libxt-dev, pkg-config, libglib2.0-dev, shared-desktop-ontologies (>= 0.8),
- libtidy-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libdlrestrictions-dev (>= 0.14),
+               libglib2.0-dev,
+               libkactivities-dev (>= 4:4.11),
+               libnepomukwidgets-dev (>= 4:4.11),
+               libphonon-dev (>= 4:4.3.0),
+               libqimageblitz-dev (>= 1:0.0.4-2),
+               libstreamanalyzer-dev (>= 0.6.3),
+               libtidy-dev,
+               libxkbfile-dev,
+               libxrender-dev,
+               libxt-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               shared-desktop-ontologies (>= 0.8),
+               zlib1g-dev
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-baseapps.git
@@ -26,15 +36,15 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-baseapps.git
 
 Package: kde-baseapps
 Architecture: all
-Depends: ${misc:Depends},
- dolphin (>= ${source:Version}),
- kde-baseapps-bin (>= ${source:Version}),
- kdepasswd (>= ${source:Version}),
- kfind (>= ${source:Version}),
- konqueror (>= ${source:Version}),
- konsole,
- kwrite,
- plasma-widget-folderview (>= ${source:Version})
+Depends: dolphin (>= ${source:Version}),
+         kde-baseapps-bin (>= ${source:Version}),
+         kdepasswd (>= ${source:Version}),
+         kfind (>= ${source:Version}),
+         konqueror (>= ${source:Version}),
+         konsole,
+         kwrite,
+         plasma-widget-folderview (>= ${source:Version}),
+         ${misc:Depends}
 Recommends: konqueror-nsplugins (>= ${source:Version})
 Breaks: kdebase-apps (<< 4:4.7.2)
 Replaces: kdebase-apps (<< 4:4.7.2)
@@ -60,7 +70,7 @@ Description: Transitional package for kde-baseapps
 Package: dolphin
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: ruby
 Suggests: kdesdk-dolphin-plugins
 Description: file manager
@@ -80,8 +90,10 @@ Description: file manager
 
 Package: kde-baseapps-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Version})
-Breaks: kdesktop, kcontrol, kdebase-bin (<< 4:4.7.2)
+Depends: kde-baseapps-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: kcontrol, kdebase-bin (<< 4:4.7.2), kdesktop
 Replaces: kdebase-bin (<< 4:4.7.2)
 Description: core binaries for the KDE base applications
  This package contains miscellaneous programs needed by other KDE
@@ -93,7 +105,7 @@ Package: kdebase-bin
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: ${misc:Depends}, kde-baseapps-bin
+Depends: kde-baseapps-bin, ${misc:Depends}
 Description: Transitional package for new kde-baseapps
  This transitional package can be safely removed after installation.
 
@@ -111,7 +123,9 @@ Description: shared data files for the KDE base applications
 Package: kdepasswd
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Version})
+Depends: kde-baseapps-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: graphical password changing utility
  kdepasswd allows users to change their password, user icon, and other
  information.  A variety of user icons are included.
@@ -121,7 +135,7 @@ Description: graphical password changing utility
 Package: kfind
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: file search utility
  KFind can be used to find files and directories on your system.
  .
@@ -131,12 +145,18 @@ Package: konqueror
 Section: web
 Architecture: any
 Provides: info-browser, man-browser, www-browser
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-baseapps-data (= ${source:Version}),
- kde-baseapps-bin (= ${binary:Version}), install-info
+Depends: install-info,
+         kde-baseapps-bin (= ${binary:Version}),
+         kde-baseapps-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Suggests: konq-plugins (>= 4:4.1~)
-Recommends: kpart-webkit, konqueror-nsplugins (= ${binary:Version}), dolphin, kfind
-Breaks: kdebase-data (<< 4:4.7.2), kde-baseapps-data (<< 4:4.8.4)
-Replaces: kdebase-data (<< 4:4.7.2), kde-baseapps-data (<< 4:4.8.4)
+Recommends: dolphin,
+            kfind,
+            konqueror-nsplugins (= ${binary:Version}),
+            kpart-webkit
+Breaks: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
+Replaces: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
 Description: advanced file manager, web browser and document viewer
  Konqueror is the KDE web browser and advanced file manager.
  .
@@ -155,7 +175,7 @@ Description: advanced file manager, web browser and document viewer
 Package: konqueror-nsplugins
 Section: web
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: gtk-qt-engine (<< 1:1.0)
 Description: Netscape plugin support for Konqueror
  Konqueror is the KDE web browser and advanced file manager.
@@ -167,8 +187,11 @@ Description: Netscape plugin support for Konqueror
 
 Package: konq-plugins
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, konqueror (>= 4:4.1.0),
- python, libjpeg-progs
+Depends: konqueror (>= 4:4.1.0),
+         libjpeg-progs,
+         python,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Enhances: konqueror
 Recommends: imagemagick
 Description: plugins for Konqueror, the KDE file/web/document browser
@@ -233,7 +256,9 @@ Package: libkonq5abi1
 Section: libs
 Architecture: any
 X-Debian-ABI: 1
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq-common (>= ${binary:Version})
+Depends: libkonq-common (>= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
@@ -243,7 +268,7 @@ Description: core libraries for Konqueror
 Package: libkonq-common
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkonq5-templates
+Depends: libkonq5-templates, ${misc:Depends}, ${shlibs:Depends}
 Replaces: libkonq5 (<< 4:4.4.5-3)
 Breaks: libkonq5 (<< 4:4.4.5-3)
 Description: core Konqueror library - support files
@@ -267,7 +292,9 @@ Description: data files for the Konqueror libraries
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5abi1 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkonq5abi1}, ${misc:Depends}
+Depends: libkonq5abi1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkonq5abi1}
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
@@ -278,7 +305,7 @@ Package: libkonqsidebarplugin4a
 Section: libs
 Architecture: any
 X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: konqueror sidebar plugin library
  This package contains base library for Konqueror sidebar plugins.
  .
@@ -288,7 +315,8 @@ Package: libkonqsidebarplugin-dev
 Section: libdevel
 Architecture: any
 Depends: libkonqsidebarplugin4a (= ${binary:Version}),
- ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a}, ${misc:Depends}
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a}
 Description: konqueror sidebar plugin library development files
  This package contains development headers for the Konqueror sidebar plugin
  library.
@@ -297,7 +325,7 @@ Description: konqueror sidebar plugin library development files
 
 Package: plasma-widget-folderview
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: plasma widget showing the content of a folder
  This package contains the Folder View Plasma widget which is capable of
  displaying and managing contents of any KDE supported location. It can be used
@@ -311,7 +339,7 @@ Package: kde-baseapps-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kde-runtime-dbg, konsole-dbg, kate-dbg
+Depends: kate-dbg, kde-runtime-dbg, konsole-dbg, ${misc:Depends}
 Suggests: kde-baseapps (= ${source:Version})
 Breaks: kdebase-dbg (<< 4:4.7.2)
 Replaces: kdebase-dbg (<< 4:4.7.2)
