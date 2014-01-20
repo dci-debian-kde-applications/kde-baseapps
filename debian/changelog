@@ -1,5 +1,10 @@
 kde-baseapps (4:4.11.3-2) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make konqueror recommend kpart-webkit. Upstream recommends using the
+    webkit based backend and it seems that, if available, it's the default
+    one. So adding it as recommend will make most users use it while allowing
+    to only install khtml for those who want it (Closes: #735057).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 20 Jan 2014 12:58:38 -0300
 
