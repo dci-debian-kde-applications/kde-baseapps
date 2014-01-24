@@ -30,6 +30,7 @@ Build-Depends: cmake,
                shared-desktop-ontologies (>= 0.8),
                zlib1g-dev
 Standards-Version: 3.9.4
+XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-baseapps.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-baseapps.git
