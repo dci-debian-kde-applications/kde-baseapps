@@ -1,4 +1,4 @@
-kde-baseapps (4:4.11.4-1) UNRELEASED; urgency=low
+kde-baseapps (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -8,7 +8,7 @@ kde-baseapps (4:4.11.4-1) UNRELEASED; urgency=low
     one. So adding it as recommend will make most users use it while allowing
     to only install khtml for those who want it (Closes: #735057).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 20 Jan 2014 12:58:38 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jan 2014 12:14:48 -0300
 
 kde-baseapps (4:4.11.3-1) unstable; urgency=low
 
