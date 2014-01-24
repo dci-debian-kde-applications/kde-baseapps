@@ -29,7 +29,7 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12),
                shared-desktop-ontologies (>= 0.8),
                zlib1g-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-baseapps.git
