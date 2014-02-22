@@ -5,6 +5,13 @@ kde-baseapps (4:4.12.2-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:32 +0100
 
+kde-baseapps (4:4.11.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols files.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 22 Feb 2014 17:55:49 +0100
+
 kde-baseapps (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
