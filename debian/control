@@ -308,7 +308,7 @@ Architecture: any
 X-Debian-ABI: 0
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: konqueror sidebar plugin library
- This package contains base library for Konqueror sidebar plugins.
+ This package contains the base library for Konqueror sidebar plugins.
  .
  This package is part of the KDE base applications module.
 
