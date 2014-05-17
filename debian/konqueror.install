@@ -24,7 +24,7 @@ usr/share/applications/kde4/kfmclient_war.desktop
 usr/share/applications/kde4/konqbrowser.desktop
 usr/share/applications/kde4/konquerorsu.desktop
 usr/share/autostart/konqy_preload.desktop
-usr/share/doc/kde/HTML/*/konqueror
+usr/share/doc/kde/HTML/*/konqueror/
 usr/share/icons/hicolor/128x128/apps/konqueror.png
 usr/share/icons/hicolor/16x16/apps/konqueror.png
 usr/share/icons/hicolor/22x22/apps/konqueror.png

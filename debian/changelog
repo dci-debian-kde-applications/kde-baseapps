@@ -6,6 +6,7 @@ kde-baseapps (4:4.13.1-1) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * New upstream release.
   * Update build dependencies.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 22:27:33 +0200
 
