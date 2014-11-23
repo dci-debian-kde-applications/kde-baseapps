@@ -3,7 +3,7 @@
 case "$1" in
     configure)
 	update-alternatives --install /usr/bin/x-www-browser \
-	    x-www-browser /usr/bin/konqueror 100 \
+	    x-www-browser /usr/bin/konqueror 30 \
 	    --slave /usr/share/man/man1/x-www-browser.1.gz \
 	    x-www-browser.1.gz /usr/share/man/man1/konqueror.1.gz
     ;;
