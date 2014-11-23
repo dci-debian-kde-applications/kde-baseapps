@@ -5,6 +5,7 @@ kde-baseapps (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
     - Add kubuntu_folderview_livecd_directory.diff,
       kubuntu_folderwidget_drawing.diff and kubuntu_install_flash.diff.
   * New upstream beta release.
+    - install appdata files for kfind and konqueror
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Update the maintainer.

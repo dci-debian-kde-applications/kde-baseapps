@@ -16,6 +16,7 @@ usr/lib/libkdeinit4_kfmclient.so
 usr/lib/libkdeinit4_konqueror.so
 usr/lib/libkonquerorprivate.so.4
 usr/lib/libkonquerorprivate.so.4.*
+usr/share/appdata/konqueror.appdata.xml
 usr/share/applications/kde4/Home.desktop
 usr/share/applications/kde4/kfmclient.desktop
 usr/share/applications/kde4/kfmclient_dir.desktop

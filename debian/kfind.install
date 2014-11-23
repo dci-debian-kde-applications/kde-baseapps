@@ -1,4 +1,5 @@
 usr/bin/kfind
+usr/share/appdata/kfind.appdata.xml
 usr/share/applications/kde4/kfind.desktop
 usr/share/doc/kde/HTML/en/kfind/common
 usr/share/doc/kde/HTML/en/kfind/index.cache.bz2
