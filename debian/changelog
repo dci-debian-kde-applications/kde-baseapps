@@ -1,3 +1,12 @@
+kde-baseapps (4:4.14.2-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Merge with debian unstable, remaining changes: 
+    - lower the konqueror priority to 30 as it's not our default.
+    - Add kubuntu_folderview_livecd_directory.diff,
+      kubuntu_folderwidget_drawing.diff and kubuntu_install_flash.diff.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 14:33:44 +0100
+
 kde-baseapps (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
