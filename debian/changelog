@@ -1,10 +1,10 @@
-kde-baseapps (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+kde-baseapps (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
   * Merge with debian unstable, remaining changes: 
     - lower the konqueror priority to 30 as it's not our default.
     - Add kubuntu_folderview_livecd_directory.diff,
       kubuntu_folderwidget_drawing.diff and kubuntu_install_flash.diff.
-  * New upstream beta release.
+  * New upstream release candidate.
     - install appdata files for kfind and konqueror
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
