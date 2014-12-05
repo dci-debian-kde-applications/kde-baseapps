@@ -1,4 +1,4 @@
-kde-baseapps (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+kde-baseapps (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * Merge with debian unstable, remaining changes: 
     - lower the konqueror priority to 30 as it's not our default.
