@@ -1,4 +1,4 @@
-kde-baseapps (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kde-baseapps (4:14.11.97-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
 
   * Merge with debian unstable, remaining changes: 
     - lower the konqueror priority to 30 as it's not our default.
@@ -9,8 +9,9 @@ kde-baseapps (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Update the maintainer.
+  * PPA build
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 14:33:44 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 21:36:11 +0100
 
 kde-baseapps (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
