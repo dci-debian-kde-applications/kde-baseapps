@@ -1,9 +1,9 @@
-kde-baseapps (4:14.12.2-1~) UNRELEASED; urgency=medium
+kde-baseapps (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 11:16:56 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 12:07:49 +0100
 
 kde-baseapps (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
