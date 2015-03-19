@@ -3,3 +3,4 @@ enable_dlrestrictions.diff
 kubuntu_folderview_livecd_directory.diff
 kubuntu_folderwidget_drawing.diff
 kubuntu_install_flash.diff
+kubuntu_disable-failing-test.diff

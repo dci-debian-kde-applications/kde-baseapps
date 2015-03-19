@@ -1,3 +1,10 @@
+kde-baseapps (4:14.12.3-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_disable-failing-test.diff to disable test failing due to
+    test environment favicontest
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Mar 2015 13:11:37 +0100
+
 kde-baseapps (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
