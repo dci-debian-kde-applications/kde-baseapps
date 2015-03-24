@@ -1,3 +1,10 @@
+kde-baseapps (4:14.12.3-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Drop unused kf5 packages (they have been split). Affects konsole and
+    kwrite and kate.
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 24 Mar 2015 12:40:44 +0100
+
 kde-baseapps (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
   * Add kubuntu_disable-failing-test.diff to disable test failing due to

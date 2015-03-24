@@ -313,7 +313,7 @@ Package: kde-baseapps-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kate-dbg, kde-runtime-dbg, konsole-dbg, ${misc:Depends}
+Depends: dolphin, kde-runtime-dbg, ${misc:Depends}
 Suggests: kde-baseapps (= ${source:Version})
 Breaks: kdebase-dbg (<< 4:4.7.2)
 Replaces: kdebase-dbg (<< 4:4.7.2)
