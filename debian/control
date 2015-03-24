@@ -226,31 +226,6 @@ Description: plugins for Konqueror, the KDE file/web/document browser
  .
  This package is part of the KDE base applications module.
 
-#Package: konsole
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Provides: x-terminal-emulator
-#Breaks: yakuake (<< 2.9.0)
-#Description: X terminal emulator
-# Konsole is a terminal emulator built on the KDE Platform. It can contain
-# multiple terminal sessions inside one window using detachable tabs.
-# .
-# Konsole supports powerful terminal features, such as customizable schemes,
-# saved sessions, and output monitoring.
-# .
-# This package is part of the KDE base applications module.
-
-#Package: kwrite
-#Section: editors
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Description: simple graphical text editor
-# KWrite is a simple text editor built on the KDE Platform. It uses the Kate
-# editor component, so it supports powerful features such as flexible syntax
-# highlighting, automatic indentation, and numerous other text tools.
-# .
-# This package is part of the KDE base applications module.
-
 Package: libkonq5abi1
 Section: libs
 Architecture: any
