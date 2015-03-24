@@ -1,10 +1,10 @@
-kde-baseapps (4:14.12.3-0ubuntu3) UNRELEASED; urgency=medium
+kde-baseapps (4:14.12.3-0ubuntu3) vivid; urgency=medium
 
   * Drop unused kf5 packages (they have been split). Affects konsole and
     kwrite and kate.
   * Dolphin recommends konsole4-kpart for the embedded terminal
 
- -- Harald Sitter <sitter@kde.org>  Tue, 24 Mar 2015 12:40:44 +0100
+ -- Harald Sitter <sitter@kde.org>  Tue, 24 Mar 2015 12:41:53 +0100
 
 kde-baseapps (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
