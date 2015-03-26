@@ -5,6 +5,19 @@ kde-baseapps (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:30:50 +0100
 
+kde-baseapps (4:14.12.3-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_disable-failing-test.diff to disable test failing due to
+    test environment favicontest
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Mar 2015 13:11:37 +0100
+
+kde-baseapps (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:16:56 -0700
+
 kde-baseapps (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
