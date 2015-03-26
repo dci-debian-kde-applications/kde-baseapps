@@ -21,6 +21,7 @@ Build-Depends: baloo-dev,
                libphonon-dev (>= 4:4.3.0),
                libqimageblitz-dev (>= 1:0.0.4-2),
                libtidy-dev,
+               libx11-dev,
                libxkbfile-dev,
                libxrender-dev,
                libxt-dev,
@@ -70,7 +71,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: ruby, baloo-kf5
+Recommends: baloo-kf5, ruby
 Suggests: kdesdk-dolphin-plugins
 Description: file manager
  Dolphin is the default file manager in the KDE Plasma Workspaces, intended
@@ -225,31 +226,6 @@ Description: plugins for Konqueror, the KDE file/web/document browser
   - Directory Filter (dolphin): filter directory views
  .
  This package is part of the KDE base applications module.
-
-#Package: konsole
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Provides: x-terminal-emulator
-#Breaks: yakuake (<< 2.9.0)
-#Description: X terminal emulator
-# Konsole is a terminal emulator built on the KDE Platform. It can contain
-# multiple terminal sessions inside one window using detachable tabs.
-# .
-# Konsole supports powerful terminal features, such as customizable schemes,
-# saved sessions, and output monitoring.
-# .
-# This package is part of the KDE base applications module.
-
-#Package: kwrite
-#Section: editors
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Description: simple graphical text editor
-# KWrite is a simple text editor built on the KDE Platform. It uses the Kate
-# editor component, so it supports powerful features such as flexible syntax
-# highlighting, automatic indentation, and numerous other text tools.
-# .
-# This package is part of the KDE base applications module.
 
 Package: libkonq5abi1
 Section: libs
