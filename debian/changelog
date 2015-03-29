@@ -1,9 +1,9 @@
-kde-baseapps (4:14.12.3-1~) UNRELEASED; urgency=medium
+kde-baseapps (4:14.12.3-1) experimental; urgency=medium
 
   * Add baloo-kf5 as a dolphin Recommends.
   * New upstream release (14.12.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:30:50 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:15 +0200
 
 kde-baseapps (4:14.12.3-0ubuntu2) vivid; urgency=medium
 
