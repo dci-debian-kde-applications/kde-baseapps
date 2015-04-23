@@ -1,3 +1,9 @@
+kde-baseapps (4:15.04.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.04.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:19:37 +0200
+
 kde-baseapps (4:14.12.3-1) experimental; urgency=medium
 
   * Add baloo-kf5 as a dolphin Recommends.
