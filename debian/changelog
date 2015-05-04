@@ -1,3 +1,13 @@
+kde-baseapps (4:14.12.3-0ubuntu3.1) vivid; urgency=medium
+
+  * Fix dolphin losing places bookmarks.
+    + Add patch
+      upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch to
+      force dolphin to only use the new user-places.xbel file rather than the
+      legacy kfileplaces bookmarks file.  LP: #1422469
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 04 May 2015 11:04:31 +0200
+
 kde-baseapps (4:14.12.3-0ubuntu3) vivid; urgency=medium
 
   * Drop unused kf5 packages (they have been split). Affects konsole and
