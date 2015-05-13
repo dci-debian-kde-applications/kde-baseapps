@@ -1,0 +1,30 @@
+From 270d2affaafcc9e87ba14f82bfe579e22607e2d2 Mon Sep 17 00:00:00 2001
+From: Emmanuel Pescosta <emmanuelpescosta099@gmail.com>
+Date: Thu, 30 Apr 2015 10:12:24 +0200
+Subject: [PATCH] Use user-places.xbel instead of bookmarks.xml in places
+ model.
+
+FIXED-IN: 15.04.1
+CCBUG: 345174
+---
+ dolphin/src/panels/places/placesitemmodel.cpp | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/dolphin/src/panels/places/placesitemmodel.cpp b/dolphin/src/panels/places/placesitemmodel.cpp
+index 637bfc1..1702757 100644
+--- a/dolphin/src/panels/places/placesitemmodel.cpp
++++ b/dolphin/src/panels/places/placesitemmodel.cpp
+@@ -85,8 +85,8 @@ PlacesItemModel::PlacesItemModel(QObject* parent) :
+     Baloo::IndexerConfig config;
+     m_fileIndexingEnabled = config.fileIndexingEnabled();
+ #endif
+-    const QString file = KStandardDirs::locateLocal("data", "kfileplaces/bookmarks.xml");
+-    m_bookmarkManager = KBookmarkManager::managerForFile(file, "kfilePlaces");
++    const QString file = KStandardDirs().localxdgdatadir() + "user-places.xbel";
++    m_bookmarkManager = KBookmarkManager::managerForExternalFile(file);
+ 
+     createSystemBookmarks();
+     initializeAvailableDevices();
+-- 
+2.1.4
+

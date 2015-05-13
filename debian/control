@@ -12,7 +12,7 @@ Build-Depends: baloo-dev,
                cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
+               kdelibs5-dev,
                libbaloowidgets-dev,
                libdlrestrictions-dev (>= 0.14),
                libglib2.0-dev,
@@ -30,7 +30,7 @@ Build-Depends: baloo-dev,
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kde-baseapps.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kde-baseapps.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kde-baseapps.git
 
 Package: kde-baseapps
@@ -70,7 +70,7 @@ Package: dolphin
 Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: ruby
+Recommends: konsole4-kpart, ruby
 Suggests: kdesdk-dolphin-plugins
 Description: file manager
  Dolphin is the default file manager in the KDE Plasma Workspaces, intended
@@ -313,7 +313,7 @@ Package: kde-baseapps-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kate-dbg, kde-runtime-dbg, konsole-dbg, ${misc:Depends}
+Depends: dolphin, kde-runtime-dbg, ${misc:Depends}
 Suggests: kde-baseapps (= ${source:Version})
 Breaks: kdebase-dbg (<< 4:4.7.2)
 Replaces: kdebase-dbg (<< 4:4.7.2)

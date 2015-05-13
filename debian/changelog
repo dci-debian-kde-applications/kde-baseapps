@@ -4,19 +4,64 @@ kde-baseapps (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 11:35:31 -0700
 
-kde-baseapps (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+kde-baseapps (4:14.12.3-0ubuntu3.1) vivid; urgency=medium
+
+  * Fix dolphin losing places bookmarks.
+    + Add patch
+      upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch to
+      force dolphin to only use the new user-places.xbel file rather than the
+      legacy kfileplaces bookmarks file.  LP: #1422469
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 04 May 2015 11:04:31 +0200
+
+kde-baseapps (4:14.12.3-0ubuntu3) vivid; urgency=medium
+
+  * Drop unused kf5 packages (they have been split). Affects konsole and
+    kwrite and kate.
+  * Dolphin recommends konsole4-kpart for the embedded terminal
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 24 Mar 2015 12:41:53 +0100
+
+kde-baseapps (4:14.12.3-0ubuntu2) vivid; urgency=medium
+
+  * Add kubuntu_disable-failing-test.diff to disable test failing due to
+    test environment favicontest
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Mar 2015 13:11:37 +0100
+
+kde-baseapps (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:16:56 -0700
+
+kde-baseapps (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:11:24 -0800
+
+kde-baseapps (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 16:53:18 +0100
+
+kde-baseapps (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * Merge with debian unstable, remaining changes: 
     - lower the konqueror priority to 30 as it's not our default.
     - Add kubuntu_folderview_livecd_directory.diff,
       kubuntu_folderwidget_drawing.diff and kubuntu_install_flash.diff.
-  * New upstream beta release.
+  * New upstream release candidate.
     - install appdata files for kfind and konqueror
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Update the maintainer.
+  * PPA build
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 14:33:44 +0100
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 28 Nov 2014 21:36:11 +0100
 
 kde-baseapps (4:4.14.2-0ubuntu1) vivid; urgency=medium
 

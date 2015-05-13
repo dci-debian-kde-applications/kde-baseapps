@@ -1,5 +1,4 @@
 # Symlinks of private libraries
-./usr/lib/libdolphinprivate.so
 ./usr/lib/libkbookmarkmodel_private.so
 
 # Only for deveploment and we are not shipping any kdebase-dev
@@ -17,7 +16,6 @@
 ./usr/share/man/man1/kfind.1
 
 # These are moved by dh_movelibkdeinit
-./usr/lib/libkdeinit4_dolphin.so
 ./usr/lib/libkdeinit4_keditbookmarks.so
 ./usr/lib/libkdeinit4_kfmclient.so
 ./usr/lib/libkdeinit4_konqueror.so
