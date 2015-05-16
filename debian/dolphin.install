@@ -1,4 +1,3 @@
-usr/bin/dolphin
 usr/bin/servicemenudeinstallation
 usr/bin/servicemenuinstallation
 usr/lib/kde4/dolphinpart.so
@@ -7,9 +6,11 @@ usr/lib/kde4/kcm_dolphinnavigation.so
 usr/lib/kde4/kcm_dolphinservices.so
 usr/lib/kde4/kcm_dolphinviewmodes.so
 usr/lib/kde4/kio_filenamesearch.so
+usr/lib/libdolphinprivate.so
 usr/lib/libdolphinprivate.so.4
 usr/lib/libdolphinprivate.so.4.*
 usr/lib/libkdeinit4_dolphin.so
+usr/lib/libkdeinit4_dolphin.sousr/bin/dolphin
 usr/share/appdata/dolphin.appdata.xml
 usr/share/applications/kde4/dolphin.desktop
 usr/share/doc/kde/HTML/*/dolphin/
