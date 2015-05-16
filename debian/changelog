@@ -5,6 +5,7 @@ kde-baseapps (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * Remove patch applied upstream:
     upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch 
   * Add missing files. 
+  * Fix install file. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 21:30:41 -0700
 
