@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.5 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:15.04.0 hppa
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_1 4:4.6.1
@@ -206,9 +206,9 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN8KNewMenu16staticMetaObjectE@ABI_5_1 4:4.6.1
  _ZN8KNewMenuC1EP17KActionCollectionP7QWidgetRK7QString@ABI_5_1 4:4.6.1
  _ZN8KNewMenuC2EP17KActionCollectionP7QWidgetRK7QString@ABI_5_1 4:4.6.1
- _ZN8KNewMenuD0Ev@ABI_5_1 4:4.6.5
- _ZN8KNewMenuD1Ev@ABI_5_1 4:4.6.5
- _ZN8KNewMenuD2Ev@ABI_5_1 4:4.6.5
+ (optional=gccinternal|arch=!hppa)_ZN8KNewMenuD0Ev@ABI_5_1 4:4.6.5
+ (optional=gccinternal|arch=!hppa)_ZN8KNewMenuD1Ev@ABI_5_1 4:4.6.5
+ (optional=gccinternal|arch=!hppa)_ZN8KNewMenuD2Ev@ABI_5_1 4:4.6.5
  _ZNK13KonqPopupMenu10metaObjectEv@ABI_5_1 4:4.6.1
  _ZNK13KonqPopupMenu15fileItemActionsEv@ABI_5_1 4:4.8.2
  _ZNK14KonqOperations10metaObjectEv@ABI_5_1 4:4.6.1
