@@ -10,6 +10,7 @@ usr/lib/kde4/kio_filenamesearch.so
 usr/lib/libdolphinprivate.so
 usr/lib/libdolphinprivate.so.4
 usr/lib/libdolphinprivate.so.4.*
+usr/lib/libkdeinit4_dolphin.so
 usr/share/appdata/dolphin.appdata.xml
 usr/share/applications/kde4/dolphin.desktop
 usr/share/doc/kde/HTML/*/dolphin/

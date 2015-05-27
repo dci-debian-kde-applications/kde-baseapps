@@ -8,6 +8,5 @@ usr/lib/kde4/kcm_kurifilt.so
 usr/lib/kde4/kcm_performance.so
 usr/lib/libkbookmarkmodel_private.so.4
 usr/lib/libkbookmarkmodel_private.so.4.*
-usr/lib/libkdeinit4_dolphin.so
 usr/lib/libkdeinit4_keditbookmarks.so
 usr/share/applications/kde4/keditbookmarks.desktop
