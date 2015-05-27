@@ -6,6 +6,7 @@ kde-baseapps (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
     upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch 
   * Add missing files. 
   * Fix install file. 
+  * Add missing usr/lib/libdolphinprivate.so 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 21:30:41 -0700
 
