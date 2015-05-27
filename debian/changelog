@@ -5,6 +5,7 @@ kde-baseapps (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * Vivid backport.
   * Remove upstream applied 
     upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch 
+  * Add missing usr/lib/libdolphinprivate.so 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 12:18:15 -0700
 
