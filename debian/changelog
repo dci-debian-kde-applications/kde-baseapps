@@ -7,6 +7,7 @@ kde-baseapps (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * Add missing files. 
   * Fix install file. 
   * Add missing usr/lib/libdolphinprivate.so 
+  * Force rebuild with new kdelibs. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 21:30:41 -0700
 
