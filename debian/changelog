@@ -1,3 +1,11 @@
+kde-baseapps (4:15.04.2-0ubuntu1.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Update symbols files, mark as optional a few symbols gone with GCC
+    5.
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 11 Aug 2015 11:33:37 +0200
+
 kde-baseapps (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release 
