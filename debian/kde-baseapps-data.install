@@ -18,7 +18,6 @@ usr/share/kde4/services/cache.desktop
 usr/share/kde4/services/cookies.desktop
 usr/share/kde4/services/ebrowsing.desktop
 usr/share/kde4/services/filebehavior.desktop
-usr/share/kde4/services/filenamesearch.protocol
 usr/share/kde4/services/kcmkonqyperformance.desktop
 usr/share/kde4/services/kcmperformance.desktop
 usr/share/kde4/services/khtml_appearance.desktop
