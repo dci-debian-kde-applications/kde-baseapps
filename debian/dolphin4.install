@@ -5,8 +5,7 @@ usr/lib/kde4/kcm_dolphinnavigation.so
 usr/lib/kde4/kcm_dolphinservices.so
 usr/lib/kde4/kcm_dolphinviewmodes.so
 usr/lib/kde4/kio_filenamesearch.so
-usr/lib/libdolphinprivate4.so.4
-usr/lib/libdolphinprivate4.so.4.14.11
+usr/lib/libdolphinprivate4.so.4*
 usr/lib/libkdeinit4_dolphin4.so
 usr/share/kde4/apps/dolphin/dolphinui.rc
 usr/share/kde4/apps/dolphinpart/dolphinpart.rc
