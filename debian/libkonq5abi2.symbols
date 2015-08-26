@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.07.90 amd64
+# SymbolsHelper-Confirmed: 4:15.08.0 amd64
 libkonq.so.5abi2 libkonq5abi2 #MINVER#
  ABI_5_2@ABI_5_2 4:15.07.90
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_2 4:15.07.90
@@ -114,6 +114,33 @@ libkonq.so.5abi2 libkonq5abi2 #MINVER#
  _ZN19KonqPopupMenuPluginD0Ev@ABI_5_2 4:15.07.90
  _ZN19KonqPopupMenuPluginD1Ev@ABI_5_2 4:15.07.90
  _ZN19KonqPopupMenuPluginD2Ev@ABI_5_2 4:15.07.90
+ _ZN21KVersionControlPlugin11infoMessageERK7QString@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPlugin11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPlugin11qt_metacastEPKc@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPlugin12errorMessageERK7QString@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPlugin16staticMetaObjectE@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPlugin20versionStatesChangedEv@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPlugin25operationCompletedMessageERK7QString@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPluginC1EP7QObject@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPluginC2EP7QObject@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPluginD0Ev@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPluginD1Ev@ABI_5_2 4:15.08.0
+ _ZN21KVersionControlPluginD2Ev@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin211infoMessageERK7QString@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin211qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin211qt_metacastEPKc@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin212errorMessageERK7QString@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin212versionStateERK9KFileItem@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin216staticMetaObjectE@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin218contextMenuActionsERK13KFileItemList@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin218contextMenuActionsERK7QString@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin219itemVersionsChangedEv@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin225operationCompletedMessageERK7QString@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin2C1EP7QObject@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin2C2EP7QObject@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin2D0Ev@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin2D1Ev@ABI_5_2 4:15.08.0
+ _ZN22KVersionControlPlugin2D2Ev@ABI_5_2 4:15.08.0
  _ZN22KonqDndPopupMenuPlugin11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_2 4:15.07.90
  _ZN22KonqDndPopupMenuPlugin11qt_metacastEPKc@ABI_5_2 4:15.07.90
  _ZN22KonqDndPopupMenuPlugin16staticMetaObjectE@ABI_5_2 4:15.07.90
@@ -194,6 +221,8 @@ libkonq.so.5abi2 libkonq5abi2 #MINVER#
  _ZNK19KonqHistoryProvider7entriesEv@ABI_5_2 4:15.07.90
  _ZNK19KonqHistoryProvider8maxCountEv@ABI_5_2 4:15.07.90
  _ZNK19KonqPopupMenuPlugin10metaObjectEv@ABI_5_2 4:15.07.90
+ _ZNK21KVersionControlPlugin10metaObjectEv@ABI_5_2 4:15.08.0
+ _ZNK22KVersionControlPlugin210metaObjectEv@ABI_5_2 4:15.08.0
  _ZNK22KonqDndPopupMenuPlugin10metaObjectEv@ABI_5_2 4:15.07.90
  _ZNK24KonqFileItemCapabilities14supportsMovingEv@ABI_5_2 4:15.07.90
  _ZNK24KonqFileItemCapabilities15supportsReadingEv@ABI_5_2 4:15.07.90
@@ -224,6 +253,8 @@ libkonq.so.5abi2 libkonq5abi2 #MINVER#
  _ZTI14KonqOperations@ABI_5_2 4:15.07.90
  _ZTI19KonqHistoryProvider@ABI_5_2 4:15.07.90
  _ZTI19KonqPopupMenuPlugin@ABI_5_2 4:15.07.90
+ _ZTI21KVersionControlPlugin@ABI_5_2 4:15.08.0
+ _ZTI22KVersionControlPlugin2@ABI_5_2 4:15.08.0
  _ZTI22KonqDndPopupMenuPlugin@ABI_5_2 4:15.07.90
  _ZTI24KonqFileItemCapabilities@ABI_5_2 4:15.07.90
  _ZTI25KonqNameAndUrlInputDialog@ABI_5_2 4:15.07.90
@@ -233,6 +264,8 @@ libkonq.so.5abi2 libkonq5abi2 #MINVER#
  _ZTS14KonqOperations@ABI_5_2 4:15.07.90
  _ZTS19KonqHistoryProvider@ABI_5_2 4:15.07.90
  _ZTS19KonqPopupMenuPlugin@ABI_5_2 4:15.07.90
+ _ZTS21KVersionControlPlugin@ABI_5_2 4:15.08.0
+ _ZTS22KVersionControlPlugin2@ABI_5_2 4:15.08.0
  _ZTS22KonqDndPopupMenuPlugin@ABI_5_2 4:15.07.90
  _ZTS24KonqFileItemCapabilities@ABI_5_2 4:15.07.90
  _ZTS25KonqNameAndUrlInputDialog@ABI_5_2 4:15.07.90
@@ -242,6 +275,8 @@ libkonq.so.5abi2 libkonq5abi2 #MINVER#
  _ZTV14KonqOperations@ABI_5_2 4:15.07.90
  _ZTV19KonqHistoryProvider@ABI_5_2 4:15.07.90
  _ZTV19KonqPopupMenuPlugin@ABI_5_2 4:15.07.90
+ _ZTV21KVersionControlPlugin@ABI_5_2 4:15.08.0
+ _ZTV22KVersionControlPlugin2@ABI_5_2 4:15.08.0
  _ZTV22KonqDndPopupMenuPlugin@ABI_5_2 4:15.07.90
  _ZTV24KonqFileItemCapabilities@ABI_5_2 4:15.07.90
  _ZTV25KonqNameAndUrlInputDialog@ABI_5_2 4:15.07.90
