@@ -10,6 +10,8 @@ usr/include/konq_popupmenu.h
 usr/include/konq_popupmenuinformation.h
 usr/include/konq_popupmenuplugin.h
 usr/include/konqmimedata.h
+usr/include/kversioncontrolplugin.h
+usr/include/kversioncontrolplugin2.h
 usr/include/libkonq_export.h
 usr/lib/libkonq.so
 usr/share/dbus-1/interfaces/org.kde.FavIcon.xml

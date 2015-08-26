@@ -118,6 +118,15 @@ Description: file search utility
  .
  This package is part of the KDE base applications module.
 
+Package: dolphin4
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: file browser
+ Dolphin file browser, this kdelibs4 build is mainly for use with
+ Konqueror.
+ .
+ This package is part of the KDE base applications module.
+
 Package: konqueror
 Section: web
 Architecture: any
@@ -128,7 +137,7 @@ Depends: install-info,
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: konq-plugins (>= 4:4.1~)
-Recommends: dolphin,
+Recommends: dolphin4,
             kfind,
             konqueror-nsplugins (= ${binary:Version}),
             kpart-webkit
