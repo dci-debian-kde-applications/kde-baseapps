@@ -213,13 +213,15 @@ Description: plugins for Konqueror, the KDE file/web/document browser
  .
  This package is part of the KDE base applications module.
 
-Package: libkonq5abi2
+Package: libkonq5abi1
 Section: libs
 Architecture: any
-X-Debian-ABI: 2
+X-Debian-ABI: 1
 Depends: libkonq-common (>= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: libkonq5abi2 (<< 4:15.08.0-0ubuntu2~)
+Replaces: libkonq5abi2 (<< 4:15.08.0-0ubuntu2~)
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
@@ -253,9 +255,9 @@ Description: data files for the Konqueror libraries
 Package: libkonq5-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5abi2 (= ${binary:Version}),
+Depends: libkonq5abi1 (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkonq5abi2}
+         ${sameVersionDep:kdelibs5-dev:libkonq5abi1}
 Description: development files for the Konqueror libraries
  This package contains development files for building software that uses the
  Konqueror libraries.
