@@ -1,3 +1,10 @@
+kde-baseapps (4:15.08.0-0ubuntu3) wily; urgency=medium
+
+  * Add kubuntu_ignore-tests.diff to ignore tests failing due to plasma
+    5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 17:35:16 +0100
+
 kde-baseapps (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Revert libkonq5abi2 to libkonq5abi1
