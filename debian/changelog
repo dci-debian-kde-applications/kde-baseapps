@@ -1,3 +1,10 @@
+kde-baseapps (4:15.08.0-0ubuntu4) UNRELEASED; urgency=medium
+
+  * Make dolphin4 breaks&replace kde-baseapps-data << 15.10 as it contains
+    data files that previously lived in that package.
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 01 Sep 2015 10:32:11 +0200
+
 kde-baseapps (4:15.08.0-0ubuntu3) wily; urgency=medium
 
   * Add kubuntu_ignore-tests.diff to ignore tests failing due to plasma

@@ -121,6 +121,8 @@ Description: file search utility
 Package: dolphin4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kde-baseapps-data (<< 4:15.10.0)
+Replaces: kde-baseapps-data (<< 4:15.10.0)
 Description: file browser
  Dolphin file browser, this kdelibs4 build is mainly for use with
  Konqueror.
