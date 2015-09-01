@@ -1,11 +1,13 @@
-kde-baseapps (4:15.08.0-0ubuntu5) wily; urgency=medium
+kde-baseapps (4:15.08.0-0ubuntu6) wily; urgency=medium
 
-  [ Harald Sitter ]
-  * Fix breaks and replace to kde-baseapps-data << 15.08 rather than 15.10
-
-  [ Jonathan Riddell ]
   * Remove old build-deps on libbaloowidgets-dev libkactivities-dev
     baloo-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Sep 2015 21:19:52 +0100
+
+kde-baseapps (4:15.08.0-0ubuntu5) wily; urgency=medium
+
+  * Fix breaks and replace to kde-baseapps-data << 15.08 rather than 15.10
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Sep 2015 21:16:56 +0100
 
