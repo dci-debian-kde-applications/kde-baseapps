@@ -1,4 +1,4 @@
-kde-baseapps (4:15.08.0-0ubuntu4) UNRELEASED; urgency=medium
+kde-baseapps (4:15.08.0-0ubuntu4) wily; urgency=medium
 
   * Make dolphin4 breaks&replace kde-baseapps-data << 15.10 as it contains
     data files that previously lived in that package.
