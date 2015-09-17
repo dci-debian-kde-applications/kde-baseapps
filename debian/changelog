@@ -1,8 +1,9 @@
-kde-baseapps (4:15.08.0-1~) UNRELEASED; urgency=medium
+kde-baseapps (4:15.08.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.0).
+  * New upstream release (15.08.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 22:20:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:41:39 +0200
 
 kde-baseapps (4:15.04.3-1) unstable; urgency=medium
 
