@@ -3,6 +3,7 @@ kde-baseapps (4:15.08.1-1~) UNRELEASED; urgency=medium
   * New upstream release (15.08.0).
   * New upstream release (15.08.1).
   * Add libsoprano-dev build dep.
+  * Drop the kde4 version dolphin.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 19:41:39 +0200
 

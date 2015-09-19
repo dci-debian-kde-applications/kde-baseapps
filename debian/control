@@ -13,11 +13,8 @@ Build-Depends: baloo-dev,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.10.60~),
-               libbaloowidgets-dev,
                libdlrestrictions-dev (>= 0.14),
                libglib2.0-dev (>= 2.0~),
-               libkactivities-dev (>= 4:4.11),
-               libkfilemetadata-dev,
                libphonon-dev (>= 4:4.3.0),
                libqimageblitz-dev (>= 1:0.0.4-2),
                libsoprano-dev,
@@ -36,7 +33,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kde-baseapps.git
 
 Package: kde-baseapps
 Architecture: all
-Depends: dolphin (>= ${source:Version}),
+Depends: dolphin,
          kde-baseapps-bin (>= ${source:Version}),
          kdepasswd (>= ${source:Version}),
          kfind (>= ${source:Version}),
@@ -66,27 +63,6 @@ Depends: kde-baseapps, ${misc:Depends}
 Description: Transitional package for kde-baseapps
  This transitional package takes care of pulling in the new kde-baseapps
  package and can safely be removed after installation.
-
-Package: dolphin
-Section: utils
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: baloo-kf5, ruby
-Suggests: kdesdk-dolphin-plugins
-Description: file manager
- Dolphin is the default file manager in the KDE Plasma Workspaces, intended
- to be both powerful and easy to use.
- .
- Features include:
-   Customisable sidebars
-   "Breadcrumb" navigation
-   View properties remembered for each folder
-   Split views
-   Network transparency
-   Undo/redo functionality
-   Ratings, comments, and tags
- .
- This package is part of the KDE base applications module.
 
 Package: kde-baseapps-bin
 Architecture: any
