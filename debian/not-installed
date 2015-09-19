@@ -21,3 +21,25 @@
 ./usr/lib/libkdeinit4_keditbookmarks.so
 ./usr/lib/libkdeinit4_kfmclient.so
 ./usr/lib/libkdeinit4_konqueror.so
+
+# Dropping dolphin4
+usr/bin/dolphin4
+usr/lib/kde4/dolphinpart.so
+usr/lib/kde4/kcm_dolphingeneral.so
+usr/lib/kde4/kcm_dolphinnavigation.so
+usr/lib/kde4/kcm_dolphinservices.so
+usr/lib/kde4/kcm_dolphinviewmodes.so
+usr/lib/kde4/kio_filenamesearch.so
+usr/lib/libdolphinprivate4.so
+usr/lib/libdolphinprivate4.so.4
+usr/lib/libdolphinprivate4.so.4.14.10
+usr/lib/libkdeinit4_dolphin4.so
+usr/share/kde4/apps/dolphin/dolphinui.rc
+usr/share/kde4/apps/dolphinpart/dolphinpart.rc
+usr/share/kde4/config/servicemenu.knsrc
+usr/share/kde4/services/dolphinpart.desktop
+usr/share/kde4/services/kcmdolphingeneral.desktop
+usr/share/kde4/services/kcmdolphinnavigation.desktop
+usr/share/kde4/services/kcmdolphinservices.desktop
+usr/share/kde4/services/kcmdolphinviewmodes.desktop
+usr/share/kde4/servicetypes/fileviewversioncontrolplugin.desktop
