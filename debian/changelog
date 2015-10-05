@@ -1,3 +1,9 @@
+kde-baseapps (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 05 Oct 2015 04:19:17 -0700
+
 kde-baseapps (4:14.12.3-0ubuntu3.1) vivid; urgency=medium
 
   * Fix dolphin losing places bookmarks.
