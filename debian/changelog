@@ -1,3 +1,9 @@
+kde-baseapps (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 05 Oct 2015 04:19:17 -0700
+
 kde-baseapps (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Dolphin is behaving strangely, moving usr/lib/libkdeinit4_dolphin.so
@@ -8,6 +14,7 @@ kde-baseapps (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * Add missing usr/lib/libdolphinprivate.so 
   * Move usr/lib/libkdeinit4_dolphin.so, missing-files
     does not seem to be happy anywhere I have tried. 
+  * 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 12:18:15 -0700
 
