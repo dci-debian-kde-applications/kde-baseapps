@@ -1,28 +1,98 @@
 kde-baseapps (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport.
+  * 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 05 Oct 2015 04:19:17 -0700
+
+kde-baseapps (4:15.08.1-0ubuntu1) wily; urgency=medium
+
+  * New Upstream Release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 17:15:00 +0100
+
+kde-baseapps (4:15.08.0-0ubuntu6) wily; urgency=medium
+
+  * Remove old build-deps on libbaloowidgets-dev libkactivities-dev
+    baloo-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Sep 2015 21:19:52 +0100
+
+kde-baseapps (4:15.08.0-0ubuntu5) wily; urgency=medium
+
+  * Fix breaks and replace to kde-baseapps-data << 15.08 rather than 15.10
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Sep 2015 21:16:56 +0100
+
+kde-baseapps (4:15.08.0-0ubuntu4) wily; urgency=medium
+
+  * Make dolphin4 breaks&replace kde-baseapps-data << 15.10 as it contains
+    data files that previously lived in that package.
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 01 Sep 2015 10:32:11 +0200
+
+kde-baseapps (4:15.08.0-0ubuntu3) wily; urgency=medium
+
+  * Add kubuntu_ignore-tests.diff to ignore tests failing due to plasma
+    5
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 17:35:16 +0100
+
+kde-baseapps (4:15.08.0-0ubuntu2) wily; urgency=medium
+
+  * Revert libkonq5abi2 to libkonq5abi1
+    + This is because there was no actual symbol change, so the transition
+      is pretty useless and pointless work
+    + Revert package name change
+    + break&replace the abi2 version of lower versions
+    + Refresh symbol dump based on what we original had before the version
+      bump
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 31 Aug 2015 13:53:52 +0200
+
+kde-baseapps (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  [ José Manuel Santamaría Lema ]
+  * Non-maintainer upload.
+  * Update symbols files, mark as optional a few symbols gone with GCC
+    5.
+
+  [ Jonathan Riddell ]
+  * New upstream beta release
+  * libkonq5abi1 now libkonq5abi2 due to ABI change
+  * Add back dolphin4 package, for use with konqueror
+
+  [ Clive Johnston ]
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 20 Aug 2015 20:23:13 +0000
+
+kde-baseapps (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release 
+  * wrap-and-sort 
+  * Remove patch applied upstream:
+    upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch 
+  * Add missing files. 
+  * Fix install file. 
+  * Add missing usr/lib/libdolphinprivate.so 
+  * Force rebuild with new kdelibs. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 09 Jun 2015 18:47:48 +0200
 
 kde-baseapps (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Dolphin is behaving strangely, moving usr/lib/libkdeinit4_dolphin.so
-    to kde-baseapps-bin 
+    to kde-baseapps-bin
   * Vivid backport.
-  * Remove upstream applied 
-    upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch 
-  * Add missing usr/lib/libdolphinprivate.so 
+  * Remove upstream applied
+    upstream_Use-user-places.xbel-instead-of-bookmarks.xml-in-pla.patch
+  * Add missing usr/lib/libdolphinprivate.so
   * Move usr/lib/libkdeinit4_dolphin.so, missing-files
-    does not seem to be happy anywhere I have tried. 
-  * 
+    does not seem to be happy anywhere I have tried.
+  *
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 12:18:15 -0700
-
-kde-baseapps (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream release 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 16 Apr 2015 11:35:31 -0700
 
 kde-baseapps (4:14.12.3-0ubuntu3.1) vivid; urgency=medium
 
