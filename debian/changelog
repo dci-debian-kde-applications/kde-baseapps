@@ -1,6 +1,7 @@
 kde-baseapps (4:15.08.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.2).
+  * Add the dolphin4 package
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 15:19:36 +0200
 
