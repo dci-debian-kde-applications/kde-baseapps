@@ -1,3 +1,9 @@
+kde-baseapps (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 03 Nov 2015 06:55:47 +0000
+
 kde-baseapps (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport.
