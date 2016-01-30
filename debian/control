@@ -11,13 +11,14 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
+               kdelibs5-dev (>= 4:4.10.60~),
                libdlrestrictions-dev (>= 0.14),
-               libglib2.0-dev,
-               libkfilemetadata-dev,
+               libglib2.0-dev (>= 2.0~),
                libphonon-dev (>= 4:4.3.0),
                libqimageblitz-dev (>= 1:0.0.4-2),
+               libsoprano-dev,
                libtidy-dev,
+               libx11-dev,
                libxkbfile-dev,
                libxrender-dev,
                libxt-dev,
@@ -25,14 +26,14 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.12),
                zlib1g-dev
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kde-baseapps.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kde-baseapps.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kde-baseapps.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kde-baseapps.git
 
 Package: kde-baseapps
 Architecture: all
-Depends: kde-baseapps-bin (>= ${source:Version}),
+Depends: dolphin,
+         kde-baseapps-bin (>= ${source:Version}),
          kdepasswd (>= ${source:Version}),
          kfind (>= ${source:Version}),
          konqueror (>= ${source:Version}),
@@ -118,8 +119,8 @@ Description: file search utility
 Package: dolphin4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kde-baseapps-data (<< 4:15.08.0)
-Replaces: kde-baseapps-data (<< 4:15.08.0)
+Breaks: kde-baseapps-data (<< 4:15.08.2), dolphin (<< 4:15.08)
+Replaces: kde-baseapps-data (<< 4:15.08.2), dolphin (<< 4:15.08)
 Description: file browser
  Dolphin file browser, this kdelibs4 build is mainly for use with
  Konqueror.
