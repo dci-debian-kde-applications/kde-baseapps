@@ -296,24 +296,3 @@ Description: plasma widget showing the content of a folder
  initial default KDE 4 desktop configuration.
  .
  This package is part of the KDE base applications module.
-
-Package: kde-baseapps-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kate-dbg, kde-runtime-dbg, konsole-dbg, ${misc:Depends}
-Suggests: kde-baseapps (= ${source:Version})
-Breaks: kdebase-dbg (<< 4:4.7.2)
-Replaces: kdebase-dbg (<< 4:4.7.2)
-Description: debugging symbols for the KDE base applications module
- This package contains debugging files used to investigate problems with
- binaries included in the KDE base applications module.
-
-Package: kdebase-dbg
-Section: oldlibs
-Architecture: all
-Priority: extra
-Depends: kde-baseapps-dbg, ${misc:Depends}
-Description: Transitional package for kde-baseapps-dbg
- This transitional package takes care of pulling in the new kde-baseapps-dbg
- package and can safely be removed after installation.
