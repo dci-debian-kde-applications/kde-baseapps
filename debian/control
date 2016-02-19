@@ -8,12 +8,15 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: baloo-dev,
+               cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.10.60~),
                libdlrestrictions-dev (>= 0.14),
                libglib2.0-dev (>= 2.0~),
+               libkactivities-dev,
+               libkfilemetadata-dev,
                libphonon-dev (>= 4:4.3.0),
                libqimageblitz-dev (>= 1:0.0.4-2),
                libsoprano-dev,
@@ -119,8 +122,8 @@ Description: file search utility
 Package: dolphin4
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kde-baseapps-data (<< 4:15.08.2), dolphin (<< 4:15.08)
-Replaces: kde-baseapps-data (<< 4:15.08.2), dolphin (<< 4:15.08)
+Breaks: dolphin (<< 4:15.08), kde-baseapps-data (<< 4:15.08.2)
+Replaces: dolphin (<< 4:15.08), kde-baseapps-data (<< 4:15.08.2)
 Description: file browser
  Dolphin file browser, this kdelibs4 build is mainly for use with
  Konqueror.

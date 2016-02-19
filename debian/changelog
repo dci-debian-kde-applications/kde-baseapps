@@ -1,7 +1,8 @@
 kde-baseapps (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
-  * cwNew upstream release.
+  * New upstream release.
   * Debian merge: No remaining changes. 
+  * Add missing optional deps. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 30 Jan 2016 06:05:42 -0800
 
