@@ -1,16 +1,16 @@
-Description: ignore failing tests
- ignore tests failing due to switch to plasma 5
-Author: Jonathan Riddell
-Origin: me
-Forwarded: nope
-Last-Update: 2015-09-01
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 12:36:54 +0200
+Subject: kubuntu_ignore-tests
+
 ---
-This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
-Index: kde-baseapps-15.08.0/konqueror/src/tests/CMakeLists.txt
-===================================================================
---- kde-baseapps-15.08.0.orig/konqueror/src/tests/CMakeLists.txt
-+++ kde-baseapps-15.08.0/konqueror/src/tests/CMakeLists.txt
-@@ -9,12 +9,6 @@ kde4_add_executable(centralwidget TEST c
+ konqueror/src/tests/CMakeLists.txt | 16 ----------------
+ 1 file changed, 16 deletions(-)
+
+diff --git a/konqueror/src/tests/CMakeLists.txt b/konqueror/src/tests/CMakeLists.txt
+index 96923ed..6fade68 100644
+--- a/konqueror/src/tests/CMakeLists.txt
++++ b/konqueror/src/tests/CMakeLists.txt
+@@ -9,12 +9,6 @@ kde4_add_executable(centralwidget TEST centralwidget.cpp)
  target_link_libraries(centralwidget konq ${KDE4_KDECORE_LIBS} ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY}
                        ${QT_QTTEST_LIBRARY})
  
@@ -23,7 +23,7 @@ Index: kde-baseapps-15.08.0/konqueror/src/tests/CMakeLists.txt
  ########### historymanagertest ###############
  
  kde4_add_unit_test(historymanagertest historymanagertest.cpp)
-@@ -25,14 +19,4 @@ target_link_libraries(historymanagertest
+@@ -25,14 +19,4 @@ target_link_libraries(historymanagertest konq konquerorprivate ${KDE4_KDEUI_LIBS
  kde4_add_unit_test(undomanagertest undomanagertest.cpp)
  target_link_libraries(undomanagertest kdeinit_konqueror ${QT_QTCORE_LIBRARY} ${QT_QTTEST_LIBRARY})
  
