@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:15.12.1 hppa sparc64 x32
 libkonqsidebarplugin.so.4 libkonqsidebarplugin4a #MINVER#
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarModule10enableCopyEb@ABI_4_0 4:4.6.1
@@ -22,6 +22,7 @@ libkonqsidebarplugin.so.4 libkonqsidebarplugin4a #MINVER#
  _ZN17KonqSidebarModule7startedEPN3KIO3JobE@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarModule9completedEv@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarModule9enableCutEb@ABI_4_0 4:4.6.1
+ _ZN17KonqSidebarModule9handleURLERK4KUrl@ABI_4_0 4:15.12.1
  _ZN17KonqSidebarModule9popupMenuEPS_RK6QPointRK13KFileItemListRKN6KParts16OpenUrlArgumentsERKNS7_16BrowserArgumentsE6QFlagsINS7_16BrowserExtension9PopupFlagEERK4QMapI7QString5QListIP7QActionEE@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarModuleC1ERK14KComponentDataP7QObjectRK12KConfigGroup@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarModuleC2ERK14KComponentDataP7QObjectRK12KConfigGroup@ABI_4_0 4:4.6.1
@@ -30,6 +31,8 @@ libkonqsidebarplugin.so.4 libkonqsidebarplugin4a #MINVER#
  _ZN17KonqSidebarModuleD2Ev@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarPlugin11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarPlugin11qt_metacastEPKc@ABI_4_0 4:4.6.1
+ _ZN17KonqSidebarPlugin13addNewActionsEP7QObjectRK5QListI12KConfigGroupERK8QVariant@ABI_4_0 4:15.12.1
+ _ZN17KonqSidebarPlugin15createNewModuleERK8QVariantR12KConfigGroupP7QWidgetS2_@ABI_4_0 4:15.12.1
  _ZN17KonqSidebarPlugin16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZNK17KonqSidebarModule10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK17KonqSidebarModule12isCutEnabledEv@ABI_4_0 4:4.6.1
@@ -37,6 +40,7 @@ libkonqsidebarplugin.so.4 libkonqsidebarplugin4a #MINVER#
  _ZNK17KonqSidebarModule14isPasteEnabledEv@ABI_4_0 4:4.6.1
  _ZNK17KonqSidebarModule19parentComponentDataEv@ABI_4_0 4:4.6.1
  _ZNK17KonqSidebarPlugin10metaObjectEv@ABI_4_0 4:4.6.1
+ _ZNK17KonqSidebarPlugin24templateNameForNewModuleERK8QVariantS2_@ABI_4_0 4:15.12.1
  _ZTI17KonqSidebarModule@ABI_4_0 4:4.6.1
  _ZTI17KonqSidebarPlugin@ABI_4_0 4:4.6.1
  _ZTS17KonqSidebarModule@ABI_4_0 4:4.6.1
