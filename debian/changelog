@@ -1,13 +1,14 @@
-kde-baseapps (4:15.12.3-1~2.gbp98fa84) UNRELEASED; urgency=medium
+kde-baseapps (4:16.04.0-1~1.gbp96504d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @98fa8474184caf96329e6c6be1db5e319bf9d5c6 **
+  ** SNAPSHOT build @96504d6d2c883934626fcff108bed266273bdf41 **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files from buildds logs (4:15.12.1-1).
   * Update symbols files, revert symbols added in the experimental version
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 14:06:28 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:35:27 +0200
 
 kde-baseapps (4:15.12.1-1) experimental; urgency=medium
 
