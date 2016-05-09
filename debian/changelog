@@ -1,13 +1,23 @@
-kde-baseapps (4:16.04.0-1~1.gbp96504d) UNRELEASED; urgency=medium
+kde-baseapps (4:16.04.0-1~2.gbp0b2484) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @0b248432555e905d85a0e9a8e0efd1ff59302e75 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @96504d6d2c883934626fcff108bed266273bdf41 **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files from buildds logs (4:15.12.1-1).
   * Update symbols files, revert symbols added in the experimental version
+  * Update symbols files
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:35:27 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 14:07:33 +0200
 
 kde-baseapps (4:15.12.1-1) experimental; urgency=medium
 
