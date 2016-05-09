@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:15.12.3 amd64
 libkonqsidebarplugin.so.4 libkonqsidebarplugin4a #MINVER#
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN17KonqSidebarModule10enableCopyEb@ABI_4_0 4:4.6.1

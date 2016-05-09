@@ -1,12 +1,16 @@
-Description: Set folderview to point at Desktop folder if running from a live CD.
-Author: Jonathan Riddell <jriddell@ubuntu.com>
-Origin: vendor
-Forwaded: not-needed
-Bug-Ubuntu: https://launchpad.net/bugs/613834
-Index: kde-baseapps-4.10.3/plasma/applets/folderview/folderview.cpp
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 12:36:54 +0200
+Subject: kubuntu_folderview_livecd_directory
+
 ===================================================================
---- kde-baseapps-4.10.3.orig/plasma/applets/folderview/folderview.cpp	2013-05-13 10:17:46.000000000 +0000
-+++ kde-baseapps-4.10.3/plasma/applets/folderview/folderview.cpp	2013-05-13 10:17:46.000000000 +0000
+---
+ plasma/applets/folderview/folderview.cpp | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/plasma/applets/folderview/folderview.cpp b/plasma/applets/folderview/folderview.cpp
+index 23cac19..6da247e 100644
+--- a/plasma/applets/folderview/folderview.cpp
++++ b/plasma/applets/folderview/folderview.cpp
 @@ -27,6 +27,7 @@
  #include <QGraphicsSceneDragDropEvent>
  #include <QImageReader>
@@ -15,7 +19,7 @@ Index: kde-baseapps-4.10.3/plasma/applets/folderview/folderview.cpp
  
  #include <KAction>
  #include <KAuthorized>
-@@ -430,6 +431,10 @@
+@@ -431,6 +432,10 @@ void FolderView::init()
                  path = QString("desktop:/");
              }
          }

@@ -1,6 +1,11 @@
-# SymbolsHelper-Confirmed: 4:15.08.1 alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 4:15.12.3 amd64
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
+ (optional=templinst)_Z17qRegisterMetaTypeI9KFileItemEiPKcPT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z21qMetaTypeDeleteHelperI4KUrlEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z21qMetaTypeDeleteHelperI9KFileItemEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z24qMetaTypeConstructHelperI4KUrlEPvPKT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z24qMetaTypeConstructHelperI9KFileItemEPvPKT_@ABI_5_1 4:15.12.1
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData20decodeIsCutSelectionEPK9QMimeData@ABI_5_1 4:4.6.1
@@ -201,6 +206,7 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN25KonqStatusBarMessageLabelD0Ev@ABI_5_1 4:4.6.1
  _ZN25KonqStatusBarMessageLabelD1Ev@ABI_5_1 4:4.6.1
  _ZN25KonqStatusBarMessageLabelD2Ev@ABI_5_1 4:4.6.1
+ (optional=templinst|arch=x32)_ZN5QListI16KonqHistoryEntryE5clearEv@ABI_5_1 4:15.12.1
  _ZN8KNewMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
  _ZN8KNewMenu11qt_metacastEPKc@ABI_5_1 4:4.6.1
  _ZN8KNewMenu16staticMetaObjectE@ABI_5_1 4:4.6.1
