@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 4:15.12.3 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64 armhf i386
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
- (optional=templinst)_Z17qRegisterMetaTypeI9KFileItemEiPKcPT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z21qMetaTypeDeleteHelperI4KUrlEvPT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z21qMetaTypeDeleteHelperI9KFileItemEvPT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z24qMetaTypeConstructHelperI4KUrlEPvPKT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z24qMetaTypeConstructHelperI9KFileItemEPvPKT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64 !armhf !i386)_Z17qRegisterMetaTypeI9KFileItemEiPKcPT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64 !armhf !i386)_Z21qMetaTypeDeleteHelperI4KUrlEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64 !armhf !i386)_Z21qMetaTypeDeleteHelperI9KFileItemEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64 !armhf !i386)_Z24qMetaTypeConstructHelperI4KUrlEPvPKT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64 !armhf !i386)_Z24qMetaTypeConstructHelperI9KFileItemEPvPKT_@ABI_5_1 4:15.12.1
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData20decodeIsCutSelectionEPK9QMimeData@ABI_5_1 4:4.6.1
