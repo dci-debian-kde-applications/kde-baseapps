@@ -1,10 +1,6 @@
-kde-baseapps (4:16.04.1-1~1.gbp143b89) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @143b8968657f8ce7f98560c366c01805218b7d81 **
+kde-baseapps (4:16.04.1-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @96504d6d2c883934626fcff108bed266273bdf41 **
-
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Update symbols files from buildds logs (4:15.12.1-1).
@@ -16,9 +12,8 @@ kde-baseapps (4:16.04.1-1~1.gbp143b89) UNRELEASED; urgency=medium
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:35:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 18:23:24 +0200
 
 kde-baseapps (4:15.12.1-1) experimental; urgency=medium
 
