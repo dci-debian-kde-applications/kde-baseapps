@@ -5,6 +5,7 @@ kde-baseapps (4:16.04.2-0r1) UNRELEASED; urgency=medium
   * Switch libjpeg-progs dependency in konq-plugins to libjpeg-turbo-progs,
     following the default libjpeg implementation. (Closes: #813389)
   * Remove unused and outdated installgen file.
+  * Remove unused konsole.1 man page.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2016 08:56:59 +0200
 
