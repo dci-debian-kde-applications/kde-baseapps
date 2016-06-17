@@ -175,7 +175,7 @@ Description: Netscape plugin support for Konqueror
 Package: konq-plugins
 Architecture: any
 Depends: konqueror (>= 4:4.1.0),
-         libjpeg-progs,
+         libjpeg-turbo-progs,
          python,
          ${misc:Depends},
          ${shlibs:Depends}
