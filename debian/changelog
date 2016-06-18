@@ -1,3 +1,11 @@
+kde-baseapps (4:16.04.2-2~1.gbp71d778) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @71d7783f4f9a65fcc305e92b91cf01beb61cba4e **
+
+  * Update symbols files with the buildds results
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 18 Jun 2016 18:44:46 +0200
+
 kde-baseapps (4:16.04.2-1) unstable; urgency=medium
 
   * Team upload.
