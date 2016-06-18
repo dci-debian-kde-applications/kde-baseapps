@@ -1,17 +1,6 @@
-From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Date: Wed, 13 Apr 2016 12:36:54 +0200
-Subject: kubuntu_folderwidget_drawing
-
-===================================================================
----
- plasma/applets/folderview/iconview.cpp | 8 +-------
- 1 file changed, 1 insertion(+), 7 deletions(-)
-
-diff --git a/plasma/applets/folderview/iconview.cpp b/plasma/applets/folderview/iconview.cpp
-index 1ff14af..fc3276a 100644
 --- a/plasma/applets/folderview/iconview.cpp
 +++ b/plasma/applets/folderview/iconview.cpp
-@@ -2588,22 +2588,16 @@ void IconView::startDrag(const QPointF &pos, QWidget *widget)
+@@ -2588,22 +2588,16 @@ void IconView::startDrag(const QPointF &
      pixmap.fill(Qt::transparent);
  
      QStyleOptionViewItemV4 option = viewOptions();

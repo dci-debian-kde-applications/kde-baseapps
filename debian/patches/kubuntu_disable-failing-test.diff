@@ -1,17 +1,6 @@
-From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Date: Wed, 13 Apr 2016 12:36:54 +0200
-Subject: kubuntu_disable-failing-test
-
-===================================================================
----
- lib/konq/tests/CMakeLists.txt | 9 ---------
- 1 file changed, 9 deletions(-)
-
-diff --git a/lib/konq/tests/CMakeLists.txt b/lib/konq/tests/CMakeLists.txt
-index 9affbf8..8adf107 100644
 --- a/lib/konq/tests/CMakeLists.txt
 +++ b/lib/konq/tests/CMakeLists.txt
-@@ -14,13 +14,4 @@ kde4_add_unit_test(konqpopupmenutest konqpopupmenutest.cpp)
+@@ -14,13 +14,4 @@ kde4_add_unit_test(konqpopupmenutest kon
  target_link_libraries(konqpopupmenutest konq ${KDE4_KFILE_LIBS}
                       ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${QT_QTTEST_LIBRARY})
  
