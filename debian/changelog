@@ -22,6 +22,7 @@ kde-baseapps (4:16.04.2-0r1) UNRELEASED; urgency=medium
     required and policies, and build properly with that; patches
     upstream_set-cmake_min_req-to-match-kdelibs-policy-and-enable.patch and
     upstream_cmake-use-variable-for-knewstuff3-library.patch.
+  * Wrap too long changelog lines in older entries.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2016 08:56:59 +0200
 
@@ -36,7 +37,8 @@ kde-baseapps (4:16.04.1-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (15.12.2).
-  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
