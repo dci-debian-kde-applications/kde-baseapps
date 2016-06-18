@@ -7,6 +7,13 @@ kde-baseapps (4:16.04.2-0r1) UNRELEASED; urgency=medium
   * Remove unused and outdated installgen file.
   * Remove unused konsole.1 man page.
   * Restore headers for patches.
+  * Disable plasma-widget-folderview, since it is not useful in a Plasma5
+    environment:
+    - drop the plasma-widget-folderview binary, and the dependency to it in
+      kde-baseapps
+    - make sure to not even build it; patch disable_plasma.diff
+    - remove the patches kubuntu_folderview_livecd_directory.diff and
+      kubuntu_folderwidget_drawing.diff, obsolete now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2016 08:56:59 +0200
 

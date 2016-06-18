@@ -1,6 +1,5 @@
 enable_debianabimanager.diff
 enable_dlrestrictions.diff
-kubuntu_folderview_livecd_directory.diff
-kubuntu_folderwidget_drawing.diff
 kubuntu_disable-failing-test.diff
 kubuntu_ignore-tests.diff
+disable_plasma.diff

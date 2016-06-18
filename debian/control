@@ -40,7 +40,6 @@ Depends: dolphin,
          konqueror (>= ${source:Version}),
          konsole,
          kwrite,
-         plasma-widget-folderview (>= ${source:Version}),
          ${misc:Depends}
 Recommends: konqueror-nsplugins (>= ${source:Version})
 Breaks: kdebase-apps (<< 4:4.7.2)
@@ -282,17 +281,5 @@ Depends: libkonqsidebarplugin4a (= ${binary:Version}),
 Description: konqueror sidebar plugin library development files
  This package contains development headers for the Konqueror sidebar plugin
  library.
- .
- This package is part of the KDE base applications module.
-
-Package: plasma-widget-folderview
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: plasma widget showing the content of a folder
- This package contains the Folder View Plasma widget which is capable of
- displaying and managing contents of any KDE supported location. It can be used
- as a replacement for the traditional "desktop" folder concept in the main
- Plasma shell, but it is a lot more flexible. Folder View is part of the
- initial default KDE 4 desktop configuration.
  .
  This package is part of the KDE base applications module.
