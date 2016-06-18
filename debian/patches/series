@@ -3,3 +3,5 @@ enable_dlrestrictions.diff
 kubuntu_disable-failing-test.diff
 kubuntu_ignore-tests.diff
 disable_plasma.diff
+upstream_set-cmake_min_req-to-match-kdelibs-policy-and-enable.patch
+upstream_cmake-use-variable-for-knewstuff3-library.patch

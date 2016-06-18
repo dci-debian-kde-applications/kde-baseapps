@@ -17,6 +17,11 @@ kde-baseapps (4:16.04.2-0r1) UNRELEASED; urgency=medium
   * Raise the dolphin4 recommend in konqueror to a dependency: while
     konqueror can work fine without a file view, making sure dolphin4 is
     installed avoids troubles to users. (Closes: #820709)
+  * Backport upstream commits a74f99409d463837094c996c19e5f90fe92dea04 and
+    3eab13bc1e7fbe6c61bc156f7d6342298678dbcd to set the cmake minimum version
+    required and policies, and build properly with that; patches
+    upstream_set-cmake_min_req-to-match-kdelibs-policy-and-enable.patch and
+    upstream_cmake-use-variable-for-knewstuff3-library.patch.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Jun 2016 08:56:59 +0200
 
