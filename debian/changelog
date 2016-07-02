@@ -1,6 +1,6 @@
-kde-baseapps (4:16.04.2-2~1.gbp71d778) UNRELEASED; urgency=medium
+kde-baseapps (4:16.04.2-2~2.gbp8aae9d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @71d7783f4f9a65fcc305e92b91cf01beb61cba4e **
+  ** SNAPSHOT build @8aae9d97ccff2376ba8fb35c057c637033293e0f **
 
   [ Maximiliano Curia ]
   * Update symbols files with the buildds results
@@ -8,8 +8,10 @@ kde-baseapps (4:16.04.2-2~1.gbp71d778) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Remove the unused baloo-dev build dependency, as dolphin4 is already built
     without Baloo support (unmaintained in KDE 4).
+  * start a new changelog entry for 4:16.04.2-2
+  * remove unused baloo-dev B-D
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 07:56:39 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 02 Jul 2016 10:52:22 +0200
 
 kde-baseapps (4:16.04.2-1) unstable; urgency=medium
 
