@@ -8,7 +8,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev (>= 4:4.10.60~),
@@ -130,16 +130,14 @@ Package: konqueror
 Section: web
 Architecture: any
 Provides: info-browser, man-browser, www-browser
-Depends: install-info,
+Depends: dolphin4 (= ${binary:Version}),
+         install-info,
          kde-baseapps-bin (= ${binary:Version}),
          kde-baseapps-data (= ${source:Version}),
-         dolphin4 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Suggests: konq-plugins (>= 4:4.1~)
-Recommends: kfind,
-            konqueror-nsplugins (= ${binary:Version}),
-            kpart-webkit
+Recommends: kfind, konqueror-nsplugins (= ${binary:Version}), kpart-webkit
 Breaks: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
 Replaces: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
 Description: advanced file manager, web browser and document viewer
