@@ -1,13 +1,18 @@
 From: Modestas Vainius <modax@debian.org>
+Date: Wed, 13 Jul 2016 05:35:22 +0200
 Subject: Use DebianABIManager for this source package. It's Debian-specific.
-Forwarded: not-needed
 
 For more information about DebianABIManager, refer to
 /usr/share/doc/pkg-kde-tools/README.DebianABIManager (pkg-kde-tools (>= 0.12)).
+---
+ CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
 
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 2aae22e..6a6c084 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -57,3 +57,4 @@ macro_optional_add_subdirectory( doc )
+@@ -59,3 +59,4 @@ macro_optional_add_subdirectory( doc )
  
  feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
  

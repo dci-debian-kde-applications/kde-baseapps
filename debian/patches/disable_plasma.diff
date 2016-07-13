@@ -1,17 +1,16 @@
-Author: Pino Toscano <pino@debian.org>
-Description: Disable the build of Plasma-related stuff
- Do not build stuff based on Plasma 4, since they are useless in a Plasma 5
- desktop environment.
- .
- This patch needs to be dropped once a Frameworks-based kde-baseapps is
- prepared.
-Origin: vendor
-Forwarded: not-needed
-Last-Update: 2016-06-18
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Jul 2016 05:35:22 +0200
+Subject: disable_plasma
 
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index f17762b..b5950d0 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -42,7 +42,7 @@ add_subdirectory( kdialog )
+@@ -44,7 +44,7 @@ add_subdirectory( kdialog )
  add_subdirectory( keditbookmarks )
  add_subdirectory( konqueror )
  add_subdirectory( kfind )
