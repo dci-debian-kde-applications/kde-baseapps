@@ -1,6 +1,6 @@
-kde-baseapps (4:16.04.2-2~2.gbp8aae9d) UNRELEASED; urgency=medium
+kde-baseapps (4:16.04.3-1~1.gbpba2cc4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8aae9d97ccff2376ba8fb35c057c637033293e0f **
+  ** SNAPSHOT build @ba2cc4d4f230f4113c7088047fa32d61374dc1ab **
 
   [ Maximiliano Curia ]
   * Update symbols files with the buildds results
@@ -11,7 +11,11 @@ kde-baseapps (4:16.04.2-2~2.gbp8aae9d) UNRELEASED; urgency=medium
   * start a new changelog entry for 4:16.04.2-2
   * remove unused baloo-dev B-D
 
- -- Pino Toscano <pino@debian.org>  Sat, 02 Jul 2016 10:52:22 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 05:35:25 +0200
 
 kde-baseapps (4:16.04.2-1) unstable; urgency=medium
 
