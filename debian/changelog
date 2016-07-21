@@ -4,6 +4,11 @@ kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Remove the unused baloo-dev build dependency, as dolphin4 is already built
     without Baloo support (unmaintained in KDE 4).
+  * Update the patches:
+    - upstream_set-cmake_min_req-to-match-kdelibs-policy-and-enable.patch:
+      drop, backported from upstream
+    - upstream_cmake-use-variable-for-knewstuff3-library.patch: drop,
+      backported from upstream
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 07:56:39 +0200
 
