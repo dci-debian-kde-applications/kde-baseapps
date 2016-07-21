@@ -1,4 +1,9 @@
-kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
+kde-baseapps (4:16.04.3-1~1.gbpba2cc4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ba2cc4d4f230f4113c7088047fa32d61374dc1ab **
+
+  [ Maximiliano Curia ]
+  * Update symbols files with the buildds results
 
   [ Pino Toscano ]
   * New upstream release.
@@ -10,7 +15,11 @@ kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
     - upstream_cmake-use-variable-for-knewstuff3-library.patch: drop,
       backported from upstream
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 07:56:39 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 05:35:25 +0200
 
 kde-baseapps (4:16.04.2-1) unstable; urgency=medium
 
