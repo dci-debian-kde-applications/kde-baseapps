@@ -1,6 +1,7 @@
-kde-baseapps (4:16.04.2-2) UNRELEASED; urgency=medium
+kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
+  * New upstream release.
   * Remove the unused baloo-dev build dependency, as dolphin4 is already built
     without Baloo support (unmaintained in KDE 4).
 
