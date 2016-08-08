@@ -9,6 +9,7 @@ kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
       drop, backported from upstream
     - upstream_cmake-use-variable-for-knewstuff3-library.patch: drop,
       backported from upstream
+  * Remove unused lintian overrides.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 07:56:39 +0200
 
