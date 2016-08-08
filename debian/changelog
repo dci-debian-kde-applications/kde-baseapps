@@ -11,6 +11,7 @@ kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
       backported from upstream
   * Remove unused lintian overrides.
   * Fix typos in control and copyright.
+  * Update symbols files for GCC 6 fun.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 07:56:39 +0200
 
