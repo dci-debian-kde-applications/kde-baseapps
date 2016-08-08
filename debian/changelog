@@ -1,6 +1,6 @@
-kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
+kde-baseapps (4:16.04.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Remove the unused baloo-dev build dependency, as dolphin4 is already built
     without Baloo support (unmaintained in KDE 4).
@@ -13,7 +13,7 @@ kde-baseapps (4:16.04.3-0r1) UNRELEASED; urgency=medium
   * Fix typos in control and copyright.
   * Update symbols files for GCC 6 fun.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Jul 2016 07:56:39 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 08 Aug 2016 20:23:49 +0200
 
 kde-baseapps (4:16.04.2-1) unstable; urgency=medium
 
