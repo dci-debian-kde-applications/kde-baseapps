@@ -1,6 +1,6 @@
-kde-baseapps (4:16.04.3-2~1.gbp97618a) UNRELEASED; urgency=medium
+kde-baseapps (4:16.08.0-1~1.gbpeb612f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @97618afa654eb6ee7409861d93d0ad9f159c42cc **
+  ** SNAPSHOT build @eb612f662ae0a923950c8fbdf2b6112c3d071d38 **
 
   [ Maximiliano Curia ]
   * Update symbols files with the buildds results
@@ -8,8 +8,10 @@ kde-baseapps (4:16.04.3-2~1.gbp97618a) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Refresh patches
+  * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 09 Aug 2016 12:30:23 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 05:35:13 +0200
 
 kde-baseapps (4:16.04.3-1) unstable; urgency=medium
 
