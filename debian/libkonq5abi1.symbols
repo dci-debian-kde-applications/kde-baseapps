@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 4:16.04.3 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:16.08.0 amd64
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
- (optional=templinst)_Z17qRegisterMetaTypeI9KFileItemEiPKcPT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z21qMetaTypeDeleteHelperI4KUrlEvPT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z21qMetaTypeDeleteHelperI9KFileItemEvPT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z24qMetaTypeConstructHelperI4KUrlEPvPKT_@ABI_5_1 4:15.12.1
- (optional=templinst)_Z24qMetaTypeConstructHelperI9KFileItemEPvPKT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64)_Z17qRegisterMetaTypeI9KFileItemEiPKcPT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64)_Z21qMetaTypeDeleteHelperI4KUrlEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64)_Z21qMetaTypeDeleteHelperI9KFileItemEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64)_Z24qMetaTypeConstructHelperI4KUrlEPvPKT_@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=!amd64)_Z24qMetaTypeConstructHelperI9KFileItemEPvPKT_@ABI_5_1 4:15.12.1
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData20decodeIsCutSelectionEPK9QMimeData@ABI_5_1 4:4.6.1
@@ -91,31 +91,31 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN16KonqHistoryEntryC2Ev@ABI_5_1 4:4.6.1
  _ZN16KonqHistoryEntryD1Ev@ABI_5_1 4:4.6.1
  _ZN16KonqHistoryEntryD2Ev@ABI_5_1 4:4.6.1
- _ZN17KonqHistoryLoader11loadHistoryEv@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoader11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoader11qt_metacastEPKc@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoader14historyVersionEv@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoader16staticMetaObjectE@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoaderC1EP7QObject@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoaderC2EP7QObject@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoaderD0Ev@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoaderD1Ev@ABI_5_1 4:16.04.3
- _ZN17KonqHistoryLoaderD2Ev@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenu10slotBrowseEv@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenu11qt_metacastEPKc@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenu12copyOrMoveToERK4KUrl@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenu13slotTriggeredEP7QAction@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenu15slotAboutToShowEv@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenu16staticMetaObjectE@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenuC1EP5QMenuP21KonqCopyToMenuPrivate8MenuType@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenuC2EP5QMenuP21KonqCopyToMenuPrivate8MenuType@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenuD0Ev@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenuD1Ev@ABI_5_1 4:16.04.3
- _ZN18KonqCopyToMainMenuD2Ev@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListI16KonqHistoryEntryE8iteratorES2_PFbRKS2_S6_EEEvT_S9_RKT0_T1_@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoader11loadHistoryEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoader11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoader11qt_metacastEPKc@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoader14historyVersionEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoader16staticMetaObjectE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoaderC1EP7QObject@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoaderC2EP7QObject@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoaderD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoaderD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN17KonqHistoryLoaderD2Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenu10slotBrowseEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenu11qt_metacastEPKc@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenu12copyOrMoveToERK4KUrl@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenu13slotTriggeredEP7QAction@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenu15slotAboutToShowEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenu16staticMetaObjectE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenuC1EP5QMenuP21KonqCopyToMenuPrivate8MenuType@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenuC2EP5QMenuP21KonqCopyToMenuPrivate8MenuType@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenuD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenuD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN18KonqCopyToMainMenuD2Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListI16KonqHistoryEntryE8iteratorES2_PFbRKS2_S6_EEEvT_S9_RKT0_T1_@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN18QSharedDataPointerI31KonqFileItemCapabilitiesPrivateE13detach_helperEv@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN18QSharedDataPointerI31KonqPopupMenuInformationPrivateE13detach_helperEv@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN18QSharedDataPointerI31KonqPopupMenuInformationPrivateE13detach_helperEv@ABI_5_1 4:16.04.3
  _ZN19KonqHistoryProvider10entryAddedERK16KonqHistoryEntry@ABI_5_1 4:4.6.1
  _ZN19KonqHistoryProvider11loadHistoryEv@ABI_5_1 4:4.6.1
  _ZN19KonqHistoryProvider11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
@@ -136,16 +136,16 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN19KonqHistoryProviderD0Ev@ABI_5_1 4:4.6.1
  _ZN19KonqHistoryProviderD1Ev@ABI_5_1 4:4.6.1
  _ZN19KonqHistoryProviderD2Ev@ABI_5_1 4:4.6.1
- _ZN19KonqMultiRestoreJob10slotResultEP4KJob@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJob11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJob11qt_metacastEPKc@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJob16staticMetaObjectE@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJob9slotStartEv@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJobC1ERKN4KUrl4ListE@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJobC2ERKN4KUrl4ListE@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJobD0Ev@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJobD1Ev@ABI_5_1 4:16.04.3
- _ZN19KonqMultiRestoreJobD2Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJob10slotResultEP4KJob@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJob11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJob11qt_metacastEPKc@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJob16staticMetaObjectE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJob9slotStartEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJobC1ERKN4KUrl4ListE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJobC2ERKN4KUrl4ListE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJobD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJobD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN19KonqMultiRestoreJobD2Ev@ABI_5_1 4:16.04.3
  _ZN19KonqPopupMenuPlugin11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
  _ZN19KonqPopupMenuPlugin11qt_metacastEPKc@ABI_5_1 4:4.6.1
  _ZN19KonqPopupMenuPlugin16staticMetaObjectE@ABI_5_1 4:4.6.1
@@ -154,20 +154,20 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN19KonqPopupMenuPluginD0Ev@ABI_5_1 4:4.6.1
  _ZN19KonqPopupMenuPluginD1Ev@ABI_5_1 4:4.6.1
  _ZN19KonqPopupMenuPluginD2Ev@ABI_5_1 4:4.6.1
- _ZN20KonqPopupMenuPrivate10addPluginsEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate14addNamedActionERK7QString@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate15slotPopupNewDirEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate16slotPopupNewViewEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate17slotPopupMimeTypeEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate18slotConfigTrashBinEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate19slotPopupPropertiesEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate20slotShowOriginalFileEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate22slotPopupAddToBookmarkEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate22slotPopupEmptyTrashBinEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate23slotOpenShareFileDialogEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate28slotPopupRestoreTrashedItemsEv@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate4initEj6QFlagsIN6KParts16BrowserExtension9PopupFlagEE@ABI_5_1 4:16.04.3
- _ZN20KonqPopupMenuPrivate8addGroupERK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate10addPluginsEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate14addNamedActionERK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate15slotPopupNewDirEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate16slotPopupNewViewEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate17slotPopupMimeTypeEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate18slotConfigTrashBinEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate19slotPopupPropertiesEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate20slotShowOriginalFileEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate22slotPopupAddToBookmarkEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate22slotPopupEmptyTrashBinEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate23slotOpenShareFileDialogEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate28slotPopupRestoreTrashedItemsEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate4initEj6QFlagsIN6KParts16BrowserExtension9PopupFlagEE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN20KonqPopupMenuPrivate8addGroupERK7QString@ABI_5_1 4:16.04.3
  _ZN21KVersionControlPlugin11infoMessageERK7QString@ABI_5_1 4:4.6.1
  _ZN21KVersionControlPlugin11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
  _ZN21KVersionControlPlugin11qt_metacastEPKc@ABI_5_1 4:4.6.1
@@ -180,8 +180,8 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN21KVersionControlPluginD0Ev@ABI_5_1 4:4.6.1
  _ZN21KVersionControlPluginD1Ev@ABI_5_1 4:4.6.1
  _ZN21KVersionControlPluginD2Ev@ABI_5_1 4:4.6.1
- _ZN21KonqCopyToMenuPrivateC1EP7QWidget@ABI_5_1 4:16.04.3
- _ZN21KonqCopyToMenuPrivateC2EP7QWidget@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN21KonqCopyToMenuPrivateC1EP7QWidget@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN21KonqCopyToMenuPrivateC2EP7QWidget@ABI_5_1 4:16.04.3
  _ZN22KVersionControlPlugin211infoMessageERK7QString@ABI_5_1 4:4.8.1
  _ZN22KVersionControlPlugin211qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.8.1
  _ZN22KVersionControlPlugin211qt_metacastEPKc@ABI_5_1 4:4.8.1
@@ -207,15 +207,15 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN22KonqDndPopupMenuPluginD2Ev@ABI_5_1 4:4.6.1
  _ZN22KonqFileMouseOverEvent28s_fileItemMouseOverEventNameE@ABI_5_1 4:4.6.1
  _ZN22KonqFileSelectionEvent28s_fileItemSelectionEventNameE@ABI_5_1 4:4.6.1
- _ZN23KonqCopyToDirectoryMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenu11qt_metacastEPKc@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenu15slotAboutToShowEv@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenu16staticMetaObjectE@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenuC1EP5QMenuP18KonqCopyToMainMenuRK7QString@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenuC2EP5QMenuP18KonqCopyToMainMenuRK7QString@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenuD0Ev@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenuD1Ev@ABI_5_1 4:16.04.3
- _ZN23KonqCopyToDirectoryMenuD2Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenu11qt_metacastEPKc@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenu15slotAboutToShowEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenu16staticMetaObjectE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenuC1EP5QMenuP18KonqCopyToMainMenuRK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenuC2EP5QMenuP18KonqCopyToMainMenuRK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenuD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenuD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN23KonqCopyToDirectoryMenuD2Ev@ABI_5_1 4:16.04.3
  _ZN24KonqFileItemCapabilities8setItemsERK13KFileItemList@ABI_5_1 4:4.6.1
  _ZN24KonqFileItemCapabilitiesC1ERK13KFileItemList@ABI_5_1 4:4.6.1
  _ZN24KonqFileItemCapabilitiesC1ERKS_@ABI_5_1 4:4.6.1
@@ -266,69 +266,69 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN25KonqStatusBarMessageLabelD0Ev@ABI_5_1 4:4.6.1
  _ZN25KonqStatusBarMessageLabelD1Ev@ABI_5_1 4:4.6.1
  _ZN25KonqStatusBarMessageLabelD2Ev@ABI_5_1 4:4.6.1
- _ZN26KonqHistoryProviderPrivate10adjustSizeEv@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate11notifyClearEv@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate11qt_metacastEPKc@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate11saveHistoryEv@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate12notifyMaxAgeEi@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate12notifyRemoveERK7QString@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate14notifyMaxCountEi@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate15slotNotifyClearEv@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate16notifyRemoveListERK11QStringList@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate16slotNotifyMaxAgeEi@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate16slotNotifyRemoveERK7QString@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate16staticMetaObjectE@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate18notifyHistoryEntryERK10QByteArray@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate18slotNotifyMaxCountEi@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate20slotNotifyRemoveListERK11QStringList@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivate22slotNotifyHistoryEntryERK10QByteArray@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivateC1EP19KonqHistoryProvider@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivateC2EP19KonqHistoryProvider@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivateD0Ev@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivateD1Ev@ABI_5_1 4:16.04.3
- _ZN26KonqHistoryProviderPrivateD2Ev@ABI_5_1 4:16.04.3
- _ZN31KonqFileItemCapabilitiesPrivateD0Ev@ABI_5_1 4:16.04.3
- _ZN31KonqFileItemCapabilitiesPrivateD1Ev@ABI_5_1 4:16.04.3
- _ZN31KonqFileItemCapabilitiesPrivateD2Ev@ABI_5_1 4:16.04.3
- _ZN31KonqPopupMenuInformationPrivateD0Ev@ABI_5_1 4:16.04.3
- _ZN31KonqPopupMenuInformationPrivateD1Ev@ABI_5_1 4:16.04.3
- _ZN31KonqPopupMenuInformationPrivateD2Ev@ABI_5_1 4:16.04.3
- _ZN32KonqNameAndUrlInputDialogPrivate12_k_slotClearEv@ABI_5_1 4:16.04.3
- _ZN32KonqNameAndUrlInputDialogPrivate21_k_slotURLTextChangedERK7QString@ABI_5_1 4:16.04.3
- _ZN32KonqNameAndUrlInputDialogPrivate22_k_slotNameTextChangedERK7QString@ABI_5_1 4:16.04.3
- _ZN3KIO3Job5startEv@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN4QMapI7QString5QListIP7QActionEE13detach_helperEv@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN4QMapI7QStringS0_E13detach_helperEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate10adjustSizeEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate11notifyClearEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate11qt_metacastEPKc@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate11saveHistoryEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate12notifyMaxAgeEi@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate12notifyRemoveERK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate14notifyMaxCountEi@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate15slotNotifyClearEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate16notifyRemoveListERK11QStringList@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate16slotNotifyMaxAgeEi@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate16slotNotifyRemoveERK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate16staticMetaObjectE@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate18notifyHistoryEntryERK10QByteArray@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate18slotNotifyMaxCountEi@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate20slotNotifyRemoveListERK11QStringList@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivate22slotNotifyHistoryEntryERK10QByteArray@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivateC1EP19KonqHistoryProvider@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivateC2EP19KonqHistoryProvider@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivateD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivateD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN26KonqHistoryProviderPrivateD2Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN31KonqFileItemCapabilitiesPrivateD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN31KonqFileItemCapabilitiesPrivateD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN31KonqFileItemCapabilitiesPrivateD2Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN31KonqPopupMenuInformationPrivateD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN31KonqPopupMenuInformationPrivateD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN31KonqPopupMenuInformationPrivateD2Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN32KonqNameAndUrlInputDialogPrivate12_k_slotClearEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN32KonqNameAndUrlInputDialogPrivate21_k_slotURLTextChangedERK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN32KonqNameAndUrlInputDialogPrivate22_k_slotNameTextChangedERK7QString@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN3KIO3Job5startEv@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN4QMapI7QString5QListIP7QActionEE13detach_helperEv@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN4QMapI7QStringS0_E13detach_helperEv@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI11KMountPointEED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI11KMountPointEED2Ev@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI10KSharedPtrI8KServiceEE13detach_helperEi@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI10KSharedPtrI8KServiceEE13detach_helperEi@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI8KServiceEED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI8KServiceEED2Ev@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI16KonqHistoryEntryE13detach_helperEi@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI16KonqHistoryEntryE18detach_helper_growEii@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI16KonqHistoryEntryE13detach_helperEi@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI16KonqHistoryEntryE18detach_helper_growEii@ABI_5_1 4:16.04.3
  (optional=templinst|arch=x32)_ZN5QListI16KonqHistoryEntryE5clearEv@ABI_5_1 4:15.12.1
  (optional=templinst|arch=armhf)_ZN5QListI16KonqHistoryEntryED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI16KonqHistoryEntryED2Ev@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI4KUrlE13detach_helperEi@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI4KUrlE18detach_helper_growEii@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI4KUrlE6appendERKS0_@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI4KUrlE13detach_helperEi@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI4KUrlE18detach_helper_growEii@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI4KUrlE6appendERKS0_@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI4KUrlED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI4KUrlED2Ev@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI7QStringE13detach_helperEi@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI7QStringE18detach_helper_growEii@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI7QStringED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI7QStringED2Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI8QVariantED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI8QVariantED2Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI9KFileItemE13detach_helperEi@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI9KFileItemE18detach_helper_growEii@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListI9KFileItemE6appendERKS0_@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI9KFileItemE18detach_helper_growEii@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListI9KFileItemE6appendERKS0_@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI9KFileItemED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListI9KFileItemED2Ev@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListIP7KActionE18detach_helper_growEii@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListIP7KActionE6appendERKS1_@ABI_5_1 4:16.04.3
- (optional=templinst)_ZN5QListIP7QActionE13detach_helperEi@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListIP7KActionE18detach_helper_growEii@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListIP7KActionE6appendERKS1_@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZN5QListIP7QActionE13detach_helperEi@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListIP7QActionED1Ev@ABI_5_1 4:16.04.3
  (optional=templinst|arch=armhf)_ZN5QListIP7QActionED2Ev@ABI_5_1 4:16.04.3
  _ZN8KNewMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
@@ -336,9 +336,9 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN8KNewMenu16staticMetaObjectE@ABI_5_1 4:4.6.1
  _ZN8KNewMenuC1EP17KActionCollectionP7QWidgetRK7QString@ABI_5_1 4:4.6.1
  _ZN8KNewMenuC2EP17KActionCollectionP7QWidgetRK7QString@ABI_5_1 4:4.6.1
- _ZN8KNewMenuD0Ev@ABI_5_1 4:16.04.3
- _ZN8KNewMenuD1Ev@ABI_5_1 4:16.04.3
- _ZN8KNewMenuD2Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN8KNewMenuD0Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN8KNewMenuD1Ev@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZN8KNewMenuD2Ev@ABI_5_1 4:16.04.3
  _ZNK13KonqPopupMenu10metaObjectEv@ABI_5_1 4:4.6.1
  _ZNK13KonqPopupMenu15fileItemActionsEv@ABI_5_1 4:4.8.2
  _ZNK14KonqOperations10metaObjectEv@ABI_5_1 4:4.6.1
@@ -348,20 +348,20 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZNK15KonqHistoryList14constFindEntryERK4KUrl@ABI_5_1 4:4.6.1
  _ZNK16KonqHistoryEntry4saveER11QDataStreamNS_5FlagsE@ABI_5_1 4:4.6.1
  _ZNK16KonqHistoryEntryeqERKS_@ABI_5_1 4:4.6.1
- _ZNK17KonqHistoryLoader10metaObjectEv@ABI_5_1 4:16.04.3
- _ZNK17KonqHistoryLoader7entriesEv@ABI_5_1 4:16.04.3
- _ZNK18KonqCopyToMainMenu10metaObjectEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZNK17KonqHistoryLoader10metaObjectEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZNK17KonqHistoryLoader7entriesEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZNK18KonqCopyToMainMenu10metaObjectEv@ABI_5_1 4:16.04.3
  _ZNK19KonqHistoryProvider10metaObjectEv@ABI_5_1 4:4.6.1
  _ZNK19KonqHistoryProvider14constFindEntryERK4KUrl@ABI_5_1 4:4.6.1
  _ZNK19KonqHistoryProvider6maxAgeEv@ABI_5_1 4:4.6.1
  _ZNK19KonqHistoryProvider7entriesEv@ABI_5_1 4:4.6.1
  _ZNK19KonqHistoryProvider8maxCountEv@ABI_5_1 4:4.6.1
- _ZNK19KonqMultiRestoreJob10metaObjectEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZNK19KonqMultiRestoreJob10metaObjectEv@ABI_5_1 4:16.04.3
  _ZNK19KonqPopupMenuPlugin10metaObjectEv@ABI_5_1 4:4.6.1
  _ZNK21KVersionControlPlugin10metaObjectEv@ABI_5_1 4:4.6.1
  _ZNK22KVersionControlPlugin210metaObjectEv@ABI_5_1 4:4.8.1
  _ZNK22KonqDndPopupMenuPlugin10metaObjectEv@ABI_5_1 4:4.6.1
- _ZNK23KonqCopyToDirectoryMenu10metaObjectEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZNK23KonqCopyToDirectoryMenu10metaObjectEv@ABI_5_1 4:16.04.3
  _ZNK24KonqFileItemCapabilities14supportsMovingEv@ABI_5_1 4:4.6.1
  _ZNK24KonqFileItemCapabilities15supportsReadingEv@ABI_5_1 4:4.6.1
  _ZNK24KonqFileItemCapabilities15supportsWritingEv@ABI_5_1 4:4.6.1
@@ -386,71 +386,71 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZNK25KonqStatusBarMessageLabel4textEv@ABI_5_1 4:4.6.1
  _ZNK25KonqStatusBarMessageLabel4typeEv@ABI_5_1 4:4.6.1
  _ZNK25KonqStatusBarMessageLabel8sizeHintEv@ABI_5_1 4:4.6.1
- _ZNK26KonqHistoryProviderPrivate10metaObjectEv@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZNK26KonqHistoryProviderPrivate10metaObjectEv@ABI_5_1 4:16.04.3
  _ZNK8KNewMenu10metaObjectEv@ABI_5_1 4:4.6.1
- _ZTI11QSharedData@ABI_5_1 4:16.04.3
- _ZTI12QDBusContext@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI11QSharedData@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI12QDBusContext@ABI_5_1 4:16.04.3
  _ZTI13KonqPopupMenu@ABI_5_1 4:4.6.1
  _ZTI14KonqOperations@ABI_5_1 4:4.6.1
- _ZTI17KonqHistoryLoader@ABI_5_1 4:16.04.3
- _ZTI18KonqCopyToMainMenu@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI17KonqHistoryLoader@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI18KonqCopyToMainMenu@ABI_5_1 4:16.04.3
  _ZTI19KonqHistoryProvider@ABI_5_1 4:4.6.1
- _ZTI19KonqMultiRestoreJob@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI19KonqMultiRestoreJob@ABI_5_1 4:16.04.3
  _ZTI19KonqPopupMenuPlugin@ABI_5_1 4:4.6.1
  _ZTI21KVersionControlPlugin@ABI_5_1 4:4.6.1
  _ZTI22KVersionControlPlugin2@ABI_5_1 4:4.8.1
  _ZTI22KonqDndPopupMenuPlugin@ABI_5_1 4:4.6.1
- _ZTI23KonqCopyToDirectoryMenu@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI23KonqCopyToDirectoryMenu@ABI_5_1 4:16.04.3
  _ZTI24KonqFileItemCapabilities@ABI_5_1 4:4.6.1
  _ZTI25KonqNameAndUrlInputDialog@ABI_5_1 4:4.6.1
  _ZTI25KonqStatusBarMessageLabel@ABI_5_1 4:4.6.1
- _ZTI26KonqHistoryProviderPrivate@ABI_5_1 4:16.04.3
- _ZTI31KonqFileItemCapabilitiesPrivate@ABI_5_1 4:16.04.3
- _ZTI31KonqPopupMenuInformationPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI26KonqHistoryProviderPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI31KonqFileItemCapabilitiesPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTI31KonqPopupMenuInformationPrivate@ABI_5_1 4:16.04.3
  _ZTI8KNewMenu@ABI_5_1 4:4.6.1
- _ZTS11QSharedData@ABI_5_1 4:16.04.3
- _ZTS12QDBusContext@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS11QSharedData@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS12QDBusContext@ABI_5_1 4:16.04.3
  _ZTS13KonqPopupMenu@ABI_5_1 4:4.6.1
  _ZTS14KonqOperations@ABI_5_1 4:4.6.1
- _ZTS17KonqHistoryLoader@ABI_5_1 4:16.04.3
- _ZTS18KonqCopyToMainMenu@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS17KonqHistoryLoader@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS18KonqCopyToMainMenu@ABI_5_1 4:16.04.3
  _ZTS19KonqHistoryProvider@ABI_5_1 4:4.6.1
- _ZTS19KonqMultiRestoreJob@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS19KonqMultiRestoreJob@ABI_5_1 4:16.04.3
  _ZTS19KonqPopupMenuPlugin@ABI_5_1 4:4.6.1
  _ZTS21KVersionControlPlugin@ABI_5_1 4:4.6.1
  _ZTS22KVersionControlPlugin2@ABI_5_1 4:4.8.1
  _ZTS22KonqDndPopupMenuPlugin@ABI_5_1 4:4.6.1
- _ZTS23KonqCopyToDirectoryMenu@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS23KonqCopyToDirectoryMenu@ABI_5_1 4:16.04.3
  _ZTS24KonqFileItemCapabilities@ABI_5_1 4:4.6.1
  _ZTS25KonqNameAndUrlInputDialog@ABI_5_1 4:4.6.1
  _ZTS25KonqStatusBarMessageLabel@ABI_5_1 4:4.6.1
- _ZTS26KonqHistoryProviderPrivate@ABI_5_1 4:16.04.3
- _ZTS31KonqFileItemCapabilitiesPrivate@ABI_5_1 4:16.04.3
- _ZTS31KonqPopupMenuInformationPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS26KonqHistoryProviderPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS31KonqFileItemCapabilitiesPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTS31KonqPopupMenuInformationPrivate@ABI_5_1 4:16.04.3
  _ZTS8KNewMenu@ABI_5_1 4:4.6.1
  _ZTV13KonqPopupMenu@ABI_5_1 4:4.6.1
  _ZTV14KonqOperations@ABI_5_1 4:4.6.1
- _ZTV17KonqHistoryLoader@ABI_5_1 4:16.04.3
- _ZTV18KonqCopyToMainMenu@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTV17KonqHistoryLoader@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTV18KonqCopyToMainMenu@ABI_5_1 4:16.04.3
  _ZTV19KonqHistoryProvider@ABI_5_1 4:4.6.1
- _ZTV19KonqMultiRestoreJob@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTV19KonqMultiRestoreJob@ABI_5_1 4:16.04.3
  _ZTV19KonqPopupMenuPlugin@ABI_5_1 4:4.6.1
  _ZTV21KVersionControlPlugin@ABI_5_1 4:4.6.1
  _ZTV22KVersionControlPlugin2@ABI_5_1 4:4.8.1
  _ZTV22KonqDndPopupMenuPlugin@ABI_5_1 4:4.6.1
- _ZTV23KonqCopyToDirectoryMenu@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTV23KonqCopyToDirectoryMenu@ABI_5_1 4:16.04.3
  _ZTV24KonqFileItemCapabilities@ABI_5_1 4:4.6.1
  _ZTV25KonqNameAndUrlInputDialog@ABI_5_1 4:4.6.1
  _ZTV25KonqStatusBarMessageLabel@ABI_5_1 4:4.6.1
- _ZTV26KonqHistoryProviderPrivate@ABI_5_1 4:16.04.3
- _ZTV31KonqFileItemCapabilitiesPrivate@ABI_5_1 4:16.04.3
- _ZTV31KonqPopupMenuInformationPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTV26KonqHistoryProviderPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTV31KonqFileItemCapabilitiesPrivate@ABI_5_1 4:16.04.3
+ (optional=gcc6|arch=!amd64)_ZTV31KonqPopupMenuInformationPrivate@ABI_5_1 4:16.04.3
  _ZTV8KNewMenu@ABI_5_1 4:4.6.1
- (optional=templinst)_ZZN11QMetaTypeIdI4KUrlE14qt_metatype_idEvE11metatype_id@ABI_5_1 4:16.04.3
- (optional=templinst)_ZZN11QMetaTypeIdI9KFileItemE14qt_metatype_idEvE11metatype_id@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZZN11QMetaTypeIdI4KUrlE14qt_metatype_idEvE11metatype_id@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=!amd64)_ZZN11QMetaTypeIdI9KFileItemE14qt_metatype_idEvE11metatype_id@ABI_5_1 4:16.04.3
  dlrestrictions_data@ABI_5_1 4:4.6.3
- (c++)"non-virtual thunk to KonqCopyToDirectoryMenu::~KonqCopyToDirectoryMenu()@ABI_5_1" 4:16.04.3
- (c++)"non-virtual thunk to KonqCopyToMainMenu::~KonqCopyToMainMenu()@ABI_5_1" 4:16.04.3
+ (optional=gcc6|arch=!amd64|c++)"non-virtual thunk to KonqCopyToDirectoryMenu::~KonqCopyToDirectoryMenu()@ABI_5_1" 4:16.04.3
+ (optional=gcc6|arch=!amd64|c++)"non-virtual thunk to KonqCopyToMainMenu::~KonqCopyToMainMenu()@ABI_5_1" 4:16.04.3
  (c++)"non-virtual thunk to KonqNameAndUrlInputDialog::~KonqNameAndUrlInputDialog()@ABI_5_1" 4:4.6.1
  (c++)"non-virtual thunk to KonqPopupMenu::~KonqPopupMenu()@ABI_5_1" 4:4.6.1
  (c++)"non-virtual thunk to KonqStatusBarMessageLabel::~KonqStatusBarMessageLabel()@ABI_5_1" 4:4.6.1
