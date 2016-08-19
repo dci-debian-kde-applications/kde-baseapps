@@ -8,7 +8,6 @@ Author: Jonathan Riddell
 Origin: me
 Forwarded: nope
 Last-Update: 2015-09-01
-
 ---
  lib/konq/tests/CMakeLists.txt | 9 ---------
  1 file changed, 9 deletions(-)

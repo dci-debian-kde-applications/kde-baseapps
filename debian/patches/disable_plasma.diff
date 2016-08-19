@@ -12,7 +12,6 @@ Description: Disable the build of Plasma-related stuff
 Origin: vendor
 Forwarded: not-needed
 Last-Update: 2016-06-18
-
 ---
  CMakeLists.txt | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
