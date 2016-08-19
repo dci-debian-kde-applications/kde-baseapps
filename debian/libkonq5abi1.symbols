@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 4:16.04.3 amd64
+# SymbolsHelper-Confirmed: 4:16.04.3 amd64 armhf i386
 libkonq.so.5abi1 libkonq5abi1 #MINVER#
  ABI_5_1@ABI_5_1 4:4.6.1
- (optional=templinst|arch=!armhf !i386)_Z17qRegisterMetaTypeI9KFileItemEiPKcPT_@ABI_5_1 4:15.12.1
- (optional=templinst|arch=!armhf !i386)_Z21qMetaTypeDeleteHelperI4KUrlEvPT_@ABI_5_1 4:15.12.1
- (optional=templinst|arch=!armhf !i386)_Z21qMetaTypeDeleteHelperI9KFileItemEvPT_@ABI_5_1 4:15.12.1
- (optional=templinst|arch=!armhf !i386)_Z24qMetaTypeConstructHelperI4KUrlEPvPKT_@ABI_5_1 4:15.12.1
- (optional=templinst|arch=!armhf !i386)_Z24qMetaTypeConstructHelperI9KFileItemEPvPKT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z17qRegisterMetaTypeI9KFileItemEiPKcPT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z21qMetaTypeDeleteHelperI4KUrlEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z21qMetaTypeDeleteHelperI9KFileItemEvPT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z24qMetaTypeConstructHelperI4KUrlEPvPKT_@ABI_5_1 4:15.12.1
+ (optional=templinst)_Z24qMetaTypeConstructHelperI9KFileItemEPvPKT_@ABI_5_1 4:15.12.1
  _ZN12KonqMimeData16populateMimeDataEP9QMimeDataRKN4KUrl4ListES5_b@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData17addIsCutSelectionEP9QMimeDatab@ABI_5_1 4:4.6.1
  _ZN12KonqMimeData20decodeIsCutSelectionEPK9QMimeData@ABI_5_1 4:4.6.1
@@ -114,6 +114,7 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN18KonqCopyToMainMenuD1Ev@ABI_5_1 4:16.04.3
  _ZN18KonqCopyToMainMenuD2Ev@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListI16KonqHistoryEntryE8iteratorES2_PFbRKS2_S6_EEEvT_S9_RKT0_T1_@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN18QSharedDataPointerI31KonqFileItemCapabilitiesPrivateE13detach_helperEv@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN18QSharedDataPointerI31KonqPopupMenuInformationPrivateE13detach_helperEv@ABI_5_1 4:16.04.3
  _ZN19KonqHistoryProvider10entryAddedERK16KonqHistoryEntry@ABI_5_1 4:4.6.1
  _ZN19KonqHistoryProvider11loadHistoryEv@ABI_5_1 4:4.6.1
@@ -299,20 +300,37 @@ libkonq.so.5abi1 libkonq5abi1 #MINVER#
  _ZN3KIO3Job5startEv@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN4QMapI7QString5QListIP7QActionEE13detach_helperEv@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN4QMapI7QStringS0_E13detach_helperEv@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI11KMountPointEED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI11KMountPointEED2Ev@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI10KSharedPtrI8KServiceEE13detach_helperEi@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI8KServiceEED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI10KSharedPtrI8KServiceEED2Ev@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI16KonqHistoryEntryE13detach_helperEi@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI16KonqHistoryEntryE18detach_helper_growEii@ABI_5_1 4:16.04.3
  (optional=templinst|arch=x32)_ZN5QListI16KonqHistoryEntryE5clearEv@ABI_5_1 4:15.12.1
+ (optional=templinst|arch=armhf)_ZN5QListI16KonqHistoryEntryED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI16KonqHistoryEntryED2Ev@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI4KUrlE13detach_helperEi@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI4KUrlE18detach_helper_growEii@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI4KUrlE6appendERKS0_@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI4KUrlED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI4KUrlED2Ev@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI7QStringED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI7QStringED2Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI8QVariantED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI8QVariantED2Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI9KFileItemE13detach_helperEi@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI9KFileItemE18detach_helper_growEii@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListI9KFileItemE6appendERKS0_@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI9KFileItemED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListI9KFileItemED2Ev@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListIP7KActionE18detach_helper_growEii@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListIP7KActionE6appendERKS1_@ABI_5_1 4:16.04.3
  (optional=templinst)_ZN5QListIP7QActionE13detach_helperEi@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListIP7QActionED1Ev@ABI_5_1 4:16.04.3
+ (optional=templinst|arch=armhf)_ZN5QListIP7QActionED2Ev@ABI_5_1 4:16.04.3
  _ZN8KNewMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_1 4:4.6.1
  _ZN8KNewMenu11qt_metacastEPKc@ABI_5_1 4:4.6.1
  _ZN8KNewMenu16staticMetaObjectE@ABI_5_1 4:4.6.1
