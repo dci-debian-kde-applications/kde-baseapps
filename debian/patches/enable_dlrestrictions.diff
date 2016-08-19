@@ -13,7 +13,7 @@ Last-Update: 2011-05-25
  1 file changed, 7 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 6a6c084..f17762b 100644
+index 63c8781..b3195e2 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -60,3 +60,10 @@ macro_optional_add_subdirectory( doc )

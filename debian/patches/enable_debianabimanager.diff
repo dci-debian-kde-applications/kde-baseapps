@@ -10,7 +10,7 @@ For more information about DebianABIManager, refer to
  1 file changed, 1 insertion(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 2aae22e..6a6c084 100644
+index f740f4f..63c8781 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -59,3 +59,4 @@ macro_optional_add_subdirectory( doc )
