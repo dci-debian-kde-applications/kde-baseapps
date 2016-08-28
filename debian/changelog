@@ -5,6 +5,7 @@ kde-baseapps (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Update the patches:
     - disable_plasma.diff: drop, fixed upstream
   * Pass -DBUILD_plasma=false to cmake to disable the build of Plasma stuff.
+  * Update symbols files. (Closes: #835683)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 12:44:09 +0200
 
