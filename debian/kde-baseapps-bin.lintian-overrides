@@ -1,3 +1,6 @@
+# private library
 kde-baseapps-bin: package-name-doesnt-match-sonames libkbookmarkmodel-private4
+# private library
+kde-baseapps-bin: no-symbols-control-file
 kde-baseapps-bin: breaks-without-version kcontrol
 kde-baseapps-bin: breaks-without-version kdesktop
