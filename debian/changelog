@@ -1,4 +1,6 @@
-kde-baseapps (4:16.08.0-0r1) UNRELEASED; urgency=medium
+kde-baseapps (4:16.08.0-1~3.gbp9c8236) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9c8236a1272eb1802789fa4a39ad5c5711add05d **
 
   [ Pino Toscano ]
   * New upstream release.
@@ -8,7 +10,15 @@ kde-baseapps (4:16.08.0-0r1) UNRELEASED; urgency=medium
   * Update symbols files. (Closes: #835683)
   * Update lintian overrides.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Aug 2016 12:44:09 +0200
+  [ Maximiliano Curia ]
+  * Update symbols files with the buildds results
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 13:35:01 +0200
 
 kde-baseapps (4:16.04.3-1) unstable; urgency=medium
 
