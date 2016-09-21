@@ -1,7 +1,6 @@
 usr/bin/kfind
 usr/share/applications/org.kde.kfind.desktop
-usr/share/doc/kde/HTML/en/kfind/index.cache.bz2
-usr/share/doc/kde/HTML/en/kfind/index.docbook
+usr/share/doc/HTML/en/kfind/
 usr/share/icons/hicolor/*/apps/kfind.png
 usr/share/man/man1/kfind.1
-usr/share/metainfo/org.kdekfind.appdata.xml
+usr/share/metainfo/org.kde.kfind.appdata.xml
