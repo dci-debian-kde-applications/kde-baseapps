@@ -73,6 +73,12 @@ kde-baseapps (4:16.04.1-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 18:23:24 +0200
 
+kde-baseapps (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:13:36 +0200
+
 kde-baseapps (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
