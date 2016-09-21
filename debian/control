@@ -78,10 +78,7 @@ Package: konqueror
 Section: web
 Architecture: any
 Provides: info-browser, man-browser, www-browser
-Depends: dolphin (= ${binary:Version}),
-         install-info,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: dolphin, install-info, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kfind, kpart-webkit
 Breaks: ase-data (<< 4:4.7.2), kde-baseapps-data (<< 4:4.8.4)
 Replaces: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
@@ -141,9 +138,7 @@ Description: plugins for Konqueror, the KDE file/web/document browser
 Package: libkf5konq6
 Section: libs
 Architecture: any
-Depends: libkonq-common (>= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: core libraries for Konqueror
  This package contains libraries used by several KDE 4 applications,
  particularly Konqueror.
