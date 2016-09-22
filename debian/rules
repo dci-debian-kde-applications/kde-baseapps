@@ -2,6 +2,10 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
+override_dh_auto_build:
+	dh_auto_build -Skf5 --parallel
+	rm -rf /workspace/build/debian/tmp/usr/lib/x86_64-linux-gnu/libkbookmarkmodel_private.so
+
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
