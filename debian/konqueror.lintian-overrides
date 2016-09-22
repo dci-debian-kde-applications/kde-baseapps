@@ -1,2 +1,0 @@
-konqueror: package-name-doesnt-match-sonames libkonquerorprivate4
-konqueror: hardening-no-fortify-functions usr/lib/kde4/konq_shellcmdplugin.so

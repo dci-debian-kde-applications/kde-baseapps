@@ -1,5 +1,4 @@
 #!/bin/sh
-sed -i 's/-DKDE4_BUILD_TESTS=false/-DKDE4_BUILD_TESTS=true/' debian/rules
 if [ -d /usr/lib/ccache ]; then
     export PATH="/usr/lib/ccache:$PATH"
 fi
