@@ -1,3 +1,11 @@
+kde-baseapps (4:16.08.2-1~1.gbp3df137) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3df137cd925580fcb5ae810d6efbd6b8f74e0d61 **
+
+  * UNRELEASED
+
+ -- Pino Toscano <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 23:35:56 +0200
+
 kde-baseapps (4:16.08.0-1) unstable; urgency=medium
 
   * Team upload.
