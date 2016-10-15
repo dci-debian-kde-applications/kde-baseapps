@@ -8,7 +8,6 @@ usr/lib/*/qt5/plugins/kcm_bookmarks.so
 usr/lib/*/qt5/plugins/kcm_konq.so
 usr/lib/*/qt5/plugins/kcm_konqhtml.so
 usr/lib/*/qt5/plugins/kcm_performance.so
-usr/lib/*/qt5/plugins/kded_konqy_preloader.so
 usr/lib/*/qt5/plugins/konq_aboutpage.so
 usr/share/appdata/konqueror.appdata.xml
 usr/share/applications/kfmclient.desktop
@@ -16,7 +15,6 @@ usr/share/applications/kfmclient_*.desktop
 usr/share/applications/konqbrowser.desktop
 usr/share/config.kcfg/konqueror.kcfg
 usr/share/dbus-1/interfaces/org.kde.Konqueror.*.xml
-usr/share/dbus-1/interfaces/org.kde.konqueror.Preloader.xml
 usr/share/icons/hicolor/*/apps/konqueror.png
 usr/share/kcmcss/
 usr/share/kcontrol/pics/*png
@@ -24,7 +22,6 @@ usr/share/konqueror/
 usr/share/kservices5/bookmarks.desktop
 usr/share/kservices5/kcmkonqyperformance.desktop
 usr/share/kservices5/kcmperformance.desktop
-usr/share/kservices5/kded/konqy_preloader.desktop
 usr/share/kservices5/konq_aboutpage.desktop
 usr/share/kservices5/konqueror.desktop
 usr/share/kservicetypes5/konqaboutpage.desktop
