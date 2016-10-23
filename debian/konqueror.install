@@ -9,6 +9,7 @@ usr/lib/*/qt5/plugins/kcm_konq.so
 usr/lib/*/qt5/plugins/kcm_konqhtml.so
 usr/lib/*/qt5/plugins/kcm_performance.so
 usr/lib/*/qt5/plugins/konq_aboutpage.so
+usr/lib/*/qt5/plugins/kwebenginepartlib.so
 usr/share/appdata/konqueror.appdata.xml
 usr/share/applications/kfmclient.desktop
 usr/share/applications/kfmclient_*.desktop
