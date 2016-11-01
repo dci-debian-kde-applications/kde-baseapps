@@ -11,7 +11,6 @@ usr/lib/*/qt5/plugins/kcm_konqhtml.so
 usr/lib/*/qt5/plugins/kcm_performance.so
 usr/lib/*/qt5/plugins/kf5/parts/webenginepart.so
 usr/lib/*/qt5/plugins/konq_aboutpage.so
-usr/share/appdata/org.kde.konqueror.appdata.xml
 usr/share/applications/kfmclient.desktop
 usr/share/applications/kfmclient_*.desktop
 usr/share/applications/konqbrowser.desktop
@@ -32,3 +31,4 @@ usr/share/kservicetypes5/konqaboutpage.desktop
 usr/share/kwebkitpart/
 usr/share/kxmlgui5/konqueror/
 usr/share/kxmlgui5/webenginepart/
+usr/share/metainfo/org.kde.konqueror.appdata.xml
