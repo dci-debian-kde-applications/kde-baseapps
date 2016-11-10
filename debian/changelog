@@ -1,3 +1,11 @@
+kde-baseapps (4:16.08.3-1~1.gbpb932d4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b932d4f8b7e1c27db7b6faebd2d6a9518e74f9d2 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:35:44 +0100
+
 kde-baseapps (4:16.08.2-1) unstable; urgency=medium
 
   * New upstream release (16.08.2)
