@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.9~),
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
@@ -24,11 +24,22 @@ Build-Depends: cmake (>= 2.8.9~),
                libxt-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               zlib1g-dev
+               zlib1g-dev,
 Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kde-baseapps.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kde-baseapps.git
+
+Package: dolphin4
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: dolphin (<< 4:15.08), kde-baseapps-data (<< 4:15.08.2)
+Replaces: dolphin (<< 4:15.08), kde-baseapps-data (<< 4:15.08.2)
+Description: file browser
+ Dolphin file browser, this kdelibs4 build is mainly for use with
+ Konqueror.
+ .
+ This package is part of the KDE base applications module.
 
 Package: kde-baseapps
 Architecture: all
@@ -39,7 +50,7 @@ Depends: dolphin,
          konqueror (>= ${source:Version}),
          konsole,
          kwrite,
-         ${misc:Depends}
+         ${misc:Depends},
 Recommends: konqueror-nsplugins (>= ${source:Version})
 Breaks: kdebase-apps (<< 4:4.7.2)
 Replaces: kdebase-apps (<< 4:4.7.2)
@@ -53,20 +64,11 @@ Description: base applications from the official KDE release (metapackage)
  .
  This package provides core applications for the KDE 4 desktop.
 
-Package: kdebase-apps
-Section: oldlibs
-Priority: extra
-Architecture: all
-Depends: kde-baseapps, ${misc:Depends}
-Description: Transitional package for kde-baseapps
- This transitional package takes care of pulling in the new kde-baseapps
- package and can safely be removed after installation.
-
 Package: kde-baseapps-bin
 Architecture: any
 Depends: kde-baseapps-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: kcontrol, kdebase-bin (<< 4:4.7.2), kdesktop
 Replaces: kdebase-bin (<< 4:4.7.2)
 Description: core binaries for the KDE base applications
@@ -74,14 +76,6 @@ Description: core binaries for the KDE base applications
  applications, particularly those in the KDE base module.
  .
  This package is part of the KDE base applications module.
-
-Package: kdebase-bin
-Section: oldlibs
-Priority: extra
-Architecture: all
-Depends: kde-baseapps-bin, ${misc:Depends}
-Description: Transitional package for new kde-baseapps
- This transitional package can be safely removed after installation.
 
 Package: kde-baseapps-data
 Architecture: all
@@ -94,12 +88,29 @@ Description: shared data files for the KDE base applications
  .
  This package is part of the KDE 4 base applications module.
 
+Package: kdebase-apps
+Section: oldlibs
+Priority: optional
+Architecture: all
+Depends: kde-baseapps, ${misc:Depends}
+Description: Transitional package for kde-baseapps
+ This transitional package takes care of pulling in the new kde-baseapps
+ package and can safely be removed after installation.
+
+Package: kdebase-bin
+Section: oldlibs
+Priority: optional
+Architecture: all
+Depends: kde-baseapps-bin, ${misc:Depends}
+Description: Transitional package for new kde-baseapps
+ This transitional package can be safely removed after installation.
+
 Package: kdepasswd
 Section: utils
 Architecture: any
 Depends: kde-baseapps-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: graphical password changing utility
  kdepasswd allows users to change their password, user icon, and other
  information.  A variety of user icons are included.
@@ -115,66 +126,13 @@ Description: file search utility
  .
  This package is part of the KDE base applications module.
 
-Package: dolphin4
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: dolphin (<< 4:15.08), kde-baseapps-data (<< 4:15.08.2)
-Replaces: dolphin (<< 4:15.08), kde-baseapps-data (<< 4:15.08.2)
-Description: file browser
- Dolphin file browser, this kdelibs4 build is mainly for use with
- Konqueror.
- .
- This package is part of the KDE base applications module.
-
-Package: konqueror
-Section: web
-Architecture: any
-Provides: info-browser, man-browser, www-browser
-Depends: dolphin4 (= ${binary:Version}),
-         install-info,
-         kde-baseapps-bin (= ${binary:Version}),
-         kde-baseapps-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Suggests: konq-plugins (>= 4:4.1~)
-Recommends: kfind, konqueror-nsplugins (= ${binary:Version}), kpart-webkit
-Breaks: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
-Replaces: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
-Description: advanced file manager, web browser and document viewer
- Konqueror is the KDE web browser and advanced file manager.
- .
- Konqueror is a standards-compliant web browser, supporting HTML 4.01, Java,
- JavaScript, CSS3, and Netscape plugins such as Flash.
- .
- It supports advanced file management on local UNIX filesystems, with flexible
- views, network transparency, and embedded file viewing.
- .
- It is the canvas for many KDE technologies, from remote file access via KIO to
- component embedding via the KParts object interface, making it one of the most
- customizable applications available.
- .
- This package is part of the KDE base applications module.
-
-Package: konqueror-nsplugins
-Section: web
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: gtk-qt-engine (<< 1:1.0)
-Description: Netscape plugin support for Konqueror
- Konqueror is the KDE web browser and advanced file manager.
- .
- This package provides a KDE component for enabling the use of
- Netscape/Mozilla/etc browser plugins (such as Adobe Flash) within Konqueror.
- .
- This package is part of the KDE base applications module.
-
 Package: konq-plugins
 Architecture: any
 Depends: konqueror (>= 4:4.1.0),
          libjpeg-turbo-progs,
          python,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Enhances: konqueror
 Recommends: imagemagick
 Description: plugins for Konqueror, the KDE file/web/document browser
@@ -210,16 +168,45 @@ Description: plugins for Konqueror, the KDE file/web/document browser
  .
  This package is part of the KDE base applications module.
 
-Package: libkonq5abi1
-Section: libs
+Package: konqueror
+Section: web
 Architecture: any
-X-Debian-ABI: 1
-Depends: libkonq-common (>= ${binary:Version}),
+Provides: info-browser, man-browser, www-browser
+Depends: dolphin4 (= ${binary:Version}),
+         install-info,
+         kde-baseapps-bin (= ${binary:Version}),
+         kde-baseapps-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
-Description: core libraries for Konqueror
- This package contains libraries used by several KDE 4 applications,
- particularly Konqueror.
+         ${shlibs:Depends},
+Suggests: konq-plugins (>= 4:4.1~)
+Recommends: kfind, konqueror-nsplugins (= ${binary:Version}), kpart-webkit
+Breaks: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
+Replaces: kde-baseapps-data (<< 4:4.8.4), kdebase-data (<< 4:4.7.2)
+Description: advanced file manager, web browser and document viewer
+ Konqueror is the KDE web browser and advanced file manager.
+ .
+ Konqueror is a standards-compliant web browser, supporting HTML 4.01, Java,
+ JavaScript, CSS3, and Netscape plugins such as Flash.
+ .
+ It supports advanced file management on local UNIX filesystems, with flexible
+ views, network transparency, and embedded file viewing.
+ .
+ It is the canvas for many KDE technologies, from remote file access via KIO to
+ component embedding via the KParts object interface, making it one of the most
+ customizable applications available.
+ .
+ This package is part of the KDE base applications module.
+
+Package: konqueror-nsplugins
+Section: web
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: gtk-qt-engine (<< 1:1.0)
+Description: Netscape plugin support for Konqueror
+ Konqueror is the KDE web browser and advanced file manager.
+ .
+ This package provides a KDE component for enabling the use of
+ Netscape/Mozilla/etc browser plugins (such as Adobe Flash) within Konqueror.
  .
  This package is part of the KDE base applications module.
 
@@ -235,6 +222,18 @@ Description: core Konqueror library - support files
  .
  This package is part of the KDE base applications module.
 
+Package: libkonq5-dev
+Section: libdevel
+Architecture: any
+Depends: libkonq5abi1 (= ${binary:Version}),
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkonq5abi1},
+Description: development files for the Konqueror libraries
+ This package contains development files for building software that uses the
+ Konqueror libraries.
+ .
+ This package is part of the KDE base applications module.
+
 Package: libkonq5-templates
 Section: libs
 Architecture: all
@@ -247,15 +246,28 @@ Description: data files for the Konqueror libraries
  .
  This package is part of the KDE base applications module.
 
-Package: libkonq5-dev
+Package: libkonq5abi1
+Section: libs
+Architecture: any
+X-Debian-ABI: 1
+Depends: libkonq-common (>= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: core libraries for Konqueror
+ This package contains libraries used by several KDE 4 applications,
+ particularly Konqueror.
+ .
+ This package is part of the KDE base applications module.
+
+Package: libkonqsidebarplugin-dev
 Section: libdevel
 Architecture: any
-Depends: libkonq5abi1 (= ${binary:Version}),
+Depends: libkonqsidebarplugin4a (= ${binary:Version}),
          ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkonq5abi1}
-Description: development files for the Konqueror libraries
- This package contains development files for building software that uses the
- Konqueror libraries.
+         ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a},
+Description: konqueror sidebar plugin library development files
+ This package contains development headers for the Konqueror sidebar plugin
+ library.
  .
  This package is part of the KDE base applications module.
 
@@ -266,17 +278,5 @@ X-Debian-ABI: 0
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: konqueror sidebar plugin library
  This package contains the base library for Konqueror sidebar plugins.
- .
- This package is part of the KDE base applications module.
-
-Package: libkonqsidebarplugin-dev
-Section: libdevel
-Architecture: any
-Depends: libkonqsidebarplugin4a (= ${binary:Version}),
-         ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkonqsidebarplugin4a}
-Description: konqueror sidebar plugin library development files
- This package contains development headers for the Konqueror sidebar plugin
- library.
  .
  This package is part of the KDE base applications module.
