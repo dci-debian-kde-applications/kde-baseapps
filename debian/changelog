@@ -1,10 +1,10 @@
 kde-baseapps (4:16.08.3-2~) UNRELEASED; urgency=medium
 
-  * New revision
+  [ Maximiliano Curia ]
   * Set Priority to optional
   * Update uploaders list as requested by MIA team (Closes: #879322)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 17:59:45 +0100
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:45 +0100
 
 kde-baseapps (4:16.08.3-1) unstable; urgency=medium
 
