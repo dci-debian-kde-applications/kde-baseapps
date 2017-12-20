@@ -89,7 +89,6 @@ Description: shared data files for the KDE base applications
 
 Package: kdebase-apps
 Section: oldlibs
-Priority: optional
 Architecture: all
 Depends: kde-baseapps, ${misc:Depends}
 Description: Transitional package for kde-baseapps
@@ -98,7 +97,6 @@ Description: Transitional package for kde-baseapps
 
 Package: kdebase-bin
 Section: oldlibs
-Priority: optional
 Architecture: all
 Depends: kde-baseapps-bin, ${misc:Depends}
 Description: Transitional package for new kde-baseapps
