@@ -22,6 +22,9 @@ kde-baseapps (4:16.08.3-2~) UNRELEASED; urgency=medium
       -DBUILD_konq-plugins=false -DBUILD_nsplugins=false to cmake
     - update install files of kde-baseapps-bin, and kde-baseapps-data
     - clean not-installed file
+  * Drop unneeded build dependencies:
+    - libglib2.0-dev, libqimageblitz-dev, libsoprano-dev, libtidy-dev,
+      libxkbfile-dev, libxrender-dev, and libxt-dev
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:45 +0100
 
