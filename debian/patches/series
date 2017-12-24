@@ -1,4 +1,4 @@
 enable_debianabimanager.diff
 enable_dlrestrictions.diff
 kubuntu_disable-failing-test.diff
-kubuntu_ignore-tests.diff
+optional-parts.diff

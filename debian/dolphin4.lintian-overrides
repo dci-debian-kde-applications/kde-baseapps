@@ -1,4 +1,0 @@
-# private library
-dolphin4: package-name-doesnt-match-sonames libdolphinprivate4-4
-# private library
-dolphin4: no-symbols-control-file

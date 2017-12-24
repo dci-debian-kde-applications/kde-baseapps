@@ -1,0 +1,47 @@
+Author: Pino Toscano <pino@debian.org>
+Description: Make it possible to disable all the components.
+Forwarded: not-needed
+Last-Update: 2017-12-24
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -39,21 +39,21 @@ if ( KActivities_FOUND )
+ endif ( KActivities_FOUND )
+ 
+ add_subdirectory( lib )
+-add_subdirectory( dolphin )
+-add_subdirectory( kdialog )
+-add_subdirectory( keditbookmarks )
+-add_subdirectory( konqueror )
+-add_subdirectory( kfind )
++macro_optional_add_subdirectory( dolphin )
++macro_optional_add_subdirectory( kdialog )
++macro_optional_add_subdirectory( keditbookmarks )
++macro_optional_add_subdirectory( konqueror )
++macro_optional_add_subdirectory( kfind )
+ macro_optional_add_subdirectory( plasma )
+-add_subdirectory( konq-plugins )
++macro_optional_add_subdirectory( konq-plugins )
+ 
+ if ( Q_WS_MAC )
+-  add_subdirectory( kdepasswd )
++  macro_optional_add_subdirectory( kdepasswd )
+ endif ( Q_WS_MAC )
+ 
+ if ( Q_WS_X11 )
+-  add_subdirectory( nsplugins )
+-  add_subdirectory( kdepasswd )
++  macro_optional_add_subdirectory( nsplugins )
++  macro_optional_add_subdirectory( kdepasswd )
+ endif ( Q_WS_X11 )
+ macro_optional_add_subdirectory( doc )
+ 
+--- a/doc/CMakeLists.txt
++++ b/doc/CMakeLists.txt
+@@ -1,3 +1,3 @@
+-add_subdirectory(kfind)
+-add_subdirectory(konqueror)
+-add_subdirectory(kdepasswd)
++macro_optional_add_subdirectory(kfind)
++macro_optional_add_subdirectory(konqueror)
++macro_optional_add_subdirectory(kdepasswd)
