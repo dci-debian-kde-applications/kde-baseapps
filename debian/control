@@ -47,6 +47,7 @@ Description: base applications from the official KDE release (metapackage)
 Package: kde-baseapps-bin
 Architecture: any
 Depends: kde-baseapps-data (= ${source:Version}),
+         kdialog,
          ${misc:Depends},
          ${shlibs:Depends},
 Breaks: kcontrol, kdebase-bin (<< 4:4.7.2), kdesktop,

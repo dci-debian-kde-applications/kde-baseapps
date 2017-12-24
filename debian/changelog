@@ -25,6 +25,11 @@ kde-baseapps (4:16.08.3-2~) UNRELEASED; urgency=medium
   * Drop unneeded build dependencies:
     - libglib2.0-dev, libqimageblitz-dev, libsoprano-dev, libtidy-dev,
       libxkbfile-dev, libxrender-dev, and libxt-dev
+  * Remove kdialog, as it will be provided by an own kdiaog source:
+    - update install files
+    - pass -DBUILD_kdialog=false to cmake
+    - clean not-installed file
+    - make kde-baseapps-bin depend on kdialog, to avoid breaking all the rdeps.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:45 +0100
 

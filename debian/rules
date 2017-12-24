@@ -3,7 +3,7 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDE4_BUILD_TESTS=false -DBUILD_plasma=false -DBUILD_dolphin=false -DBUILD_konqueror=false -DBUILD_konq-plugins=false -DBUILD_nsplugins=false
+	$(overridden_command) -- -DKDE4_BUILD_TESTS=false -DBUILD_plasma=false -DBUILD_dolphin=false -DBUILD_konqueror=false -DBUILD_konq-plugins=false -DBUILD_nsplugins=false -DBUILD_kdialog=false
 
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
