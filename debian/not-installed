@@ -3,7 +3,6 @@
 
 # Manpages are compressed
 ./usr/share/man/man1/kbookmarkmerger.1
-./usr/share/man/man1/kfind.1
 
 # These are moved by dh_movelibkdeinit
 ./usr/lib/libkdeinit4_keditbookmarks.so

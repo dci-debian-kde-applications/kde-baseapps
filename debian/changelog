@@ -1,5 +1,10 @@
 kde-baseapps (4:16.08.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove kfind, as it will be provided by an own kfind source:
+    - drop the kfind binary
+    - pass -DBUILD_kfind=false to cmake
+    - clean not-installed file
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Dec 2017 22:41:57 +0100
 

@@ -27,7 +27,7 @@ Architecture: all
 Depends: dolphin,
          kde-baseapps-bin (>= ${source:Version}),
          kdepasswd (>= ${source:Version}),
-         kfind (>= ${source:Version}),
+         kfind,
          konqueror,
          konsole,
          kwrite,
@@ -95,15 +95,6 @@ Depends: kde-baseapps-data (= ${source:Version}),
 Description: graphical password changing utility
  kdepasswd allows users to change their password, user icon, and other
  information.  A variety of user icons are included.
- .
- This package is part of the KDE base applications module.
-
-Package: kfind
-Section: utils
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: file search utility
- KFind can be used to find files and directories on your system.
  .
  This package is part of the KDE base applications module.
 
