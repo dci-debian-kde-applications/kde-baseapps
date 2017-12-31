@@ -26,7 +26,6 @@ Package: kde-baseapps
 Architecture: all
 Depends: dolphin,
          kde-baseapps-bin (>= ${source:Version}),
-         kdepasswd (>= ${source:Version}),
          kfind,
          konqueror,
          konsole,
