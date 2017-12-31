@@ -14,6 +14,10 @@ kde-baseapps (4:16.08.3-3) UNRELEASED; urgency=medium
     - update kde-baseapps-bin lintian overrides
     - make kde-baseapps-bin depend on keditbookmarks, to avoid breaking all
       the rdeps
+  * Drop the kde-baseapps-data binary, as it is not useful anymore:
+    - stop installing the kdm images
+    - remove the kde-baseapps-data dependency in kde-baseapps-bin, and
+      kdepasswd
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Dec 2017 22:41:57 +0100
 

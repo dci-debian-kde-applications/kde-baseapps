@@ -46,8 +46,7 @@ Description: base applications from the official KDE release (metapackage)
 
 Package: kde-baseapps-bin
 Architecture: any
-Depends: kde-baseapps-data (= ${source:Version}),
-         kdialog,
+Depends: kdialog,
          keditbookmarks,
          ${misc:Depends},
 Breaks: kcontrol, kdebase-bin (<< 4:4.7.2), kdesktop,
@@ -59,17 +58,6 @@ Description: core binaries for the KDE base applications
  applications, particularly those in the KDE base module.
  .
  This package is part of the KDE base applications module.
-
-Package: kde-baseapps-data
-Architecture: all
-Depends: ${misc:Depends}
-Breaks: kdebase-data (<< 4:4.7.2)
-Replaces: kdebase-data (<< 4:4.7.2)
-Description: shared data files for the KDE base applications
- This package contains the architecture-independent shared data files needed
- for a basic KDE 4 desktop installation.
- .
- This package is part of the KDE 4 base applications module.
 
 Package: kdebase-apps
 Section: oldlibs
@@ -89,8 +77,7 @@ Description: Transitional package for new kde-baseapps
 Package: kdepasswd
 Section: utils
 Architecture: any
-Depends: kde-baseapps-data (= ${source:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends},
 Description: graphical password changing utility
  kdepasswd allows users to change their password, user icon, and other
