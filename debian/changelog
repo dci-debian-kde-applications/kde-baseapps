@@ -5,6 +5,15 @@ kde-baseapps (4:16.08.3-3) UNRELEASED; urgency=medium
     - drop the kfind binary
     - pass -DBUILD_kfind=false to cmake
     - clean not-installed file
+  * Remove keditbookmarks, as it will be provided by an own keditbookmarks
+    source:
+    - update install files
+    - pass -DBUILD_keditbookmarks=false to cmake
+    - drop the local keditbookmarks man page
+    - clean not-installed file
+    - update kde-baseapps-bin lintian overrides
+    - make kde-baseapps-bin depend on keditbookmarks, to avoid breaking all
+      the rdeps
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Dec 2017 22:41:57 +0100
 

@@ -1,8 +1,0 @@
-# Symlinks of private libraries
-./usr/lib/libkbookmarkmodel_private.so
-
-# Manpages are compressed
-./usr/share/man/man1/kbookmarkmerger.1
-
-# These are moved by dh_movelibkdeinit
-./usr/lib/libkdeinit4_keditbookmarks.so

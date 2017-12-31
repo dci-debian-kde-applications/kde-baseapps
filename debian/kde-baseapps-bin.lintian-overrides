@@ -1,6 +1,6 @@
-# private library
-kde-baseapps-bin: package-name-doesnt-match-sonames libkbookmarkmodel-private4
-# private library
-kde-baseapps-bin: no-symbols-control-file
 kde-baseapps-bin: breaks-without-version kcontrol
 kde-baseapps-bin: breaks-without-version kdesktop
+# empty package left for transitions
+kde-baseapps-bin: empty-binary-package
+# empty package left for transitions
+kde-baseapps-bin: package-contains-no-arch-dependent-files
