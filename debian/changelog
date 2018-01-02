@@ -20,6 +20,8 @@ kde-baseapps (4:16.08.3-3) UNRELEASED; urgency=medium
       kdepasswd
   * Do not depend on kdepasswd in kde-baseapps, as it is a deprecated
     component, removed in later versions upstream.
+  * Remove the kde-baseapps metapackage, as it will be provided by
+    src:meta-kde.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Dec 2017 22:41:57 +0100
 

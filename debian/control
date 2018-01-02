@@ -22,27 +22,6 @@ Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kde-baseapps.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kde-baseapps.git
 
-Package: kde-baseapps
-Architecture: all
-Depends: dolphin,
-         kde-baseapps-bin (>= ${source:Version}),
-         kfind,
-         konqueror,
-         konsole,
-         kwrite,
-         ${misc:Depends},
-Breaks: kdebase-apps (<< 4:4.7.2)
-Replaces: kdebase-apps (<< 4:4.7.2)
-Description: base applications from the official KDE release (metapackage)
- KDE is produced by an international technology team that creates free and open
- source software for desktop and portable computing. Among KDE's products are a
- modern desktop system for Linux and UNIX platforms, comprehensive office
- productivity and groupware suites and hundreds of software titles in many
- categories including Internet and web applications, multimedia, entertainment,
- educational, graphics and software development.
- .
- This package provides core applications for the KDE 4 desktop.
-
 Package: kde-baseapps-bin
 Architecture: any
 Depends: kdialog,
