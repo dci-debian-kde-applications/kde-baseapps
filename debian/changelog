@@ -18,8 +18,6 @@ kde-baseapps (4:16.08.3-3) UNRELEASED; urgency=medium
     - stop installing the kdm images
     - remove the kde-baseapps-data dependency in kde-baseapps-bin, and
       kdepasswd
-  * Do not depend on kdepasswd in kde-baseapps, as it is a deprecated
-    component, removed in later versions upstream.
   * Remove the kde-baseapps metapackage, as it will be provided by
     src:meta-kde.
 
