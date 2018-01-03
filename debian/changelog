@@ -1,6 +1,6 @@
-kde-baseapps (4:16.08.3-3) UNRELEASED; urgency=medium
+kde-baseapps (4:16.08.3-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Remove kfind, as it will be provided by an own kfind source:
     - drop the kfind binary
     - pass -DBUILD_kfind=false to cmake
@@ -21,7 +21,7 @@ kde-baseapps (4:16.08.3-3) UNRELEASED; urgency=medium
   * Remove the kde-baseapps metapackage, as it will be provided by
     src:meta-kde.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Dec 2017 22:41:57 +0100
+ -- Pino Toscano <pino@debian.org>  Wed, 03 Jan 2018 12:12:59 +0100
 
 kde-baseapps (4:16.08.3-2) unstable; urgency=medium
 
